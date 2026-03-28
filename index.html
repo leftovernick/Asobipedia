@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Asobipedia Viewer</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h1>Asobipedia</h1>
+        <p id="monster-count">Loading...</p>
+      </div>
+
+      <div class="filters">
+        <input id="search-input" type="search" placeholder="Search monsters, types, abilities...">
+      </div>
+
+      <div id="monster-list" class="monster-list"></div>
+    </aside>
+
+    <main class="detail">
+      <header class="hero">
+        <div class="hero-art">
+          <div class="sprite-stack">
+            <div class="sprite-label">Front</div>
+            <div class="sprite-frame" id="monster-front-frame"></div>
+          </div>
+          <div class="sprite-stack">
+            <div class="sprite-label">Back</div>
+            <div class="sprite-frame" id="monster-back-frame"></div>
+          </div>
+        </div>
+
+        <div class="hero-copy">
+          <div class="eyebrow" id="monster-id">#000</div>
+          <h2 id="monster-name">Loading...</h2>
+          <p id="monster-identifier" class="identifier"></p>
+          <div id="monster-types" class="type-row"></div>
+          <p id="monster-description" class="description"></p>
+        </div>
+      </header>
+
+      <section class="panel-grid">
+        <section class="panel">
+          <h3>Overview</h3>
+          <div id="overview-grid" class="overview-grid"></div>
+        </section>
+
+        <section class="panel">
+          <h3>Abilities</h3>
+          <div id="abilities-list" class="chip-list"></div>
+          <div id="ability-detail" class="ability-detail">
+            <div id="ability-detail-name" class="ability-detail-name">Select an ability</div>
+            <div id="ability-detail-text" class="ability-detail-text muted">Its description will appear here.</div>
+          </div>
+        </section>
+
+        <section class="panel stats-panel">
+          <h3>Base Stats</h3>
+          <div id="stats-list" class="stats-list"></div>
+        </section>
+      </section>
+
+      <section class="panel full-width">
+        <h3>Learnset</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Lv</th>
+                <th>Move</th>
+                <th>Type</th>
+                <th>Cat</th>
+                <th>Power</th>
+                <th>Acc</th>
+                <th>Mana</th>
+                <th>Special</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody id="learnset-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
