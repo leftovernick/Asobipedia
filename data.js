@@ -1,5 +1,5 @@
 window.MONSTER_VIEWER_DATA = {
-  "generatedAt": "2026-04-18T14:44:48",
+  "generatedAt": "2026-04-18T15:15:30",
   "monsterCount": 109,
   "monsters": [
     {
@@ -7,6 +7,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "pupleaf",
       "name": "Pupleaf",
       "identifier": "Ghillie Dog",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Pupleaf are rarely found in their forest home, due to their incredible fur that acts as camouflage. Pupleaf have been seen shooting seeds from their mouths accurately up to 300 yards.",
       "types": [
         "Plant"
@@ -370,6 +372,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Pupleaf is highly energetic and playful, often engaging in mock battles with its siblings and friends. It loves exploring the forest and practicing its camouflage abilities by hiding and surprising its playmates.",
+      "habitat": "Pupleaf can be found deep within dense forests where it can practice its camouflage skills. It prefers habitats with plenty of undergrowth and foliage to blend into.",
+      "trivia": [
+        "Pupleaf's playful behavior often serves as a morale booster for other Asobimon in training camps.",
+        "Its fur naturally sheds and regrows leaves, ensuring its camouflage remains effective even during shedding seasons."
+      ],
       "imageSheet": "../../source/images/monsters/pupleaf-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAElklEQVR42u2dTY4UMQxG+zqskLhk7lXZskTiOMWAZkQzVLps589OXknfgl4M6eT5i+NUOo/zPB9oX9EJAEAnAAACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAACBRelM+/z75/TOPbfPWvvAAHGf5ORy3zUP7wgNw18EzO1nStlAQRBz8jyc5blsYCNwP/uOtiY8/zfzvyV7aVmjfGSEnCDH4NxAkD21zAGlYAFJFB/e2W3HbXrTxAIDXynfWOhGCLHGlyFOBO+svdaYQgjSjbc7ylTAAJGknXkVa544WJaTP7RIAkgBAaK93z01Hd5/3JW2L4gIz/3NxBw+OtGyxfqFDJQAQADAx0g5r5Ed1gVAAKCLt6JmTTHaodXMAay7QaEVgzkkiu4C7VcDdUlARabmmLRrrf9Uu7y7gdvOn0YpA+j5B0+iP5ALeXqoQDUAp4lo92sTvqj0DlquhATgq5vbqAavMLVr9rbQrAKnVACj3CroNvtEB8q4AZEkkWwbh1R7CDCeJMA24XP/XzL0tZBlkiRMAwM1yq1XWPRqAyHmAu73/mU9N0cfoAHk3ANwOfm+wvE4DANDBQSLVA1wAsMMDABsAgAPgADgAOQAOMGzPHQcAgBUcIO0CQFp9CjA6QN4FgLw6ABIH8OYCRP/mLsDcv3kuMDX6d3y8uQDR7ysXWA4Aot95TYDoH+wAN32QVgKA6A+QBxD9Ex3AwzTAxs/meQBbvzgAAOAAJIA4AAkgDkACiAMw/4+MfgAwdpp3mHCAxgCMOL/nZP4fXg52D8CoA5yOHCADQODBbzSdpe0BKP0i93MkRXQAb/cMuFwGGn8uPmT0z04GXRWCSh1z9e+VHGBFANSl4FKH7BD9KwLwsAJwNxWskv1vC0DpR6ANt3CsHP353OmNoFc3caw+96+6DBTnAZLoX6Xy5/Gquek/CCG9I2jFHGDlUnAVAKvN/4rvNPyOQRxgUOR7KwGHygFWezgXUOkA3qDQOIAguV0mBxBl9Ds6gCcXmF4JLJV/IziAJfKFucBe5wI0cGziAvucC5CUiFd0gBsAwlcCzWVg8oA19gLU0R/JAVpEvmCK2+eVsF1XAh7ygOkOoHGI2U7QMvJxAEWm79kFalcqWwGgjABxPWAUHNJIxgEEqwDtu/6rukAPAL59/XJKNe16OA0AXt4W1rzxM9MBfg/szx/f/1Hps2k/Dm25+PnVW8NeHMDyfVrXAZ4H+/PAf0T+CACS5EtLHUDiIlYnsOQkpVWM1gl6VAKfB/h5wEcDcHtLuDWCe978afk71rMMvRLAKwA+fzYKgKZXxVvuCJbWGyRWrpnLJe0YDcAVDKN2nY6eGfSdBWsrkrVnGSU5S899gFK0zwTgIyfINS6gyb4lU4T25I4lm59xJuAKgKucYDQAXW8P0XS+JIpb1ikUztJkF7AEwOdVwSwAqu8Pqn0DR3typ3I9r3lSSwBm1wHMS8Qe63rNdKGtVjZqc7MzAZpK4C/bIo0ZnkDxDQAAAABJRU5ErkJggg==",
@@ -380,6 +388,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "sparksprite",
       "name": "Sparksprite",
       "identifier": "Arcane Red Panda",
+      "shape": "BipedalTail",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB9klEQVRYhaVXsU5FIQyFG6dnopO7qywS+Qg/xz/w5fkF+hVuJo5+hImLb3d1c9AVw80t6as9BbxNCFwoPW0vbcHnnJ1GKYa68Pq2P00xfC3j6xTDixwv394NktcU4OCjNKqElwoQ+HZ7W+d2u7v6TePSa3yjSkwIvAgjgZwIUAJzJUc86LkH0EYOJklTUvMCyZbzk2SQYNzdGrjGL41Rxps/HkhAAQSmgfM1slbKZWvHzrmfgzPAGWQv1zv5N2hfiuG7egBpaXkEKdUrg9YnbaFsoMYFaVZa/ARueWlqWafFvMwJPXu1/TOVX3B1eZFLe356nHvZaB71iB+N+ZzXzgB308gZ0KIEZc56BlJH+PWAS5LgmnGzAk3zBhXS+FEyK3nCl/8gNV5LGqj8ppTsc843KYZ7YrKESmrxazlhAT93zn2UcfkFDz1WoZxvEXB7BS/UXQtGCFlP+R+V45BieEdCrXRq7WldUrx2H2iFjqYUinuipgLpnwUJFSJ06iUdIcGtrNjKlFb8H1AWtYDaSM7nPd/PW8HRmke1YC1JD8Cbcl400SzsqYQ9FRFZXz2AbsUjHrGiwHonTPyjMEpmdJtBtyM513qkeOtpJj1ghSaqdhZ4UwECskJpxN3dCjjnzlIMn3KSCT+h1zJYX63ATOg5Ncpj0S+oRI5Kg6tYAQAAAABJRU5ErkJggg==",
       "description": "Sparksprite is a mythical being that is fascinated with anything magical. Often they will break into libraries to study the spell-tomes within.",
       "types": [
         "Flame"
@@ -743,6 +753,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Sparksprite moves with quick, inquisitive bursts, slipping into old libraries, shrine lofts, and overgrown ruins whenever it senses hidden magic nearby. It studies strange lights and enchantments with near-obsessive",
+      "habitat": "Sparksprite inhabits remote and mystical environments such as ancient groves, sacred temples, and hidden ruins where magical energies are abundant. It prefers habitats where it can blend in among the foliage and observe",
+      "trivia": [
+        "Sparksprite's fur is known to shimmer with a faint magical aura, particularly when it is near potent sources of magic.",
+        "Legends say Sparksprite's role as a guardian of ancient knowledge."
+      ],
       "imageSheet": "../../source/images/monsters/sparksprite-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFhklEQVR42u2dWYrcMBCGfZ08BXJJ3Ut6zWMgx3FCyJCeTrtdu6SqX1Aw9Axjt+ur1VqO8zwPSF3BQwAAeAgAAAIAIAAAAgAgAAACACAAAAIAIAAAAgAgAAACACAAAAIAIAAAAgAgAAACACAAAAIAIAAAAgAgACCjtN8yzn9j/P0MABSQfr4f4wUgW0ICZfOVTxnbgACF/+/2LUcHAHvJs0v//YSOP5IVAij9jfV/KP9Zrv5mRwgyZ+3ceDyoAHwomwLI6hBUStzuFECybCoMu0BQLWt/5w3IsV8ZEjrTg7lWF1VLtucH2bnJ3ztFEyBoDKW7epJ0JRvRFT+C0N/9n3dDCsjf645TN1p1AMhJm2QYlH/qeyDAWxaATnnYEhAs4NGAdFd5WIeCdK5fo1Qr76HJJ5gAqENBOtcvVe6rss5qUJJFar/BOhSkdP2SuOwYq1n9BGE+UQKAZhFj7/KFCAC0uYllGEjv+rlx1xMA7bU8wkCKFzWWivEalgBYhoGS1j8DAqtrWIeBstYfCYHl/7YOA6Wt37MB5N1YsvICOwAQ2V51U1ZEX0HiBcq7f08IIkKKNhmE+3dSnud9VgIgxKVavxGcHKZqALDymByiAED2AQAAAAAAAAAAAAAAAFASgOrjphPYAEBdAD5GBwB1QwALAgBQHAIAsLnytdPGUQUkULxmVTIA2FT51N/deYLtVv5WBIC7duBijJ0A6IoSqKTyiX/fdgCgU91gdhik35EzZWwrty9Ifsopn+sFtlL+42eZQ4Lz+oGxIgBN+iAyeoGACaltNQBUkz+zQRCwOcVYDQC1QrMA4LXi6dWvZwBwtQW7+iFk8gJBi0jCAejeVoB3BesC0CMUCQDWBECk/BUXZACAgH7+qsuxAIBjV8/SjQOANaqARlW+cP99jMX7AOTGTvSWbbD+mE4g+WZm7NtXXPnu7wLEW68jFLgr/5P1ewAg2swR+YCd0rlzA93P7OG+0Ln7chjvE2ruxNDQkk/quirNApICcDNMZwWTjzmRbohs9KUrl3kk5UsA6BJCqcqr+v7fEQCzlUEmVq/cFx9lIq/RQ1ol7Gb1d3P47iAAACoAzJaHN00WSv1ZA0BlCLwBuHT7VopnJouD6nHQ8NEDQC7rtIpnKNPinMAq8V8FAHlljpXiGVSz762g9au2iOmci1r/THRr3bBBkk35qt3Cp7j9Kwhu4lo5CLzOEBTP3pkUAli9iSwtZM+j6dmHMEdBwMhs04LAuGfxEbLk2TtRPytKm859oCuCYLn9CxUA8g0sFgLELevVlpgrlr2bHB7NAiCqFNQ0N7QgeB8cZXTddhq8yj847VVvCBxOxhTlB9EiGP00mshzSHvrnhA40N5O5hL0CEULIBhWlv8JAO1eNFYQeJyOfRJOH5sV/4nXN1f6JwCsTsdaIAFc8vSxqJ6+GgArih2sf2S0fo++vhgAa4qNrb95Wv9MEIivwH0B8KJ4F+ufBQHj+vsAsJP1z8oJ7uZLRocBcwB2sX5NT8CqAbRCMnh4ujOKV1jB+qMbQ4KKoG0LwDsInKl3cfGeXb4ZXuCIinfB1m+y9dxifYG2HQBXEASUPiMhAGNLAK6SRMtpTVHuf4HG0N4AEKzf6i3XltY/IwxMA8DRxbXEAIwUADi6/q3jP/Ge9wbgYnTDL7W98rVh4NvXLydVjslfxlr5FQAYFAB+/vj+Sa4+OyZbv7XyWzYAJGHgUdnPiv+w/HAAgurakQUATRh4VPCjwsMBmDDZYdv639J4XgHw/FkoAIG97TTWrwkDVwC8guFIZP0tGwDSMHBl7VMACLT+UQyAwQHgVU7gBsCkiY7s+L8DIJIwcAXAc1XgDkCg9bPj/2oJonD/xPX6ABOnOYsA2MDViwCgyi+RwC6t1WFokAAAAABJRU5ErkJggg==",
@@ -753,6 +769,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "splishade",
       "name": "Splishade",
       "identifier": "Water Rhino",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Splishade can be found in wetlands, grazing on lily pads and cattails.  When angered, Splishade can move equally quickly on both ground and water in order to crush its foe.",
       "types": [
         "Water"
@@ -1116,6 +1134,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Splishade is a solitary Asobimon that exhibits territorial behavior in its wetland habitats. It grazes leisurely on aquatic plants like lily pads and cattails during the day, using its horn to fend off intruders or",
+      "habitat": "Splishade prefers the tranquil environments of wetlands, where it can find ample vegetation to graze upon and enough water to submerge itself when necessary. It particularly favors areas with dense vegetation and",
+      "trivia": [
+        "Splishade is more closely related to marine mammals than terrestrial rhinos.",
+        "Its horn is not only used for defense but also as a sensory organ to detect subtle vibrations in the water."
+      ],
       "imageSheet": "../../source/images/monsters/splishade-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAD80lEQVR42u2cQW7cMAxF5zpdFeglfS9722WBHmdaNAngGrJFiqQsWs/AxyDBZDJjPn6KEpPX+/1+oXnFTQAAbgIAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAECl5a+298f19Si5ts+fBYDkQfe6UgNB4P2uFQDmDHxqCJ4c/FUSsde/W/DxKNHTIJgy+NJgG4BYAGDA4EuCuQ/qMcgKCDYAGCj4BjsXu0jpKQAwYPCPtb/165JDZCwD0wQ/4npCGZgu+N5OkL0MTJv5Xs4AAIky/6z/tzhBBYAVABLUfK+OIONiMOv2rjnzvZwg+2IwIwBb1Gq/9ecz7wmkt35r5ludQLjB1HpoFX7U/Ji6793bd3QAyaHVOjsA4rrv1dc7dwOmE8tICKav+17rgQYAlhHmDVJmf+0U7y4nUAKwNZQSdwjI/gAXOLn2C7oq1L32FlJnf1TmXwVU+/wTELYaPL32Fsj+ABfw6jx6bDOnGuS8sseor1v2BTxbz+hSkGqCt3f2t2T1sTxpTyUlR9iepSDN6HbvzG/pBlqGSEvAXL2udylIMbPvOcsX6RLaaeIWuLxLQYqMj9rxi3CK1tFyyWNEKUgT+FEz39MhamuQynOXUQEwB77W92turMc0cCQMtaB7u0CKwHvO8GdxhV4uMLTVR2Ry6+vdAULpfXu7wNA1vsdMfwZHUHYFyx0ArNYPd0ffL3n9UUBQALD1BEC1e6fJulFP/EZzBOsMYvc/wW5duPXu60eGwLMMuGe91yr+Cb1/j5JgLQPhWe/dus2S+Q6bZKs3AGt01uMA9rKghSAk+BEt2syZL7nvF9dqBaDbf90g+/06BCkEwwW/tOtF5sdBMGzwcYA+awJz8CM/DGuAEAiWGgC3BZ/632VxuF0BcGvwSwCQ+SFOsJYAUAU/CgYcwH79+P5NrKb/sVd6XrR9kfk6AH7/+vmfzr6nCn70uf1Tsz964ukKgGPgvzJ/D4A4+DUIMuwA3hH43u3vPsD7gIsAsNg++//2z+FxD0oAHL9XBEA7r+6Zbb3P/0cMvtf7PQOgBMPLYkOeLmD5H3+j/B2B5Pda728LAFdu8JK0e5LHKACyTPdqZxyloLa8/xIApTXBJQAWq7JMAHlmUO/sj3IF7ec9A+DYFYQ4gBWAq0y2rBHuDn7LmsoKgHQf4HYHyH4C6BU4r9fS7AT+AZgwJjdeCeKHAAAAAElFTkSuQmCC",
@@ -1126,6 +1150,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "forg",
       "name": "Forg",
       "identifier": "Lazy Frog",
+      "shape": "Fish",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0llym/WlJ7teQXqZ/hRykkK9ex8ULCs5kxrayXbYfFYglyLbGo5djOee0pUybek9/AMBuyebD6/NN/L4u3xY9w6I5gE5RoiAsAgCdH49vN/bT6T0MYhd1rJyuwsChQ/dvMJAKANT9y1NGPX9+0C9bU5Sdy9SQAaS73Apvym6NMsrCNOJcOfF1rv4bz0Iptqs9E9qRXkV/+bqq8PRCm9BYb64PHwHTAqEuaMXodNR0s7hjKDBM9R4WPrTf5UAv4dghKlcQlP92dbE5DrBJoW05UeB7DCQV29E+EPliTs0tYC1nKqElgDMY1wDBqiOxEllaeqP0XwEoECofHrm5alBW94Fe2bGqYNmuSrFe47PCEEBrBrQaCwPH9tdrCogJJxera9w40qwYI9iEZlGz4NEEw9irYXSXhJlMq6UlhwDCD5Lou6BlVw8UcwDqxasO7dkZKAbCWBlGhkrUjiDs/89p2lh+AFYEzCaIAJsXAAAAAElFTkSuQmCC",
       "description": "Forg can often be found lounging in tranquil ponds or floating lazily on lily pads. Its chubby appearance and relaxed demeanor endear it to those who encounter it.",
       "types": [
         "Water"
@@ -1484,6 +1510,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Forg is known for its lazy and laid-back behavior. It spends most of its time resting on lily pads, basking in the sun, or lazily drifting along slow-moving streams. It feeds on insects and small aquatic plants, which",
+      "habitat": "Forg inhabits serene and clean freshwater habitats such as ponds, lakes, and slow-flowing rivers. It prefers areas with abundant aquatic vegetation and ample sunlight, where it can relax undisturbed on lily pads or",
+      "trivia": [
+        "Forg's relaxed demeanor has inspired local legends that claim its presence brings tranquility to the waters it inhabits.",
+        "Forg is an excellent swimmer and can navigate through water swiftly when needed."
+      ],
       "imageSheet": "../../source/images/monsters/forg-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEqElEQVR42u2dWW7kMAwF+5q+mK/bM/kNYpukuMplgAgag0w7YumRorbP9/v9YO81GgEAaAQAwAAAAwAMADAAwAAAAwAMADAAwAAAAwAMADAAwAAAAwAMADAAwAAAAwAMADAAwAAAAwAMADAAwAAAAwAMADAAwAAAAwAMADAAwAAAA4AVszw4eCAAmQ8ANAGgwwMAL3X862EY5fjP/9d9MkDoDYCbo60GCHUAuDjdExwgyAHA5LSwAL/2fQDg5XyNE37/m9dnZ/AAwOr88rT/xSCUOv+qp1f+fBsEac7v1usLFOoVAJgaNCrGe+YIjqFiWwDUkj/hCaovbAeAyPmTf+4KAT1/MTdYhGI8AKqe3z3mSz5fOfgJjK4QuAMQ3fOL5gNU76AcTZxTAVhqmMhYLIXA+vPpXe5GFN1yhDQA/pJWS89bAeFK4iOUwGmeoy0Al41xN15ezQn+6oGWtQKROYFEvTqNFlwBkDbKqgJ4A1CRm3SBwAUAabz1Go9bhmVZcw53SrAIxhwAJENBTxXQNmzFegMndZinAFc9dzXmWqS/Yn2BZuRRAUEaAN69TPoOd8lqlxxAqQTnGAA8Y78ko5Y6P2sdgaYzKJWgPwBXQ0OPXmb9/7IqlJZikTInOFsCIKH6LpFbmZ/XOCciB9Bk/ysq560CIQCsLOP26HnKWnyrEYBCBWaEAG1tX1oKlmbfTzX96NzESwlGKcCbn1crgDWGeg8LV7/POydYnZFEAVCDmQA8xd6IBpfO56/8/uochrY2gQJspAJWhdgqB8ho9C6fNTOSd3WEqFpAyIIQHv88IGpeIGxFUEXPz4jlq3ME0hpC1uyg25pAFKBsNHB+Oy4KrW7wbp81awYNoaAXADxzVMB1Y0j0QpCJOcCd8zXzGVEjgrCdQTw2FbgLpxF1gXFbw3aqC0g3lERWBkN2B++4MzizQiiBpTUAV3WBSblAl3MNnlZYdwBgGxXo+L4TFIC6QEHOMAIA8oG8fKEDAOYTQ95UD/DISf54ji4AoAQ1ucmMk0KrINjhjKKohSHpZwWjBGs5wCQAxCeHamCw3iOwcQ4w976ALDXYQXEmA/DpAsDkcwu3A6DC+ZNVYCsAsuoCO55VvCUAU2N/1hV22wJwFfOipT9r759nzhG1N6AFABN6v/aSq4iziT1LwNuHAO/Y73n+gePewg8K4KAAms2bFWoEAE4KII2xktPIsj533Ru4jQJIj5RrOP4/xgMQWQew7sfrVD+Ilv9XJIHW08M69f7tAHiK0VmFmrscocPcwWsAyJwLWM0NKnr/dADMs3SejblSe6/cQ3j3Z00AYNwsXeV7Kb77mACAqyR7KIAm5kbdMSSdW3j6k0YCkDV7FpBxd1Gcw9tPJUM/bczNyAU6xPysXl8KQLceWJH1d7pjuAQA7bg342zhjHG/wfHHN3iU1q76V5UXZN8lJPnVDCtdCGqdR8+S5Ig7jaWvtCUAT43lECvTVCDoptAj0/llhaDIq1UijmNLuKI+3fEtSsEToXBWozLHl08GdX+Cw0+547MBYCtwM8dXAPBjJw5/NwA7QtHeyd0B6Gbnzg4HAAwAMADAAAD7sX97lrcs44ahoAAAAABJRU5ErkJggg==",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFEklEQVR42u2dQY7bMAxF5zpdFeglfS9722WBHsedRVukaRxLFD/5Kf0AxCAFMpOGj5+USCkf53l+yNY1fQgCQB+CAJAJAJkAkAkAmQCQCQCZAJAJAJkAkAkAmQCQCQCZAJAJAJkAkAkAmQCQCQCZAJAJAJkAkAkAmQCQCQCZAJAJAJkAkAkAmQCQCQCZAJAJAJkAkAkAAts+7Tj7H8fv1wqABZy9HBRy+uJQyOmLw7Cc4z8+/8s9NjsIUzu919lAKGhBmM7xVke+eg6Agg6EKRwPlHATZJVAmNLxjxEd8bMyCGzO30eczvAwvrddANw435LDs593grCvCsBbyWeOdqsqMKUE2qhnyO3oWoFBDUo4f6YHGwTUzmfP8V41QiYENM6fOeoH1WCfCYBm56/0MxMCKuev/MiCgFb2V3yeAUHUOl+R76cEWzUADuV815rgqATArsiHKMFeAYCuom+1HH/XRYyqB1Kcv3I09w6YoOuBtKJvtZxuAaFBCQ5GAA7l/dfRa1UCZD2QVvStkvPZU0GY9K9ayY8CgE4F1Ov91g+GPfd7A3ABwZYJwOaR9wPn9MspQIOiHpkAHC0F0NWHY41w9l6CtwI0BNaWAYA5+j1knVkNXr0fD4XzVAF49Pc6zwsCpj19DwBQtUBK9COdxXhOwKoCV6/3VIGwTZ8rJ0VGXsbzOwe2rP/vCspXvz4CgM2y5o+SaRYlaFXC3s0fBgC6c390jmapCawg9nyeGQBAcr+1MGKuBSzvo1dNrYUgTP7vclaWAmTUBBYYez9PayEI2/ixytnoEslLftGdQUsXEVEHuMu/aoCxtHTXBOrYD4ABsFmjH6EALb+XcUbAq7eRAUCT/F9J2Io1QE9jyLLPEA2AuVrNUoCZ5xGiAdhGnMuQe2eeOYwA4KiqADPcNMKwCrit/hlqAOskLluN0FNDRABgOuXjEamRyiAFGDjdmzXDN/r3qp5VjNoJdHG+dUgkGrJKahDRCyhxo4f3+xhZl2fUAKhuYKrzmdLKrHsA7wDYkM6vkrPZawIkAEe0860QoJWEWQVQAGzezveW78x9BbYaYGQFcAXA7aBnj3NRVTpqNVGlFkCOhXdv46IjXnMF/j2AbgBGIyzKGSvMFXgVgDAFQEfO6jUA+miYqwJ4rwqiegoVFGA0/4fVADMpAHHudzseHqIAHrdkrKgAERdEuCnALBHJUgN4Fn9pCpDV5wfcy8MU/QccACkA9d7/RqcAUZM/KygA8rJIKUCBO4iQ18WaewFZChC9GiCP/uELoyF3/WZcAjFj7o/43gDTBHDmTl3r36se/VHfHNJ1CKR1py+rSke0nBnW/RePPRwAjzQQcQbQay6AvOvnogKuZwDZ++dZvQvg+h/2fQHmyx/RtYA3dBUmgFGbQCd6JjBzve71eob+P2ob+PSYCRwdB/Pe+wfK7ZQqAJ0IqjoZtFItYO4FePX3K2wCFVEBXgV4t7NVoRfAVBOgAdh6FSD6NG/UiSC2SaCoiaADqQBeS0DNBOJmArudH3WjB0OvoUod8O3rl7PVXG4AnT0SC50L+AvAzx/f/7Grf5tGASImjQrUAf8B8Oz4P5HfDYAUoM69AI8OfnT4EABSgHoK8JzvWwAIWQWoBoipAd4Vf1cAhO8DSAHwCvBODUJ3AlUD5NQAz/n/DgCXG0Iy7/eb9WTQiAK8WhVcATA8FTzbT7bvIUTuAzTfERg16ROtAIV7AYdlJ/AX5UenhZ/4J60AAAAASUVORK5CYII=",
@@ -1494,6 +1526,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "frostail",
       "name": "Frostail",
       "identifier": "Frost Fox",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Frostail is a sleek, fox-like Asobimon with fur as white as freshly fallen snow. Its large, bushy tail is covered in sharp, crystalline ice shards that it uses to defend itself and attack foes. Frostail is known for its stealth and agility, often blending seamlessly into snowy landscapes to stalk its prey or evade predators. Its icy breath can freeze anything it touches, making it a formidable opponent in battle. With eyes that gleam like ice crystals, Frostail is both a beautiful and dangerous Asobimon, revered in many snowy regions for its grace and power.",
       "types": [
         "Frost"
@@ -1852,6 +1886,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Frostail is a solitary and elusive Asobimon, often seen only as a blur of white in the snow. It is highly territorial and will defend its domain from intruders using its icy attacks and sharp claws. Despite its fierce",
+      "habitat": "Frostail thrives in cold, mountainous regions where snow and ice are abundant. It can be found in icy forests, on frozen lakes, and in the snowy peaks of tall mountains. Trainers seeking Frostail often journey to these",
+      "trivia": [
+        "Frostail's tail is a prized item in many regions, believed to bring good luck and protection against the cold.",
+        "Ancient legends speak of Frostail as a guardian of the northern lights."
+      ],
       "imageSheet": "../../source/images/monsters/frostail-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEtElEQVR42u2dWY4cIQxA5/bcCw5WmY9ESibVLLYxBl5J/pilWi38vADGfD3P84XcKwwCADAIAIAAAAIACAAgAIAAAAIACAAgAIAAAAIACAAgAIAAAAIAiEzSt5Tn36f8/j0AHC75qT8ZAOwtLIJ1vVl9OAhOt7Ac1OrfngQAcwY6R/lOX9/D/UdengIA86wsR1J+BYIEAP3x9eMgL4Ig9yo+khfYFYDSGmhnCIaU//ff314DgLb8N9ALIRBbPgAYA7AAgmHlA4AzABUItGsFIuUDwAIAKhBIvYFa+QAwCQAHCJJU+QCwGAAjCIpU+QAQAICO5PDnnsJT+XlI+QDgBIASgqFHqnwACACAFoIJ1s9KoCYOW1nmbOVXAGAvQJqJa7zAJ3hqO3iTAGA3cEUY+KRw6f8Ilc92sDUAEmVZKn4w/lMQsjIPmC0R3f/uAHxckZNsysz2ChHd/5ElYaPLwh6hIar7P6UotEg3hzxyg6jJ30kApKi5QNS5/4nnAoomF1gMACeDZieEgTP/AgBOCSHu/46zgWFCwQ7WfyIAYUJBa4UygvWfCID6gIZm82iw8IT+AN75QM88/uduYO8u4QAAOdJYnXwuvwnAm7J7zhi8/c/AuQQ6hKwG4JNV1xaRWollzVsAwGbbxZJqoMh7/gBQz8ZF5WGtd6LO+28CoIxA0FL06Ds7WP/pAKRe5fSGB+XnJQAIWi/QG+sVyi9Rx+iGNm2qUCDJDXax/lsASFax/aTYfxMAzeZNE5Uf2vpvAkDTvk0zfczRx4W2rYpzBI0n7zAmN/bu7WrhqjxLmHcZD5o42wOQdxqHmwGoegOB+y/RE77IAKzu9l0MAEg7GkF0V+zlTocTwd3m+1EB6Gn4nB7nhSLFLIAQYKx8D8sqhgAUADAo3HSsohFb/yleIJTyK0uq4az/FC8Q8ky/EwBq6z/BC4Ts6uEEQJkIQAGAgVr9BQAMW79gdTABgF151jLrf8tPTvIC4apynKxJvOo36AUAoOZuF1XVpBHrr+UqADCpJm/ymbri6AESAAhq8SaXV4mSv1YOsGseEOqETmcoSM+Cub9ik+hqAJIGgAm1dmZzfwBwqslvbBKlZ8HKHwBMdv+D7+Qo1g8AEwDoTBxbEGQP5QPAJAA6IUijq5AAsCEAgilX8VI+ADgC0LnwYur6hcWiAGABgMALZGvXDwDBAKh4AfGt3oSAjUJAxQuILB8AnAHoOW5lce+f5eUPAGAAgEPmLYr5ABC47k4CwIzrXwBgUeWtpD//CDAAcJAXkN4UBgAHAGCxn29YGUxBiGcIsLrg8abS8CMAsFL+BAAoCl0JgPVMAAACl2FZreoBgHOnzlnJ3wwABFXBADC7IsfLowBAwFDgGVIAIHgoAIA9+gN09euNDAEAXAIBAARt0woA57SJazZt3g0CADjMGwDABk2bV0AAAM4geC0AAUAcCLqOiK3yAsqTSgCgzQtWhIfW99ixFiAyAF0QRFB+5cEDnDJV1BxmAoAFCSIAnH1n0NKzBoSAwLOExQonCYw2S1j4cG/gxRBwb2CkWYIyho9+ft5tDHcHwBKEWt/B1udveWnkSQAgAIAAAAIACAAgAID0yi8FjSu95Uh7VAAAAABJRU5ErkJggg==",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAD+0lEQVR42u2dQW7kMAwE5/f6l/Ww2Rz2sNhg7LFFik2yDPAUJAjcpRZNUdLr/X6/iL7BSwAAXgIAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAuMf4ifn+/cy/PwOAwnG8r58DAPqKvwQBL1nb9u8+BwDUiV9z/utHrn/DAoKdSctywtLZ+v8X/wKCEQnA1bwFCA+s/xMAHyCYUQAM76QF6/8aghEBwPROWrqN/m/EX3GBbfMWEPiN/hUX2D5vAcF64mfpAiHkAsF64nfj3W4BwCJp6fyFMC3EjwLAMnHp6AaHlfhRAFgnLp0gOKys/2kiGGL/QOAj/pNEUAKAhsmhi/hPpgEpAJpA4Cp+egCKfyG4i18CgKJ5wRbxywBQCIJP/Xwu4pcCoAAEH5fGvcQvB0DSvGCcrYx6il8WgERucNoQ4y1+aQAuIFBwgyNS+BYAXEAQ6QYS4rcAQHBKOBSEbweAyJQwxMWfpQEQcIOp8g6iVgNnUQjGRZPrXOmFULD/8IYQYQju7MlrD8BL7SXcWFW8GuWpxAeA7yEwFV549Gt2BYtMCUuiJhn9cfsCVABYgeDO381o/9Y7g2QBuILg7He+/dsAIDwNKNt25PxvDcDI8IIbARCyOzgFAJWEX7H/lgA0ET/sgIgJBHns3wOAAQB5Rr8HALhAotHvBQAukCD58wQAF0hi/54AyLiAallawf49AZBwAfViVPTo9wYgtFdOfdpxOApmqAFgfvxJtYqf4YEa86lGqQ5AqljuffK/Wo3+XQAMALD7Xy1H/y4AtrpA9U9Oy9G/E4BtCWFDANJcGuWeEDYUf2YCwH0qqAzAh2dkA0BqH11y8U22vJU+LAnxdS+NAgKRMxNbHJtWCADznc5tzs4j69e9NxAINhZ+FAEIXTTq7gJKZ+sBwKbqnyoAtJE1B4AiUXMAyAUA4Pz2UQDoAcAAgJ5fAdQGGtcB2GHUuBJIbSBo9ANA4+QvCwBti0M77D8DAAMA/Ow/AwAtXWDX6M8CQKu6gFfzZ2YA2iSDO1rAsgJQfhqIED8TAKWTwSjxMwFQ2gWixM8GQNl+gR0FnwoAlFwk2vnJVwEAqQsas33yVQEgvROcPNtvPc0KwK2bvZLcWBJy5W1mAE6rhMkACLv9PDsAS3f8ecLy5RN+43kFAEzv/9t0IZXCVfelADBzBmcADrX3VBmAR85Q1eq7AuC+0phRdAAwXmqOLOUCgMAqY3Q1DwCCVxij6/kAINBplNUFAMAPgAkAzXoNM7oACaAvABMAmrWYZaj+AYBjq3mWEjAAOC4ZK3T6AEDwZpMs+QAAODaNZCgRA0BzAP4AeL34ASPngtEAAAAASUVORK5CYII=",
@@ -1862,6 +1902,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "hubble",
       "name": "Hubble",
       "identifier": "Moonbeam",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "Hubble is said to have descended from the stars on moonlit nights. Its luminous body glows softly, emitting a gentle light that calms those who gaze upon it.",
       "types": [
         "Moon"
@@ -2220,6 +2262,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Hubble is nocturnal, preferring to emerge under the light of the moon. It spends its nights wandering silently through serene landscapes, its soft glow guiding its path. Despite its ethereal appearance, Hubble is a",
+      "habitat": "Hubble is rarely seen and is believed to reside in secluded areas with clear night skies and little light pollution. It is most commonly spotted in tranquil moonlit groves or atop hills where the moon's light can bathe",
+      "trivia": [
+        "Hubble's name is inspired by the Hubble Space Telescope, reflecting its celestial origins and connection to the stars.",
+        "Its gentle glow is known to have a calming effect on other Asobimon and humans alike, making it a symbol of serenity"
+      ],
       "imageSheet": "../../source/images/monsters/hubble-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAE7klEQVR42u2d0Y7cIAxF+fv8V/JhaSv1YbVKBhuuwTAn0lVX251MAsfGGJOU+74L+l7RCABAIwAAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgABAouOvrrt+XP//1vMZxTl+fgYAJnR8lmM5EDJf3Hmve5wA0G/5qx/H9gBEHW9u/99/fVLLZxTneBsOAttnXwCerN/bibP05AUAQGD9T438u8Gd1vl6eM9T+ZsLAITW/7vj3yBQHdbzjfYCOwNgtv4eK1dA4YDvAgCb5V81C1S5eUXneyFQeoJtAKgleizWPwoCy/carkUCQnoAPnTs1epqf/6bHQDn9VxeUNICoErdvjV0w1x8GABB1/QIQjoAIjt+UEM3XZ/32lUgpAJAkbO3WnzWYyCoZyoAap3vdeNPjbQyANb7dYJyZgHgbHHlvZm2jCCo1yMMIJyzATh7btTSoCsNAa2eqrO9zlkAHL0NYG2kWv4/KwSt99vQpscMAC5PdOy5Wcs5V4sFVEbwIcM4FIDDcoFPyZtea8pu/RELUk9DodoLyKxf2Une+XaWtYDIWUuUF/B+wGz9Fg9Qi5p7z6PuAOvvVbGAIxieC8Bbx7c0as36az+PAKD23epg0OAFcngAa6c8JUE8w0pLjKGcmnruz3K/gmAwRwzgtUzrGPrJE3i+p5aN885SvNba4wGyxACHxWVbgai5T2sNYNZpXiuozu8dOgso1jG7xSusNu9XZwa9M6Je9y9LBNXcaw0Iz2dXBMB7T569B2lSwT2LHm9B0qrW/xb4BSwKTUkFm2oAWm9wtyFA0SYvx7TFoNCdu7sNAQGHdAdyioogZXJpcwDOrWsCa8mlb5sB/Lb6JcrCFTCsPgSIOv+1NPzeaWfQ7VxiXhyAg51Bwh3Bi3X+JWyvLfcGujOMmRM/Uda/7e7gO6jULEnnX+K22hIAU4Zx0Yj/AIBGAGZvCW/N9QNAwBBQq8WL7GxLvoIhIHgqaOkkz5r74BJugsAW6+9NIdcAsC7NMg2cnAjyumpLFa/377N4gd0A6LZ+Twr50xCgeupYtBfYDQBpBrBWifRWjaTM51fOCwAWAHoie+tj5Wq/j0gJA4Bx/O+Z3rU+gEKZa4iMA3YCIGwRqGXjhzLRFBkH7ATAdsUgI+KArwFgFwgAYGAACACbABAJwSi4AIAhAABm5AB6PlcGvG8AACYPAaOGCAAQDAErjfkAsMksAA+wwRCQqWwMAJLOAiK9DZlA4VrATlNA1gIcq4E9FUEKD1BiHurEamBUHJBp9kA9wMA4oAiew6c8HxVBk2oCsngAagInxQGl8Tl8AwGgKri3MKQs/OYQ9gV0lIaPst7e87ExJGBjaEsnKOMGQefL3P/Om0NPZWZwtAeoJLBONodOrhKOhqMUXh8f7gWK4IUR3g2kns4fYf1fNQREzQgGewCGgN4gsDhfIDEjAVQGPiXkq6aBxfnyCVVNYGsiimngwERQCXp2UDFsICURNBAALwSRAoDJQ0BxvIZd2enF8a4DhoCgILBMfmRc5/UQBPZOA8u6zwnccxoYoPPe7ziTtXFqAHaDIHXnZwWgBQLpe3RuzfuR0nd+ZgAsjR7d6atd13YAIABAAIAAAAEAAgAEAAgAEAAgof4AIV1/DpSATcwAAAAASUVORK5CYII=",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEQElEQVR42u2cDW7kMAhG5/a5l3Mw71aq1O7KSQBD/MOL9EmVOlO55oExOP7UWj8or5gEAGASAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIAGo9/uqs98/5/blZxjdyPFsAIDH6HQjW70vh0vz9qWGYcVClzvucziABwELG93rKVgB4PU/G//rIlWZ4lOMpn5efqQH4Do0qo0tA0H5fC1fn9wsA/AzujDCet3rGdfEcANCYnbsJ/P/js8FxN6ZWYggAAgBahpdA0IJG87PW8JKxjYoCywNgnWjPJFETmRQJ4pkagFYCqPGwUdl+DziN3+cE4GrrF+3JPca3juchCpRUADyVUmfc579QJzgj84EpAJDU0J+SrFWBUEAdAsJQACyGl2byqwIg+B9cQXgFAGsXTlpEWRmCzjJ2NwxeAHi2WU2VtF283znPeQSkF4DXDN+7514lAQxsbDVh6AGgvGl4S06wcvIXCELpBcDs9R7dNkvZddXsP3B5KFYAipeBLTX0nbaC3u1lAyBFC8ARafhW56xl4J12AV7NrQ4YigaA0zOsP/2jGQtBg5bVIgHg6E3cokJmBgg84bh4jicATqlBvJsrkibQ6n0B73l8OhxzsUW8BOCwGD+y354BgginejqAcgXAGUWs9eTMTobvmVMtLJoo8BuA0HCF98cvqZYoYALAchgiy74/IgpI5s8aBV4BAO9/NxkURgE9AK3z8V65QRbv986t7uzhDgCZ/5xRIDwCaKp70t/vfgCkJ1Gz5li9OUBoEcjaJNrR++/mI+LvSncB6hc0JdUoazMj0xJghUH6zuJV+K+NUnDp8V6roSXev/sSEDnH0kJQKASaZCjrVvAF4/8T/qv1QIgh5LALMOwCnA+G1NpoCQ+/riXjEjDgrafL+4mG39mTaQm4KnwFP6X3VLDXkfCzKlrOu70VFLG1lsx3xJtB4osbrdfB7AyB5FXx2nlP4tRvB1fhsbOk3h92WUSd7PXwx8Mnq0MguXKmtUXLdD+Ay45gZiBm8f4pbwhp7TA0fYGZITC+A3ikAkCTEK4Cwd3YRl8UNSsAogbUyhDMcmFknfiWsMelYAUIpDX9q0IN18QpauCzQ6AEIP09gap7gleIBIamTeolYAvvlyxfJIGGW0ItHj8LBMpkkG1gb19gpR0BhaBNvb8TgiMTAGHeP3uPgGaQ8FzAzq3ht6PAUt3AXb1/ZBSYDYC03i+BYGsAqvOxsB3vC9odAJfDIJvfF3TsDEB67x+RBywBQBbvH7EMLANAJgjSAUACCACnpHHCErAvAHg/APglgCwBmwHAEsASwBLAEpDD+wGAJQAAqAGMB+AP2X82zdcWEv0AAAAASUVORK5CYII=",
@@ -2230,6 +2278,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "wotter",
       "name": "Wotter",
       "identifier": "Water Otter",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "Wotter is a playful and energetic Asobimon known for its sleek, waterproof fur and exceptional swimming abilities. It can be found frolicking along the banks of rivers and streams, using its long tail to navigate currents with agility. Wotter's fur is water-resistant, allowing it to stay dry even after extended periods in the water.",
       "types": [
         "Water"
@@ -2588,6 +2638,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Wotter is a social Asobimon that often forms close-knit family groups. It communicates through a variety of chirps, clicks, and whistles, displaying its emotions and intentions clearly to its companions. When not",
+      "habitat": "Wotter inhabits freshwater habitats such as rivers, lakes, and marshlands. It prefers areas with ample vegetation and rocky outcrops where it can build its dens close to the water's edge. Trainers may encounter Wotter",
+      "trivia": [
+        "Wotter's whiskers are highly sensitive.",
+        "It is known to playfully slide down muddy banks into the water, showcasing its love for both water and adventure."
+      ],
       "imageSheet": "../../source/images/monsters/wotter-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -2598,6 +2654,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "glob",
       "name": "Glob",
       "identifier": "Primordial",
+      "shape": "HeadAndBase",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABeUlEQVRYhbVXXU7DMAxurF0GXkDr/ZjGZXibxEGQeNp1jDIR5H74N1stRU0b299nx3XaxsyLJ+vr803h6/vaXMVJO8o4wXkWPGNHkZPT6e02siSqdk3bAunkfH5fcB6JZadtB3mOsoAZIqYw82YcX564j8/Lx+ZqzaMrzhGPoih6BGMvMTK8RnaaUKgBW+GBI2BmC5ssQll8GVIeuBeILEYKrRIO75E2MlCJ/h7BLByyBhVyFRvKOhr3Xtq19WibKAserVX1NwRW0asfUVgZGZiEC9meL3UqpLEmSEYvm8sjReukXTo2eR1uPNcIyWfWumX7rw+scPzulQmtFxAueAeM5qhatKh/kDfZDFjv+kzGqJqB2fd9ZAtJNjwL9qoFJDfOgqYdxxEJK9KIqLT7O5LZ+CSTo/r5JYfmT+ItSMAiMkPCAw4JsPKBOkPGA08TmAHF+ykC/EtiL/A+1D8jKVabtgTXo5/TFhGQJKqS+aNOEUASluOMDsoPNr/uz+OTN+IAAAAASUVORK5CYII=",
       "description": "Glob is a mysterious and ancient Asobimon, believed by some to be the primordial prototype from which all Asobimon may have originated. Its form resembles a dark, tar-like substance that shimmers with an otherworldly luminescence. Throughout ancient lore, tales abound of Glob manifesting in various guises, influencing the diversity and evolution of Asobimon as we know them today.",
       "types": [
         "Normal"
@@ -2961,6 +3019,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Glob is elusive and seldom encountered, preferring to inhabit secluded locales such as deep caverns, primordial forests, or places steeped in mystical energies. It is rumored to possess the ability to emulate the traits",
+      "habitat": "Glob is said to dwell in areas rich with primordial energy and arcane significance, where the boundaries between past and present blur. Trainers and scholars seek out Glob in pursuit of unraveling its role in the origin",
+      "trivia": [
+        "Some legends claim Glob has existed since the earliest age of Asobimon.",
+        "Scholars study Glob in hopes of tracing the ancestral roots of many modern species."
+      ],
       "imageSheet": "../../source/images/monsters/glob-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEfUlEQVR42u2dTW6cMQhAc52uKuWS31G6q9Qr+Nt2WanHmSaLRslofowNGMxbsMhE0TjmgTHG+OVyubwgdYVJAAAmAQAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABACSyK+fP443Od/kMiDvf3cAQB2Flwchu/KbsuLLwYDF90sDgESKf/3+7UN6f67oDbZR/GeFzkolb7DFGi+19N6fn8DQAGCh8jUtfsIjNABwVv49y332e6nlC0BoAOCg/F6rXOQNGgA4KL8nWrew/E4IDgBYZPme8cCDcZwA4Gz5mtG+EgQNAJwsf4XV7xgPREjyiCx/haXvHA+sBuDstewoVr9bPLAagKdrelTL74DgAACh+89k9bt4gVDu3yKXjxeIC0C4qL6iFwjp/qNbugQCAJiM/jfwAg0AOq3/VvQf4fh357xASOtfWQOg8d2ZYoGQwV92ADLFAgDgBEDUZQAA/AA4AUCw/88aBGZbBkgAFc8JpAZA8+ZP1dQwAPgCcAJAoSUgwzIAAAAAAAAAAADASSAAhCkFAwDqAagQqlYRtCMEJIKEN4Jw/1wMAYDqV8NY/+tdDj2LlIhTEFLJC1ASxiURAKgKAFXBAMC9gMr5gEzXw1K0hwGAIplAAsA6ZwGtpzdAViAAQOEgaCcACAInLoeyDdwEgHt9/x9NYBZFkwqe7P6d1fqFANQ8DOpVfsbdgPR+Y8RuISjfF4Bw7w7RA9gQgAyvjaB8YwCiQ4DylbZ7WSFA+U5eIGqLefO3/SK+9rESgGit5Ij0lZWbLVsYVvkRQLEeQ4RDI1Plj7r8CJ7CA9gIbxSbH+fOTEyWCH8U2ghvFIdVfibrn13mVkKg/rzbTsq3Hr+giVVbDkBPIYdWZ81Mrn9m+ZJsl61iArVCDs+Jyxz5986X1zZRrXY/u+Vrj0Wi3JXbxKWXN6Ilh6wBkDapLAVA4KdgVf83AAhe+mUBwMiBWMQY4LRoo16pT6BCr+MWehuYLeKPFFcIIDjCJYJGM2YVANDaIVktBaqHQNLKmGpFIBHfInSr/NnJ/XsfbVsuBW5v/+0KgMTrRSwgGSn1mrrbZ/FaSJaCUIsqollPMLzWzyhZ+Tm20J7AKneiBcK08mcBkASTEesKPd8kssgTdO/3RwGQVglnrCYOovyh4HDq2HfE0jO7/GjbTo08wVTO31o51RU/ev/QDQBLELD68Wtn7gBoP+JYVfnS/91qCThnA7jdlO81HqU5O9x3ATsD4DU2pflqS/IA14N45EUyA6Adoygaim4i6NmNX8vrTFEekBgp2VK8D9A6598uFdx5JnAYNJhY/qKYUuMHNzeevl28ReGJR1GosuKXNI8K28O2Nw6JsE3NpvQUACgEo94iCX7DtIoLDcBgMKplmS3qul0KAGcQvlhmx3eGavq4NQBRtqm7CZMAAEwCACAAgOwjkuQXE7YpAH///P4i9z5jwjYH4Frx/y0fAAoA8NnVA0BxAK4/A4CCANyCgQkrAMAjb8CEFQHgVkwAAMUAuN4VAAB5ACareibwH7Ffy4+ppXwtAAAAAElFTkSuQmCC",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAADZ0lEQVR42u3dS67UMBCF4bsdRkhsMkthhsQWnClDJJbTNDMIST8SJy67vsGZdEv3Sjl/PezY1R+32+2D8spDAICHAAACAAGAAEAAIAAQAAgABAACAAGAAEAAIAAQAAgA8fT929fprvmu24r+fD4xexAAnph9toaDienJgWB6chiGMv7L50//CQwdAXB/aOWI2WdrRBC6ivoWplcCIiwI4aM+mukHYQgHQtio78X4nTCU1ACMEvUHQSgpAXhk/ijGvwFCSQVARvNfAKGkAGDL/AzGR4aA+ckhuKrbZ35QCK4AYGZ+XAguT/2MfwmCqXsApP5DEMwjACD1H4OgdAvAWvQzOWYpEP3JS4HGL3kpsOGTfGmo6+/nxdEUHQB1v8N+QNefvB8Q/cmXhqI/eSkQ/X1CMIUAQPT3nwVEf/IsECL6wdMuC4SIfgDsg6AZALVrPwDalYEQtR8A7cpAiM4fAO3KQIjOPxsAR55fUwDOWvdnAaDG9ffafUCY6B8dgFqDL2r3Ad1G/6DzAy4vA813/Y7WwZHM35sFrgLglAcPgCplYEoDwMDjY5r0Ac3f+m39va3/BYC6ZSBE/X8GwAiHTWuPv7sagGbRD4DGAERI/6OcOagJ9ZUAzFcCkHFoVMt3As3Sf2YAIr0UanrmL8OswN4BOP3MHwBiA8CUTvYOqgPgyDcAHPlODgDzAQCAtE0gAAAAgATHwwGQ/IIIAJLfDQBA8ttBAEh+PxAArobZCXQ51LsA18OVARNCAGBGEABMCdMImhOoETQpVBYwK1gWMC1cMzhs6g9xOZTaNH6hrodTu+gPMSCC2kU/AJJHf4ghUXTtsi/cmDi6dtl3dFAkADo67AEAAMQfFUt9AaAPGGT5d2RcPAAGWQICQBkAAAAAkLoPAICtYABk3hG0DEz+TsBGUEel4AwI3jG/MD9EJpgv//n4tdQPgFCTwnZDsTv1AyDkuLi3QdD4jQlCcTEECMXVMFAUl0OBUEwIAUExI4hWZd0/qH79/PGPtj6z7h8cgKXxf3+/CsBW9AOgPwC2gHgGwFzrVy0ZEQeA5WerAGx1/gAYA4C171/q/Pf+qjUjYgDwKBu8tO7f+7v2jIgDwFpPsARgfgbAI1OZHx+A5apgCcCmgY8aQquFQfYBnpn46lsoD78v/Qa6MEu+VcOvVgAAAABJRU5ErkJggg==",
@@ -2971,6 +3035,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "flolush",
       "name": "Flolush",
       "identifier": "Fern Shell",
+      "shape": "Serpentine",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABjUlEQVRYhbVXQW4DIQwElM+0l1ab/zVKP9NbpT4kUk/5DhVRLU0mtjGwsYRgmcUejM16c601oRzfX+vl95p5TsaMrUpGApohnEPZi0jRjMuzzJ1OHwl7j9gUgSMoQyPyfD5/Po1EYWPco3GN5CgJ9OyNALu5iRjFHkUjFTX+MN7eXqq0n++vob61FsStoR6ct3B5J7cBsvR2jjhmQy9TOMZk/Q3n3WtjaRruedDC0QPF26F2zj3PRHCMg8IvWgHGgekpH8FLZIdaVoykKuN3+rfFLOB5br0YSbPGIyQiAZr29sDIe0/zgIebBLYg41UyfDxJuzBWlHvrtfhIeE/vtTOvVwlUh8RqjFgp+kCgKiR6QcTKLU94R5C1olS7HfkW074ZkWf+GpZesWldsaLM+vgg7kmZrXhnKqIwAU9my7FhApd/L6B7NeOjhO6qoZTSYWSRZ6hH1DrizFmAolXMbJSjmrNIqyERzx4Bj4RmnNdEgjv3CFgkvF3xWg/PEQJIgmX1JzWchpqhPf6Q/wDNpxSFJaOCVAAAAABJRU5ErkJggg==",
       "description": "Despite its slow and deliberate movements, this gentle Asobimon possesses a sturdy shell that offers excellent protection from predators. Flolush spends its days peacefully grazing on tender plants and mosses, contributing to the balance of its natural habitat.",
       "types": [
         "Plant"
@@ -3329,6 +3395,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Flolush is most active during the cool hours of the day, preferring to rest in shaded areas during the heat. It is known for its selective diet, favoring specific types of mosses and plants that grow abundantly in its",
+      "habitat": "Found in temperate forests and meadows with ample vegetation and moisture, Flolush thrives in tranquil environments where it can blend seamlessly with its surroundings.",
+      "trivia": [
+        "Flolush's ability to blend into its surroundings is highly effective.",
+        "The foliage growing on Flolush's shell not only aids in camouflage but also provides essential nutrients."
+      ],
       "imageSheet": "../../source/images/monsters/flolush-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -3339,6 +3411,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "flameling",
       "name": "Flameling",
       "identifier": "Fire Pangolin",
+      "shape": "BipedalTail",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB9klEQVRYhaVXsU5FIQyFG6dnopO7qywS+Qg/xz/w5fkF+hVuJo5+hImLb3d1c9AVw80t6as9BbxNCFwoPW0vbcHnnJ1GKYa68Pq2P00xfC3j6xTDixwv394NktcU4OCjNKqElwoQ+HZ7W+d2u7v6TePSa3yjSkwIvAgjgZwIUAJzJUc86LkH0EYOJklTUvMCyZbzk2SQYNzdGrjGL41Rxps/HkhAAQSmgfM1slbKZWvHzrmfgzPAGWQv1zv5N2hfiuG7egBpaXkEKdUrg9YnbaFsoMYFaVZa/ARueWlqWafFvMwJPXu1/TOVX3B1eZFLe356nHvZaB71iB+N+ZzXzgB308gZ0KIEZc56BlJH+PWAS5LgmnGzAk3zBhXS+FEyK3nCl/8gNV5LGqj8ppTsc843KYZ7YrKESmrxazlhAT93zn2UcfkFDz1WoZxvEXB7BS/UXQtGCFlP+R+V45BieEdCrXRq7WldUrx2H2iFjqYUinuipgLpnwUJFSJ06iUdIcGtrNjKlFb8H1AWtYDaSM7nPd/PW8HRmke1YC1JD8Cbcl400SzsqYQ9FRFZXz2AbsUjHrGiwHonTPyjMEpmdJtBtyM513qkeOtpJj1ghSaqdhZ4UwECskJpxN3dCjjnzlIMn3KSCT+h1zJYX63ATOg5Ncpj0S+oRI5Kg6tYAQAAAABJRU5ErkJggg==",
       "description": "Flameling is a rare Flame-type Asobimon known for its unique ability to breathe fire. Resembling a small pangolin, its body is covered in tough, flame-resistant scales that shimmer with a fiery glow. The scales on its tail are particularly remarkable, emitting a steady flame that burns brightly when Flameling is excited or ready for battle.",
       "types": [
         "Flame"
@@ -3697,6 +3771,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Despite its fiery nature, Flameling is gentle and cautious around others. dwell in warm, arid environments where it can bask in the sunlight to recharge its internal fire. When threatened, Flameling will curl into a",
+      "habitat": "Flameling inhabits volcanic regions and dry, rocky landscapes where it can find ample heat sources to maintain its fiery abilities. It is also known to reside near geothermal vents and lava flows.",
+      "trivia": [
+        "The flames on Flameling's tail serve as a beacon to guide lost travelers in dark or foggy conditions.",
+        "Its scales are prized for their fire-resistant properties, often used in crafting protective gear for firefighters and"
+      ],
       "imageSheet": "../../source/images/monsters/flameling-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAED0lEQVR42u2cTW7bMBBGc52uCuSSPkp3BXIFadtlgR7HTYoGcATJ4nC+ITnUW3wI4hh2xHnzRw31cr/fX9B1xSIAAIsAAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQAKBRAXj7+eP2rvVd9wN9/O3Gwk8EQIHR97Sw+BMA8GFIo+EfRSTIDIDT+P/SAQZICsCZ8V+/f9vV9n0YICEA/3N+sdEBYD4A1jPjb18nBUwCwJ73H3n4M8+nCMwLwFoCQIHxaQOTAqAwPp4/GwBnr+H5AIDxAQAASAHk/+sAcAABvf/sXUBhJ8Bt4YsDAAhX2QgqgIACMfNWMBBc72bQUpMKCmEAgiTzAMV3BCtAoCZIAEDRTEDJzACt4oQjYWdeXgABUSD7UOhZvicK5B4JW0tnAmvfh3EGA6B0/t/S+mUFoPIsxJAbYNKLtfb+WVKAwODDQiGZ/a/Y9Bm+CGxk9O4whM/+ZysAOxu+OQiuFs9q+NFbQOtpp5KzEJ61agGC6+CH9UJG3QSqKXDV6gWCe5u31lNG2QauTXWP12H5KYJhCQHg7OCH1fjGC1xGMn6kt4tAWCIAWK07eqLOYBkp5Ku8XRUdItetauJHUOn3NP7QXl8BwhIOwBWNH+3ttVFBvY5F+b8WgJF2vTJ7fiQE4fl/BAiOjN8r1yuigQqC8PzfE4RnxV42r4+KBPL8P0onYA35o3r9WTTwrmVIBOgNwUz5PjoShANQkRJuV6v0FfsFtWsZUgQ6QVjJ97JIsHZpA1veEbTu6mXwZouxC9Zy6bITGD0TYJ1NTJrHVW33zQ1AxIaQdSawdjxtdK/v6VBVhz+VOb9FnTGr5yvG7KoPf6ogiOw0MuTwhnXVWjoQsrScCfAuyqzerLi+kijgeg5AxAUoPzOrN3vXzhIF3M8BGMVDo76r51RwxM0491h4FATKaJHR2K0A2KYB18Mg1CE7wkDZjF4KgKO7Wq1Hw9ZWEFTe+ZpS3iP2pWlA+lyg6EiA8e3ttRsAy0RNZL8+OwQ1wJfeH3gm+VhVi3rgCgB4P+vP719fdPSafLbOA4BgJi595a76H44M//k9VQCoIkG23biAU1BhAGwN/Pi7BABFJFDs4ingUMEzEsBHAGxfcwGgiATZp25GjV7PANiDocm8fauTt56zd8rtaPGErxuAZ9Gg+XGrq87rtZwK2gNgryaQAKCGIOukriI6KeuOPQC2XYEMgJoHLRAFbJHAWp+E7ANEnbvPdkav9axgBCyf+gs/gaqMTPy71gAAAABJRU5ErkJggg==",
@@ -3707,6 +3787,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "ratfaith",
       "name": "Ratfaith",
       "identifier": "Devout",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "Ratfaith is a small and contemplative Asobimon that embodies religious devotion. It is known for its deep spiritual connection and its ability to evolve into different forms based on its religious path. Depending on its experiences and beliefs,",
       "types": [
         "Normal"
@@ -4065,6 +4147,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon seeks out places of worship and sacred sites, where it meditates and reflects on its beliefs. It is often found in quiet corners of temples or amidst ancient ruins, communing with other Ratfaith and",
+      "habitat": "Found in urban areas near temples, shrines, and places of religious significance, Ratfaith thrives in environments where it can practice its faith undisturbed. It adapts well to human settlements, where it can observe",
+      "trivia": [
+        "Ratfaith's evolution path reflects its spiritual journey and the influence of external forces on its beliefs.",
+        "Trainers who raise Ratfaith must guide it carefully."
+      ],
       "imageSheet": "../../source/images/monsters/ratfaith-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,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",
@@ -4075,6 +4163,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "stellarjay",
       "name": "Stellarjay",
       "identifier": "Crested Bird",
+      "shape": "Winged",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgUlEQVRYhcVXW2rDMBD0ilym/WmJ79fgXqZ/hRwk0K9eR8UFlWWYfchSGoGxE0ua2dmXJbXW5ZGjzNhkfX0+bIWMKIDAt69v+TcFVgV+ubxRQndRYAWQHXzb3pejSpQe4Aj8kBK1Vvc6vzxVfV0/P9w7XtH+SxZcA3jg+zOSOUTgTMA8EjgH51s4YgVh82Pzqx7N7zoG2Dw91wzMmrDeUyKyPFJBmAIsx3dLLCuZ1XpdG0yF4m2kAbXcmPf6NxKNSBf3bYJYBmQ6AW0tqjGVwOYAWH7Ork9nwdXJ86gIZWrBCQmxOm7VghaYVk9ge2MmFAucdTksOjormDu0C6xGJa0OMHBGQlvHqiDzOdvvT4lqNB3vHj1nu+av8aPgoySWHgUs8B4S2KaFxQDzHQabNVhAep9tRf+hUwQX9VQ8r1cgjmA3tL7nolzHdxZhrAPiteM2mbXnTBri+nQ7voFMbGHkHlxvfRFJz7nAOgmNnJBKGp1YFT3f/Wy4TBhTTscj4webSXa8mBFXKAAAAABJRU5ErkJggg==",
       "description": "Stellarjay is a vibrant and agile Asobimon known for its striking blue feathers, dark crest, and bold markings. It is often found perched high in the treetops, using its keen eyesight to spot food, rivals, and approaching threats.",
       "types": [
         "Wind"
@@ -4433,6 +4523,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Stellarjay is a social Asobimon that lives in small flocks within dense forests and wooded areas. It communicates with melodious calls and is known for its curious nature, often investigating new sights and sounds with",
+      "habitat": "Stellarjay thrives in temperate forests and woodlands where it can find ample tree cover and a variety of insects, seeds, and berries to feed on. It is adaptable to human presence and can be spotted in suburban gardens",
+      "trivia": [
+        "During mating season, male Stellarjay Asobimon perform elaborate aerial displays to attract females, showcasing their",
+        "Trainers admire Stellarjay for its intelligence and ability to mimic various sounds, including the calls of other"
+      ],
       "imageSheet": "../../source/images/monsters/stellarjay-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEfklEQVR42u2dPY4bMQxG9zqpAuSSc5R0AXKFcZsyQI7jbIoAhjESSQ0lkdIrPni9cOHx9yRR1A8/ns/nB9pX/AgAwI8AAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQALjp54/vx6cen3oq9O9zB2YnBcBoNkCsAkAH4wEhAwADjH/XCQBxzD8t5n37+kUUECQBQDL/ytw/v3+JMgBxAEBA8y1mSxC8/n0VEwBAIPM9jH8F4P31CgIACGS+h/GlHuD/KwBMBCCa+QwBe5tPELia+aWxv5YY6pC/eERPQM1I8riYLwWJpcCvNiUclb+IlHsYDcDDy/yrvzXme88CGs0PA8FoANxb/lVPcJUw6pEHKPVomdYk0gKgzQoaAsHDq0d7hcyQiTwBoNF8ayzg1PpP6XlKw1MkCEIAYG3NWgAMs4DTO5itfbdIaxJTp3+18dsCgbb79wrIal2/9B2jrUmEnf5pIXDMA6gguHqWkuHvZl891+yUdJjpn7UnaJkyvsPTAoEU+ElTz6v/7wBAU/DXIzuoHItPy7NozO+dj0gHQK1L9FwK9oagFshKrxH3JYSK/mtgRIHgbvffIx+xbAwwCgDtKqEUAEpmR9yUMn0WUJoKjjRfgOChAdlieqRtaWGWgUeP/UYITs1QVlqsKq1fRNiTMH0vwGzDLUOBFABKq5Panmb1DSGhAagZ1AKAIRV8AECOnqBovvZ9pP2IAOAIQLbWPwuAxwoQSAAYzJ+6G3nW4c8uAPTaWLpq618KgF69SAsAWVr/MkOAF0DaDRy1eX+m1r9MEOgFUG0d4nWPX+2zmVp/OABajfSESFqltHb9kVt/KADumOg5BEhGrjL2bwWAdftY61a1lhVGAOgcA0jbsmobNu9CUFtYAoBBOYCWnToeEGQ5hbw8AFoItLMB6Qha71PIANDYC7T0AF7H1iLfRLLcYpAVAu3ppDtTVAAYvBikPTJumSG0XlHHEDBwMagnBNbTSQSBAZaENdm8GgQtl1FmmgLOBOAYeU+QZat26zlExYbPkLeQLX9NXMnIlqhfChIzXkW7xUWRltlAa8+S9TLq0FfF9t7upT2jeOMW8vA3kYe+LHrEXkHrjSOrFaQIf118hA2jxlafqhJJioIRs46MrWx85JIxXWsHOBq/RM2hqAWjVNVDesUAO5WYiVw17NTWDLqzS2j3SmNL1AyUVgAdovplS8wtUylUOp9vPKy5TW3BVF9WAqE2nhsTOtsUlUz3hWsQSMYqx/2tKocs0/olgyPf2A0AjjOCGwBsWT00S8t/toz7SvO3LiKdAYCHpW6w9DmqheUDQGzNWvMpFrkIAJrAr1S6BQAWGQI0UX/t/c7VQpcJArWpXMb/DaaBEgC0/g0SQUZQDgDImQo+a4kcLSiYnxSAC5MvEzkSKCgxAJ6gAAA/AgAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIANBS+gsLmZhUmS9x2AAAAABJRU5ErkJggg==",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEp0lEQVR42u2dTW4bMQxGc52uCvSSc5TuCvQKnm2XBXocN1kUSA3PDElR4o/f4kOCLGzHfKIoiuS83e/3N/S64ksAAL4EAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAIV+/vi+vWt/191RH6+3AUB+49+cDf8SMHRa+ffFagFDFwD2AABawNAFgP8M8u3rFzd1BwEA5sBwA4DA/f/RcH9+/1L9dILhBgCB+78HBB+//5MRhhsAJHL/Wg/wGQAJDBUheLn93+oBpCBUg6DlFvBoEC0EUgCOQKgEQdsE0Kj71wDwDISDz7UBwMLVPysGGIBgB4DiAeAoBACwEICR8/8sALLFAu23AGvyZwSAz6+ZPRZoGQRao34v41eKBdrVAGhjAG/DV4sFWq9+Ta7f2/gAkOwOYKXhJbEAAARfAc82vCAYvLUH4EmRplvBhMT1Rxi82mkgQzWuCYojAKIMbQRgLw+AYzXurTMAJyBs5QCYVH+vgqARAHspACwrXllTt3UGINuJwLX+3qnQcu8CgPR/rgTA7g2A9Yh0dQoAAGcAJNW3jwaQJmQs8UBVAMrGANLii2dfwNHfrBAcBaFZzv7KUrGtCgCixMvRF3AEhfYLOgtCswKQuWw8DABLUKitAZxt2EEAaqWCr6Ju6TZgDQozrHzt+1SoCloGwNU9vaUHL+pmT/peLwWApaXq7J5eC8DKPb1TWdgUADQr3gJBtmCvclnY0hbsK+NLTgVVjF/hImg5AFoIKhu/iheYVoBxZmxLLFDR+EIIthYeQLq3a7eByoav4AWmNGFYPUNU9e4rewG3yyCrsSXbwGrDz3jPrF7AtRXLKxboCEDWPoFpzRgjxu4KQMY+gSntWNrAT1JTELFXA4DTYAatZ1hpEACY2JWrWfEZAFh5o1gaAG1nrsU7REAw432OtrTyAFi3Amn9YOTqnPma3QDYNCPaNFfHo8UYWdx/awAsc/o0BSSrjTQTrM4AbFfdQBpjRwSFADB5VMuIF9B4iFXGt9QFtgZAcls4YyuIqvHTZCqlfRAdAFBP7bRC4OEFPGYCa/IYrwDANlK4qTktjEJgvYTSzh7ybohNPyLmqHZfC8GMGv2RhpWj1ez4pJGtBQAeEHh031qgsWYvtRBk6xEIG+A4EwKrx5C6cW1ha+Z5gaFz/KLKsy3xgaRiqdLevwKALUNHj0e0r4VAuvrbjIkbiQdWjWq1nDwsN5mVVv+SSaHSYQ6r8/uWmEA79iZq9Ws+Z8pn+8wMCr3A01xvr179R3mTZ39L8Xj3WU/rmHWlrK1vWL33P36Os8xk+Hx/bwgsVcYe9wGZegDOqqxCAbiaMroaAuvED2ncEJX1OxuYHQ6A9oQwI1M4mkEcMP6SrJ/mriLdI19WBYaeXiLbk0OPVns6AFZCMArEgOGX5/uPJrelBCAKgkVDIEMue65G94UcA7NnDbsYP20ewPuYGAGC4n5/j8zza7a2vxUOvJ3Rzxz/AAAAAElFTkSuQmCC",
@@ -4443,6 +4539,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "glowisp",
       "name": "Glowisp",
       "identifier": "Light Emitting",
+      "shape": "FourWings",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABUElEQVRYhe1XQQ4CIQwE4mf0onH/p9HPeDPxISae/A6GTWrqZAplPXDZJrh0oZ2hQLvGnHMYKWkoelgJhPEENt6J02H3Pa3P1zsunbMoApNyzHTvnL8iUOR8Ps3Py+VKAfS4V5I1UAAQpOWYjTM/zQhMykD6sjoRrRdgHGd+2LlIyFQbiVMMrUfXhKTPMBIy1UbisAdY69oPRuiLedxvs7TH/WY+se/Va35LC6UYeUhgY8Bs3PJb2lwIy49FgkWhJzot8B8CrUiwlVn9WgQ0uEmgtkq2FbWtYXM0ZtQfJHgF8TSL4Klmeu1W6XwQ8YuolcN7gVEwGUUvAW+ex8jVwIuYxYglEEw4KCwhYQFDEqm1GjG28r2XiCVJK1h4rBUxh7V3ujbgFkc5A7W976nvXlvZimQZywR2dVrSZZshEWndeudtHn9x/WcUVgKDZTiBD94LnrubdGaRAAAAAElFTkSuQmCC",
       "description": "Glowisp resembles a small, luminescent firefly. Its slender body is adorned with bioluminescent patterns that shimmer and glow in various hues, illuminating its surroundings with a gentle, ethereal light. Despite its diminutive size, Glowisp emits a radiant aura that captivates those who encounter it in the dark of night.",
       "types": [
         "Wind"
@@ -4801,6 +4899,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Glowisp is typically found in dense forests and near bodies of water where it can thrive in the darkness. It communicates with others of its kind through intricate light patterns, using its bioluminescence not only for",
+      "habitat": "Glowisp prefers habitats with ample vegetation and moisture, such as forest clearings, riverbanks, and marshes where it can find both food and shelter. It is most active during the twilight hours and nighttime when its",
+      "trivia": [
+        "Glowisp's glow is said to shift with the phases of the moon.",
+        "In some cultures, wandering lights at dusk are believed to be signs that a Glowisp is near."
+      ],
       "imageSheet": "../../source/images/monsters/glowisp-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,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",
@@ -4811,6 +4915,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "ratzazel",
       "name": "Ratzazel",
       "identifier": "Culltist Rat",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "Ratzazel is feared for its embodiment of darkness and shadow. Evolving from a devout rat, it has forsaken the path of light among the Asobimon. Its eyes gleam with malevolent intent from within the hood, casting an unsettling aura in its wake.",
       "types": [
         "Dark"
@@ -5169,6 +5275,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Ratzazel is notorious for its mysterious and malevolent nature, often lurking in shadowy corners or haunted ruins where it conducts sinister rituals. It possesses deep knowledge of forbidden rites and dark sorcery,",
+      "habitat": "Ratzazel prefers desolate and forsaken places like haunted forests, ancient crypts, or forgotten dungeons. It thrives in environments steeped in darkness and malevolence.",
+      "trivia": [
+        "Ratzazel's robe is woven from the fabric of shadow itself, granting it enhanced control over darkness and spectral",
+        "Tales speak of encountering Ratzazel during lunar eclipses, where its presence is said to herald dire omens and"
+      ],
       "imageSheet": "../../source/images/monsters/ratzazel-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFj0lEQVR42u2dS44VMQxF2Q4jJDaZpTBDYguVKUMklvNoJBpVl+pjJ07ia99B1KIbpNf4+BvH/vR6vT7x5D0pf+kf37+Vt1Pfzmt3/v65EID4wt8Ogj+ejQDE1vyX4BQCEBOAKgSgEoCYAHwQ9Ncvn/+f488IAAEgABlcwBUAWeKA1NH/nQXIEgekTv32AGR1A2lTv6PwCUBCv/8udAKQSPuvhE8AqP0MAjPm/Q+ZwEYAcgMQvh7Ayl/yekD6GEBSD4hsBVLXAGgFktcBeDmUAwCNphOALBdAV80g2eIA+n/5zysBCJgBZI8DUvp+ApAcgKemUAIQGACp8AlAQgAyNojQBSSvBqZtBGmxABFrAUwBk9cCaP6TB4LsA9A3iRQCECQDuPP5WdxASgDO3gRk7RYmADcPRAgAASAABOAcgIs5Q3CzhpgFNHYKS6aMIICQ+iq4AwDN2QiAs0qgpCfQSPjuIUj/JFwaD3TcH7iGIJrQq7bUayV44b/fCMBCwVudp8IREgQhR7/MFr42zvCUHVDrBwof4T4hnNb3+vaeYO/OJXh1BSGi+1ERvlTzJRVHr64APr+X+l6riF/bSeTdFYR453cVlV991UAg0fwnQXtuMAkz6NHCrzcIr/vZ+WorEEL4Eq1vsQpX9wfSGAChzzCl5msDyd5GUs9uAF7zLbT/ySo8ab725ZEnNwBV5Bl0U9cisFfv0zMvbgCmyDNL6++swJ0lIACThT+79GtlLQhAp/Bnan9LHYAADA72VpzOAC8fAILbuvrv7xSvWn9XJ7iLAVpBCQOA8o6+evH3g/P8HEFgb4OGN61/qhYSAOFV7Yio27MVSFcI0gRymnZs71bg6i4A6UZwWQs2mvb37h0IexsoKdtKImoE7ZdmKMr4ALcf4GkYk9bcI2i/dgVN6I4gaRqnuX/3rv2SmEABAG5PYOsoNq/VvhF9BAit4cM2cVh04yBaAQUABRYAC+1HqQBaWYJQ7wIstT/6VyXQ04dKLBnEmOk0/t9skABQ63U3iQ+nQALAY2YFKqwL4Fd5V9HqG8LpFsDKWqDVEBoHSpRQMYBVni8d9YpQL1gdELpZx2JZf0epE3gICKfFAL3ain5n0On+KrQFGDmgATEb8LSwamgM8DSKPaP2S2MZWAAkGq/pCopUZeyYUlLhYgBNC7V0aQOrgiAuQNsdO2KwE1oMsCodHAZAbwNFRGtgAHhx7wJ6AOjY5BWmc+jhd6whAWidthWpDrAqGxi6kEG5YSN8PcDjAutZAJSRZjRidxAsAFd+y3KyN5olMPysFRGAIpgbUC9+VlveHaK8KN5Zx7qqHmD6HGwUsQhTRBotVVUM1dhct4WPJlZrCVZah57FEScgVHeVQKFPNyVWugls5Nh44y4l/H0BN367GAu/9ASCrVD0VvcQNoiF2ANo0aMoFaSBNeHSqJFZR49pH+xCXK6ShVwTYw3AiC0j3Bw6IfK3FH7PskjkBdKQ28FmaH/nRjCuj/e0HczCn98FhJ42gEQBoM4WvLaP0esKmAgLI7aVN4BaIAjA5LXvHjp4BLEDY4BRBZ+V7wZWtm5lAaB5Qrf2ddKEzWIbARj45lBbw7e+IURbEw8PQGsq15v29YyAR3AFsABIMoTe9wdSq4HsCiAAGHGBowFKM+0czRVArIdfVRVstQZIrgCmBOwVAMXrpUIAjPcOeQFAWCCqBKC91ax6F/7KIQ/pW8IIQOKWMG+CJgCLbgc9afrq+wHNZ4frBwQGoMwE4Pevnx/O1ffo++cAMLUauBf2UfDvn9k9AJLHIAAALGkK3Qt4L3A0ACoqAKv/784AOH7PNQAIgR8iAGcwwL0FIAB6AO6sAYWfBICzmMAVACgpHzIAx6zAGwCQ5V7PAEDVAaII38Otn+bz/wGvqE5d4fmIcgAAAABJRU5ErkJggg==",
@@ -5179,6 +5291,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "ratphael",
       "name": "Ratphael",
       "identifier": "Divine Rat",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "Ratphael is revered for its embodiment of purity and grace. Evolving from a devout rat, it has chosen the path of holiness among the Asobimon, its form radiating an aura of celestial light.",
       "types": [
         "Normal",
@@ -5538,6 +5652,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Ratphael is known for its gentle demeanor and unwavering commitment to righteousness. It wanders through sacred places and serene landscapes, offering solace to those in need and guiding lost souls towards spiritual",
+      "habitat": "Ratphael is commonly found in tranquil forests, ancient temples, and places of spiritual significance where it can commune with the divine energies that sustain its celestial form. It is believed to bring blessings to",
+      "trivia": [
+        "Ratphael can channel celestial energy to heal wounds and purify darkness.",
+        "Its presence is said to bring serenity to sacred groves and temples."
+      ],
       "imageSheet": "../../source/images/monsters/ratphael-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEHElEQVR42u2dOW4cQQxFdR1HBnxpZQZ8wnEqCNPFpdit+uQLfiT1BFOvuRXJ+Xi9Xh9orvgSAIAvAQAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgADgYf37+/mqEIcvBkDVwQOCIAB3HT4QCABw9+FPh0D28P/8/pUSEIgD4DlIDzgAIAjA94PbefvfQQAAIhZg199jAcRjgKz/t9wHAJAFAAAAAMBIAHABQ9JAIBABYDePz2YC0yCQTAF3rMDXZ4HgUACsNzYDwNUz02sCIwC4qiBSFTwQAO8BequCK3CszwEAMQBWVb+V+QcAoQugd8GgddlzdcC4gQYAWD7echOr/wMAEQA8gV4GgAkQyAJg3e5VAdAdAukmkGyOn8koAOCgCqAV1HkCwMjndoZAsgkkWua1LMT35ya5gzatYJm0z2NNAEDgGjji/73mfkpqKNUNHA30VnUCbx0BAA4LArOuIXIhRAxw6BTQzuF7n59WD5A4/Kq/RQJJ6gAHHf4qcIv0/md8PpXAQ97+6omgqT7/KAA8aVrk7j+T20/vCzy+5z9ytZtpDaMp9LB839vNk4kDvLV/2sIPnPqpagW3AGAw5PCxr0gpd9UnyNsvkAVUj4YzDyBYCPI2hF6Z+KvDvysAVAsqJaeDrTfcMvle91ENMgDcOCUU2QQSCSarR9UB4KY+wYodQRN3EMhuCrVawr0l4GhW0W0dXRsAPBBYaWAlCADwoBvwVgq9Bx2tPCpPHLV0ATu9hJHgMtOOBgA37gqM1AF2A8IuM4fSh3/l270xQTaDiLgcAHhgPmA3mo90GkUPHwBuHhStyu2jgaQ32CQLuKlfIPLFWzHArlWJDKwCQHHLWObQI7OGmXRQqdlENgaIdg15g7TIEGrmWQAoHhOLRvPvnovOC1oug9vAhwGIdBDvBo+Zt55+gIcsgHXps5s9REvKCl1G8gBUbAvb7S9U3irSAoBVAcYzIh6NH7zQ0BP48K6ArLmvBoCm0B8EIDsintk73KGjuD0AlaVkAMACAICyBdi1AgAgbgEiDaPq9/wAcKMF6DRYOt4CRD4XF9DAAmStQNffGRppATLbxTx3AAAgZgFWuwM6NHsAQCIW8IySddorNNICZADouktwbBpotX1Hrn7ZECJoAXZXx3ZZKTPeAuwAwI6gJhZg1WbefZmU9I6gin3BmRZvtoQdMiBavb5l4gLpFvsBds2/1WYOAGKDopWxAQA0B2BVIZzgBrAADRY9jQSgGgLvxBEANEkHIyPfACBQFKqUBzIAOGhjyN0WgBhAcGVcxds/4afkWwAwfeHzGABOgKDT4UsC8FMQdDt4aQCeAKHrgbcCAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACADQWv8BzQwdPtUpdegAAAAASUVORK5CYII=",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFcUlEQVR42u2dTW7cMAyFe52uCvSSPkp3BXoFe9tlgR5nmiwCpAOPLP6I5KPfggiaJuPJ6CMpUhT55fF4fKHcV/ghEAB+CASAQgAoBIBCACgEgEIAKASAQgAoBIBCACgEgEIAKASAQgAoBIBCACgEgEIAKASAQgAoBIBCADLl188f25scb/IIlvdnbgQgd/H3hIV/lp0A3EPjW1oEavzNLQKa5r/84L9/+xoqFxBsBCBY84sBAGMJYDVfsSCuMvn8jQDYATiAATgIgB2A0w8+yxVcPff5+wSAABCAlS4gO+yjC0jeBBYHgJvA1WFgdPgn2HwyDMwIB4sAwEQQU8EEICUlTABucBwMYAl2AtD4WLjTPqBNadMFEOKz+ldWRrAZPAhAXUswBEK6+AMIdgJQey+wey0+qitgPeAnCKS5hrP/R3MF7RZfWbzx4RaO0euNFnv0PAJQLCOo2e1fLfLF628EYOHp4GiBLRCMTP3oWUhuAF77JQur/dlZa4DoBlppv6Vo9Oo1pXsBAhCs/asqhkcLO/tzBCBB+zXlXFIARvsEAhBUGzi7+J9N99VXDQDPv08AEgDwKhWX+HYCUKQ6WKvtIyswW/sncDflLpDCZv6sSR4vC6DMPu4EYEHmz6r1mvDO4H52ArAg8+dd8LEQgBIpYnjT76X1V1bAGk5WTRHzQojiHMCSbKoWHcCb/gwrIH1fBCAw7RuxD9DkHgiAk/av1vqRFRj9++r9EQAg7Z89Fpa8r6qFo9R+4dmA9YyhWoaQ2q+4CGIpL6uWHKL2G/cEWitSBQLYI180MVYrb+0BmK33Q/5qdCN7dwCOqm1gVmcWM88OIMx/J+03urjjlgB08v/WA6TbAtBN+wmAsSEksv83/J09XcAoAkDXfklB6W03gZ0jAMOF0nuEgZlVP1UigImQsGciaKbgs6v/r1I1dPuqH4D4/+gMQKkhEFlVRZmVw6UBsJ6/V8r9V707AAkAioWYbS+TWSBSchiEtjAD4eSvWjs5TSNGNzotjZ+rWwPh4qfVBVp78ZlhsPT7q2oNhO4q9XoYclv2stYAaaqIm3+ubHK9avi8TgAhbgej5uY9mkJaoo/JnyvTN9AUokWWX1sW01r3L739g3Ap1AWAwhO7pqyBRbut7xUagJVAeF69tv6u1UWgA3CsPqWzuBRPECL2FYgAhFzT8mzrJmkBa13Is9cW/F31N4FRVmBFfz+vnbzl70VpH+/SoSs4bbr8QueVX5/VfITW8e7Ts7xiaO8wUzMnwNvvVxwesWSEmjWW15hq733Gq7h/VvNRpohlz+lRWwKtSdf0/XPS/pJTQ1xO7qI3hh6pWct1rVF2EG18nGsZd3Rq2NKbxxsA1AGS5S9yeu3mpU2hZ3w+su+3AnBEZMusoC1o7Wp53t4JgE27GVydkp31yZJ8/owlmAR0bwFARmg4m6SZAWBltTEaBKEjXL3aq604fdTE/R0sQdgQ5wX5dNfd+sqTzvYDI2YgiDqC9Uj9ajVfYQn6DIw4uT+gns3n4ZNXpokdM5r9BkZYQLAUeUgyiB7vQ5snuE238Jl7BZVqC7PqGFu3i7fc+omCxLtzuNB99Z8ZdOUSku/kpXQGu+XUsCgQqt0R5NzAYBiq3Q+sPj62+ti4A1n7EYZIwwyPRustiFARDAvAVW/Byt1BI3b+kigFcfG3yr6/wq2g92f+/fP7P3n1vVamH6VHcCQAzwv/8Z4gAZgdKwPQJXyLAODz59IFADjtz9gHnAHw/D1UAMJ7CnucSEa7gVcAnMHQxvxXmxNYCYCRNWDcvzizWAWAsz0BGgBpvt/DCkRuBF8B8BwVtACgyKme6kyAeQAnABD2AJFuQJIJ/AfdyfI1hfG0zQAAAABJRU5ErkJggg==",
@@ -5548,6 +5668,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "drakip",
       "name": "Drakip",
       "identifier": "Dopey Dragon",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Drakip is a small and endearingly dopey dragon. Its appearance resembles a whimsical dragon whelp, with soft scales that shimmer in various pastel colors. Its wide, innocent eyes and perpetual toothy grin give it an irresistibly cute and friendly demeanor, making it a favorite among trainers and enthusiasts alike.",
       "types": [
         "Dragon"
@@ -5906,6 +6028,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Drakip is known for its playful and carefree nature. It enjoys frolicking in meadows, chasing after butterflies, and napping in sunny spots. Its innocent curiosity often leads it to investigate new surroundings and make",
+      "habitat": "Drakip can be found in lush, temperate forests where it can enjoy the abundant sunshine and explore the rich biodiversity. It prefers habitats with clear streams and open spaces where it can play freely.",
+      "trivia": [
+        "Drakip's playful antics and cheerful demeanor make it a popular companion for children and trainers who appreciate its",
+        "Drakip's scales are surprisingly resilient, providing protection against minor scrapes and scratches."
+      ],
       "imageSheet": "../../source/images/monsters/drakip-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -5916,6 +6044,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "faevelyn",
       "name": "Faevelyn",
       "identifier": "Celestial Faerie",
+      "shape": "Winged",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgUlEQVRYhcVXW2rDMBD0ilym/WmJ79fgXqZ/hRwk0K9eR8UFlWWYfchSGoGxE0ua2dmXJbXW5ZGjzNhkfX0+bIWMKIDAt69v+TcFVgV+ubxRQndRYAWQHXzb3pejSpQe4Aj8kBK1Vvc6vzxVfV0/P9w7XtH+SxZcA3jg+zOSOUTgTMA8EjgH51s4YgVh82Pzqx7N7zoG2Dw91wzMmrDeUyKyPFJBmAIsx3dLLCuZ1XpdG0yF4m2kAbXcmPf6NxKNSBf3bYJYBmQ6AW0tqjGVwOYAWH7Ork9nwdXJ86gIZWrBCQmxOm7VghaYVk9ge2MmFAucdTksOjormDu0C6xGJa0OMHBGQlvHqiDzOdvvT4lqNB3vHj1nu+av8aPgoySWHgUs8B4S2KaFxQDzHQabNVhAep9tRf+hUwQX9VQ8r1cgjmA3tL7nolzHdxZhrAPiteM2mbXnTBri+nQ7voFMbGHkHlxvfRFJz7nAOgmNnJBKGp1YFT3f/Wy4TBhTTscj4webSXa8mBFXKAAAAABJRU5ErkJggg==",
       "description": "Faevelyn is a mesmerizing fairy known for its celestial elegance and serene demeanor. It glides gracefully through the air, its long-flowing robe trailing behind like wisps of moonlit clouds. The fabric of its robe shimmers with a subtle luminescence, reflecting the tranquil beauty of starlit skies and the gentle glow of the moon.",
       "types": [
         "Moon"
@@ -6274,6 +6404,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Faevelyn is often found in peaceful, secluded areas where it can commune with nature and the cosmos. It is gentle and nurturing, often aiding lost or injured Asobimon and guiding travelers through enchanted forests.",
+      "habitat": "Faevelyn prefers habitats that are serene and imbued with natural magic, such as moonlit groves, mystical meadows, and tranquil lakesides where the moon's reflection dances on the water's surface. It thrives in places",
+      "trivia": [
+        "Legends say that Faevelyn's presence can bring about a sense of inner peace and enlightenment to those who encounter it.",
+        "Its robe is believed to be woven from ethereal threads found only in realms where the boundary between the material"
+      ],
       "imageSheet": "../../source/images/monsters/faevelyn-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -6284,6 +6420,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "faolicu",
       "name": "Faolicu",
       "identifier": "Wolfhound",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Faolicu is known for its immense strength and unwavering loyalty. It roams the rugged countryside, guided by a noble spirit that seeks justice and protection for its pack.",
       "types": [
         "Primal"
@@ -6642,6 +6780,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Faolicu is a stalwart defender, fiercely protective of its territory and companions. It demonstrates a deep sense of duty, often leading its pack through challenging terrain and dangerous encounters with remarkable",
+      "habitat": "Faolicu prefers to inhabit dense forests and mountainous regions where it can utilize its agility and strength to navigate and defend its pack from external threats. It forms strong bonds with its pack members,",
+      "trivia": [
+        "Faolicu possesses formidable strength, capable of lifting heavy loads and delivering crushing blows.",
+        "Its keen senses and sharp claws make it a fearsome pack defender."
+      ],
       "imageSheet": "../../source/images/monsters/faolicu-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFVklEQVR42u2dS27UQBCGZxHlDjkCKyRulCNkyx75WmBvWSJxmEQMKBBpcOzuevXL/kb6hTJCk4nrq+qqcnf5cr1eL+i84iIAABcBABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAeqfpj5br39fy72cAOIGxU68ZAM5p+NvXBABjG1lr8PVrAYBjeXTydXk1ny8KYJg6miOMvSVvFMA4nXv9nuEzEEwAMJDX3xoyaeiXl1dljK+qCvDEfFI1RRpf4tEp468h8FYFGD0ehBDjvxl5bfitKOCJBBg6FoRJYvg9o2qkyAeSEJw+uw4GYUkZP8LwtwAoc4LpaACoja9ed3VAzLWMb1wSliMBMJcyuhOE7ey+sPH3loStrzQyAMm13pJcaZIsLQjSZI4IENATl5RNUUmWBISWoT/x/brMAcI7ZVsenvvXA8PWBdeUc2etAsJKt5reJoGhRMnnBGDprQ8wR3p8jQhgCsPK36MBZuv3aJO/FgBkvV7aE49opfYmDwCC9nBzAOboUm3Po62t1RJNGksE0P7f9d/e2xLgKt0iQnLvnh8BgOfWcHdeb/GsVAQoufaXhiD1fRUANLkZNGvKthZeNHIE6L0MnGuXbJIcoEUu4OrkKSKA8IbQXAOAubbXa0E4QhXggGAqCcDcQ6NG3cXrEABpzmLoByylAOjS+KI180ARwNIUOoXxR0sCLXctd8EoDADG7zwKlAQA4zfsA6Tyhxo5wITx+4gA3j0BVgAWjF8/AkiqAW1HMMT7MX77TmbNHUFLy82PZ6kCPLlAyT2BeH9pz3c6lHYZwPt7Sv4yewq1u5klS4Gr7MP48d6viay5g6OSpSCk7NMeZULvjfXw8KDa7Zxra0ubQVVCP3mCLVxLZwQYTjapAXAlfhhftvZr91HkNtFKBkm5Mv/SHS4AkAOgeKmTQMJ/YwD2IDAAoC4DZ7y/CQCipFtxXnGxdALdmX9NAEYELZOkzZpt9NbRNkWbPi3O7B0IgOxNt4hZgcUy/9TdLQAQ1+mT8Qile07gFNH1IwK4AbAcplVNDS8e/ltEgJEOgwoPc84ljJ8CQFyH9lD+jXwW8O7ubn25fxnOWZofGqEGQLqtumYEGOHkz973fX5+Xl/ubzXnNVQBgPVf1QD60gMAsvKjE89sdRp4cyeuD4CvtSe2qJpA2oSw6aSsAU72aiZ51AZAdMq3lyogYkZP1FyCIwGQPfzRS2a+d1u01528IwGgagq1OJ69VU9LI4H0/T1Pt/5towFwiVgCqiSAhfcrAkBQBIg0jAQA7xxB71i6iHFuw0aA0uuyZFdtdkeNodW8OaJt4zOVGzmOFwFSPYTooc6WiaJ7P9/f36siiDYiHDoC5BKzGkvAevKotKN5+97T05Npf77jgU8hRv308cNVqhAA9jyi9lh3z6zh9Wc9Pj6aJpTmALDO9NUC8PPH9/+0916RbeEaACKaNNYne1jHv0fM+fXs4tEAsDb8m+eHAuCJAJ6cIOLRLpLPsEQA40bQUABuQ31RALQRIOp+gQKAsIdSFIwAl5IArN8LASBX/0s8yRMJlCPR1A+puL1XXyECFAdgC4bwk0GSUFpiKobyopofOTdiBEhFg5B5QNJRpSUjgCGp2osISw6A0SLAev3XAiBeD6UAVJqL40mqPh8tAmxVBS4ANNl/owjgvZDDR4CoPoC4DSwFoFIEKAbACBFAqt/S+YZB1JdeSwAAAABJRU5ErkJggg==",
@@ -6652,6 +6796,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "roarfrost",
       "name": "Roarfrost",
       "identifier": "Ice Lion",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Roarfrost commands the icy tundra with its majestic presence. Covered in a thick mane of frost, it rules over its domain with a roar that echoes through the frosty winds.",
       "types": [
         "Frost"
@@ -7010,6 +7156,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Roarfrost is a solitary creature, rarely seen outside of its icy realm. It patrols its territory with a regal demeanor, ensuring that order is maintained among the Asobimon that inhabit the tundra. Its presence alone",
+      "habitat": "Roarfrost prefers to dwell in the coldest regions of the world, where ice and snow blanket the landscape year-round. It builds its lair among glaciers and frozen caves, where it can blend seamlessly with the",
+      "trivia": [
+        "Roarfrost can summon blizzards and freeze foes with a single roar.",
+        "Its thick mane protects it from the harshest tundra winds."
+      ],
       "imageSheet": "../../source/images/monsters/roarfrost-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,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",
@@ -7020,6 +7172,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "oltec",
       "name": "Oltec",
       "identifier": "Arcane Golem",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "An ancient solid rock statue imbued with power from its arcane creators. Originally set in-front of tombs, after hundreds of years they started moving around began guarding towns, buildings, and shrines.",
       "types": [
         "Ancient"
@@ -7378,6 +7532,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Oltec moves with deliberate and slow steps, reminiscent of its origins as a statue. It patrols its designated area methodically, ensuring that no harm befalls the places it has sworn to protect. Despite its imposing",
+      "habitat": "Oltec can be found in areas with significant historical or mystical significance, such as ancient ruins, temples, and burial grounds. It often blends in with its surroundings, standing sentinel-like to ward off any",
+      "trivia": [
+        "Legends say that the markings and inscriptions on Oltec's surface hold hidden messages and spells from its creators.",
+        "Despite its motionless appearance while guarding, Oltec's can swiftly react to threats, surprising trespassers with its"
+      ],
       "imageSheet": "../../source/images/monsters/oltec-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAD60lEQVR42u2d3Y3bMBAGXY678ZOB64gFJBVRFVwzflUcIAZyd+afuEvuikPgg4GLbTHUcESRknXZ9/1C1g2NAAA0AgAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABQm/DMtpfL9u+9Z6/HUgDEvb3EE9djKQCONLpG41upx1IAhL2/hBPVYykA3va4y7NquSSOxb112QTq4coEZnd+rmQav7c+VfV4/f0MEJg85pcAyLxnCAAN74kAcED7pcaebYAzmcDMgK+mt1k0QOX7AwAUBlotDWzFAA312gAgof7WXmbZAIXPxdUB6Fa/BwN4OxS4UL83A2Q+u60KQJBoXG8GSHw+rAiAaO8/YIDUyt7nM7+f+ZA2gBcLjNqQ6OCq0gC1y7mv8kvDAEqmWhOABgPEXaAMqCcAKBhAZOf3TAStbIAq7Sr2rKpFpFfu93vyvY/HY1o9v40XghcAonajVM69Z3d6y/e0rAU0GqC1ROsAxIG9QmqlrnrZd/Y4QhOCKZdQjTLA7Xbr6qmGDKA2hzDlah6LuV6v5uo0Yg5h+NU8HktNT9d81bTA1DV9yvyZRDNTu9Z3ROosQvtVe2nZzMye4x45a5sBABYygdahAAAcWEBzQAgABy1gZCywAcAiBshsGwBWMAAAYAATAITV5gAcGOD/8UDQAiC7zo8BTG07SgMQLTcKBuizgchSLwYwu+0iCId+LaPhhxKWNYCBpeOqw8KhX8vAAHWAtPzbADvEVgCqN4ABfvb8WWOEwr4IAKDY03qvQZQEtHbqGAAUzwK+t88sU+QmjgBgggFGtRkAYAAAwAAAYHImEANgANMGCACwrgGiJvkYwLYBovZ/HANMN0BMARBHkI8BphvgCwTFW71qFjAwgCsDfIFA5FYvDGDXAIUOHLR/JBkDGHlNLQ4BwCQDzAT33SkBAJzcAKn9BACLGAAAMAAAYIA0AJwGLm6A4kRQ52XJGMBmvTeRx7hhgHn3A3R20CD2IEcMYKcdWu4hFHmwEwa4eAPgx2KQyAMUMYALAJLLwQBwbgO8vVEUANYxQNPNoQBwPgMAAAYAAAwAABgAADAAAGAAADBrAKW5fwDwYIDRTysFAEMGkDQIADg0gDIAEQDWNsDfwlqAZwNoPHcQAJwYoOdaxJwFAMCBAXoftZuzAAAYN0DvVcilMwIAMG4AJau0A8Bl4XU9UnoGz4wBAKB+oCYNgAkDcAhgDAAAzs4CMMAJ5wGkJ4PEAFgps2YChb4nAIAQBA7XAiJTwYbHAMrf8XY18A8McQrp5hTCaAAAAABJRU5ErkJggg==",
@@ -7388,6 +7548,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "quilline",
       "name": "Quilline",
       "identifier": "Spikey Feline",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Despite its prickly appearance, Quilline is gentle and affectionate towards its trusted trainers. It shows its affection by gently nuzzling with its quill-covered head, careful not to cause harm.",
       "types": [
         "Normal"
@@ -7746,6 +7908,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Quilline is cautious around unfamiliar individuals but quickly warms up to those who show kindness and patience. It enjoys spending time with trainers, often seeking their company for reassurance and companionship. When",
+      "habitat": "Quilline prefers temperate forests and grasslands where it can find ample vegetation to maintain its quills. It constructs nests from soft foliage and fallen leaves, blending in seamlessly with its surroundings to avoid",
+      "trivia": [
+        "Trainers often compete to see who can groom Quilline the best, as it enjoys the attention and care.",
+        "Quilline's quills are shed periodically and are collected by artisans to make decorative items and accessories known"
+      ],
       "imageSheet": "../../source/images/monsters/quilline-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,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",
@@ -7756,6 +7924,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "chimflora",
       "name": "Chimflora",
       "identifier": "Nursing",
+      "shape": "Tentacle",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgElEQVRYhc1XUWrDMAyNRC+z/Wy091voLrO/QQ8y2Neuo+GBx0N7sqU2GRUYE0fSe5YsKxEzW7Jyen5MKX98fknWp24NXtXVisN1fVkyc4WEsBQw4+b8fH7984xzF9SbpUa3Bu/vmdComNnvOD49WB+X97efgWt9PZrRJlpvAzEXRmAEcg0JP0ICthEJNjPwIYE9wEsELvcUgeOVpJgfjyf+HsBLB0vM17YvRVa6zM7fBQdasAGgf4/gUe0j2fJNuA4MZxFg4LRJmcvJHtXAck/PwKnQxW4RjIT+N7jHUlxo+WKt9RZBf+i/Y0rLDypGJTU6aCPwmT/FFxnwSmRYq/Y40iPAgCNS/jDNyjb6nmiirDZn6aju2NvhvSC9DPFkZnbiiWfsUbq9+gVkmAVn9qPPNNSVqBlVwGf2EdEmGilEOxoB+DSMfIYEmKJvzYxEBN4lipwuCcl0PU82KzL7N2S7jXbD7oPZmZHMzymSqBzC1E+qBX2afR/soZuKwJ7yDf5qnwiztYBpAAAAAElFTkSuQmCC",
       "description": "Chimflora is a compassionate Asobimon known for its nurturing nature and strong maternal instincts. It has a delicate appearance, with soft, leafy tendrils resembling a floral crown adorning its head. Despite its gentle demeanor, Chimflora harbors a protective instinct that extends beyond its own offspring.",
       "types": [
         "Plant"
@@ -8114,6 +8284,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Chimflora's life cycle is marked by its nurturing role within its habitat. It experiences a high mortality rate among its young, prompting grieving mothers to adopt and care for orphaned animals as a form of solace.",
+      "habitat": "Chimflora inhabits lush forests and verdant meadows where it can find ample resources to sustain itself and its adopted \\\"babies.\\\" It prefers areas rich in sunlight and fertile soil, where it can nurture a variety of",
+      "trivia": [
+        "Legends tell of Chimflora's ability to sense distress among other Asobimon and creatures, often rushing to their aid",
+        "encountering a Chimflora and its adopted \\\"babies\\\" brings good fortune and protection from harm."
+      ],
       "imageSheet": "../../source/images/monsters/chimflora-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -8124,6 +8300,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "ignipeck",
       "name": "Ignipeck",
       "identifier": "Fiery Plumage",
+      "shape": "Winged",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgUlEQVRYhcVXW2rDMBD0ilym/WmJ79fgXqZ/hRwk0K9eR8UFlWWYfchSGoGxE0ua2dmXJbXW5ZGjzNhkfX0+bIWMKIDAt69v+TcFVgV+ubxRQndRYAWQHXzb3pejSpQe4Aj8kBK1Vvc6vzxVfV0/P9w7XtH+SxZcA3jg+zOSOUTgTMA8EjgH51s4YgVh82Pzqx7N7zoG2Dw91wzMmrDeUyKyPFJBmAIsx3dLLCuZ1XpdG0yF4m2kAbXcmPf6NxKNSBf3bYJYBmQ6AW0tqjGVwOYAWH7Ork9nwdXJ86gIZWrBCQmxOm7VghaYVk9ge2MmFAucdTksOjormDu0C6xGJa0OMHBGQlvHqiDzOdvvT4lqNB3vHj1nu+av8aPgoySWHgUs8B4S2KaFxQDzHQabNVhAep9tRf+hUwQX9VQ8r1cgjmA3tL7nolzHdxZhrAPiteM2mbXnTBri+nQ7voFMbGHkHlxvfRFJz7nAOgmNnJBKGp1YFT3f/Wy4TBhTTscj4webSXa8mBFXKAAAAABJRU5ErkJggg==",
       "description": "Ignipeck is known for its fiery plumage and spirited demeanor. During mating season, males of the species display their vibrant flaming tails in a spectacular show of courtship. The feathers on its tail blaze with intense flames, which it controls with precise control to create mesmerizing patterns in the air.",
       "types": [
         "Normal"
@@ -8482,6 +8660,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Ignipeck is fiercely territorial and hot-headed, often reacting aggressively to perceived threats or intrusions into its territory. inhabit rugged, mountainous regions where it can nest in high-altitude cliffs and rocky",
+      "habitat": "Ignipeck thrives in high-altitude habitats with plentiful thermal updrafts and rocky terrain. It can be found in volcanic regions and mountainous areas where it can easily access sources of heat to maintain the",
+      "trivia": [
+        "Ignipeck's tail feathers can hold warmth long after they have been shed.",
+        "In some cultures, carrying one is believed to bring strength during harsh winters."
+      ],
       "imageSheet": "../../source/images/monsters/ignipeck-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAHKElEQVR42u2dS64cNwxFvZ2MAmSTWkpmAbyF0jTDAFlOxwaegUalJF5+JFGtOyAe7NfuMopHFH+ivr1er2+Uc4UvgQDwJRAACgGgEAAKAaAQAAoBoBAACgGgEAAKAaAQAAoBoBAACgGgEIBQ+f7Xn+WH1B/y+vpZdn4OAdAp5fpSyF2uHZ9DAGKUEqqcr5U//DkEIFb5v6QEPKsCz7kIwNw9/39K+OP3354UUwOehzznaAhmA1CflPLvP38/KmfU8wjBOgAeld8CwOu1Ky3O68ToYAcAXCv0yef4+axR2w4BMJhkQPleCOBt5zQrkMIJVMo1GIBKABaFge8KESzD5YEO2HoKAZgMwfuqBH2D4o08VluBDCnqlangrmLexaokafX3vv9TUuGZAWiGaCgEUZDNBOC26peHo6urgRcKgVZJvW1mBQCg4qc7osudEBQCjZI0YGm+27JnI4pfsQWlaghBFKZUEqx89LstezZS+GpFO8d1BEmRAWomNc4l+t2W8rX0b34pfnUuIlVM6kgV16+VXzTKR/IAlvK1lOvIlIfIpPyitAAtEMJWv6V83dvOEL9mdiYyEwDeOsFrwOqv2jqC1/mcnQxKvfo9yrcC4Ewh12jn8xQAmo0b785SSywAAOa/OsvXLgCPzgO8K/f+wlAAemYXNP/qvET0FnRCKriiSSCtBWhlE5HQEokmBgJQj6wGtsysZA1aL1ICQHDk6uj9P8s2sIXy7+b7bsqfXmTPingViUYAVgA+Ng/Q6wh6Uk4LgNbfaQGwmvLWqg0EoH4qALXn8PXMf+9z75/XWBQLAILvoAZg9TaQItXbWtmo8lsvUuNPOAEoBMAIgBYCjVOHAiBBgFQlrT7AaQBULQStF4YoUQontRAI5r8SgAAnUJP5e1rhaCioBaBXBfSs/qMAUJZXQ7zzSCsQWYegBQh6ydL+PMkKQOARALwpMswCrLACre8kAPgp3TDlI1bAkhtAmz56TistAHhU21ucGQWAZEmk7YY+AN74UaWjZFprYQEAUTgBiD2pCxeNPAAgCtF49ehzjqsFRAIA1PbDABil/CO7giParDTmX5sSvv8/0KwkUrtgQwjYatXr+JH6ADTfLylG+oxH+ce2hHlq5q2agaY1DAVgkfKnTydJNxcADacQ790SkyNJG6vSs63+VQAUi5OGVg2l/RtZ3RHO3Q6rf2VTqDpRg5aMpf1bo3ypSylQ+cvmEm0xHqa15yP/Rqscqf9wkPKXTSndZjzMk/IlCDzK7+UIrDmBjCNqt5gM0lN+pKJaFscqQJ5i+XziLSaDWBIunpUaAdCo0bdHzQjqzQ4cBYDVhzCeZr6OB0BrCaTOYY+5tig/4Bh7Od0CmIY6abN70eY/Yn5BhtnEaWcDoLG51+lrOZrGcA7qdF49EyDbtXGm2oDHO7eaf031ceVQyp0AqNJxsd6+b43zW8rvpZc1q36HFHDKWcGa1R8BAHosLeIsQNZralJOBZMcPq0VQAtLyrYt1VgbhoHKk8JR4Vork6j9LmvLGjjbsBAAYS9GhkWghSRNYWnEqaFMQGxlAVqOIDJDCPmZBICpIKQHoLdSkSohagECSrqj5DoKAAmCCDPvrRt4j7QZIozrOACkHsCeJdBA4K36Wc4x9DqfZkOQ2gJolNXz9r1ZRUt20FqfEEAoR+QBNG1gaLQgVRUjIIkoSs1uH0ubCbTG697UcGSP4UAIyjG1AHQ70PzZY5pnKV7YCurHVwMRx85b+rWeB5i56keXkFP3A2jiebR2YD0UYjkFNDDHUI/oCIrI4Fk6fbxnAiVHNCC3UD4GAE1jqBTf9xQxEwLLd67KDG5xaZQlvetxGGc6fb1w7/ZO6kflATT3/Fp8Auk6eikquN9ZNBmA64iWMLQrWOoClrYD5PCodNx8BAi8N1B5xbt20pd1mrg0LGrwkbFyGgDw1fHS6Bjt+DcLAJ5cf8azgunvC+6tQil3YB0nH9X/ryz9Xke1hHnHxiGj47VzhKNGxmZr+tgOAE0XLnqkHB0hNxmAyrOBjgnidwgMZncVAMsVnz4MfHphGmthAWCC8tMofotU8H1/zARA9gMfO6aCi5T61CrZMkg64haxDEe+tgPAWy+YCYDmMkkCsPC+Ac82YLmAYkcrQAAMVkABQCUAObeASiuwJwBRTmBBZxQGXFxVCcACAICrXi9kvEsEBAQgNjz0AlCQ/IPmKhvkcmkCEKh4DwCaJJQ2pcwtYJLivft/wH3GTYtEJ3DCxdLSyhR+Xz3gvTmR1/fkQyB3TAWbmi6kz2n2ZECxl+KzTAR5y8IexVuPVTWsQVVuHxdTwQEhnqTMp9/POljZAKbuUgja4mCI1hcAvPayU+6DPoCxQ2j3Oj2jACMAu3TiEAA7BHWXjlsCMMipUsTsVP4nFYOUFoPKPwGA3cMwAkAhABQCQCEAFAJAIQCUufIfpYt/YmtnSLgAAAAASUVORK5CYII=",
       "backSprite": "data:image/png;base64,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",
@@ -8492,6 +8676,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "coraltide",
       "name": "Coraltide",
       "identifier": "Coral",
+      "shape": "Tentacle",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgElEQVRYhc1XUWrDMAyNRC+z/Wy091voLrO/QQ8y2Neuo+GBx0N7sqU2GRUYE0fSe5YsKxEzW7Jyen5MKX98fknWp24NXtXVisN1fVkyc4WEsBQw4+b8fH7984xzF9SbpUa3Bu/vmdComNnvOD49WB+X97efgWt9PZrRJlpvAzEXRmAEcg0JP0ICthEJNjPwIYE9wEsELvcUgeOVpJgfjyf+HsBLB0vM17YvRVa6zM7fBQdasAGgf4/gUe0j2fJNuA4MZxFg4LRJmcvJHtXAck/PwKnQxW4RjIT+N7jHUlxo+WKt9RZBf+i/Y0rLDypGJTU6aCPwmT/FFxnwSmRYq/Y40iPAgCNS/jDNyjb6nmiirDZn6aju2NvhvSC9DPFkZnbiiWfsUbq9+gVkmAVn9qPPNNSVqBlVwGf2EdEmGilEOxoB+DSMfIYEmKJvzYxEBN4lipwuCcl0PU82KzL7N2S7jXbD7oPZmZHMzymSqBzC1E+qBX2afR/soZuKwJ7yDf5qnwiztYBpAAAAAElFTkSuQmCC",
       "description": "Coraltide is adorned with colorful branches of coral that envelop its entire body, forming a stunning and protective armor. This coral serves as both a shield and a weapon; any aggressor foolish enough to attack Coraltide risks being shredded by the sharp, resilient branches.",
       "types": [
         "Water"
@@ -8850,6 +9036,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Found in warm, shallow seas among thriving coral reefs, Coraltide moves gracefully through its underwater habitat. It uses its coral armor not just for defense but also for blending into its surroundings, making it",
+      "habitat": "Coraltide prefers the clear, tropical waters where coral reefs flourish. It is often seen nestled among the vibrant coral formations, feeding on small aquatic organisms that inhabit these reefs. Its presence is",
+      "trivia": [
+        "The coral covering Coraltide grows naturally over time, strengthening both its armor and silhouette.",
+        "Its presence is often taken as a sign of a healthy reef ecosystem."
+      ],
       "imageSheet": "../../source/images/monsters/coraltide-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAH5ElEQVR42u1dS3LlNgyc62SVqlxSR8kuVXMF6WAvk6pk41gS+gMSErHQYuz3xvZjE2w0GuCPz+fzo591n/4QGgD9ITQA+mkA9PP98/OvP7dfz/Hr+Vw8/3x/awC8b/H3m4X/+uwNgHUX/5Eg6MX2Lv7jQNAL/v2Z/79F/eP3306fExBsDYBnAuD4bvGRf/9HDBsAzwRAZHE/wddtDYAXAeBq5z81CvSimyLA2WsbAC8AQJQDNAA6AjyOB/SiA1kAmw1cSMnTJeRe9IAOYIgCZYWjXnRCCyCygbIg6AU3RwEBAFNA0AtuVgTPAFBVQu7FNkeB715zBYrZ4lEvNhEFEA5w9fqLSDAsO+iFNkeBYGoY/f7eAHiYLqBGh9Eg6EU+9/0d/34digLmCJBODHvx790/UDbAcIBAdnA0AIpYv5gdjWoDI4tKK9q5T0M7ujjRMx2tJTQAxuzs40qsYc9r5b0dASY6er/ubGYn37H6s9dFiONSALhi5Vl27ruzW9n90f+vSWBsEXfFzn23M5GooAIkWBtYJw0EdvDOFG8Urf4utCfygzWEILUPT6nfR9g4emazv8+SUnAkfJ99QGfpXuQ8dil6qto300v4mKobI6agHj5F0VN2/kw38aOcuA5FzZERRF8v8IKjAWDy3KmRwMkpgMixNQAIJn3FGVSmHv3Zhug01BdYGgDRnRNp3T77mpMYRj2DVRZ/KgC+sPdDrbkjAGAZveL4DUSIdWzhkZwfyZuvAHBVe0fqAGyHUAXXTykAIIJPNBu4AwAy2UPlEYC8W2KczKMMGAwHQEAQPUYURXBZAFypfWpOnhUBmPeSHGFbAQBhdy2TxysgYP4/JTu5Maccr9QBnFr7FbsfFQXuwMq8f8bRMLXBAim3XlXpnBxAOQpU4L2qGng3Y1fpoXMCwBkFEgDwTD/AHdtHtfGIehfN/dEzHeUQLABmdQxPF3kUxh9pu56REahHz2M9gdHFjypq6u6aFQmY3zEQCbdpAIi4dJEZu4ozd+bZ7PyZBBc6pgAg6tKN5Pl3YRp5fxY7d/gHIr8vM2lkOAAQl26Wq4ZdxCylkKkA3i1w9LMaCgB1Zj66kyIfEqvwuVJFpf5/VVe4cyEPB4Dg0rUpfUwTBRIBXMcD8nOVEvNoAByRcMxW8e5q8VEzR5RPKABAX3cXeZBoNxMAsksX8e4h57jyNZSxIzuczQJmdwhbPHooB1B2IAKAM4BFdyoKAEctoTQAXP45pmI2OgIwbN6pO5QGQKSKF+2IYR29Lg6AAsQpP6PAypglaJmZz+b8jg+FBQBakLkicRmaw6iScYpPP1r1QzXzSNhEdQBm1q/S749UFUeUjOlByWp936XooWc1GwUQ9s7UFNifpxaLqBGpkRk5TA3fkY9Hc2rFyxfhNHeRg+EkGbMER96dQ1UJGaYdPaYcej/CP9zahCNLSL1BE7FyOT5E5vsZvX8sACKRbiQAtlE7hgWAGmWU+QFoVpKhTaQCgJ2XH2X/7jwe9SEwVT7G4MEAgOU1GQDYjD1w1jwePY+Jhk2ac2TUEbKUQls/X9Rnjyp5ZnMl3OWrahVICRl1Hw8BANPRy3rtsrp0lHw+weItsX+3Z9DW6OGYsp3Z5XsXjhXp2KUosh5CuxCUAQSEJ2S2eiM6PnuOZziXsyqF6S1gikcwSzFEdAnGD+DuW8gcJj21F9DBwBUAoHcFuHJ8xTnkbhopd/euGhnY1qwsALiyiyyjyLS5f4r/3jXyhWHuig7iyGzcHUPT5v65OnJURY0BAFolTGwalXsGp0cAlrErbFzhAOzOV3sSs2YHTBsH41L8nE4gxbKuchZi5++VB0TA07TRZhBFzXNPB1O7omfOEy7BAaIsW6nEoTqA84x33FeQNTKmVBaAegMYdU/R4NFdnzBTeP88ZEYQVF93VQeRnY2klY5sRLw/IG1Y1BQhSBFgXONdHGe2c6bArEniU8fCIoqe4iZWpnuh7N58f8Bzr42LTg1xt2kzNmxmlpFr+ER269fUSaGKp1DtvYv69lXF0MH2Z14cVXJCuKs6qDpx1IKQygFeMSv4zE6msmXntC+2VuBQCF8PABQE2RU1pQbAvJcF/6sAcGcsde1c5f1KE2q0DwJ1Di97ZQy7g507HzW5Rhw8I3z+r7s0Sp3Th+58db4BW7V8ZRagGEmdurpbsVMBsPzt4SgfcGjzLq0eURiFev97L49Gpoo7vP0Zj6v7eMnLo6/UQWczSHbfgWME7ZKXR2fvWOf8ApajzBj21ABIyBbUKeAgCNa4PDoTAM6uJPd7Kt4c/ioAoIocM0SCmX8w2uS5HAkUmHZImVMAWJX5l0wD3fMG1F7CUTelzMj9SwtB7jrBqKyAmZNYIQpMu7eeAYHJVz8MAJUVwOkAQKeNuCeVFo4C+zIAQIwjiTv/UE2Zymzl5aTgbP/grF3FTFhfshg0cjbxyA8zAmAwEmyrASBj5w8Np2gvRAXgPgIAqNY/i1ApHGZWFCh/BAha//4kDjMrCpQngYiWPzOfzuIwnQZyVbatModB+giWAkCUSFVw0yIRIFo1bAB4bi7dqukYoyeAvwEAt13FlXa/0vMwO4WtCoDtJ9fNs1XlMRXmAT0GAGS1cH/w7z7tbykLAPCD3ItGsaPy4pcHQBAEe/W/Afh73m8LN+6mo8KZb/p7jmU8gf3UevpDaAD0h7Dy8zfAKeclIUUXowAAAABJRU5ErkJggg==",
       "backSprite": "data:image/png;base64,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",
@@ -8860,6 +9052,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "voltiraffe",
       "name": "Voltiraffe",
       "identifier": "Lightning Giraffe",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Volttiraffe is distinguished by lightning-like markings that streak across its fur, giving it a striking appearance reminiscent of thunderstorms. Its tall stature and majestic presence make it a formidable sight in the wild. The horns atop its head serve as lightning rods, absorbing electrical energy during thunderstorms to replenish its own power.",
       "types": [
         "Spark"
@@ -9218,6 +9412,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon thrives in open grasslands and savannas where thunderstorms are frequent. During these electrifying weather events, Volttiraffe positions itself to maximize exposure to lightning strikes, using the energy",
+      "habitat": "Volttiraffe roams the expansive grasslands and savannas where it can harness the power of thunderstorms. It prefers areas with wide vistas and minimal vegetation, allowing it to detect lightning strikes and absorb their",
+      "trivia": [
+        "The horns of Volttiraffe are not just ornamental.",
+        "they are highly conductive and efficiently channel electrical energy into its body."
+      ],
       "imageSheet": "../../source/images/monsters/voltiraffe-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -9228,6 +9428,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "caverntula",
       "name": "Caverntula",
       "identifier": "Cave Spider",
+      "shape": "Bug",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABjklEQVRYhcVXS07EMAyto14GNqDp/RgNl2E3EgdBmhXXCcrCyDz8bCcgjaWober62a/+tNJ73+4pbfaB4/mxj1Xd/3cHPm6fooAW3N6bkX37g6xEjCKVHFgFqjDSEMguBn4+v3wf7Tlz3LP7i4EjiFKNXy6vFEzvo27Gzs7AIiMWKNPNbDYbvRcZi8heIzMVZxSzbXeWPVPI3uWqrkqL6Gcyoxs9P7DDVxDlRBUk05dRhhELjNaha5Mv0mM2RymWkhCNKKA2Iq8sq0wJNiLmMday1wcyHd23jajpDd0YCkgno9jTjRxE8B8MzAwepF3PK2WIA0rYNGRDKOty7D6bjBKNY+uEl2zetedINJZbBdyKGkbaWdJFtoa4DHgVgdExJryR7SUfZeBIJqONGJlgLOAEDB2YEXRmRRpu2H6QZbjX76OPldIrYE5E4Kwa7DmthN47Xaenh+6t9+tbeMQVYUj2WY6JU+kDU5/mPfCOMZJFPmNTZn9Oox5RihhEVv6OWWdb+Tdc6gMe0Ar4ePALLr3/Sgt/U18AAAAASUVORK5CYII=",
       "description": "Caverntula is a formidable arachnid with a large rock shield that it uses to create openings in caves, which it calls home. Using its immense strength, Caverntula slams the shield shut when unsuspecting prey enters, trapping them within the cavern to be captured and consumed at its leisure.",
       "types": [
         "Earth"
@@ -9591,6 +9793,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is highly territorial and adept at manipulating its rocky shield to capture prey. It patiently waits within its cave, using vibrations in the ground to detect approaching creatures. Once prey enters its",
+      "habitat": "Caverntula resides deep within dark and labyrinthine caves, where it excavates its own living quarters using its rock shield. It prefers environments rich in minerals and secluded from the outside world, where it can",
+      "trivia": [
+        "The rock shield of Caverntula is not only a defensive tool but also serves as a method of creating and sealing its cave",
+        "Its ability to trap prey within its cavernous lair has earned Caverntula a fearsome reputation among spelunkers and"
+      ],
       "imageSheet": "../../source/images/monsters/caverntula-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFVklEQVR42u2dS25UQQxF2Q4jJDbNDIlVvAlDJLbRtYImSAxC1K/K3/qewRUoSSfp+JTLdpX9Pj2fz0/oXPFHAAD+CACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAyNWP79+uN5U3PZX6+5oLAOY3VLYeALCXQY+GoJfxH5sYfjsIjjX+1y+fVdoVgumNrzVUpm5+xwsAFMafyaC/f/0UqQFBAYDXAV+Y8aWG0hhS+/MbEDwA4H8ASsv4mQbL8hY7xgNdVv/qbn/noHDI6h/h/q3bRQ2GHSDIAKBp/FFGjQZgBwi6AzCDQa1fv2N62A2A0av51f+lMcD71ykgKACwAQCaAHHFreAIALxbgMMLTA9B1xig92rPBmaHeKBrGtjL+BE/qxYDtLzBSvFA10LQbh5A4wlOKwVPGQd46gBeLwAACwOgfc3RW8BuAFi8wNFB4AyZQLTxvXcGOA5ezAsEr/5yIgDXDgAE7f/XcQCsHgdoV38NgJPvBC4JwEn7PwAIijqe1b/CiSAAHLz/DwFgZgg8q39F958NgDoVnOHewEn7fzYAqlQw8iSP/H+e1rCpPcDHm0Kn7f/TATB79U95O/gBAIsAIFn9uzaODgFgNggsq//Vx6kDLHoopL3/V4ODs4DFDoW0d/84DZwoDujZNKppFFkpIBwGwKxqrXBHf8AFAEkAaI9ta0bUeADlEIkCAAt4AGkMcAfNaltBDwBE00Ii//Vc6LjzBLXVrqgOTgdBrwGRzxU9gQQugxeYKh4YOigyyhNExwiS1e3cCspWADTGwJZ/n08fG5eVJkq9wIrxQM9hkOXV13pWrCSCj/r+XqhmjQemGAPbs4iTOT5uxQOj8OAuAgKJq40e+6Yx8N3vK/EktXhAOFE99LkF6ePgsjzBqJLx+/cUCMGwaeXdCjxWw2uqddKLnh5oPFlMMAAh20faWX+PaF5rwKjDpokgKNMB4HG/FoNErnrtsEjPNlCDQOlJr+4A1NI5jTGi3XrkVFJptO+NBQLSydIVgFZp12KsjLsAmRdFrIUjz1aYVVRKi/6lKynjQkiPDuGIuoA02M0sKoW5fsubzGjlGtEiJl3JEbePo4tKoad62tUxopEze0ag5jDpriHG8eSSkglAsV7z7uGmZxoRJ81SLL0K0VlB+h1/S/6e1ciZ3SVkGTR91x8p/bzXC4Ts/VG5e3Ynbw/jvwLA4h00sYInIAxP+3q4/hHuX/NeMk4Ta57AExAuufdnASA1TkR6Kmkxc3qB4gag9QSw0cbv6f69FUvPOYM0W7B4gbTevlflzpOML/FSrbw+IBYoXgDM3b3ZqV+mR4k4ho4A4G7xKMvElwmAGd1/j9VfawjJqFBqTgYzvEDK418z3P9I43svkjgeTF2FIOKyqvvxr70OaGbI+7MOp6SxgMfr3H3MFPxJ0pvoiSAzFH2yjqa1waCmgthKP83BnwaA1QK/jP6A3l6gBkQaAK3bLrMAENGEIokdLGmzJiXUzjASASAd69Ja/ZEPjs66PBLVg1g7qOnhBSwl5hoAzeKPxP1rAseM1R81XCLi2QGWGEKbDdTmGNS8geu6d4veiLv92td4mjyj5wxIcnnNjR/N6WPrVPIlAJr0r7X6JbeFIt2/deZP9JCKOwNaBk9oWuqlRayPQJgufEpLkd7TNUvnb8+JIpr2L+nV+KhtwFQH8JZ+pfmrpahkdfOWFvNo41u9gPT7eK6e/wFKo5vLgRqMbgAAAABJRU5ErkJggg==",
@@ -9601,6 +9809,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "sugarace",
       "name": "Sugarace",
       "identifier": "Wind Glider",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Sugarace resembles a sugar glider with a natural affinity for daring aerial feats. From a young age, these Asobimon are fearless adventurers, constantly seeking the thrill of climbing the highest objects they can find and leaping off to experience the exhilaration of freefall.",
       "types": [
         "Wind"
@@ -9959,6 +10169,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Sugarace are known for their acrobatic prowess and love of flight. They glide effortlessly through the air using their aerodynamic bodies and specialized membranes between their limbs. Their agile maneuvers and precise",
+      "habitat": "Found in habitats with tall trees and ample vertical spaces, Sugarace make their homes in the upper canopy where they build nests. They prefer environments that provide opportunities for high-altitude gliding and where",
+      "trivia": [
+        "Sugarace's gliding ability is enhanced by membranes stretching between their limbs.",
+        "Despite their risky behavior, Sugarace are social creatures that form close-knit groups, supporting each other during"
+      ],
       "imageSheet": "../../source/images/monsters/sugarace-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -9969,6 +10185,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "celestrial",
       "name": "Celestrial",
       "identifier": "Celestial",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "Celestrial embodies the essence of an angelic warrior, clad in armor, a hood, and wings of radiant light. Its celestial presence exudes a sense of peace and protection, while its formidable appearance commands respect and awe",
       "types": [
         "Light"
@@ -10327,6 +10545,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "As a guardian of light and virtue, Celestrial roams the skies with grace and purpose. It uses its luminous wings not only for flight but also as a shield against darkness and malevolent forces. Known for its unwavering",
+      "habitat": "Celestrial is rarely seen and believed to reside in realms beyond human reach, where the boundary between the mortal world and the celestial realm blurs. It is said to appear during times of great need, offering",
+      "trivia": [
+        "Legends say Celestrial's wings and armor being forged from pure light, granting it invulnerability to darkness and evil.",
+        "Its presence is often associated with celestial phenomena such as shooting stars and auroras, signifying its celestial"
+      ],
       "imageSheet": "../../source/images/monsters/celestrial-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -10337,6 +10561,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "psihop",
       "name": "Psihop",
       "identifier": "Sorcerer Rabbit",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "Psihop is a tiny creature with a big dream of becoming a powerful wizard or witch. It wears an oversized set of robes and a hat, and always carries a large tome filled with arcane spells.",
       "types": [
         "Arcane"
@@ -10695,6 +10921,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Despite its small size, Psihop possesses an indomitable spirit and unwavering determination. It spends countless hours studying its spellbook, practicing incantations, and experimenting with mystical energies. It",
+      "habitat": "Psihop is often found in libraries, ancient ruins with magical artifacts, and other places rich in mystical energy. It prefers environments where it can immerse itself in study and further its understanding of the",
+      "trivia": [
+        "Psihop's hat is a cherished possession that it believes enhances its magical prowess.",
+        "Legends say that a Psihop once assisted a renowned wizard in unraveling a centuries-old mystery, earning it respect"
+      ],
       "imageSheet": "../../source/images/monsters/psihop-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFIElEQVR42u2da27sIAyFZ/fsCxaW9kevdFslwRi/OZGskfqYmcDng22c5HNd1wd2rmEQAAAGAQDAAAAMAMAAAAwAwAAADADAAAAMAMAAAAwAwAAADADAAAAMAMAAAAwAwAAADADAAAAMAMAAAAwAwAAADADAAAAMAMAAAAwAwADAIda+bVy/j/HzcwBwwGS/HR0A1LF+8Y5+GgBvXpJGGje8/u5oJwCwMlBZQCB7/ed7KP/Zw/mWBoArj5FB6JTJfrIsS4GU5+8evcLk///7LEuBxJsM6kAlgaBTzqfKUiDu/Ux5jOIhW5NPhKAUAIN68gsgeClBY0zmFILqACwPFhECDyUY3Ml/gv2EJYB64tfi3w5v6ed6/uTcGgCgK0GPsO5TvT6j/JsC8PZzx3hga/Lv/iZbMchNARakVks2t4K+t8nPIv+mQeBm7vy3zCxRQRyS635G71dNA++kkiKd3MFfBKMxYpIdJSu7GdSoXrBSQDEoLQ/pz87o/VKlYJGB3PXABTVo3PpFNe9XBeCuOLJbH2DC0eH9xptBKzVzCkCU/YXJ53WO9wssW+0EAFiSurIcrNhko8nS+8P3A0o2hIgOLCceIPwP0j5FAJpULLATDHK3bXdilYyBnwYAZBWgArAryVYAZPZ+aQBIzSGzWoFEGsjp3Flo6yrj/dIAkFRgluIJ1QCm76cU+afyfg0A2i4AkgelO2kVgErerwEAKyO42z/gTPbd/7/VFU6N/LUBWM4INLx/pkKcQlU179cCYCkWuAvGqFK8suPISRH/vk8179cEgKQC0oGfRnGJKP8NADBVYKYAUq+7wGXq9Y8CQKMEfBbeLxn9V5J/bQCm7dYWnr8g48ekfpYATHvvLBWAu0dR1futACD131kqAfWzKwd/lgCodOBq1AZOCv6sAZimhR6v1P7/qvJvCYBY86iWCjD2KBoASKwAFBCry3+IGMD7mNUGKsu/JQBhsoCVGn91+XcHIMrxVJeoLv/udQCpNVwyFiBmCQCgwvo/K1FXX/+tABCN/in9BRKxwAnrvysAWpG7Qd8Anhfgkf9r1w8AQIL132r/AAAYyP/OXUScO4cAgET6F9X7TyoCaQOgcv+gAHsESAMl0j8hb4QKZG0Lp14H4NU7iM0g5+jfs2+QqFroB5DY/aNOfsB+AXQEaUT/3l5/Wk3ALfqnbMZ49wmcEAy61/4Zd/uKlA3guoAd+X+7fYy3ApxybYBL9P/m7REVoLIKmMo/ReajKwAuD99I/zYvxIAKZAeAk3ZFzAYqpYTqMcCs6JNJASbfDwBc688RHtEVoHo2YHJTiIeJb5y6AeKAPLuB42EM+8q2ceRYoMIyYNEUOm68Ps1VQ9X7BCJ8iUoKMACAY99gEBV4i3eOvj/AyFgHkLzbWEQYQkx61F4A5XpFCBhCTPxb30AxBQgHQoiJz+b9b/scG30NPSsArPV9NmgZlEDwkXZuaqA+8QqDFFIFVs8/ihqolXupk1xJATjj4Q2B+ORzvDqj9+9890gQiE0+deJnd+zM+Mq54mkBhB4FgLZJMxSAH0v0CACwbvsu5UHVXhkQNG8A1PL2zApgmFWMVACc5tG7CkAc11ZSAXD4qYB4xy88XC4WsOg6Sv3Uj0NVIE4aOKvw4TX+9QepnwBW3fsjAkBWAXi2yjWI4wqwFzC0KoLwfvtikOjVP5n39yPsJXhsDpltB+NYc5iXo10ZGkKyd/x4eL7HAytUrgWs2gGk6fWLYyQGwBd2B/guXsAgggAAAABJRU5ErkJggg==",
@@ -10705,6 +10937,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "gourmandrax",
       "name": "Gourmandrax",
       "identifier": "Gluttony",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Gourmandrax is a girthy dragon Asobimon known for its insatiable appetite and hoarding tendencies. Unlike traditional dragons that amass treasure, Gourmandrax collects and hordes vast quantities of food. Its underdeveloped wings, while capable of minor movements, are insufficient to support its weight for flight, relegating Gourmandrax to a grounded existence.",
       "types": [
         "Dragon"
@@ -11063,6 +11297,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon spends much of its time in a seated position, feasting on its accumulated bounty. Its territorial nature and fierce protectiveness over its food stash make it highly aggressive towards intruders or those",
+      "habitat": "Gourmandrax is commonly found in lush, food-rich environments such as forests, orchards, and agricultural fields. It prefers habitats where it can easily find and hoard large quantities of fruits, vegetables, and",
+      "trivia": [
+        "Gourmandrax's hefty physique is a result of its constant indulgence in food.",
+        "Attempts to steal or disturb Gourmandrax's food hoard often result in fierce battles."
+      ],
       "imageSheet": "../../source/images/monsters/gourmandrax-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -11073,6 +11313,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "pixel",
       "name": "Pixel",
       "identifier": "Digital Sprite",
+      "shape": "FourWings",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABUElEQVRYhe1XQQ4CIQwE4mf0onH/p9HPeDPxISae/A6GTWrqZAplPXDZJrh0oZ2hQLvGnHMYKWkoelgJhPEENt6J02H3Pa3P1zsunbMoApNyzHTvnL8iUOR8Ps3Py+VKAfS4V5I1UAAQpOWYjTM/zQhMykD6sjoRrRdgHGd+2LlIyFQbiVMMrUfXhKTPMBIy1UbisAdY69oPRuiLedxvs7TH/WY+se/Va35LC6UYeUhgY8Bs3PJb2lwIy49FgkWhJzot8B8CrUiwlVn9WgQ0uEmgtkq2FbWtYXM0ZtQfJHgF8TSL4Klmeu1W6XwQ8YuolcN7gVEwGUUvAW+ex8jVwIuYxYglEEw4KCwhYQFDEqm1GjG28r2XiCVJK1h4rBUxh7V3ujbgFkc5A7W976nvXlvZimQZywR2dVrSZZshEWndeudtHn9x/WcUVgKDZTiBD94LnrubdGaRAAAAAElFTkSuQmCC",
       "description": "Pixel is a unique Asobimon that merges traditional fairy magic with the essence of digital technology. It is often found in virtual realms and areas with high-tech equipment, where it thrives on the energy of digital signals and data flows. Pixel's playful nature manifests in its ability to manipulate digital screens and create mesmerizing light displays using its innate fairy powers.",
       "types": [
         "Moon"
@@ -11431,6 +11673,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is curious and mischievous, known for its fascination with electronic devices and computer systems. Pixel enjoys exploring cyberspace and interacting with digital interfaces, where it can alter images,",
+      "habitat": "Pixel prefers habitats rich in digital infrastructure, such as bustling internet cafes, futuristic VR arcades, and neon-lit cityscapes with towering skyscrapers housing massive servers. It can be found nesting near CRT",
+      "trivia": [
+        "Pixel's wings emit a subtle.",
+        "Legends say Pixel can communicate with other Asobimon through binary code."
+      ],
       "imageSheet": "../../source/images/monsters/pixel-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFk0lEQVR42u2dW24UMRBFsx2kSEhsspfCHxJb6P6FPyTWkRUMAc2gkdO2q8rlZ5+PKySSzMP3uMouP/rldru9oOuKRgAAGgEAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQAcn3/9vX1Xce7bvd/XzH7WgA8zH/owOxrAfDP+C+fP/2HALMvAsA9/H8AgDRwAQCC3B8CwFhgRQBC05/N//3rRwgBMCwIQNT8h2IQAEAFAN4bdgumYFurAd9Dz+Y/Q/DQyAPDoP2qt6H3h99Petpf7USAovar1oatPnw1klcYA5z0+pi2IQG4f4GbUDuzAFXHqRq1qobhjhCY6gCt82/K/HC8Umvc4joQE4ZfFQSWur6lEtgy/+ZCfqr9pgHg+UskQMj2MEtdXwuAMAzvrXp9qt2miwACCKKNKw3ngkHUWwLAQ5GDt1bmLxUBtBCcjexP/va4/55mECVS4rMeLc1fKgJoIDgzP9Ij3mqYn6ofeOb7sHi1fASIVeROevaH1wkret7GS8zXjgVyvT7WPjNGgEMLgWCWoJ1VJOF6/ln4O2dl5NIZTA3zR64DbJYvqYVA2nvD182tDxgjzFaS743tso1cClanAWFvO50FSNcAYubnFIsWqd4oyffSTtEi/FcHQPJlpT0vnNPHepnVcAkQKUMkIf8MzJ7h3xuAoxQCYTQ4NI3tYXzOEE/zW4Z/bwC2kjSggOCnZD5ds+c/myIp6YavZzD/mGU/gGk2YGj45MCqRvi3fB6L+S17fw0ANo80oGl4zetVjgbZFGQN/7NtCXNJA5qGz02tWgFQw/zaO5eabdGqDUHufUrDf26GknufgnrINhsAm3Ue7JGLz96nV8h3yP177R1JTXe6eECQM8bj9T1C/qjz/mbnAkaGwGvcUdH86qG/ycGQGSDQFqM0080C8/cW5jc5GWSFwGNcUMN87eBxZPObHQ1LzQw8IEgZp4HAw3zp9+o16OsFQHLjhaSxSvK21JSSKZ50nt9zzj8kAJoiidSM0o2X0l5vWeLVrDBeBgBrT0rV3CU92tLrz97bCi0ACDdjWBs5tjVM+vPSz2OJVqsCcHgMqkrDbA6SWGryNH20E8stT7+6bN4429wpgUC6UCMp31oMF45TtiUBqLmFKwZDGOo19XpPsxXmN58CNr8iRlIU8mhgzawhNar3XE4eqfjT9Y4gzZZpj6jQ8m+NK5jdzO92SZTkPN9Z+NWaYgXAY1wi3EbW1fyut4RZD3WmGjs2MCxNITkZj6J1N7/7NXGKu3HM5/wsUaPW2cNWN6dNd09gDRBK0kYlAIYyftiLIr1gsO4vqADAkMZPd1OoBgzLVFCyRjCryatfFbtJFnwkh1C0h0FXeDjF0ncFh0ZK1wI0p3NnfzjFMg+HkJqYWg3MpYEVn02wJAApE3O3iEgjwCrPJlgy/+fW+mMQSCJA7AazyN8MD8KS+T93T1Csl0siQMz8xGrfAQAdR/9aAAQRQLxtbIYHVl1i9C+9vZQIMI/5u3X0XxIB7lGHMcCI9+vnyriSY9maA5vMAgY0X7oTOAWAYSo4XB1As5S9vPlaALTXtYz4lNLU/UTh/y1lvjT8x84ECl9vG70UnNoQG37HZczXhP/cBlLN+b0RF4NSq6FTAaC9bkYa/nNbwXve2lULgNh3nbbSpzndmwMgBUHre/tqAnAGw3RzfU1PTRkuyY+zPnZWcshlaAByp4g8wn8sCqyQBlInpIYHIHeO0Cv8r5wGcuckh54GWm8d14b/kS9wvnQdwMN8KwCrpAFNJfAPRqHjdxoZ+8UAAAAASUVORK5CYII=",
@@ -11441,6 +11689,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "capoerix",
       "name": "Capoerix",
       "identifier": "Flowing Martial",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "Capoerix is a graceful and feminine Asobimon, embodying the artful fighting style of Capoeira. Its design reflects traditional attire with loose, lightweight pants and a tank top, allowing for fluid movements during battle. Despite its quiet and reserved demeanor outside of combat, Capoerix becomes remarkably flashy and agile when engaged in a fight, captivating opponents with its rhythmic and acrobatic techniques.",
       "types": [
         "Primal"
@@ -11799,6 +12049,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon practices Capoeira with elegance and precision, using its limbs and graceful motions to weave in and out of attacks. Capoerix values harmony and balance, often meditating or practicing its martial arts",
+      "habitat": "Capoerix is commonly found in tranquil areas where it can hone its Capoeira skills undisturbed. It favors secluded training grounds with natural beauty and a serene atmosphere, where it can harmonize its mind and body",
+      "trivia": [
+        "Capoerix's fighting style is a blend of dance and combat, incorporating spins, kicks, and sweeps that flow seamlessly",
+        "Its attire not only enhances its agility but also reflects its respect for tradition and the cultural roots of Capoeira."
+      ],
       "imageSheet": "../../source/images/monsters/capoerix-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -11809,6 +12065,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "narvalanche",
       "name": "Narvalanche",
       "identifier": "Ice Blade",
+      "shape": "HeadAndBase",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABeUlEQVRYhbVXXU7DMAxurF0GXkDr/ZjGZXibxEGQeNp1jDIR5H74N1stRU0b299nx3XaxsyLJ+vr803h6/vaXMVJO8o4wXkWPGNHkZPT6e02siSqdk3bAunkfH5fcB6JZadtB3mOsoAZIqYw82YcX564j8/Lx+ZqzaMrzhGPoih6BGMvMTK8RnaaUKgBW+GBI2BmC5ssQll8GVIeuBeILEYKrRIO75E2MlCJ/h7BLByyBhVyFRvKOhr3Xtq19WibKAserVX1NwRW0asfUVgZGZiEC9meL3UqpLEmSEYvm8sjReukXTo2eR1uPNcIyWfWumX7rw+scPzulQmtFxAueAeM5qhatKh/kDfZDFjv+kzGqJqB2fd9ZAtJNjwL9qoFJDfOgqYdxxEJK9KIqLT7O5LZ+CSTo/r5JYfmT+ItSMAiMkPCAw4JsPKBOkPGA08TmAHF+ykC/EtiL/A+1D8jKVabtgTXo5/TFhGQJKqS+aNOEUASluOMDsoPNr/uz+OTN+IAAAAASUVORK5CYII=",
       "description": "Narvalanche is a majestic Asobimon resembling a narwhal, but with an icy blade-like horn. Revered as creatures of folklore by sailors on the open ocean, they are believed to be guardians who protect those stranded in freezing waters, guiding them safely to shore. Known as the 'Knights of the High Sea,' Narvalanche's silver shining skin and formidable ice sword are considered a blessing to sailors in distress.",
       "types": [
         "Frost"
@@ -12167,6 +12425,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is gentle yet powerful, using its keen sense of direction and formidable ice horn to navigate and break through icy waters. Narvalanche is known to approach stranded sailors, offering assistance and",
+      "habitat": "Narvalanche inhabits icy and frigid ocean waters, where it thrives in the cold and can swiftly traverse through frozen environments. It is often found near drifting icebergs or in regions where sea currents are strong,",
+      "trivia": [
+        "Narvalanche's horn is composed of solid ice.",
+        "Sailors believe that encountering Narvalanche is a sign of hope and protection."
+      ],
       "imageSheet": "../../source/images/monsters/narvalanche-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -12177,6 +12441,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "hexxessel",
       "name": "Hexxessel",
       "identifier": "Wooden Doll",
+      "shape": "Multi",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABm0lEQVRYhe1XS04DMQydRHMZ2FDBPSp119NQpZeBFQjuUYkV1wnyaFy55tlxAlIXYCnKjGO/5zif8aRa63RNyVdln/4DmL4H8P76XKlZDj8Zg+O11nN7e3mq93c3S6Nn1tO7HJdj2pfH2MfDpTZbEZdyXOKj/nB4nB42t6HjQvalHCv7UL9i9e+BspKTcC9TSgTUdGqlj0dOcs4AgVjGrGdAbSffJakOWtjW7W6f6MHNgDcDnRmLDOml5NbsvcB0HxWy5WXLEhRFq3UeObJFeFKf6FigVLXSp2fcsrXw56gDmklUZLa0zJrU2+ERYs8ecWTkzE7soEEi5OyHMKVkDYLWqpUVpEN+KHv5t9Z5FCNHU9kCRTaRpUt8DHuiHhXEM693ctdNaIH1CNkTt/k5jhJrfW8giati63vgfNGGbXn2FwHoIPRdMCLSV+IyOYlbEaET0Nor0t66fMxjuN3tk3d0UIWk+1axIme/iC4uuYjUhaR+b/XIH3FNSCnbSBDSroWfIv+G0YpYy+nj8zLdo39GpwDQqE/683/HXzzAL/tEqyfCAAAAAElFTkSuQmCC",
       "description": "Hexxessel appears as an ancient wooden doll, seemingly crafted for a child with its flexible limbs connected by metal hooks. Despite its innocent appearance, this doll harbors a malevolent spirit from ages past. If obtained by a child, Hexxessel remains dormant until it can consume the child's soul, after which it patiently waits for another victim to prey upon.",
       "types": [
         "Ancient"
@@ -12535,6 +12801,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Once activated by a child's touch, Hexxessel reveals its sinister nature, using its eerie flexibility and haunting presence to intimidate and ensnare its prey. It is said to lure unsuspecting victims with its innocent",
+      "habitat": "Hexxessel is often found in abandoned places or forgotten toy chests, where it waits patiently for an unwitting child to discover it. Its presence is typically associated with places where innocence has been lost or",
+      "trivia": [
+        "Legends warn that Hexxessel's wooden body houses an ancient and vengeful spirit, bound to the doll through dark rituals",
+        "Hexxessel possesses unnatural strength and agility, using its flexible limbs and eerie movements to capture and consume"
+      ],
       "imageSheet": "../../source/images/monsters/hexxessel-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -12545,6 +12817,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "wasper",
       "name": "Wasper",
       "identifier": "Wasp",
+      "shape": "Bug",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABjklEQVRYhcVXS07EMAyto14GNqDp/RgNl2E3EgdBmhXXCcrCyDz8bCcgjaWober62a/+tNJ73+4pbfaB4/mxj1Xd/3cHPm6fooAW3N6bkX37g6xEjCKVHFgFqjDSEMguBn4+v3wf7Tlz3LP7i4EjiFKNXy6vFEzvo27Gzs7AIiMWKNPNbDYbvRcZi8heIzMVZxSzbXeWPVPI3uWqrkqL6Gcyoxs9P7DDVxDlRBUk05dRhhELjNaha5Mv0mM2RymWkhCNKKA2Iq8sq0wJNiLmMday1wcyHd23jajpDd0YCkgno9jTjRxE8B8MzAwepF3PK2WIA0rYNGRDKOty7D6bjBKNY+uEl2zetedINJZbBdyKGkbaWdJFtoa4DHgVgdExJryR7SUfZeBIJqONGJlgLOAEDB2YEXRmRRpu2H6QZbjX76OPldIrYE5E4Kwa7DmthN47Xaenh+6t9+tbeMQVYUj2WY6JU+kDU5/mPfCOMZJFPmNTZn9Oox5RihhEVv6OWWdb+Tdc6gMe0Ar4ePALLr3/Sgt/U18AAAAASUVORK5CYII=",
       "description": "Wasper is known for its aggressive nature and territorial behavior. It builds intricate nests high in trees and defends them fiercely against intruders.",
       "types": [
         "Plant"
@@ -12903,6 +13177,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Known for its quick temper and protective instincts, Wasper exhibits a relentless determination when safeguarding its nest. It aggressively patrols the surrounding area, using its sharp stingers and powerful wings to",
+      "habitat": "Wasper prefers dense forests and wooded areas where it can build its nests high above the ground. It carefully selects locations with ample food sources and strategic advantages for defense, such as near rivers or",
+      "trivia": [
+        "Wasper's nests are admired for their intricate design and structural integrity.",
+        "Despite its aggressive reputation."
+      ],
       "imageSheet": "../../source/images/monsters/wasper-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFTElEQVR42u2d227jMAxE/f8/7X3aokgjiXcO7QlAFEHROhEPRyQly9d93xftvcZBIAAcBAJAIwA0AkAjADQCQCMANAJAIwA0AkAjADQCQCMANAJAIwA0AkAjADQCQCMANAJAIwA0AkAjADQCQCMANAJAIwA0AkAjADQCQCMANAJAIwA0AkAjADQCQCMANAJAIwA0AkAjADQCQCMANAJAIwDj7fP1CgBWr1c6/7qukeMR7fw3AvEDwH97OgARr0cB8On0j/ePAuDPF/20l8Hwx+EH58N9f1fkfyPfAcPTon87higqYXb8hvqf9waFeEX0/x4fdABuSeSrwvwMwxOjfzl+3RCkRL71/SAIvNF/oUwDZZGv/H+jol8r/co8IDWXao/8gRD8GZONIz3OLymzRReMjvzhKuCO/gjnCxNrMQB3x5y/iCBkCDTODHP+qpoSjN/tBqDiNRWATdtXEgTHPoGmn2KFYNvhy4781fVAIdD0/C3Rn6mkt1oBqqJ/kAq4ot/YITT3WaRjKc78q5QAFAKT8wVVgrRJlFZdwSgAOAQSAELm/YKxlOUAXe83EtZe+h3m/uVaiNb5yX0WPQBUAVv0d0X+78/lAqBLCYAAUM39wQ2irOoKXwGAIBADgDLvC8YROwcA6wtI85JV1i9yfnZONVIBQFRAJKUe5zeM4R6A6g4geF9AAoA68avMsVwAUAXkAEhLPoAO6xkAtMhv7AusxuRSAtBWXY1XgGYVWDWAXABAKwBCH8DT2wYEYPn5IXMAqoAOgMW29/bI1yrANg9AUYJCCP6MxQKA4+/BlFO3J3CQEmTc4r0DQAII4rqKHgA0JUhQga1TT3c2SQDprJY0AExXgTvK8adrSwEBXFOx3xcwZK0gao53Dfhq9y56DgCxQ7hABUTRHrE3D3CM7LeGDeoQ3vct39f/rco4/fyW7EkAaB6fmJtDB6tA9ve4pkX/CYARSiCEYPu33p/oOZMHgMldwtKl7onRLwUAfq3goAJpkf/t+mB1/zEpDjsfCDgfKPu806JfA8AWAvAOYVrES3ODRiXMPyZuggp0JK7okW8FIO1etkwlqIj47rrfet5QyAJKZCs1QwUa9t6PiP4wAD5BQOsTPHnO955NnHFaOFREZDupa59f1L6IlE0UQYnXFTEnZivA9JNU0nbSIOQH2deuvLvHexpYJgBqEKrr4lMEn07fqs4BlADDPTKmMirF19s53bK7J1tZqg7WrnyOzrFiyMoRLM4/KUNWtZMl9R0AqE+9zI4or2VFf+dR+p1P1irrI0RDMGmORwLANT1UqcCumRS9ebTT8d0AmKaHqDnWk/V7Pk/XPI8MQPTp2Km1e8STUlAcjwaA6ox8T/UQ2RnUXg/J8agAmEDQRmZEoomc2T8BAPVTMzRO9c79zjn+RhrjqQ9ndvcUNBEt/X8TH4s3/Snd4nJPUl1Ysv/pz0N8yuPaRfV+Rtt2+jMQH/HkbkvvX7sqqFk4mjSGj1IA7Vy9ONvHvIpIAADmf2lkW3MA6Q5gAlCY+UuTP0Eb95LM+Qr1IQBZDpdEZkT2r5kOJlYC4+p775pAxt8ZPtNrATA7PKKEi+oESnr/CiBeAUBJdGsi2FP3W0FGBKG1ZNMe1OS9g6ZSCTT7EZ68H8Dcq4/eCZSxqyj5s40HIHVnT3XkSzqG3umlA4TSyK98Za4FZOUrHRtHWqW/IvKzdgBlKkGlGjxOASoqim9AF90rMBOAimz/m0OyzgHcdRmjlS0bgtJl2syo10Zo1s0cBU8AnwtAx+lgHiWwlpPJ1QEVQPt/k/fzpypBNgD/ACsu7v4rm/AvAAAAAElFTkSuQmCC",
@@ -12913,6 +13193,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "dunloper",
       "name": "Dunloper",
       "identifier": "Tire Pile",
+      "shape": "Head",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABYElEQVRYheVX7UoEMQzchnsZ/aO47+dxvoz/BB9E8JevU6kQiGM+pmXlEAOle1wyM02Tbrf13rdrmlyVffsLAvb72z7GLDAbJxWI98yQs3FSgZzPj1+DFTEb17wusCDWLpenjbEo7u39o6HvqQKzpAO4EoE+KKbcgt2sXoEQRH/jHInJtkJSecGKFNTOKITJFiUgAkERbFxahLtJUbZ3TAayxdhiFM+xSt8K+aEZUJslPywDavawWbWmGcD2m+1ntCgWs9BQgBXhGVtoURwKkBnyjKD6D4Uop3jkK6ususb6WREnjzw6ZFZfRkhucdqoATyj2UysmCUfdSDYl1EXRGBsVjzyMQt7zGZgjIgoo5I5RyJmizBbjOgD3laYTGQnofp78d+4eu8/xsPdTdfx+vI8NUdxY3hcLfoyyi6S2aUkMu8+OCwU4IkYINXN2POJyEsBrDCG6FAB/+vbcPtl+wToGp3aFWVOuQAAAABJRU5ErkJggg==",
       "description": "Dunloper is a haunting sight of possessed rubber, with eyes peering out from between its stacked tires. It moves silently, navigating through urban areas and abandoned scrapyards.",
       "types": [
         "Dark"
@@ -13271,6 +13553,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Dunloper exhibits territorial behavior, creating nests out of stacked tires in urban areas and scrapyards. It moves silently and stealthily, making it difficult to detect even in populated areas. Dunloper is aggressive",
+      "habitat": "Dunloper prefers urban environments and abandoned scrapyards where discarded tires are plentiful. It is rarely seen in natural habitats and tends to avoid areas with dense vegetation or bodies of water. The presence of",
+      "trivia": [
+        "Despite its eerie appearance.",
+        "Dunloper's ability to move silently is enhanced by its rubbery body."
+      ],
       "imageSheet": "../../source/images/monsters/dunloper-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAADwklEQVR42u2d247kIAxE8/8/nZ3nVYfgYINdPiPVQ0tz6Y6PCwOGue77vlBf8RAAgIcAAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAVNWOLwAQC6gsCAR2FL2/x2NRRQhaBd4a0P+DOvP6AQQAiAi+U4aGgFYFgtTBnw3ol0yNfv0AHQC8Bf9Exm50AwCYASBzZjvUBADwBIBK1ldygZTZr5D5AED2j2YFAPALANXMBwCjAyi6QdZhoAQAgrMBAMABAOCxBlCcDQAADgAA1AAAgAMAQL8agHWAxaVgVgIbAqBcEwDAh61gMQd4/FYA6LEXkAYE+gGCM3/hM/VuCaswr/+qTBCkbAqNdILV4Hn0Kxp/d18ARmOqZ/CyrTvshCDtuYCvhzW8fr7LymGpk0GzmToCIHPmD94XZwPfsnXGCSpk/m4XKHUCeOFs3k8Y6CYuDoC1ymYHUQQA9b2CB4cCAPWeARzACID4CSIAwAEAgBoAAHCADgCYHwg1gAYAKxkh7wLqAHx+IMoniLrUAFO7dt0yvosDmDKh2u1gXq939QSU6vpRPTcwU+8oADBN+1tmdKj+FRtCXMfyLzt8p3sBFz5XeQCWM99SI0Te/evVVGoArHxT6J0h+6P+3pfm09Pj/jEAPObtJ2sAiyNYitiX4rY0ACHZn6FCN1wQbXIstXMB7pmbbR1gpgdx8feVBUAy+y11QOYVwK0AeK+NswtYHIAKlb/6HsARAKpW/7t2/XbuAkYDEJL9XW4QkQPA+3/wKO8KqswCXLO0kwNIA7C6Ahe9wmddyo2oAXCAlzm2V30xu3S7YzdQ3gE8qv/RTaLezvI29CjdKl5qBrDqAE/BtN4t4LkucTL7twPgtd/vUV3PjPeW74nY22jvAF5r7CMrH7nLG3wRt4fJAOAxT1/t7Inu3gn+r+OXDACe2W+15iwQzLy33cEPB8Cz+n+aDWSVZZj5xQkO4NyZm6nzd3JGcbWuAbzH2OyvqQGCZgCFdwX71gCdMl8agCzjPw4gVAMoZz4OgANQA1AD4AA4ADUANQAOgANQA1ADNO0HwAFqA+DSE0gNIAQADmDOfg0Avs4GOtYAagAMi0F2A3NkfzQAwythrU7gMbvIOOafDP4OAC7rGL9601bhrJcF4Ip6eKfH7IALJy9VAFxBsN66tavjd/VjdQDgCxDDi6eyNXhWCn4GAI4PJ4pBVQcgCoSroxQ+BMFsDgACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAv/QPPelTmoxVa1cAAAAASUVORK5CYII=",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAD3ElEQVR42u2d247kIAwF8/8/nd3H1i4QAwbfCsmyIvVoWnHZPgFCP+/7Plhd4yYAADcBADAAwAAAAwAMADAAwAAAAwAMADAAwAAAAwAMADAAwAAAAwAMADAAwAAAAwAMADAAwAAAAwAMADAAwABAyySDICYEwOsAAKvgP3+/5pclGOUB6AZedPcEkCSDJw0AW4FXuZM54QkBQDMYv959GvqGxzUA3eBXGZfgcQfAK8l8LV8VHikEroJvdZ0VEAkEaTN/t2JkqCQSCEL0fNrAOQjcqP1f/9vHIl57g/Kf/2kPgLRH458UAAwnevDn4Ri1AfPsJ/PvVIReFbge/Iw936PmcAsAPf/cI+uoyrquAPjzbaKnA1yof/wdTdCqAmiA5JrAHQD4+5rAfQXA32kPbioAFcFGC6ABimuAFgRogEIawAUABMvVfAAaoPjCEBoADYAGQAOgAUpqAOYBis8DoAGKrwXYawAqgelaABqg+FqA/TwATwmm+wH8VgB6uv6ewBAagEpwbU+gDQAzBOMT7glsATDTu/Br7wX0sv8kAMMvM3MIgoav0PMne/82AMtj51SMXZP2zNVrTz1fEnwJAEeGJQTaQHlvCzuvh78AYFOhNO/zKPtHABwN2u2RGZjeI58k+D0APkmqfkaPZwgG91Z0RpC7R7AKQwuC2eB/AqAQBA7puQTLRwzmAWDSxW9lmtBTUyeFdrPf+hy/1efwWZi1P39KAwn//lkGgLn6cOv6S8EfAsCcvN+2sdPzewAMg8z6+/1zBBcqwNbvBQwnEchg27l96fYuNQDwcdf31QDgpvvWAlcrAD3cjybQ1gE8AubRAPsAEPzwL3/sA4CPoQWOVgB6dFENQGaiAQhO3HkAKgAaAA1Q5jeGqABogHMTQfiiGgAhGHotQPynrAUE3w+gCNP/O4KoAL7f9evt2dAoBwQlSO9XbSWvYE8gwfDzC6CtN523XijpVQF6tm3PbwW5pc22gRq1gegVYPb7a39+9TlfkuEnWgDzAc78lVfIR22AYTduvVb/fFUBMtFH5h/7f5IqEOXdwNF1ptNDVDXGDARYwrOIpBBg/s4NUvkNISkEgOCnAqjOQ8wAEB2CSIp/dBCU5tqDSgU4teRZ+ZHPiwYYAsA4n/2n1yKmgo+3ee4/ujYxC0CkeYAIaxOW5f+dLf1k7J3Mv3q/Z7OftqC7xGuV+UszgV8kc/15/axUACsN0N14QCbnKP9qFQAv9k84DTB6KwUfswJsawB6us51OA2ARwPgLwTfrQYgeAU1QKsNcF1IA5CxxTUAQjDpGsDOWsDJyREE4N0K8Ad9HaTpZL/vWgAAAABJRU5ErkJggg==",
@@ -13281,6 +13569,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "gankyu",
       "name": "Gankyu",
       "identifier": "Flying Eye",
+      "shape": "Winged",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgUlEQVRYhcVXW2rDMBD0ilym/WmJ79fgXqZ/hRwk0K9eR8UFlWWYfchSGoGxE0ua2dmXJbXW5ZGjzNhkfX0+bIWMKIDAt69v+TcFVgV+ubxRQndRYAWQHXzb3pejSpQe4Aj8kBK1Vvc6vzxVfV0/P9w7XtH+SxZcA3jg+zOSOUTgTMA8EjgH51s4YgVh82Pzqx7N7zoG2Dw91wzMmrDeUyKyPFJBmAIsx3dLLCuZ1XpdG0yF4m2kAbXcmPf6NxKNSBf3bYJYBmQ6AW0tqjGVwOYAWH7Ork9nwdXJ86gIZWrBCQmxOm7VghaYVk9ge2MmFAucdTksOjormDu0C6xGJa0OMHBGQlvHqiDzOdvvT4lqNB3vHj1nu+av8aPgoySWHgUs8B4S2KaFxQDzHQabNVhAep9tRf+hUwQX9VQ8r1cgjmA3tL7nolzHdxZhrAPiteM2mbXnTBri+nQ7voFMbGHkHlxvfRFJz7nAOgmNnJBKGp1YFT3f/Wy4TBhTTscj4webSXa8mBFXKAAAAABJRU5ErkJggg==",
       "description": "These curious creatures are common throughout the region. Often found in flocks, Gankyu fly at night due to their large pupils and their ability to see well in darkness.",
       "types": [
         "Wind"
@@ -13639,6 +13929,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Gankyu are social creatures that form tight-knit flocks. They communicate using a complex series of chirps and calls, particularly during dusk and dawn when they are most active. Their flight patterns are swift and",
+      "habitat": "These Asobimon prefer habitats with ample open space and tall trees for roosting. They are commonly found in forests, woodlands, and sometimes near urban areas where streetlights provide additional illumination for",
+      "trivia": [
+        "Gankyu's name is derived from \\\"gan,\\\" meaning sight or vision, and \\\"kyu,\\\" referencing the night, reflecting its",
+        "Despite their ability to see in darkness, Gankyu are most active during dusk and dawn, when their vision is optimized"
+      ],
       "imageSheet": "../../source/images/monsters/gankyu-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEYUlEQVR42u2d0YrcMAxFh0IfC/3r/Ff8WwNpF1qY3U1iSZZkefcELkPLbomlo2s71qSP4zgeAeKKudxz9QgCAC0iggAABAEAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAGgVALa/asf11f79zAoBXW4sVQO1GgjLjqd6kM6uvVjyd4cxTYNhpcRXhGB3Hlc6CJ//wunSJv7tV850B8Fj4nWXfMNYTkFwvNc8ADSJvwqUInh7peQ7jCcEhDQAJJaoCVJFCDySb4BhLw2ApOp7QXg+n+8+K0KgTf7bWF41CILZDUIB6FV9L+k9VYFAk3zruIQg7GUAsCyEriq+9ykM0haU/E2TfCkEAyDs0wGwJF+bdAMELQiApk2+BoI7EDwgcAfAshAaTb4UgiAATMn3dIQRCFwB8J4LvW1yFgAZY7ZC4AaANvkRFV8dAMn4syFwAcC6EIpK/tVWKWsNYF3oeriBdgHsBUDLSP7gk7PUXYDXGsgJghYGwJn1R8x9g8/PpzwHyFwPCWKzCwD4rQJAav0Rtj/j4CTqnCNiTSB1wQ85/qEFoBVNfuvMeyPH0C7/9p0LWF3BMhWYAZBaf1LyxZXueE6/jzpDxMJQOxWYAJBYf8Sed2CvG9F4ooJPsk1OjNk2CkDrDSTCAYzJ34+cy3Qv3msBIQTNDMBZ9Wft9zUPdjyOoSOOZSUO4OEGgvveTgD4KQFgysJPCoB1EebcpHEJQvTBkdYFPuT4V68pdMuYw7Q2Flnx3o4gmT4TY7hpu4KnzP13FubRbhbcpPFufSCZQr0cQFJEGgC2zOT3bn606yjiBFIBgSiOs11AVf3ZDjDSeBK10JI2amQ6wIgLTJv7hTe+Z1W8d6NGwVhuPQDaTPuXPvuXJD8ryCP37e0AVhd4/UPavl/xECit6ygagug1gLCgLgHYsud+bSBnV/4IBB7dw1HTgNj+s4IpraAqqnbv2mmga/9Rla+ZBipVvuWMPnruV0LwCYBp9i+BoMKcPwLB7IWqBIBWyQFeb7xy5UsgiDwD8ASgzFyb0W//Xe7/BgI5AJkOoAlgVSfIaBFPBSA7+VdBXKH67yCYAemyDnAWxOqVfweAZwdQFACt4p77K6wBij6b0G0DZzmAxgmo/DEAHprHrt6fvaSu4gIVXVMDQJsJwR0Uq0wFMx1AcVTdxIdBs87dUWifwnZ3HGx630+E/a+y718o8f+bVLotYebeu1EIUGg/wq7pCp4GAU6Qm/zj5mXRqv57qrJW/8Hr9xWOwbeFD33rlcq3J3kAANUbx82vRa/y0AMHkNv9Mfj/BQw5gOVU77s4g+bUUNv02dMfc0anw6ZKQssAAAAASUVORK5CYII=",
@@ -13649,6 +13945,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "tomegeist",
       "name": "Tomegeist",
       "identifier": "Tome Wraith",
+      "shape": "HeadAndArms",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABeklEQVRYhe1WQU4DMQyMV/sZuIDafyBx4zVU5TNwAsE/KnHiO0aD5MpYduzsQnuppXSz68QzmtipiZnbOW06K3q7EGjrCGxvrxljTYx5KTCeu93jr/fD5xcNB2PmobG5uWKM99dn9uaj8Sgrw7USZ6pM/wleiTFVN8p5y9Mz+PSokKDeEUQbEXy/f0q/VY6BIgKRAjAAaUCZ2zUVEnMVXIN5pCyw+OQdMT0SJApkcuuAUR54vuxYCAQiuXsSV82StyRme6tVFOhZViWaGLCPORAlkU64rBQ1OTsPiW3MdWqfkd8b8Hl+vdf6CT9WbiuZV/OZAt5+raR8IyHQu0h6vsiqewhV8PH2wn8JXtkL3939A/0kISb4Z+4t1oZ19lJBRlfLVMAxH+qINEF9d+j5sFqsmgMv8+3Qft2kRFXkxdSYzXYoGigrRdsl9UpW4lq85rVJUbtlh0egp8RQS7ZNOhkvCUfWL25IDp3mIiKxqCE5lU0nQ7oQaL59AzE0cqpeEpBeAAAAAElFTkSuQmCC",
       "description": "Tomegeist materializes from ancient volumes, embodying forgotten knowledge and the mysteries of the past. Its ethereal form flickers faintly, casting shadows of tales long buried.",
       "types": [
         "Arcane"
@@ -14007,6 +14305,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Tomegeist is a solitary Asobimon that prefers to dwell in libraries, archives, and places rich with historical significance. It is rarely seen by humans, and encounters are often fleeting and mysterious. Scholars and",
+      "habitat": "Tomegeist is most commonly found in places where ancient manuscripts, scrolls, or tomes are preserved. It is rumored to appear in libraries that house rare and ancient books, as well as in ruins and historical sites",
+      "trivia": [
+        "Scholars believe Tomegeist's appearance is a sign of respect for the pursuit of knowledge and understanding.",
+        "In some folklore, Tomegeist is said to whisper forgotten languages and dialects to those who are attuned to its"
+      ],
       "imageSheet": "../../source/images/monsters/tomegeist-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEoElEQVR42u2d3W7kIAxGef+Xzu7NSlV3MhjbgH/OSFaam7YTH2xjPsh4nmdgfY2HAAA8BADAAAADAAwAMADAAAADAAwAMADAAAADAAwAMADAAAADAAwAMADAAAADAAwAMADAAAADgGj284OjGwEw++D0wgBoPgDQ2PnAAADAUNL54+/X+mnAUBeAV+f/+/kTEAY4ACDbyF+5vwTEVdjKAWC5GoHYUZsAwCnnf7s61hPhICif+z2vn1IIAAR0/qn7gzAAwBsAv0fnravUACBR7r8JCwAUdf5qzUEN8GU6ZZ33R72nCAxS9d9KD/QBcD4AkPsBYNrvr3gPAHXD/4gW/m8DMCO+Te6/Ff5PA2DrheL8tAD4NMOL5vyb4f8EANPmjaRfXnnk33T+bgCm1fusV95hylcVAHXu/hYVcH4OANS9eklqqHRfEQBGvj731wFA67xOYb8iAKaqHefn3hfg0quvnvOjhf+tABABYud+TwAo/JKG/y0ArI4EnJ9/b6Bq3i9pDTeY96cHYDn8/34I5P5CAGjCYOO2bx0ALA8B5+cF4DX8L2jemPdnB0Cb+5srfrwAWNLUbANAKXroKvX2AGA6kKTQHV34mQk/qf79pPJSxZEbAIa9bmr9QJZ7RwAe7fN6+/smABw1b2VrAUcAVPK6mR/MADgJHkumgUnhe2XBzQuAHZq3srWAAwBuC27/ZRGv/O+keRN1CAvUACsQqPsmEtn9yQhgKnSaRoLlWdJxADYddmAqeIpAsNwsk6qqo0eAUX2hSAOAl/PdAFCsf5v1BcVrArHzrZpKNwB21gAd5GIvADwruX/1+WyJAM41wPMtwhQvDE2FnyYCRYsAy0qiok2ipe9pUmQFqwFec963kVHoTKClXv/bMblZI8CU5G4RQKOtzFoDTL90VRGJxvlv2kpFBBhRIoBqpOD8+WCYpNMRoQaY9v+1OTKZRlA8759Bs7I2sz0C/Pij6lWuShHAqo2UiGtXxDkn5WBuuZ/CTz59nGkETyqClpz/IX2kLgCtzv+ir9B+/BRBK1WntNdtyZFV5/2SzuGK829pAledX0Y97Jz7V/YH7NkYYtkUMlvAmIX+5rk/584gqfOq5X6vfkY0AMbmHGnSwUc5D0AKwK13CLkB4Jwj0+8ckgLgKK2/d0KIBwTVnS/p4Alrh5hHxFje4KmRRR28Do+zjyynoO9yvhcAryoeRc43aeIiaf5Ekuy1eX+Ok0Jn1b4wrEUK/0MT0WZT3Nu5fwcAoqpd8KVSN31m7W3JVLjKu4NVnanM837v/zs7AEf3v9/s7XtrFk85PxoAKZd8vRVLXd8dXM75mjTQ+dWxlZxvPszhlPOjAJB6vX/WxVT+vtEWgCwdP00vI+IZwuR+H+c/q9Ft0/mBuQEoeuijSqrVAQCVJi7pef/hHB8OgOgdv8gHPmcEINW8P0q+LgsA5/33AiDdvL+q80MAkGG1r6rzbwCQ3fkA0CX3dxj9pwFwWy/v/I6fEgAw8gGA+X5XAKj6ewKgXh8Psr4PANXDf0fnXwOAwo8IQOFHDZDq/H4AaBYBBgA0aP92H/3XAIi2gbMzAH8AJja8CmdSINkAAAAASUVORK5CYII=",
@@ -14017,6 +14321,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "shadobin",
       "name": "Shadobin",
       "identifier": "Shadow Hand",
+      "shape": "Head",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABYElEQVRYheVX7UoEMQzchnsZ/aO47+dxvoz/BB9E8JevU6kQiGM+pmXlEAOle1wyM02Tbrf13rdrmlyVffsLAvb72z7GLDAbJxWI98yQs3FSgZzPj1+DFTEb17wusCDWLpenjbEo7u39o6HvqQKzpAO4EoE+KKbcgt2sXoEQRH/jHInJtkJSecGKFNTOKITJFiUgAkERbFxahLtJUbZ3TAayxdhiFM+xSt8K+aEZUJslPywDavawWbWmGcD2m+1ntCgWs9BQgBXhGVtoURwKkBnyjKD6D4Uop3jkK6ususb6WREnjzw6ZFZfRkhucdqoATyj2UysmCUfdSDYl1EXRGBsVjzyMQt7zGZgjIgoo5I5RyJmizBbjOgD3laYTGQnofp78d+4eu8/xsPdTdfx+vI8NUdxY3hcLfoyyi6S2aUkMu8+OCwU4IkYINXN2POJyEsBrDCG6FAB/+vbcPtl+wToGp3aFWVOuQAAAABJRU5ErkJggg==",
       "description": "Shadobin manifests as a possessed trash can with a long, shadowy hand emerging from within it. Its origins remain obscure, rooted in urban legends and tales of spectral encounters.",
       "types": [
         "Dark"
@@ -14375,6 +14681,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Shadobin is known to lurk in dark alleys, abandoned buildings, and other desolate urban locations. It is attracted to places where discarded items and forgotten belongings accumulate, feeding off the neglect and",
+      "habitat": "Shadobin is predominantly found in urban environments, particularly in areas marked by neglect or where discarded objects accumulate. It is rarely encountered in well-maintained or populated areas, preferring the",
+      "trivia": [
+        "Urban legends suggest that Shadobin was born from the sorrow and neglect of forgotten possessions, gaining sentience",
+        "Shadobin's shadowy hand possesses the ability to retrieve lost or discarded items for those who have lost something"
+      ],
       "imageSheet": "../../source/images/monsters/shadobin-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAErklEQVR42u2dy5LcIAxF/f8/7cwyCzfW4woEPq5SJTPpmXSjw0VIMr7u+76w7xqDAAAMAgBgAIABAAYAGABgAIABAAYAGABgAIABwEp7u3DioQB4Lhx5EACZC4duDsDYu39v9X8DgrMAeHX4kwHBGQC4HW8AAeduAsCtAAA12BMAmfOBYD8A5M5nSQAAIJgIQGY/Xu58IKgBQJWkmeL8AQg43gnA7Z21ZiomOB8IcgCUbtOyvyfxszjfAIB8thYkfICgCIDQAFteL3BcGgQgEAMweu2vQo4wmgcCMQDmAX17XVF2T6pYX4cgNJjZfy+M3jtBsEUvgyvws8KxeOvmBlDgCOXVAwCP8yfk88MOmQBBxQUAggGJNpeUgtYtbZ12vmUXsGhtvhNKEAIgk994+N4eAFjh6LA2F0BgAuAtf/Hjez0AUM3+CAgiScyAZ65pRMehEwCXFwDn7E/lGlRbsgoI3uQ/CMCUgNEV1SYACDtFGBQpOo6n9C1EVCgKRqoS6OjbDztFSHtl82nOU7XvQVcOLgDAC8HUNrSul7IxNiWfRgCuBgAotqNLHW790zt2ZbdvdQXg15rbFYCnieb9erS1lea+swBEKa4EYCUEnpk/Ch5HYyiteu0KQHcVEKtI2X0B0e3I8iWgKwS7KMAIBElUPguAzhBEv14BQGWb+acA2FUBKu8xKAfgxHigLQATW7YkCrCTAYABgFOcnRnDpTHAxNu5jpzlxwKgLnne4vYtxQ0yxXdBm+S/JQBFzv/5f1vq+TMAyET9o11ARwCuQa660vnXaIvlza0rAVDn/rcCYJLjzQrgrbYpnJ+t9u2oANdEp4fzAdEeAnW52aoWu8QALaCzzkCvY9UKEFGKASAAYIkBnga9SgG8TvSoAAAkdgFdYwAUoDgGyHYEewDwVv6ylUQAKAagSv5RgEMBeKpNvOVIiAEKAchWCpsrAA+N6gaAKgaINIIAAAoAAB0UQBEDoAAHKsDT31GAgwB4m7HeM5dRgA0BQAFQALPTvTGAtaXuswBEtl2zagBRBQCAYhWo7gNQxgAAsAEAKAAKQAyAArwnfCq6gQGgWQyQ6QUAgEk7gdlpYBTgcAA8hSDv+wWAjyiAcUkBgE4AWNbxGb0AXwXgQgEAQL4TqFIAwZlAADBjGbACYHVaRgEAYFEckD2FXBUDAMDCqmBDBbgAQAxAJuu3IAYAgAoAImt+dAlAAZoCoLwKYwAA8EKQeWaQNVePAhwEQMVMJgbYAIDIE8EiMv6mANEtIABsAkBGgQCgeCu4WgEy8g8AGwCgPhcQAITZwCwgKEAjALxxgCpOKI4BAKAqEJwJgHUXEDlhHQACACju3K2IAQBADIBCmjMAWE8SBYCiQPCp4CPYl7t6DxJZxwsAJh0gXQmA5URTAChWgYpKn1VRLA2gANAcAK/TI1XG6DOWAGDCMrCgn+ACgCAEnQDwnAU0ekQ8ACSOkm82s99iggsAxPFABxAqn66G0401AtXzfzxONv7u1OfF4Q4Qsk4UwiP7nDi6EAjVClBpOFYPhAeY5Z8DR37cGAQAYBAAAAMADAAwAMAAAAMADAAwAMAAAAMADAAwAMBOtX+oPSkAw51UXwAAAABJRU5ErkJggg==",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEXUlEQVR42u2d7W4rIQxEef+Xpveq/6o2gLFhjM9Kq2iVNMl2jofhYzet997YQ/fRdvX7IdA94SUgQKh7oktAgGjB4rd//+JP+20IEC4IgJHwfwDQAeCR6p8V/zYEiHep+n++DgAKi38TAgQUER8AkgOwEvqUegWIKFL9AID4V3oEiHkAAIexgQ4ARcT/AEAICAgaHPycRgfDYEDQQACsw8OLEHQASFD9gS6wBQGiHqr+AwB0ABCvfmszsAgIAKhW/yoAJ7qMCLsIgId9H4AAABSrPwqAHQgQ9zAAEeLvzCMgrqP9R4u/OJPYASBh+JsV2csFEFgw/c8KDABCEz+e1r9S5YPnAUC5+nee83IBRHYAwBr+ZkS0TDIBwH37b142DgA57R8Aitt/2xFwJQiSATTtfxuA2SAIAMLtPwDU7PsDAPY/3wX0HgtYnQ9AcAEAfnu94wYAVvENAm4D4LwxFHyh+i0AcJOoxwBoTu8BANkBUIcA0X3af8+hZAB4oPp3IACAFwGYdBQyQEIAzJNKhMB323/LLWTpBnqJZxgsiQagKYqvDsC1TfnevlUA6IoAKFXuywB0AKgLQJh1e1zD/5r4sgB4XSHr/XcAcBCAUaV7ugIAPAyAZVl3lfYfAOyXWwFAZOjzBmDFBSrZ/ykATGKJA/AMEJL994QApIVCcsDGeo/dU3vkIk11AI4N0lxYQWs+F4fJKFkAoiZRntoyO8Sy8FVF3i0EVQiWumY7Iv/8ocTsj8EuoQUA1R3rErIArN7+9PuhPVnx3o4wKC4dAHa7b5WOSwJQteJxALbIUU8coFLvIC0A1dv8oAzQUgBAxYc5QOtkgNIZAAfAARJlgAp72QxQSeRb6wTkAQCCWEBU7xACAHegkFoQcgyA36rhr+XarwCpsBagz64IGt3KtMpjaQDYwsf/dQGgf+/vJAriLwPgMXY+uiTLcmy13lvHmW4Vu+UAo8xwOktYP2/1Bx8NDpAHAKe2zmU0becKoYjP2Dhf6QtDpuzsZmWqOsbCnEE+AEZ0r7a50a9f/fuo938OgEyVeXI2UHXoN9QBovOC55hExBXIJQHIVqE4gBGAlaqZ/adYxxE83i8iA5QEIFOqxwGCHWC3/YweNyAD4ADH1gKSARJnAOv3Lw3ASw5g+R4zACjeb5AMEPQZkwA0HKC2A7ROBrhzHJkBsrT/swC0lZOLdIBTDrHrACUBOJEBPNcmRmYAHAAHqOkAZAAcAAcgA5ABcAAcYAaARgYolAFUf3UEBzjkAM8DQAYoAsDoBCMrL8Nq4LIArLSxyhlgZ70BDpDEASKcBAc4kANYC3D3R6PCHeBU5UY6QKZBIFcAvDKA15q/T8efxNvNAJkGgdwBwAEAoHwGwAFwgDTtvxmAmRONygAeGeF0BigDgOIIXbQDAEDC+QDmAXAAHIAMQAbAAZzXAUwC0MgAohng0DxAwwFwADKAagbYOX4dgGPrAnCAxABUzgDZegD/9y/L7iUgx8ANNAAAAABJRU5ErkJggg==",
@@ -14385,6 +14697,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "flarehorn",
       "name": "Flarehorn",
       "identifier": "Metal Flame",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Resembling a rhinoceros infused with metal and fire. When provoked, Flarehorn's horn increases in size based on its anger, becoming a fearsome weapon capable of causing widespread destruction.",
       "types": [
         "Flame"
@@ -14743,6 +15057,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Normally calm and reserved, Flarehorn displays a fiery temperament when threatened or provoked. During moments of rage, its horn ignites with intense flames and grows dramatically, enhancing its offensive prowess in",
+      "habitat": "Flarehorn thrives in volcanic regions and areas with high geothermal activity, where it can harness its fire-based powers and reinforce its metallic armor. It prefers environments rich in heat and minerals to sustain",
+      "trivia": [
+        "Flarehorn's metal-infused hide and blazing horn are adaptations to its volcanic habitat.",
+        "Legends tell of Flarehorn's horn glowing with molten metal when enraged, capable of melting through solid rock and"
+      ],
       "imageSheet": "../../source/images/monsters/flarehorn-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFXElEQVR42u2d267cIAxF+f+fTp+OVI0S8LZNwGGNtFV1Wk0SvMAXLmnXdTV0rmgEAKARAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACANtbfBwBONX5r7RYCGugQ4wPAoQD8GR4ADh/6AQDjA8CJQz8AEPU/Dv8AcLjxAeDjaV9v6AeAM3J+ADis1Pv0YS4A4wPAEYa3+H0A+KDxbwI/poNPMr6n988E4O4m5JtDduNbcv63ALgLQuTgBPXb9S7d2waAhzwUADQjd43f+a5tAcAdnTc3jtH7Ub3J+FsCcOefAMCdy/cqfG7jzwDg6gHgjVRPAmAwvNcC4I5cEYCsTxnjdwK7dONPA6C3IMHoBmZ+tu/9D7N54arfMgAG35vKm6qKwGDtJLffR3v/EgA65EqBjzVoEn5jl/r9a8bfBYBUwyujyMsghNqiPAD/P0RviMs2fHCUWAqAwfh1XEAvG3D47mgvlxo8AQY5OH56juyRazkAv/FAstHcYCW6icco3xrkCi6jFgC/EKjGGrkUJcjyAqb+lprhiCPcvnWA35t+Mp61sY3DYgoEGTB4jO8IpOsAcAeBMiKsAECNN3r/ZwfjewAYXewaVbZGhjNMIEnD/ywAPFlFRjErO0CNLvSIANBGPb7XkKphV7sAFQDhOdoqAIZl3B4AvRnDQFVsaiAYzS4y0tzsOsU0AH6Nbc0CIgHVLON7rjnrPrKLVKGp3qdavqXi5/X91jQzK4XzPIs6/K8yvhuAhxuSSr4e3+/NoSM+W52hi5Z8Z+T6rwOg9OwM/zpKtTKG3ZkAWG9nhrKOHen27FEAmJWiReYBLC4gEgcE76dtB4A3Gl+Vo2cBYHFxhmdsnwPA0sNnjwBvFni88xaW9Pkt4ysADH1jr7Zv+fvuECTPBZQ6K9hciIn8WQGAxCLONwFIrnK9YQgAyACgWgywwfXqATCKfiMxwIpe+fbawx2NLwPwVLWLxAIrff8it1MbgN7Q78mNAeCDAFh7/g7R/1sLRSoD0CwAKMudld6/wEDHBIByIUhdu24ZASoCsMtU7vYAZFTTdgBAfc7AdvjvjwBq71kNgGf/AgAkbQF7K1AcreC1zl0YvisLQLM2VMaOn9UAeCuXhiJXbQAsD5m1IuetVDFpjZ61MloaAMuZ9NPWzmcHhaMRK1q5VF7aUAmA8IlW1prCaINkRq9X5y7UzKXCsXgpZwEqs3rqtqlMt/B0z9l1iyMA8PSO3tIqZV+cd02edzeSNzY4CgCvb/fsi4v4ZEvOHhndKgWArwGQvSvWU1uwuJ3RdQLG/yYAnjJq1rboyN7CUb1CPZrl53dapXORpx8HN2tPvHenTmSTirI5pMqZyFPOuM0+2dO7BnGUBRjW+ndXRVmPvfkqAOYt4RHDqyeEjJauiWXeYQGsYvk3EwD3+b7OtK2pNfuRrzf2XG+lsJ0AwKNLiBj+oVHdaahzile+HgA4ARgVibw90jNCREaASsafAkDU1ys+Wa3lW9xCDwAl5jgeAM+MmehTQ7N5hhigea93NAAeX2ls1HAxanRdCwC9ghEACMWhUX7eCQC7BhF9fO/fzaekGGA9AgDpsGjHRI/8vh3lZNLI9ar2/ukAGM/ft/hkqRpphGkEp7RZtmLvnwGA98gTb6PKs3XGe42shzgeAM/LokejhvxCBjW6F4fvsqXftwBIqSMovbEXYAq+fSbkAOBoVHfc8VLvLG38HQGYGXzyjuIPA9AcgSf6GAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQjXC4/gHh9GJThHKgTQAAAABJRU5ErkJggg==",
       "backSprite": "data:image/png;base64,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",
@@ -14753,6 +15073,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "gloomseed",
       "name": "Gloomseed",
       "identifier": "Malevolent Bloom",
+      "shape": "Tentacle",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgElEQVRYhc1XUWrDMAyNRC+z/Wy091voLrO/QQ8y2Neuo+GBx0N7sqU2GRUYE0fSe5YsKxEzW7Jyen5MKX98fknWp24NXtXVisN1fVkyc4WEsBQw4+b8fH7984xzF9SbpUa3Bu/vmdComNnvOD49WB+X97efgWt9PZrRJlpvAzEXRmAEcg0JP0ICthEJNjPwIYE9wEsELvcUgeOVpJgfjyf+HsBLB0vM17YvRVa6zM7fBQdasAGgf4/gUe0j2fJNuA4MZxFg4LRJmcvJHtXAck/PwKnQxW4RjIT+N7jHUlxo+WKt9RZBf+i/Y0rLDypGJTU6aCPwmT/FFxnwSmRYq/Y40iPAgCNS/jDNyjb6nmiirDZn6aju2NvhvSC9DPFkZnbiiWfsUbq9+gVkmAVn9qPPNNSVqBlVwGf2EdEmGilEOxoB+DSMfIYEmKJvzYxEBN4lipwuCcl0PU82KzL7N2S7jXbD7oPZmZHMzymSqBzC1E+qBX2afR/soZuKwJ7yDf5qnwiztYBpAAAAAElFTkSuQmCC",
       "description": "Gloomseed appears innocuous, resembling a small seed adorned with delicate petals. However, within its roots lie hidden eyes that remain unseen until it senses prey. Once a benign presence, Gloomseed has evolved into a deceptive entity, using its blossoming petals to ensnare and drain the life force of unsuspecting victims.",
       "types": [
         "Plant"
@@ -15111,6 +15433,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon employs a strategy of allure and deception, attracting prey with its enchanting fragrance and vibrant colors. When approached, Gloomseed's roots extend swiftly to grasp and immobilize its victims, while",
+      "habitat": "Gloomseed thrives in secluded areas of forests, overgrown gardens, and neglected meadows where it can prey upon unsuspecting creatures. It prefers environments rich in natural decay and shadowy cover, using its cunning",
+      "trivia": [
+        "Gloomseed releases a sweet fragrance that lures the curious closer.",
+        "According to folklore, gardens touched by one never feel quite alive again."
+      ],
       "imageSheet": "../../source/images/monsters/gloomseed-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFn0lEQVR42u2dS44TMRCGuQ4rJC6Zo7BD4gqdLUskjhMeEigMbfdfr07b/ha/UIaZieP6ulwul2vePR6Pd2hdMQkAwCQAAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABQJG+fP50+6n7Tz06+vX/NwCYz/jbgeEVTQcHxvdpA4Cx3P6jQBsAjAHAf2v+xw/vmzJCcAOAwZ7+nvGPtBcTAMBg6/6zQb9/+/pXXggAYLCgb8/4LQj2vjbbMrBcxG8BwBAjbABw4Yi/ZcwWAG9heH49265g6Yg/IwYYfTmYDYCu8S2GXmVXsBQAFRp9V7AEAL01/fn1239bSwYALOQB9nYLvaAQAAaMAXoeAADGOdu/V8YArR0DAFz4eNdiXO8uAQAufLxbtf1jG3ixZI/iAZS0r7pbmOlcYJpALwOA1dz/VAAcQeA9/OktIQAwWbYvejIIAAMD4IkRAOBi6d7IOp9RGwAAFwPgyJiRErFZ6gOXAKAXxCXt/4ctDVsGgN76nVAmTknYFYJAiwfggshEmUDL8W0yAMPfDlr2sgeXRMc+DQwf/a58I3gGAEwXPg0QbLMaesaCkK0AgMdKzSGGLwmzFoYoFT0zXPhcqiZQaftireylRczE5eGGLeEGABNWB4seYJmGUUt0ATvyAMK2cFoQlooB1AMiuoQN0HNPfH/Xce8rk0Pq58oa01kD3F4xQdklXxUwBAyeMp4z++1tZ+/7M/oBVB0JFxjeNZ6zmy1uZ+z11UueBecH0tNX0LjSPd9pTZeq+umoPX88N3y99wMiE599rU0Y0y0EgNJurQoCL3itSt6jXkDWewHWnkEZnye7VjHF+M7iiy3T+Eqbtz0AzoLA2sDKU+bmSW2HO24FK3BuGV5H7fHXAuAIFPUWcQ8CtYbBYmz1ynrPC4SKLqx0KgOzgGd9WlUAFO9ghOCWVcuojkd92GT363FPlk6bvUjfa2ALAJYnzAHBPfM+Q+a9hXCzRasnaEzOZknmeIzvASAZglARq9LIynN1LbXeLgCBPFlZxvdCEOgp7AagZXxrSvsQAKXi9ojATACyjB8FIBuCyrXf2sDKXHOfAUFWXx+r8dXxVkOQnaBq5TY8AMjGz+ytV2n8Iy9hnfwMCKIPS6UH6DZZsk64+qE8WznPWDxj9QDTgyDLW77MA/TotkyqN7mTaXwPAN6DJYvxLQBYMpTpHsAa3UbcdYXxzwQgO2DOamAR8gCeLU6kPUu28SOJmGjkXgHAgee4hwAQ042ubOHzB2/l5SuMXwmANebIDpZdqWDPLiADgtYTXm38yFZMAWDv8+29tjz92T0MQ3kANar3nBtEdx6vAGAvGlcNHzF+2mmgJRNoHazX9V/R+CoAquEtuQPPsmyqB1CPgTMgaLntM4x/BgAqCJ65NBh/M1UEeU4DLQGLZWdQafyreADvPGaV3qXVAWYVOFrWYKu3iBSzRLaCGX2LquouTy1dzvzjDdHKXmUp8vx8YjGnu8mF5X2r6te3yJm/pUAj8vRHfp8XHG+vIsuTr8Rbf75WcSFk87ZwUQyR9cRFn2D1549A6TxAdycE9yPIn8dVehG04gLnq12/MrnK9x81qrK0w9v7PqUkXgag+kKnMlGqh/C67qjrt6SP1aSNWiSrANA6Nr50u9czPUClBzl6v1ba1toO7+0SoIB8SQCUBFF28JcRPFo8gFq44YjBbr0ikeE8QPSAKDtqz/IAlsodw1Xy3/HD0Z3IKwBwV4pPMj1AdPuonu5lewARhH8C8N6fv3071ks2fM46JMpM2Ci5/SoPYFVqHuAKbd+jxj/D9Vszl9UAqPoBFK5VFeBzVlwAAAAASUVORK5CYII=",
@@ -15121,6 +15449,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "psyshel",
       "name": "Psyshel",
       "identifier": "Psychic Spiral",
+      "shape": "Serpentine",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABjUlEQVRYhbVXQW4DIQwElM+0l1ab/zVKP9NbpT4kUk/5DhVRLU0mtjGwsYRgmcUejM16c601oRzfX+vl95p5TsaMrUpGApohnEPZi0jRjMuzzJ1OHwl7j9gUgSMoQyPyfD5/Po1EYWPco3GN5CgJ9OyNALu5iRjFHkUjFTX+MN7eXqq0n++vob61FsStoR6ct3B5J7cBsvR2jjhmQy9TOMZk/Q3n3WtjaRruedDC0QPF26F2zj3PRHCMg8IvWgHGgekpH8FLZIdaVoykKuN3+rfFLOB5br0YSbPGIyQiAZr29sDIe0/zgIebBLYg41UyfDxJuzBWlHvrtfhIeE/vtTOvVwlUh8RqjFgp+kCgKiR6QcTKLU94R5C1olS7HfkW074ZkWf+GpZesWldsaLM+vgg7kmZrXhnKqIwAU9my7FhApd/L6B7NeOjhO6qoZTSYWSRZ6hH1DrizFmAolXMbJSjmrNIqyERzx4Bj4RmnNdEgjv3CFgkvF3xWg/PEQJIgmX1JzWchpqhPf6Q/wDNpxSFJaOCVAAAAABJRU5ErkJggg==",
       "description": "Psyshel is a unique Asobimon known for its mesmerizing abilities. Its shell is adorned with intricate patterns that spin rhythmically, creating hypnotic patterns that captivate and confuse enemies. The psychic energy emanating from Psyshel's shell can induce a trance-like state in those who gaze upon it, rendering them temporarily immobile.",
       "types": [
         "Normal"
@@ -15479,6 +15809,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Psyshel uses its hypnotic shell both defensively and offensively. When threatened, it spins in steady, measured rhythms that scatter attackers and leave onlookers dazed, then glides away before its opponents can recover.",
+      "habitat": "Psyshel is commonly found in tranquil forests and serene meadows where it can blend in with its surroundings. It prefers peaceful environments where it can spin its shell undisturbed and harness psychic energies from",
+      "trivia": [
+        "Psyshel's shell patterns are not only mesmerizing but also serve as a means of communication with other Psyshel and",
+        "Trainers who bond with Psyshel often find it to be a calming presence."
+      ],
       "imageSheet": "../../source/images/monsters/psyshel-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,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",
@@ -15489,6 +15825,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "rootbloom",
       "name": "Rootbloom",
       "identifier": "Rooted Wanderer",
+      "shape": "Tentacle",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgElEQVRYhc1XUWrDMAyNRC+z/Wy091voLrO/QQ8y2Neuo+GBx0N7sqU2GRUYE0fSe5YsKxEzW7Jyen5MKX98fknWp24NXtXVisN1fVkyc4WEsBQw4+b8fH7984xzF9SbpUa3Bu/vmdComNnvOD49WB+X97efgWt9PZrRJlpvAzEXRmAEcg0JP0ICthEJNjPwIYE9wEsELvcUgeOVpJgfjyf+HsBLB0vM17YvRVa6zM7fBQdasAGgf4/gUe0j2fJNuA4MZxFg4LRJmcvJHtXAck/PwKnQxW4RjIT+N7jHUlxo+WKt9RZBf+i/Y0rLDypGJTU6aCPwmT/FFxnwSmRYq/Y40iPAgCNS/jDNyjb6nmiirDZn6aju2NvhvSC9DPFkZnbiiWfsUbq9+gVkmAVn9qPPNNSVqBlVwGf2EdEmGilEOxoB+DSMfIYEmKJvzYxEBN4lipwuCcl0PU82KzL7N2S7jXbD7oPZmZHMzymSqBzC1E+qBX2afR/soZuKwJ7yDf5qnwiztYBpAAAAAElFTkSuQmCC",
       "description": "Rootbloom is a deceptive Asobimon that appears to be a vibrant flower when seen from above. In reality, its body consists of intertwined roots that extend deep into the earth. The flower-like structure on its head serves as its equivalent of hair, often adorned with colorful petals that attract pollinators.",
       "types": [
         "Earth"
@@ -15847,6 +16185,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Rootbloom spends most of its time buried underground, where it absorbs nutrients and moisture through its root-like body. When it senses vibrations or potential threats, it quickly emerges from the soil to defend",
+      "habitat": "Rootbloom thrives in fertile soil and forested areas where it can blend in seamlessly with other plant life. It prefers locations with rich nutrients and adequate moisture, enabling its roots to grow strong and deep.",
+      "trivia": [
+        "Rootbloom's flower-like hair serves a dual purpose: attracting pollinators to aid in its reproduction and providing",
+        "Folklore says Rootbloom is often associated with renewal and vitality, symbolizing resilience and adaptation to"
+      ],
       "imageSheet": "../../source/images/monsters/rootbloom-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -15857,6 +16201,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "maskcoon",
       "name": "Maskcoon",
       "identifier": "Masked Bandit",
+      "shape": "BipedalTail",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB9klEQVRYhaVXsU5FIQyFG6dnopO7qywS+Qg/xz/w5fkF+hVuJo5+hImLb3d1c9AVw80t6as9BbxNCFwoPW0vbcHnnJ1GKYa68Pq2P00xfC3j6xTDixwv394NktcU4OCjNKqElwoQ+HZ7W+d2u7v6TePSa3yjSkwIvAgjgZwIUAJzJUc86LkH0EYOJklTUvMCyZbzk2SQYNzdGrjGL41Rxps/HkhAAQSmgfM1slbKZWvHzrmfgzPAGWQv1zv5N2hfiuG7egBpaXkEKdUrg9YnbaFsoMYFaVZa/ARueWlqWafFvMwJPXu1/TOVX3B1eZFLe356nHvZaB71iB+N+ZzXzgB308gZ0KIEZc56BlJH+PWAS5LgmnGzAk3zBhXS+FEyK3nCl/8gNV5LGqj8ppTsc843KYZ7YrKESmrxazlhAT93zn2UcfkFDz1WoZxvEXB7BS/UXQtGCFlP+R+V45BieEdCrXRq7WldUrx2H2iFjqYUinuipgLpnwUJFSJ06iUdIcGtrNjKlFb8H1AWtYDaSM7nPd/PW8HRmke1YC1JD8Cbcl400SzsqYQ9FRFZXz2AbsUjHrGiwHonTPyjMEpmdJtBtyM513qkeOtpJj1ghSaqdhZ4UwECskJpxN3dCjjnzlIMn3KSCT+h1zJYX63ATOg5Ncpj0S+oRI5Kg6tYAQAAAABJRU5ErkJggg==",
       "description": "Maskcoon is known for its mischievous nature and distinctive mask-like markings around its eyes. It uses its cleverness and agility to outwit opponents and escape from sticky situations. Despite its reputation as a trickster, it is also a curious and resourceful Asobimon.",
       "types": [
         "Dark"
@@ -16215,6 +16561,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Maskcoon is nocturnal and prefers to roam at night, scavenging for food and exploring its surroundings with keen curiosity. It is adept at climbing trees and navigating urban environments, where it often raids trash",
+      "habitat": "Maskcoon can be found in a variety of habitats, including forests, urban areas, and even suburban neighborhoods where it adapts to human presence. It prefers areas with abundant food sources and places to hide, such as",
+      "trivia": [
+        "Folklore says Maskcoon is often depicted as a symbol of adaptability and cleverness, admired for its ability to thrive",
+        "Trainers who befriend Maskcoon often find it to be loyal and affectionate, forming strong bonds based on mutual trust"
+      ],
       "imageSheet": "../../source/images/monsters/maskcoon-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -16225,6 +16577,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "lunavio",
       "name": "Lunavio",
       "identifier": "Moonwing",
+      "shape": "Winged",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgUlEQVRYhcVXW2rDMBD0ilym/WmJ79fgXqZ/hRwk0K9eR8UFlWWYfchSGoGxE0ua2dmXJbXW5ZGjzNhkfX0+bIWMKIDAt69v+TcFVgV+ubxRQndRYAWQHXzb3pejSpQe4Aj8kBK1Vvc6vzxVfV0/P9w7XtH+SxZcA3jg+zOSOUTgTMA8EjgH51s4YgVh82Pzqx7N7zoG2Dw91wzMmrDeUyKyPFJBmAIsx3dLLCuZ1XpdG0yF4m2kAbXcmPf6NxKNSBf3bYJYBmQ6AW0tqjGVwOYAWH7Ork9nwdXJ86gIZWrBCQmxOm7VghaYVk9ge2MmFAucdTksOjormDu0C6xGJa0OMHBGQlvHqiDzOdvvT4lqNB3vHj1nu+av8aPgoySWHgUs8B4S2KaFxQDzHQabNVhAep9tRf+hUwQX9VQ8r1cgjmA3tL7nolzHdxZhrAPiteM2mbXnTBri+nQ7voFMbGHkHlxvfRFJz7nAOgmNnJBKGp1YFT3f/Wy4TBhTTscj4webSXa8mBFXKAAAAABJRU5ErkJggg==",
       "description": "Lunavio is a graceful bird Asobimon known for its shimmering feathers that resemble a cloak of moonlit clouds when its wings are folded. It is said to have a deep connection to the lunar phases, often appearing more radiant under the light of the full moon.",
       "types": [
         "Moon"
@@ -16583,6 +16937,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Lunavio is nocturnal and prefers to hunt and travel by moonlight, using its keen eyesight and silent flight to navigate the night sky with precision. It is known for its solitary nature, spending much of its time in",
+      "habitat": "Lunavio is typically found in habitats that offer clear views of the night sky, such as open plains, forests with tall trees, and mountain peaks. It gravitates towards places where it can bask in the gentle glow of the",
+      "trivia": [
+        "Legends say Lunavio's feathers hold fragments of moonlight, granting it mystical powers related to lunar energy.",
+        "Its haunting, melodic calls are often associated with the onset of moonlit nights, inspiring tales of wonder and awe"
+      ],
       "imageSheet": "../../source/images/monsters/lunavio-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -16593,6 +16953,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "squirril",
       "name": "Squirril",
       "identifier": "Squirrel",
+      "shape": "BipedalTail",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB9klEQVRYhaVXsU5FIQyFG6dnopO7qywS+Qg/xz/w5fkF+hVuJo5+hImLb3d1c9AVw80t6as9BbxNCFwoPW0vbcHnnJ1GKYa68Pq2P00xfC3j6xTDixwv394NktcU4OCjNKqElwoQ+HZ7W+d2u7v6TePSa3yjSkwIvAgjgZwIUAJzJUc86LkH0EYOJklTUvMCyZbzk2SQYNzdGrjGL41Rxps/HkhAAQSmgfM1slbKZWvHzrmfgzPAGWQv1zv5N2hfiuG7egBpaXkEKdUrg9YnbaFsoMYFaVZa/ARueWlqWafFvMwJPXu1/TOVX3B1eZFLe356nHvZaB71iB+N+ZzXzgB308gZ0KIEZc56BlJH+PWAS5LgmnGzAk3zBhXS+FEyK3nCl/8gNV5LGqj8ppTsc843KYZ7YrKESmrxazlhAT93zn2UcfkFDz1WoZxvEXB7BS/UXQtGCFlP+R+V45BieEdCrXRq7WldUrx2H2iFjqYUinuipgLpnwUJFSJ06iUdIcGtrNjKlFb8H1AWtYDaSM7nPd/PW8HRmke1YC1JD8Cbcl400SzsqYQ9FRFZXz2AbsUjHrGiwHonTPyjMEpmdJtBtyM513qkeOtpJj1ghSaqdhZ4UwECskJpxN3dCjjnzlIMn3KSCT+h1zJYX63ATOg5Ncpj0S+oRI5Kg6tYAQAAAABJRU5ErkJggg==",
       "description": "Squirril is a nimble and curious Asobimon known for its energetic nature and keen sense of smell. It scampers through forests and urban parks alike, often seen gathering nuts and berries to store in its fluffy tail.",
       "types": [
         "Normal"
@@ -16951,6 +17313,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Squirril is highly social and lives in close-knit groups called dreys. It communicates with others using a combination of chirps and tail gestures, which convey its mood and intentions. It is playful by nature and",
+      "habitat": "Squirril inhabits a wide range of environments, including forests, woodlands, and city parks where it can find ample food and places to nest. It adapts well to human presence and is often seen scavenging for food scraps",
+      "trivia": [
+        "Squirril's evolution into its arcane type form is triggered by exposure to mystical energies found deep within ancient",
+        "Squirril's potion bottles contain essences collected from rare herbs and minerals, which imbue its attacks with potent"
+      ],
       "imageSheet": "../../source/images/monsters/squirril-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -16961,6 +17329,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "cicader",
       "name": "Cicader",
       "identifier": "Cicada",
+      "shape": "Bug",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABjklEQVRYhcVXS07EMAyto14GNqDp/RgNl2E3EgdBmhXXCcrCyDz8bCcgjaWober62a/+tNJ73+4pbfaB4/mxj1Xd/3cHPm6fooAW3N6bkX37g6xEjCKVHFgFqjDSEMguBn4+v3wf7Tlz3LP7i4EjiFKNXy6vFEzvo27Gzs7AIiMWKNPNbDYbvRcZi8heIzMVZxSzbXeWPVPI3uWqrkqL6Gcyoxs9P7DDVxDlRBUk05dRhhELjNaha5Mv0mM2RymWkhCNKKA2Iq8sq0wJNiLmMday1wcyHd23jajpDd0YCkgno9jTjRxE8B8MzAwepF3PK2WIA0rYNGRDKOty7D6bjBKNY+uEl2zetedINJZbBdyKGkbaWdJFtoa4DHgVgdExJryR7SUfZeBIJqONGJlgLOAEDB2YEXRmRRpu2H6QZbjX76OPldIrYE5E4Kwa7DmthN47Xaenh+6t9+tbeMQVYUj2WY6JU+kDU5/mPfCOMZJFPmNTZn9Oox5RihhEVv6OWWdb+Tdc6gMe0Ar4ePALLr3/Sgt/U18AAAAASUVORK5CYII=",
       "description": "Known for its rhythmic chirping, it emerges from underground once every few years to molt into its adult form. Its presence marked by a chorus of soothing melodies echoing through the forest.",
       "types": [
         "Wind"
@@ -17319,6 +17689,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon spends most of its life cycle underground, where it feeds on sap and bides its time until the conditions are right for its transformation. When Cicader emerges, it gathers with others of its kind to create",
+      "habitat": "Cicader thrives in wooded areas and lush forests where trees are abundant. It prefers environments with ample vegetation and moderate humidity, providing ideal conditions for its molting and mating rituals. Trainers",
+      "trivia": [
+        "The vibrant green color of Cicader's wings serves as a natural camouflage among the foliage.",
+        "Cicader's rhythmic chirping patterns are believed to have a calming effect on the Asobimon and wildlife in its vicinity."
+      ],
       "imageSheet": "../../source/images/monsters/cicader-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFJUlEQVR42u2d7W0bMQyGDa/QMXpbdaj+yQCdo7dQJojrAAnQGJb4oS9SeQ54kdSNfTrxIUVRZ93ldrtd0PcVnQAAdAIAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACQRcdd5+3rcRZeOwBgT+N6jm8ByW7GLx6X+6V+qvaaEowDAAIZXzLu//+neU0ByTYQZG34WTO00aPFiFGBAAAWef8XI33+/viaxrC1v6v9/DgOAFjs/ZqxvOTNEgy1YWOXKJCx0U+NXooEXhkiDACsBkCbBFoBUOYCABBhCPCGfc9wwBAQMAmUkjlt1NDMDEgCA0aBWQAwDQxeCLKO6Z7PoBCUbDYgTem0798p+dsOAK3xn73H+n4ACJYIen56jL9bArjVWoAn/LfA83H8BoBAxSCr8b3vfziuALC4DlAzorcErFwLIAJM0M+7/lqXbFsrgZp7BXaYFqa966eHgXuWirOCkMb41+t1udGVMKSCIIXXlzo7gsGzgxCtQb8k43sTPU/O4Ek0KxD8AIAOXt9yF/CI9xiiwfvxBwAEw7+8vDQVaVpvCi0VfbwVxs/j7e0tZAUxVHbvNZ52edfz75aokGHauNz4r6+vzeXZXreCW8J7h/aFgCD1OD8LgMHtXApCGOO3eFbvL4VoK40t7Y0CQUqv19QBWnOAkYBFAmGZ8Vs8SRMJZsHVo90rIVj25c1RY/TIIWBifjENgunGH/Fz9AxgVLsjQJDa87XGackBSn+7SyRI7fklQ42Yso2+jkrxaCgEQ40/8xidBK64lhkQpPZ8wx07IeoAESNBWs8PekdQukiw1Zg/wjDSQlP2SLCV5+90zlkQbDHmz4wAu+UEqbL9kbV/qdNXR4FREKT0/FJOMCoC1NYxskeCdPP82msl43gLQLXPD9YXbgjSjfnadnimjCXv10SgWf3RG4Lwnl87r+SRPdcCrO3IEglcW7LO8vzaeUeHZOv5gkWCLgAcqwmXzj3KIz2fG6yPjlYAiqE/So1fMwVsvcXcc77Z/VQYztRDgWkHjoire5JXao2q3W844uphy1Dg2o17RaVPU6zxjNmapFKCaGUuIFzvYQUgdKWvxTOdHuSOAFkqhWFW97SVNqVnnhaQKx1XPIcmB1gVESxDwdJxv+G791oDitfU8l5r8ji7XzVDQZedN71jleVBDxrPe7KRY9WQQshUZ/8aWBfXC04zALPG9yeH667iylau1X2FK+OlK4eo5RHWmUfnKKAHYGZWr/U+y9LtkwuWQvqzZEkcOhQAiF+FH/3NIzcAE7N5sfMbI4C041gpU1bNDhQAXFpA6FHOnhYBOhheBEAag4ULfjSCug0PCdWpHK7Mm2P0/jayCwAtfc67ZzVlSk0EOD1jnkHaz7UC4AbBYxs3AAs3UTwUAGimahEA0F7vsM0wLQCc3gYIh2WN+nCE1cgAuK+9BYiCDWyVwMbDe4vSqejQaAB42tz1wdgttujVgB63KB8ObzoWAHA4olaPvhlij/APgRAuaEUOcN7st86FfcJY6GcAKDzIm4G7H0olTO9GRoGtAfB6z0iP80SXdFEg3CNgjGNZaeHj6BSVTktV7VbYGKtjVNo/AhgNeQ5IRqXk63QmbEQAZad5586jdtGI3LZv/eBIBAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAADQCQCAAAABAAIABAAIABAAIABAAIAAAAEA2ln/AELaHG6+/SeYAAAAAElFTkSuQmCC",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEmUlEQVR42u2dTY7bMAxGc52uCvSSvle87bJAj+O26AyQCWyJpCiZlJ6BD4MEGccQnyj+yM7jOI4HWlcMAgAwCACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAoNP2V/vx/9g/XnNtiwDwPM6PJ9c2PwDbUT42rm1uAPbKIO9c29wAfDkej8fZQHNtiwPwjLD2A8B9AIyG4DTwA4BB62wBgu2uwO/imogBJhzwaECuWQf4N+gXA7+NhLFwHdQBbpp5++TXsHQpWDr7JCXbK8NtmoD0Bi+0dDNIaoAhhwFAAAAAAAAAALgXgM//excATJAKXhlXYmjt/2ZPAdPvB/CYxR7eg/0ANxu/Uo0DgsQAFMvAWuNLXLz2XIJYZAMA58qb1mBSw3ucN1tVMGXUL535VsNrQBB6AgDwTvs0xhkBQOXzAOC5GaS367csBXiAwUuABwDaz0m/BwCCeoBSBnH2Fw8QPAuQpmu1965eW9JLsoBBN15YvIDFAzT0A6gD9KwElgzc2uypnUNxTiqBI8rB0plu9QRGsOgFjAgINWt6qYNYWvu1rzO1hNMD0Brde3kGAIhzh5A6O/A8FwAM3BEc5W/mncFp7wloXbNrlUFNTHFx7ADQ+X4A7dqtqf1bzpfRC6S9I6i1YzeoC8jNob0bQqWZ69kNlJ43WzA4FQARBAAAAAAAAADDg8CgxicIHJEGBgaANHCkBxh14AEC3A94h+GN1/IEAOe7gpIBEHopwPUvvhRMEfgZ27XN/zNDQDhF6pcEgB0AOqV90ZaATF5gisKP14zWfnaGwtA0RR9Pt+5h/CxeYJqybyIAdgDoUPL1cO9eN49k8gJTNX2iBH+ZvMB0DZ9oxo/uBaZs+UYzfmQvMGW7NyIAUb3AtBs+ohk/qheYerNHJONH9QLTbvey9gCuUsNZt41Nu+Hz/ZzWWT/ICywJwDD3b33i1wrLwNS7fUd2/bIuA2ndv8c+AQ8AHKuDSwGwtc6yCABcBYmZ9gqk2O9Xi+o1AFiWDe1nJdlDlGUgzR2/koc4SNyzJQiUBpoaAKIsA6EBuBpcjavu4f6ldQODB1kCgE0zyLVHxNcGWmpYKwAtniBCHJDiiR8tGzVqBR7p+60bT6LGASHdf2lmS2ae1zJgeZBU6cFVEZeBsAB4btUatf7XrhkADABoYoDeAJRmvtUTAIAhtx7hBVp3HktrCj0A+PH92yFVWACsMYBkoLUNpJbovxaj9ALg96+fX3T1XqgUsNaW9cgGpNvCW9d+aWWxRyr4aux3w3/O/LsAqP4EjEcMYKkAatrCUk8g8Sw9UsFXA78aPAIA5vXfssOnBwCa6P+uOOAMgPf3wgNQ+6n21plo6Qe0znwFYF0AOIMhDACWvLrXTG5NIVt2HvUAoOQNwgFQ6gNoZqIXANbva/RM7gCcxQThPYDXpg4rAF7fHcEDnGUFYQDwqrBpZmaP6N9ap+gFQMQ6QPPMtHoGxx+CdLu2ngBI9Qdz59mHWR9aQgAAAABJRU5ErkJggg==",
@@ -17329,6 +17705,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "pedeterra",
       "name": "Pedeterra",
       "identifier": "Savanna Skipper",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Pedeterra is a nimble Asobimon known for its agility and speed on land. It hops gracefully across open fields and grassy plains, using its powerful hind legs to cover vast distances in search of food. Its fur is adapted to blend seamlessly with its natural environment, providing camouflage from predators.",
       "types": [
         "Normal"
@@ -17687,6 +18065,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is predominantly herbivorous, feeding on tender shoots, roots, and small plants found in its habitat. It is known for its cautious nature, using its keen senses to detect potential threats and swiftly",
+      "habitat": "Pedeterra inhabits open grasslands and savannas where it can move freely and utilize its hopping abilities to navigate the terrain. It prefers areas with sparse vegetation and ample space to forage and evade predators.",
+      "trivia": [
+        "Pedeterra's agility and speed make it a challenging target for predators, relying on its quick reflexes and keen",
+        "Pedeterra's powerful hind legs allow it to leap impressive distances, aiding in both hunting for food and evading"
+      ],
       "imageSheet": "../../source/images/monsters/pedeterra-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -17697,6 +18081,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "mandrakling",
       "name": "Mandrakling",
       "identifier": "Root Walking",
+      "shape": "HeadAndArms",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABeklEQVRYhe1WQU4DMQyMV/sZuIDafyBx4zVU5TNwAsE/KnHiO0aD5MpYduzsQnuppXSz68QzmtipiZnbOW06K3q7EGjrCGxvrxljTYx5KTCeu93jr/fD5xcNB2PmobG5uWKM99dn9uaj8Sgrw7USZ6pM/wleiTFVN8p5y9Mz+PSokKDeEUQbEXy/f0q/VY6BIgKRAjAAaUCZ2zUVEnMVXIN5pCyw+OQdMT0SJApkcuuAUR54vuxYCAQiuXsSV82StyRme6tVFOhZViWaGLCPORAlkU64rBQ1OTsPiW3MdWqfkd8b8Hl+vdf6CT9WbiuZV/OZAt5+raR8IyHQu0h6vsiqewhV8PH2wn8JXtkL3939A/0kISb4Z+4t1oZ19lJBRlfLVMAxH+qINEF9d+j5sFqsmgMv8+3Qft2kRFXkxdSYzXYoGigrRdsl9UpW4lq85rVJUbtlh0egp8RQS7ZNOhkvCUfWL25IDp3mIiKxqCE5lU0nQ7oQaL59AzE0cqpeEpBeAAAAAElFTkSuQmCC",
       "description": "Mandrakling is a mysterious and eerie Asobimon that resembles a small mandrake plant. It walks on its thick, gnarled roots, which resemble twisted legs, giving it an unsettling and unsettling appearance. Legends say that its cries can cause paralysis or even fainting in those who hear them.",
       "types": [
         "Plant"
@@ -18055,6 +18441,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is rarely seen due to its reclusive nature and prefers to dwell in dark, damp places such as forests or underground caves. Mandrakling moves slowly and deliberately on its roots, using its keen senses to",
+      "habitat": "Mandrakling thrives in environments rich in organic matter and magical energy, such as ancient forests or mystical groves. It is often found near sources of underground water or in areas where the veil between the",
+      "trivia": [
+        "According to folklore, hearing a Mandrakling cry is an omen of misfortune.",
+        "Its eerie appearance has inspired ghost stories and village superstitions for generations."
+      ],
       "imageSheet": "../../source/images/monsters/mandrakling-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -18065,6 +18457,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "taktak",
       "name": "TakTak",
       "identifier": "Takoyaki",
+      "shape": "HeadAndLegs",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABiElEQVRYhcVXQW4DIQzEaD/TXFo1/2uUfKa3Sn3ISj31O1SWQuQ4Y2M7h46EEjD2DNgQQmOM9p/YLMPx7QCV7T+/VLWhcUI7YAV5FkgEaQGT/HT6aOfz5TbOfQaPze8a0qZ9Z1+L6CvV7CwDWORIpDfXFLBfFcoVeKu2hGh/GdsVgAJlyLO+PRKoiojvFjkBqBgteHM5tluER0GOqhn1PRsqXL1AmscwQi6hVxedqwuSWIAmt4pHk1hCo2liEXcpkORoRfJsSxI5li1ayuwAWoUWEUF5ByaQzZvvoeu7P3P5VLZcgrnp/fUFbn/1BlxB7/Dmka9++SQiYlF6SRahJ2JFGLHrOFyEDxeRRZpNh7wFLfLbDkQfIxV45IxuvQXk5TKds0cN+S1fRLsSsaqFCKmLMcZd42PJ7fvr86lPHWc2zdcy5FG7NQ+JaEhAhsRqnr/kJOtZLhHJvTffe5a3bA1Yuaz6tUoBegKsdFm+PXOUvPe9HNP3iAeK1IBFhJD1D/85XRFXY/wBHcndq4khTbUAAAAASUVORK5CYII=",
       "description": "TakTak is a unique Asobimon resembling three stacked takoyaki balls, each with a different facial expression. It has a small chopstick protruding from its head like a horn, which it uses for balance and defense. Its appearance and aroma attract food-loving Asobimon and Trainers alike.",
       "types": [
         "Flame"
@@ -18423,6 +18817,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is known for its playful and mischievous nature. TakTak enjoys rolling around playfully and engaging in food-related antics, such as stealing snacks from unwary Trainers or mimicking the movements of other",
+      "habitat": "TakTak can be found in bustling city markets and food stalls where it thrives amidst the aroma of delicious street food. It prefers environments with plenty of culinary delights and enjoys interacting with Trainers who",
+      "trivia": [
+        "TakTak's name is derived from \\\"takoyaki,\\\" a popular Japanese street food made of octopus-filled batter balls.",
+        "TakTak's chopstick horn can absorb flavors from the food it touches, enhancing its own taste and aroma."
+      ],
       "imageSheet": "../../source/images/monsters/takTak-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAE+0lEQVR42u2dTW7dOgxGs52OCnSTdylvVqBbuJ52WKDLuS+DpDAcS/po2RYpngGRn+tBYh5RJEVSb6/X6w3JK7wEAOAlAAACAAgAIACAAAACAAgAIACAAAACAAgAIACAAAACAAgAIACAAAACAAgAIACAAAACAJ7l18//Hu+yvMvr4+sDxScB4F3Zzw/Fb+WJ8icHoKL8T8ESzArAh9l/NWQBgHkBWLYK//H92xcIAGBeAL4oHwCSALBn/gEgFwALAOQG4Ivy//75DQCzArBJ9LwAIBEAQqxfBYDsYGAAFOWLAKTODk5l7kvKFwFIaRmmWfFrT//z+04AUliGaZS/VnTpeyU0zHZuMEVef73PrxVeAuCAZVgAwNHK31u9a7Pfkk/lr0HZSpaQMaTyS8prKVUBIlvOIJzZX5v7mgJVpRucxScAOMjn11a+Vfl7z2eLCELl84+aeOtWkSkiCAdAzwo/As/sEUG4LeDI6l6HiKolyOIQhnICa0pXla08u/0cAJxbgZpy91b09nmjP8AWMLKsqxUC1pRsebYCAE7gqNVfWuklRe6Z+tI5QckvAABHVb01AFqiZgEFANgCRgKgOHiKT9CyDFnOBVJYAAsArTMBLIAjH8DizB1NIOEDOIoC1P3+SNpYtQCcBTio77daAmsGEQACHAhhAZJmAq0+gAJBzXIAgKPy76usQNYIwCUAlgrgs6KB0vMZqoPDtnqdYQkyx//uAGjVAZaOfo/4BIrPkKU3IMzx756JPmoJFCuBBXBcB9j6Xc/Kz2YFwtQBtrx6pU5APS8gCnC8BfRUBteig6yRQLgtQKn1O7NsnNNAp80gVwGQLR0cLgy0tHgd7QnIlA4O1Q3c2xCigCJ0CLEFjCwFVzN7Stl4K11Ma5iTUjC1t681JKKVOxAAoDl0NABHcvvquUC2ppAwAFiSQb0ZwWyTQsIVg14tAOC8GPSOnwFggmrgMywBPoCjoVB3WoIsIaAbAGqVQCMsQJYQ0AUAV9UA9voAjIlzNAjyTiuQqRpoKAC1MTBqqveKnzPVA44GYGk5fJZ+flZ/PADkvf4uS5Bt9Q8DwBry3WENMq7+IQC0xr9bq32I++MBsKi3ffR09nb2AKS5Q8jlGNje+j6LLwEAwer/zyr8FOYBsgWMbgG7Svli7I8T6G0OcGuLqEUOjIQLYgEskzyUGT/WqeEAMLjub28uYE+/X+dFEWwBdwLQ6gLunQ5W+jzjfYGhALhiIogAAGHgqOlf6pRviyXIXv3rOgqwzPen+neOwyBpGPRd5/8AEHQK6JUzgQBgcDHInZYgY/g3GgDv9f8PAAg0C/jM6t9Mq99dUeiIPsDMq99DWfgysg8gs/PnBYDHqG4gzL/zzqCrVz4ABOgNPLv6VzkBBACnDaLKpJDW53sHUAAQYEyccn+g8eo3APAIgGoJVFFgAgCHf1TrzqCt4hSFA0AgAJTzAmU/B4DYAFTTxD0AZBsGORUARvO/lFLO2WsBQwJgCefWilQqkTkODuADGE35P0Uq0QQFIT4jARmAmiIVmGayAJZQ2fU/ol4kKQDwMALwiA5A6VKs7e/c/zOlnIB1JSswzRIFKB3XYQA4YhVKK7kB0zKL9692WYUEwADBM1tSpwbA3pU5YQForOYlW1mXCsAeDG+ZX1QWAGrWgBeWBIBS7QQvLBEAe6VxvLCJAZgiD4Bcmwn8H5fW5czNp2uoAAAAAElFTkSuQmCC",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAE4UlEQVR42u2dTY4UMQxG5zqskLhkHYUdEleo2rJE4jhFLwapiVJJnF/beQsLZrrFoPHrL07iz/Vx3/cHsW/wSwAAfgkAQAAAAQAEABAAQAAAAQAEABAAQAAAAQAEABAAQAAAAQAEABAAQAAAAQAEABAAoDh+/vh+vOJ6xf3550HSNwHglezzM/FhnCTeOQCfn/w7EUDgHIArA8DNcuAbgP+S/e3rlxgAFwBsBEAMAgDYHACWAQC4AGATAP78/sUyAAAAAADUAQAQ1gHBkfFWx8ZbAZCAYNsTQwDIh2s18Hjrd3cGwLUaeL71EwOQOC9wC4H75IcAhBD8S3qmUHS7NLiU/FIA3pMee60QhhMAlHzqn5IWAhBL+vvfK2qGEwAUJD9MYijvIQBPEXuv1/4CN10+73I+EgBvF0umu3xSSRwBQMHScADAgsOdXEKlAJT8G4ll4QSACfKfkvzWRJdA4OW8wKX89/i054AqgOAAgAm3eysBeP/aalFousVrNgDSmgAABq7/WiLVZwAAg9f/kcWeJKgBFsl/b6nvDAEKMFr+QwC0QQAAk7Z/AOAXgOnFX+n2EgAcAvB+NZx7PfYeADC+/ct9wqUKYGEn4Pb2TyrvJZ/w8PXwPRZ3AqblX1r05QrFWMdQ7vXckTAADAIgJ9XS5Kc+4aVfA8DEA6CSYq1U2ks/4SiAgjk/NcVaTtpRAEM9gDXbtVzxhgIY6gKekUgUwNht4FOxNxsEAJjcD7gq0U81BecAk3cEGhJvvU3chd9fqwJwFzC4DtCiADSELPYFrAbBskvIlTOI4s+vApwpO7jC4g9n0ApXsBLpNwWByQJQw67Ay+AIk0fBsU6c2VV/SUuYhWLQ5Lqv6S7AumXc9Lo/+n5f+jMyEBwA0KkfsLTBoxWE2n7Dp7FyANBpz99iAJE2ikh+nsWbQVONIDWNoD1bxVuXAgDocO6/aiSMtN5gCZg4DGq0L1AyXcza3YC5DqAe/gDs4gZrAG2TQSohOACgw+VP71k/o5YTCyqwjTG0ZTvXsuRo3wmY6wBqtX332E0AgIIeQEliSk76WgwkALDAGCqd59dy7SsZJGHtNNAdAKMsX9JBEhSBE91AWhWAbeDk+4DawQ69FMCiT8CsMVSTKbS0WRQAOlvCtCYeADayhKEAG1vChO3iXAZ5s4QJvYJcB3uyhHkZFGH6cTGWFAAA6uT/0uIEavQKXgDQoR/AwlJgzSpuzhSieVSMRau4STOo1qUAb+AkM6i2I2DLj5F1YQZdCYL1ZwibmwAy0gtY6x0EgMGf/Jonhc9IvPX1fzkAuYHQqeaOFmdPa2PIkyIxKXRx9+8IEEo6gxkWPei6V3tYdQRvqwCjnzPIEtC592+kE6jnI2czB1YcBLW0gM94BmBPxeEoeJAHMAdHyu3Tw+GT2pVYrgNUD4Pq/bi3liIzpRgAMNgBVHME/HRw0wsCloBJAJQWcz0GSObUJ/V+TUWgBGozXb810t8yHi51AijYCSy5D3hasmLfM9X1O3sSaIsNfOUWsEQZVQCgqetXagKNfV/L+l+iXuoBWNXYUWMD1zYQIuVcRgEqawbrCvD0f0cBHraP0l2CxhogpVQoQIfp4ZmLoGUdQanrahRgQGOIttO/JwBiQJsYDo0X0Ok5QO5CSHvitZpBJCeBfwGypfha6O4NfgAAAABJRU5ErkJggg==",
@@ -18433,6 +18833,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "crablue",
       "name": "Crablue",
       "identifier": "Blue Crab",
+      "shape": "Fish",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0llym/WlJ7teQXqZ/hRykkK9ex8ULCs5kxrayXbYfFYglyLbGo5djOee0pUybek9/AMBuyebD6/NN/L4u3xY9w6I5gE5RoiAsAgCdH49vN/bT6T0MYhd1rJyuwsChQ/dvMJAKANT9y1NGPX9+0C9bU5Sdy9SQAaS73Apvym6NMsrCNOJcOfF1rv4bz0Iptqs9E9qRXkV/+bqq8PRCm9BYb64PHwHTAqEuaMXodNR0s7hjKDBM9R4WPrTf5UAv4dghKlcQlP92dbE5DrBJoW05UeB7DCQV29E+EPliTs0tYC1nKqElgDMY1wDBqiOxEllaeqP0XwEoECofHrm5alBW94Fe2bGqYNmuSrFe47PCEEBrBrQaCwPH9tdrCogJJxera9w40qwYI9iEZlGz4NEEw9irYXSXhJlMq6UlhwDCD5Lou6BlVw8UcwDqxasO7dkZKAbCWBlGhkrUjiDs/89p2lh+AFYEzCaIAJsXAAAAAElFTkSuQmCC",
       "description": "Crablue rules the shallows of coastal waters with a proud, commanding presence. Its deep blue shell is patterned in a way that resembles a crown, earning it a reputation as royalty among coastal Asobimon. Territorial by nature, Crablue communicates through sharp clicks and precise claw gestures that echo beneath the waves.",
       "types": [
         "Water"
@@ -18791,6 +19193,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is territorial and protective of its habitat, often burrowing into sandy or muddy bottoms near shorelines and estuaries. Crablue uses its claws not only for hunting but also for communicating through",
+      "habitat": "Crablue thrives in coastal regions with brackish water, such as estuaries and tidal marshes. It is commonly found along the Atlantic coast, particularly in areas where the water is shallow and nutrient-rich. Trainers",
+      "trivia": [
+        "Crablue's ability to regenerate lost limbs quickly aids in its survival against predators and in territorial disputes",
+        "It is known to migrate during certain seasons, traveling along coastlines in search of optimal feeding grounds and"
+      ],
       "imageSheet": "../../source/images/monsters/crablue-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -18801,6 +19209,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "umbrawatt",
       "name": "Umbrawatt",
       "identifier": "Shadow Child",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "Umbrawatt emerges from the eerie convergence of shadows and lightning. It manifests as a small, ghostly, figure contained within a colossal, electrified form.",
       "types": [
         "Spark",
@@ -19160,6 +19570,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Umbrawatt is rarely seen in its entirety, as its massive electrified form tends to obscure the ghostly figure within. appear during thunderstorms, drawn to areas where the natural convergence of lightning and shadows",
+      "habitat": "Umbrawatt is most often found in stormy environments and places where the boundaries between light and shadow blur, such as deep forests, mountain peaks, and eerie marshlands. Its presence is often associated with the",
+      "trivia": [
+        "Folklore says Umbrawatt is a guardian spirit of storms and shadow.",
+        "The figure within its electric body is said to guide lost souls during violent weather."
+      ],
       "imageSheet": "../../source/images/monsters/umbrawatt-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAErUlEQVR42u2d227sIAxF8/8/ndOXI1VVArYxxJcViYcZqVI1e2HMtiHXfd8Xo+/gRwAAfgQAYAAAAwAYAMAYjP8PADQQefYAQGPxAaA6ANfPz/I0AKCh+L+/A4AG4f5BbADotMb/Ff/lewCoIPjT+g4AxYWfJXgAUEz4N8H/Jni/PwvyAgCILPxI9KfZ/gbAyxYQAKKKrxH+LQpM9v8AkMm4GQk/g6CDC5gVgOmst0aGkRdQUfyMAIiEnwkuTQwrC58RgKFduyo8ABTw6gGgOACSWb8KCQAkmP2S5O+toAMAuQAQ792tFjAAFJj9mkqfEYAbAILOflUflxKADlGg1OyfASFJCAEgeOY/c/DIA5oAoLBvb81OAgCSA+ARBTolgmkAkIjstSXsVBBqBYDVEqYhJBEAHkmg0m8AgBP1fokgXrNfajdXACFVX5/VBVypDFYHIUWTh3ZWepaHjdHgBoDF1q4n926HuN2jQVjxdzZ97IgGWU8Shyv07Oz3OxENskEQusYfUXxtu3l0CEKLH1X4WUUyk4sYrsKXSXilewgAUnPnRJJ2OkGMCkHIBo9sM1/pGfQGYJf4UbaOQq8AACrOfkVCCAC7ZmwkrwAAXgDYlfxFM4sA4A8AO9d/zyogABwGwHP2R4kCAHAQgBMlYY9cJCIEZRJAAAAAloGMAHgKRSLYGIC3ptBIUQAADgAQzRMAgAMAjA6GRHAWX6ITAGz+gcMBELEqmH4XsOtMAAAkBGDH+g8AiSqBO9rJACAZAF+dAwAAAACAit1AAFCkG3gWdTQnkgFgAwBRowAAHL7r17sb2PszAGwEoGoUAAAFANK9/MmZvgmAECCEBCB6i7czADcAHMzuLWu89w4lEgShdgERo4CHtay4WgYAqgIQ9cwgAAj7DHadG+wAwA0AcbeFocUHgNwALItfEYDBjgAAAKAOAC7iR7ntAwAaArBr/X+6BrfaLuD2BuALCE4cLKlqBLmL/8X9gSfELx8BTrzhO6P4LwBcAOB7IWMKwFoBMPpuR33eCgMAbPL+tc2gXs2jABAIAE19/isAVi6xtvQjlPcBVg6FrB74XFkCRuBWuS/gEyPorSQqMWJOAyD9P6SfozWIflYLmIXYWRPFTkfPs39xNglaACBoipyG+dV+gpUehNkSJol00db+4/0A1jXUq6HECwBNq1eG28I+eSvoKPxLosJpACTJ6CjKRb4n6LNXw1qeLwHwuKS68yVR1y4ApPvylSTQ8yazSOKfBmAZhK92AdZcJtopoCgAmEGQ+AZSADQWtOPDm0M9/ISvdgLVxM8CwLXqFGpqEc4A8Pbw3QAkiAAAcKLJRHvngCZySCDI9tLotACsnjJa6Q0w7vkBYGcU0Gb3lshheS0NAAQ+aHrCFAKAQxB8bQsLahsAEOW+Aa86v7K4BQBRogAAAMAyAIbSNgAAAACUAEDqAwDA4URQIqbFSh7N/mx1/9IAWC6UtP5N1saP1gBY2ss7iJ8dgGt2jkDavOlRL8hYCi4FgGSdllTvLN3KWcWvAMAlnbGW3r7KwlcC4DKKVF7cTgBcCwK2Fb8aAAwAYAAAAwAYAMAAAAYAMACAMR7/APhXJs39dG4xAAAAAElFTkSuQmCC",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEUElEQVR42u3dS24iMRCA4d7ABi6BxA5xBtYcj6Nygp5MpFlM0t3Y7bLr9SO1IqKEJNTncvnVmeZ5ngxcJY+JS/6arAGYvn6lfxcQcgD4FfwCCAQvCIB5DQDZIBmArWCDIBGA8/m8HGW6hBwANocBIMgNoAACQc0AAAQAKEHApFKUUcDOmoCZRa8ASgJ6OByKho4Ujg5nAmtHBD+/din4IHC4FrCFYO3rtoIPArsANhG83+/i9L70eSD4ALCJ4Ha7fQSw9jkQ+AGwieB0OlWl/60VRhDYBTCVFnS1qR8EfgD8B6EkYDWBBoEfAEUzPDVBLhkxZIIQDkDpUJBs4KgLkGz9e7NFVAyug9/S+mu/LyoENwAkgthSF0SF4AKAVCuunSbOAMFd6y+tBaQxVKwwzgDoDKBHsFu6Cc8I3KV/TQCfZhk9Ikjd+lteLwoC0n/yTJASgOTrekdgfvLHcgaIgMDV5I/EZM+e/QJ7awkPCOj/F4Z4e36WVwQp0v+nln48Hn8FvzMCAGj1/2s/p2bFMRKCNP3/Wpqv/SiIAACjAawt+NQ+FxwZAEBj+Pf3WFnvTAAAwwCkHgBwBuD1ejW3/NJM4KUOSNf/S9QAJVkAAEKtv0cB2OPjzm4AACP7/14PADgrAMkARu8UOiIDjKoBAGCw/ycDOANgdfxPDeB4AwgZwA6AWQOAZg3ATKBy/98jEzAV3Kn1jwDAWoAOgFkz/UtlAoHVwJT7AWYLrb+1Jti7ATU6gM34SgyhLGQCADTczKGmJWmdAZDYF5gNgHjgLRwAkd4d/CE7ugVQ1Jd7CnzvQ6fWIHQN/ohTulYBlAwTLSAYdg+f6K3eKwSx/r3mPjvRAy8EQR3A7sLu51Esqa4iIQQbAGqr3awB9ghh142aMxV0mhBGIKgCYGn6NguE3giqAZSctOXqeqMJOwC4/CMAgF8EMwCSIegxaVQ9CgBBLAQAiNEVzMMmggAQqx4IDSD68jIAqAeaEVQB8BL8qGh77DQuBkDLj5kFQgN4Pp/fv/flcvl+fr/fyQIZuoClm0JGWasAgNA+f0YEwYvA1u3pWbJAdwAab/bj8QibAVQB9PjfvBo1ABkgCYCoGaBgcw4AIvb9ABDIAADYeS5gb1A13niJ8/0AEMoC1AAAYA4AALR8AASuATSyy3AALTOCGm/MyEywdhgWAMp3/Bq5nqHV1QGgcvwPgMAASuf+e3cDAEhWA2j+nQBouP8vABJnAAAEBdDr3r/UAI4AaGQAABieDRw1K0gXYPCMnmZQQu0H8AogKrgNAJM5ABkRXK9XAGQGoLgY1AeARDDpCgAAAAAAwDWA1j8sC4KRALqfDrYCoOTWtSOfA4AsAAAyAQDIAgAY8yZZa/m1/03FE4Bhu2qjZoJQALQ3VHpq+QAgEwzffJoGADVAYADRsgAAEmUCAJAFAAAAAAAAAABQBjABAAC+AURBAAAAAAAAAACAcQB/AOLRyPer3Lb4AAAAAElFTkSuQmCC",
@@ -19170,6 +19586,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "cairsom",
       "name": "Cairsom",
       "identifier": "Rock Stack",
+      "shape": "Multi",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABm0lEQVRYhe1XS04DMQydRHMZ2FDBPSp119NQpZeBFQjuUYkV1wnyaFy55tlxAlIXYCnKjGO/5zif8aRa63RNyVdln/4DmL4H8P76XKlZDj8Zg+O11nN7e3mq93c3S6Nn1tO7HJdj2pfH2MfDpTZbEZdyXOKj/nB4nB42t6HjQvalHCv7UL9i9e+BspKTcC9TSgTUdGqlj0dOcs4AgVjGrGdAbSffJakOWtjW7W6f6MHNgDcDnRmLDOml5NbsvcB0HxWy5WXLEhRFq3UeObJFeFKf6FigVLXSp2fcsrXw56gDmklUZLa0zJrU2+ERYs8ecWTkzE7soEEi5OyHMKVkDYLWqpUVpEN+KHv5t9Z5FCNHU9kCRTaRpUt8DHuiHhXEM693ctdNaIH1CNkTt/k5jhJrfW8giati63vgfNGGbXn2FwHoIPRdMCLSV+IyOYlbEaET0Nor0t66fMxjuN3tk3d0UIWk+1axIme/iC4uuYjUhaR+b/XIH3FNSCnbSBDSroWfIv+G0YpYy+nj8zLdo39GpwDQqE/683/HXzzAL/tEqyfCAAAAAElFTkSuQmCC",
       "description": "Cairsom consists of four small rocks balanced precariously on top of each other. Despite its simplistic appearance, it exhibits surprising stability and coordination.",
       "types": [
         "Earth"
@@ -19528,6 +19946,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Cairsom is known for its patient and steady demeanor. It remains stationary in its balanced formation for extended periods, only moving when necessary or when disturbed. Despite lacking traditional limbs or facial",
+      "habitat": "Cairsom can be found in rocky landscapes, mountainous regions, and areas with geological formations. It blends in seamlessly with its surroundings, often mistaken for a natural rock formation by unsuspecting observers.",
+      "trivia": [
+        "Legends say Cairsom's balanced structure is a symbol of harmony and resilience.",
+        "Observers who spend time near Cairsom report feeling a sense of calm and tranquility."
+      ],
       "imageSheet": "../../source/images/monsters/cairsom-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEQ0lEQVR42u2d224jIQxA8/f81/BhtKr2YRUlYIO52BwkP1TbbqLxscEXPK9Sygu5V3gIAMBDAAAEABAAQAAAAQAEABAAQAAAAQAEABAAQAAAAQAEABAAQAAAAQAEABAAQAAAAQAEABAAQAAAAQAEAJxJ+pVc6iv/+z0AuEzx7+sBgBjylP71AMBdVh8eAqz+7ym8vkp0CK62+payGxAkAAhg9a1V+b0MAA6V/27xgxAAgEfla1fl7xIAOFD+p33+XaEtMKJuA9cof9Tqo3qB65QvsfxvkUFEL4DlK/424mEwQpzfpXztGaDxewkA9kg2sF61d4i0DYSy/pbyv/2bNhqItA2Es/7R84A0MQQA+6UZtmnPAJIMIR7gYAB6LFxQ+QMATwBI4v5aFbAzI+i2dew6DzAaAQg+5wGAAwCw/lkJ2QMAmw+Bm6zfHQThk0C1n2utYFrxCkHIRFArhFMoUOQVPLeOhUsFf4vpezqBjApFGQA2tXmPWrj2LOAxR3BFm/eqBQAHtXmvXI3PZQtYafWrF4fAw9q8DWr7Vqd/wsBVyh9p7NAWgRTAkQia3fI12+UPHCZJBc/O9n2K8S2V3ZksclcRdJ/v1yq/N73b+By3U0Tcl3xryjfO60thcwVDqIqftcIHIwcOgbPPADVl1moB2nsDn/4v5TrWK7iMAmbU76Wuf/DA+QDAoqFO0h7BViQh6SlUbicJACZD0BsZjHgLBQQZACZP+eq9FazZEgYzhgCwKlqYkTEcuD6GB1hdFtZOBmkNhdBEEB5uEoec9GmdHu4FwENvQIh5ABLlW9wLMNhSEgBMaAI1qN6N7v+Sw+mRmcEQh73aXm9l+Q3rT5Wt6ejaQKg28Jk9A8Kev/8Ppy6KQiEug2gydr17vvfWr0hRQO7JznENLA4AqkjAUukRIQg9CNoCjI5QkPkAO5Xf2uOtGkWivEsg5CDoVSvCuwSumwVsmRdoQEBL2Grl71qetwIsv9Pyo2wFWP788wCXQ61i/R2Wb9BYyvVwi2zfqZYv/I4AYNXitcvypS1mALB4CuiuMTC1LCEATATg25y/lZ4AAA7xADuzgGwBh90KPiUaAACnk8CJApxeCycPcDkAZAIvSgRZnd6lI2G0VUFqAQsmgWP99xSDht8HsOoM4PlFUm5nBDqw/lKYFBqnH2AgGcUhcNZWsNsTCBtJCQNnHAYt7v/3Wr7kjSRevEAI698xO1jplTIAGFu/1iWP1v+1Qyq9RARh9/4FdwG1XgAALNLBJ6eEAQAAAGBTQegpwhmCBisX4fsKAWBtRTAV5UBJpdKTxDsRBewDYOVDFo+qIQ+wYCDUBjcrHlVDR9C6yyF59/cDgL1WlnZ/v0PADJUKltbmdz1kyRh7qoHWbvawh1yLOugHWOBmn4O+q6shkV76AVyOYPUinmYDZhTPmDgEABAAQAAAAQAEABAAQAAA6ZcfqYJ0wpdVAl4AAAAASUVORK5CYII=",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAE1klEQVR42u2dS3LEIAxE5/bcCw7mZJFFUuXY6AO0pKZKi1nMeGy9FkLm87mu60Ora3wIBIAPgQDQCACNANAIAI0A0AgAjQDQCACNANAIAI0A0AgAjQDQCACNANAIQDpr3zYuWRs/3yMAhZyeEgY63q91AlDT8aEhoON/2uf7UcxaJghKO17idCEMnQCcs25xvOa7kSEo5XyNw2d/LyoEJUK+t+MzQZBa9SsdL4SgEQAw5799doZgEIBDzt/ZXq7bCMBi598pXqp8a2SIFgXSJHunVC/8H50AbAr53sqXgBUpIUw1xENpkRLCNIWdXcqfBS1KQpiisIPaIkSB8OXcU8qXvjdAjQJhCztRGnoUCO98tM/CKEAApIWdiA25GwjjfHTlPwGK3A3AOz9DQ04G4Z0fWfkRogCVjxEFSgGQUvmSukBlAFo15ROAvzayK185GmgVAOhVlY+cCEL0+9mVj5wIQji/SqsIwGvSl035s+8GqgAwhCqonAekA6BT+XUBaOz3awMwHfqZA+QEgP0+AXi+aeYAeQFo7PtrAzAqVfyizwxi/4+h/lYOgKrZf4XXwez/g4T/IwAw+8cJ/8wBNqsfcXEIc4Ci2T9zAAz1t3IRgLV/HPUzB9ig+hcAUkaAUfFdgND5s205JJwLsFD1zve7BIbjU8CjfHbeTt7SegQAws0H9Dg7YCMYPQIAomVgJz6j244u4ehqoB3RAFHBztfryADcdgVvD0GrbMBQvXooaYbg2IrgWadtVlPEaqIJghDn+GRQtHdE8IIA6iQvOnw/BJBHutHh5i6hIQOgPuiporOVEAx0ALo2ArBNQwC7R5Aq/LM9P68IAGw91JERAKsOMOj4mjmAau9/thyjgE7H16wDpDjuBdnxyJVAqv6M6lXO9wSAqj/neLXzPQAQjevZXMO92flWAJjhL3Q68oyg8KpHedmk/H3X2cHpVY82t8D4W+6HTy/J8JFO8NY8cG8QHCBatkAkTYa/Yo6hFAgP+HY5fhaAHtHxiN0KktNnAYB1/gqlW/f/d3geRxaLmpwfZLi09X9FcfwTAD2K6lco3boH0IGh3O8cTfy7Ic7zizJnYNULm4eEfFivAX+kG4ryJfe/CIIufHRdCsCg8rfmBf1yWl310JoEACofNxKMmWv9k2vYAKDyl0eCmaTt0TeWncjgAIiifMdIMLQA3FUfpZEGCoDMM4SNU7g96iENCgBJbR1Z+ZpIoABgOIhlbE0CuarXFYCuFdDbdcSU/Vd393B0ph1FhYJq0iHgCgCat5odFZI9AoxL8Cpe+dxfu4DpatPqjZMyKd8QBfrss7cUhTxKjqvVUTEKeL+KnxoGiiZ+rn4w2U8OeYgCnrOvXt8OmmcAK/8AVNkZrDLoEfanXwt7TwmfvXCZ7N8KwMp1gdd1bouYkv2/9H4FyTb0RpElzxa2ACAc4plOHjm1OxgjgODACa/NIFAASH22sDYPUBZ3zCuFYMJ/9TOFdu8SvgKAuwmL6iFglYqgsqoKd2BEF/xZUQTIPjfg9ALR5dvB3yQq4hwgy8wgYzkX8tAoyXuDLh0FZJ8ddNLxHgBojodrkjrAzrV/SHWAHY73AGAobm5cwlmumff9P+V0LwC0ic30d7MpfwKAUEfHWgAYhu+nGQEgAPAFdyWPjayUZEwAAAAASUVORK5CYII=",
@@ -19538,6 +19962,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "swinlit",
       "name": "Swinlit",
       "identifier": "Piglet",
+      "shape": "BipedalTail",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB9klEQVRYhaVXsU5FIQyFG6dnopO7qywS+Qg/xz/w5fkF+hVuJo5+hImLb3d1c9AVw80t6as9BbxNCFwoPW0vbcHnnJ1GKYa68Pq2P00xfC3j6xTDixwv394NktcU4OCjNKqElwoQ+HZ7W+d2u7v6TePSa3yjSkwIvAgjgZwIUAJzJUc86LkH0EYOJklTUvMCyZbzk2SQYNzdGrjGL41Rxps/HkhAAQSmgfM1slbKZWvHzrmfgzPAGWQv1zv5N2hfiuG7egBpaXkEKdUrg9YnbaFsoMYFaVZa/ARueWlqWafFvMwJPXu1/TOVX3B1eZFLe356nHvZaB71iB+N+ZzXzgB308gZ0KIEZc56BlJH+PWAS5LgmnGzAk3zBhXS+FEyK3nCl/8gNV5LGqj8ppTsc843KYZ7YrKESmrxazlhAT93zn2UcfkFDz1WoZxvEXB7BS/UXQtGCFlP+R+V45BieEdCrXRq7WldUrx2H2iFjqYUinuipgLpnwUJFSJ06iUdIcGtrNjKlFb8H1AWtYDaSM7nPd/PW8HRmke1YC1JD8Cbcl400SzsqYQ9FRFZXz2AbsUjHrGiwHonTPyjMEpmdJtBtyM513qkeOtpJj1ghSaqdhZ4UwECskJpxN3dCjjnzlIMn3KSCT+h1zJYX63ATOg5Ncpj0S+oRI5Kg6tYAQAAAABJRU5ErkJggg==",
       "description": "Swinlit is a playful and curious, resembling a small piglet. Its chubby body and short legs give it an endearing appearance, often seen rooting around for truffles and berries in forested areas.",
       "types": [
         "Normal"
@@ -19896,6 +20322,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Swinlit is known for its mischievous and adventurous nature. It enjoys exploring its surroundings and foraging for food, often getting into playful antics with other Asobimon and humans alike. Despite its small size,",
+      "habitat": "Swinlit inhabits dense forests and lush meadows where it can find ample vegetation and soil to root through for food. It prefers habitats with plenty of tree cover and open spaces where it can play freely and search for",
+      "trivia": [
+        "Swinlit's stout snout is its primary tool for survival, allowing it to find food and sense danger even in the densest",
+        "Trainers who bond with Swinlit often find it to be a loyal and affectionate companion, eager to explore new"
+      ],
       "imageSheet": "../../source/images/monsters/swinlit-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEtUlEQVR42u2dQY7bMAxF5yTed1Wgp5kb+SjdFegZvO2yQI/hI2RSpBikgSWREmWR8lt8pGgLJ/B/lCyKot9ut9sbuq64CQDATQAABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIACYUD9/fF/uWu/a7ro9afv39wsAXMPwlPa73gGg/aaKIqrCINH3PF13r7hmKAjONv9deVP3DgZlv8foumEg8Gx+KlrfDY3vqT3CM8GZw75ltA43+NvXL5/K/L8VAB4ArAEiVmz4X/35/etTGQg2AHgAsEluqiCixAZJpLnus+FHSl0PAB4AHN7Y3M20Nkj7PdrrAoAhAK8G5UzSGp76zA3xqd8FAAYASG/+Kwi1Ud8yUuR+KwAYAiABwcLUo0+N+c+/BQAapgANBF4iHwCMVgE1o8CZAoCOeYASAKPNl0IAALJMoGoa8GJ+CQIeAjtMA97Mz0EAAMbTwIiHvRYIAMBwGtCYr0n59oKARFCnacDK+LOeK9gMMtgVrIn6liH7JADYDpbWBZRGgVYTe0GQMZ+CkNa0cM68GiN7pZmjzv8hAJACITUzV9RRO0oAQId9gRazpJFulYgCgE61ARLzSwDUXJspIDAAmuWf5dYyABgDII1uAAAAAAAAAAAAALgmAFpAAAAAACASAC1JIIn5rQBE3gkMkwfQJGy8RH+EncBRAGytyaCago1eO4MZABYAqCgN672Ne5L5IYb/kS1i9loIWow72mnUfM42/A9rElVTGdRa4tVjJIlcCDIaAPEoIDnJK53vraI/elcQF23icr1+rKuCT4r8cNE/vE9gaSrQRKn0+Fbr50w9Aj0AkG0e5e184Gzmu+gUWmr7Zhm9tZ+zmu+mVawUghFHwGZrDeu2V7AEghHRP7P57ppFS7qA9j7hc1QpHD3bF6pbuLQVrNXcLs0lRN3uDdkuXjoSOFgBLAAwMFFk9Tn7lm/YF0Zodw45/j3XCCDaL7CO9qtNA0T/RSp/IgKwBQFgE77OxuWLpTwD4G5vQJAZlLzVxFUCyfP8HxEA6VtN3GwbM//3AUCiFQAM5v/adwY4gGADAIPhXwNF50rgbNbSayo5/PDvAYDS1jEAnDz8twKg2RxK/RkATjo6dmRsSzZQ+4awEgDe08hTAGA1Amg3h17NVQLAKqD19HAqulPVQ2cDEOHwSBgAUiXeJSM1RR/aB8GG4X8lE9gAgASG2hNE2lrBoxVAYVXg6vBIaABq3+5hNQKkfluEDGDIZaD2Xb69Tgc1vOd4Zzew4biYdj/AqhjEKB3ssow8VCWQdAQYeEoo3BmCkAWhPSK6U/TvHotAIlUFFyuCLaJe+oygMH/zbnyUqmBRQehZI0BuXR+1ONQ7AJv2BRPWT/qC6N8jVwaHPhdg2TyqlECapSVMNACW0sOgxXo/Z/hsLWFCAVAaBY5Ma+0gpnjY43j46BKxUhVOjaKv66cDIPcwOEjTmB8JgBXzrw3AImka0VFb5LV+eAAUnUN242if0vSQACQOXP4XnYl/J9pnAQABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAghT4AhyqP2gA8v+8AAAAASUVORK5CYII=",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEjklEQVR42u2dTY7bMAxG5yTed1Wgp8mNdJTuCvQM3mZZoMfIEdIUmEXiiWTRpCWKeosPAWYGrS0+fqZ+HH7c7/cPNK8YBABgEAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAM0HwO9fP5eH0kPrQ/eC1s+/WwhUEAAewbw8dNsJ/Fa3SCB4S4DWNy4NvnpQBAN+2sAfuIZtAlwiAJCUwa92BeWAm0HydB03g/tdRgfgjGC8ZIfhgKthOPi4KymNDsCXm/rx/VtWB4KwNgx60ZVOgvAUF3ALwEEQPKg68AfuOw0JwGdWZAfg75/ry+dZMHgAruYaCtdh7gJdC8BnAN7JIki1Ay6RdeBz99zCBboWgNtBKH1Kg1A74DXAaWGQXMPzdeTqnREB2A1+rUpBkAb8iCQgHL2WvX83JAC5T022WgVc6kql65HeX3gAzshIy4yX/v8ad5sWgKMu0FoSN9C4Gw4woKwfQ9QAA8Jh8ezHAYI6Ag4QoAbQQCC9HxxgclEDBHODo86BA5D9sZeCJdk/gxtE3QzCAewAWKauASK7QEXw11EPhOAA+mf/0CeCdrdKNS4QAaQep4GGPA8w8bP/Muyp4L0TQRbZPzJIPZ79Q5wJJPvPfSfAzalgXODadOrn7r0AaoBrbAc4czUwiguErgFwAF8bQC5fDcMFrvMCgAMAAC6AAyBqAGoAHAAHoAaYygXevV007SMAB6AGmLIG2LpAVABW6oC5HSDhAnPXAAsOMPFeQMuzgdGyP8RuIHXA5OcBao+Gze4CYU8ESY6G8fxv8/zv1TCCs4Gy7F+jAUAd4OREcC8AmqwHBMn+W5iOITWdQ2arBXpnf7euYWe7ANnvH4DpXcBD9nftG1jqIWSxOkj2+weg2EUsshN4yf7unUNLjZU0LjDKl0f2zn4XrWOlEATP/KbZ76Z3sKQeGC37c98o7iH7PQFQXQ+MfuR7J/iX1mPvqafuRQLBCDAI9vubW7/L9vHRIBA0mGpu/V4BWI4A4AGKve4hvZpDjwZAsuoBOEDWdw++txpgqZ0OepkBKHsKdg++NwDSaDMARTNJF8EfYhooXQ10bvmugi8C4Kkt+rpp254yv/vyN9rt4QBLvKlXta8CYG96VtkyPUu+RW9hL30EvU73DgOwNzUT6i0EUXYDPS/4aABIRsF/mwXW3yLqxQU8rfdrAViNAXjJgojfI+xpv98CgGxwaqZtpbPuNdX/SOcAPLzr91+SBTNTACTz4ujfIt66988WgByc25+p3+TJgVEzAJbZP6ALpBYAbMdlO7bqN3meb1C4MpainwXs9Rh4B6EGgKTZmMnd/BldRPjWjzwA259JABBt0lQuiaZZTgL3qAP2tqZFAEjWAgTr4ffoJ4ErVwdTCwBKbmByUGOvOJQCQB9gewBy7ezNjmtZQBDtbaDa6XArALZjJQKgBQTR3wRqDYDJOkDltrBqUSjSDMDDTECyEvgPWuJajLnJLPMAAAAASUVORK5CYII=",
@@ -19906,6 +20338,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "seraphlight",
       "name": "Seraphlight",
       "identifier": "Angelic",
+      "shape": "FourWings",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABUElEQVRYhe1XQQ4CIQwE4mf0onH/p9HPeDPxISae/A6GTWrqZAplPXDZJrh0oZ2hQLvGnHMYKWkoelgJhPEENt6J02H3Pa3P1zsunbMoApNyzHTvnL8iUOR8Ps3Py+VKAfS4V5I1UAAQpOWYjTM/zQhMykD6sjoRrRdgHGd+2LlIyFQbiVMMrUfXhKTPMBIy1UbisAdY69oPRuiLedxvs7TH/WY+se/Va35LC6UYeUhgY8Bs3PJb2lwIy49FgkWhJzot8B8CrUiwlVn9WgQ0uEmgtkq2FbWtYXM0ZtQfJHgF8TSL4Klmeu1W6XwQ8YuolcN7gVEwGUUvAW+ex8jVwIuYxYglEEw4KCwhYQFDEqm1GjG28r2XiCVJK1h4rBUxh7V3ujbgFkc5A7W976nvXlvZimQZywR2dVrSZZshEWndeudtHn9x/WcUVgKDZTiBD94LnrubdGaRAAAAAElFTkSuQmCC",
       "description": "Seraphlight is a majestic Asobimon known for its radiant, otherworldly form. Six brilliant wings surround its glowing body, filling the air with a soft, heavenly light. Legends say that when Seraphlight appears, it brings hope and protection to those in need.",
       "types": [
         "Light"
@@ -20264,6 +20698,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon possesses a gentle and nurturing demeanor, often found in serene and sacred places where it watches over living beings. Seraphlight uses its wings not only for flight but also to generate healing energies",
+      "habitat": "Seraphlight is rarely seen by humans, preferring to reside in secluded areas such as mountaintops, ancient forests, or mystical sanctuaries. It is attracted to places of spiritual significance and is believed to appear",
+      "trivia": [
+        "Seraphlight's presence is said to inspire feelings of peace and serenity in those who encounter it, imbuing them with",
+        "According to folklore, its wings emit a soft, celestial music that resonates with the hearts of those who listen,"
+      ],
       "imageSheet": "../../source/images/monsters/seraphlight-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,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",
@@ -20274,6 +20714,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "bonesteel",
       "name": "Bonesteel",
       "identifier": "Skeletal",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "Bonesteel is a fearsome Asobimon resembling a skeletal warrior adorned with bone armor and wielding a sword as part of its body structure. Its skull-shaped head and sharp, skeletal features strike an imposing figure, instilling both awe and dread in those who encounter it. Legends say it guards ancient treasures buried deep within haunted ruins.",
       "types": [
         "Dark"
@@ -20632,6 +21074,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is fiercely territorial and protective of its sword, which is an extension of its skeletal form. Bonesteel patrols ancient battlegrounds and ghostly haunts, challenging any who trespass into its domain to",
+      "habitat": "Bonesteel is typically found in eerie and mystical locations such as crypts, ancient battlefields, and spectral forests. It is drawn to places steeped in history and imbued with supernatural energies, where it roams as",
+      "trivia": [
+        "Bonesteel's sword is not just a weapon but a part of its skeletal structure.",
+        "Bonesteel's presence signifies the lingering spirits of warriors who fell in battle, bound to their weapons and armor"
+      ],
       "imageSheet": "../../source/images/monsters/Bonesteel-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -20642,6 +21090,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "spellite",
       "name": "Spellite",
       "identifier": "Wizard",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "Spellite is a revered Asobimon known for its mystical appearance, standing at 4 feet tall. It wears robes adorned with intricate symbols and wields a crackling staff that channels potent arcane powers. Spellite is adept at casting spells and concocting mystical potions.",
       "types": [
         "Arcane"
@@ -21000,6 +21450,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is wise and contemplative, often found in ancient ruins or secluded sanctuaries where it studies ancient texts and practices intricate magical rituals. Spellite is respected for its mastery of magic and",
+      "habitat": "Spellite inhabits places rich in mystical energies such as enchanted forests, mystical temples, and areas where ley lines converge. It seeks out locations where the boundaries between realms are thin, enabling it to",
+      "trivia": [
+        "Spellite's staff acts as a conduit for its potent arcane abilities, allowing it to cast spells and weave protective",
+        "Encounter with Spellite is said to impart wisdom and insight, as it shares ancient teachings and prophetic visions with"
+      ],
       "imageSheet": "../../source/images/monsters/spellite-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -21010,6 +21466,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "draguard",
       "name": "Draguard",
       "identifier": "Bearded Dragon",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Draguard is a solitary Asobimon resembling a bearded dragon, known for its sturdy build and keen eyesight. Its scales shimmer with earthy tones, providing excellent camouflage in arid environments. Despite its calm demeanor, Draguard is fiercely protective of its territory.",
       "types": [
         "Dragon"
@@ -21368,6 +21826,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon prefers warm climates and can often be found basking in the sun on rocky outcrops or desert sands. Draguard's impressive claws and tail are formidable weapons, used for defense and digging burrows where it",
+      "habitat": "Draguard inhabits arid regions and desert landscapes, where it blends seamlessly with its surroundings. It thrives in rocky terrains and sandy dunes, relying on its keen sense of smell to locate prey and navigate its",
+      "trivia": [
+        "Draguard's \\\"beard\\\" is actually an extension of its scales, which it can puff up to appear larger and more intimidating",
+        "Despite its dragon-like appearance, Draguard is herbivorous, feeding primarily on succulent plants and occasional"
+      ],
       "imageSheet": "../../source/images/monsters/draguard-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -21378,6 +21842,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "shivalea",
       "name": "Shivalea",
       "identifier": "Ice Queen",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "Shivalea is a majestic Asobimon known for its elegant and icy demeanor, resembling a queen of frost. Its crystalline blue hair shimmers like ice, and its gaze freezes the hearts of those who behold it. Legends speak of its ability to control frost and conjure blizzards with a mere gesture.",
       "types": [
         "Frost"
@@ -21736,6 +22202,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is often found in frozen tundras and icy caverns, where it glides effortlessly across snow-covered landscapes. Shivalea's presence brings a chill to the air, and its movements are as graceful as they are",
+      "habitat": "Shivalea thrives in environments dominated by ice and snow, such as frozen lakes, glaciers, and icy mountain peaks. It navigates treacherous terrain with ease and can endure extreme cold temperatures without difficulty.",
+      "trivia": [
+        "Shivalea's icy powers are said to be a manifestation of its emotions, capable of freezing anything in its path when",
+        "Despite its cold exterior, Shivalea has a gentle side, nurturing injured Asobimon and lost travelers who brave the icy"
+      ],
       "imageSheet": "../../source/images/monsters/shivalea-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -21746,6 +22218,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "puntuff",
       "name": "Puntuff",
       "identifier": "Bouncing Fighter",
+      "shape": "HeadAndLegs",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABiElEQVRYhcVXQW4DIQzEaD/TXFo1/2uUfKa3Sn3ISj31O1SWQuQ4Y2M7h46EEjD2DNgQQmOM9p/YLMPx7QCV7T+/VLWhcUI7YAV5FkgEaQGT/HT6aOfz5TbOfQaPze8a0qZ9Z1+L6CvV7CwDWORIpDfXFLBfFcoVeKu2hGh/GdsVgAJlyLO+PRKoiojvFjkBqBgteHM5tluER0GOqhn1PRsqXL1AmscwQi6hVxedqwuSWIAmt4pHk1hCo2liEXcpkORoRfJsSxI5li1ayuwAWoUWEUF5ByaQzZvvoeu7P3P5VLZcgrnp/fUFbn/1BlxB7/Dmka9++SQiYlF6SRahJ2JFGLHrOFyEDxeRRZpNh7wFLfLbDkQfIxV45IxuvQXk5TKds0cN+S1fRLsSsaqFCKmLMcZd42PJ7fvr86lPHWc2zdcy5FG7NQ+JaEhAhsRqnr/kJOtZLhHJvTffe5a3bA1Yuaz6tUoBegKsdFm+PXOUvPe9HNP3iAeK1IBFhJD1D/85XRFXY/wBHcndq4khTbUAAAAASUVORK5CYII=",
       "description": "Puntuff is a whimsical Asobimon resembling a ball of fur with legs but no arms. It moves with lively bounds, using its rounded body and strong legs to deliver surprisingly potent kicks to adversaries. Despite its innocent guise, Puntuff's prowess in combat makes it a formidable contender in battles.",
       "types": [
         "Normal"
@@ -22104,6 +22578,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon exudes playful and cunning traits. Puntuff delights in bounding through open fields and grassy plains, engaging in friendly sparring matches with fellow Asobimon. Its lack of arms proves no hindrance;",
+      "habitat": "Puntuff favors environments with soft, yielding terrain and ample space for bouncing freely. It frequents meadows, parks, and gentle slopes where it can showcase its acrobatic skills and hone its kicking techniques.",
+      "trivia": [
+        "Puntuff's fur is exceptionally soft and insulating, offering protection against cold weather and cushioning against",
+        "Despite lacking arms, Puntuff's robust leg muscles enable it to leap impressive distances and deliver forceful kicks"
+      ],
       "imageSheet": "../../source/images/monsters/puntuff-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAE3UlEQVR42u2dS26VMQyFux1GSGy6MyT20SESy7mMKsGv21wnvx/n2GdgoV7RQuPPzzjJ2+PxeJPMFS2CANAiCACJAJAIAIkAkAgAiQCQCIDR8uvn++MqAqCBEiNFAAxTeBcIpPThIEjZC/nx/Vt7GNor/6rEZ0q1fnb93AqIAChU+OdnK1kp2Pp9rBC0UP5XSrMo0UMs3kAAOCn/mWLvWPnqe1+FEevPR4aAXvk7io5MFq2hQQBsKH9lqVcgLAlf5NcnOcJ4AO64fFRhgwBe+TsxGe1rBgjglL+7eCzeQABslHg72Tv619ZysT0Ap3V8F0H1BBCWf1K3s3sCFAjgld/RC6x+x1YA7CZ6HS3/pKRtD8AqJlp768oHCAGwWP4zADrnBNUQlLj/1V57pz4AQz5Q6votu2qrGnpCdUAHgEf8myTVoaDE+q0xsXNfYAwAOzF9Ug7wKiy28gA7AxurhZjgCagB8Ij76H2AqI5lVUVQ0vDZHd1C7OB5Vye0AEzK+CP3LV79XEgAvC2fJUZHVCdV1YCsf9PiM3KAzFDgXvI9K+M8La865kd5tqpB0vKs/9QKO1m/tfUdAUEoAN6WkTk5ZPk3O3iC0MZPF2vMzmcyt4tTd/3YPMGdE8Te5wqidgvpqgCkGcJor5TRIArd+Km0zIr9/MgOYVSDCD7+s/YJsvYJKACYMN2b0SeAAkDTPu9l/YFyAKyuKirGos70rTxF1CljaACYO4FTpoXgs//sDuBdS73z58kuIYwHyKz7p3oACAAqzvNH1tkIlr/6faKHRGiy/4nWH50AugDgvf/P3hfw9gTwAOjUT93OIBwAUz1BRg4AtR3M7AWYcomMUfGUI2BelhXRV0Cy/NU9yHAjYezWj+4Jso6NhwJQ2UHLnCyK9gA0ACB7gZ27/yfU/6kAVGTP1l07VE+QdWOI+6EQButnuKuQ0gPsvLSR6QnuvBzStQMYHgJQPMGuZSN4gswbQ1JOBlXmAKeTRCd9gowcAB4ApDt+WGcIaAGwxtzMHKDqVHHE/xf+eDhaL4BxdzL7qpgUABD6AIi7hqcPZlDcEaTZgFivRXFL2FeeILsPwHp3MPzxcE0J1Z81hASgqhpAtuRXOdHpRhWsB5g8wx/9UrknBCXvA1TOA1TcKdQeAOUBeQB4N4dKXwrx7KCh3hQyCoCpfQEB4Hx2kK3OFwA3SkJ5gCZJ4O6bQd3eBRQAG0/EdzzrX6F4mEaQFwTyBPuGQfdyaPdbPzLPHlA+Hm1ZnGm7elXKT/cAbKdzEO8OpH48+m4cZOkDeD971+L1cO/kaHXMK9rCraUtwvPwdAB4geN9d/FuyKp6DbwVANbFtR74PHXPFu+D4M7pAYg8XuUVZu7EdzTltwbA8jZxZlWCqHyKHCAaAmuyZ1Uyk/JpqgCG+h9ZyS3KQOuiS/HNGkFegxBS9nAAXkGw+jsdFV+yGYQ0CiUB3Q0UAM0B8GjvCgASADwhmBab2wDgBYEAIAbgDgSTSrLWAOxCMLEmbw+AGjIC4DYEUloDAE4gkLKaAWCFQEpqDIBEAEgEgEQASASAxE92WuxasKYA/Pn98Z989ZkWrDkAV8V/Wr4AGADAv65eAAwH4PqZABgIwDMYtGADAFh5Ay3YEACe5QQCYBgA16pAAKgPoMWa3gn8C3J9EWHhoIWRAAAAAElFTkSuQmCC",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFTUlEQVR42u2dSW7cQAxFfZ2sAuSSdZTsAuQK0jbLADlOxwHcQVvQUAPH0lsQttoJWt38/PxkUVVvj8fjDbuv8SUAAL4EAIABAAwAYAAAAwAYAMAAAAYAMACAAQAMAGAAAAMAGADAAAAGADAAgAGAbPbzx/fybuu7PT5+vv5eAMD8Dn9c2AIA7uXwPbsdG2R1btn8fel0+CUYTtLGFCkkg/OXM8r+cFK1Y799/bL7u4AtAMDO+V0Of14/TYE1CgBwzuN7Dt9z/hYIgoBIlR5SRXutk44cfWYtIOpMISHBECnyh5z/Gsmtzr5iCeEUsgCAY9q/jOja/H5E7Vf/p9eylpshnd4SzRIOOdMFLe/VkR7WnZ9lagDUKvtR57fk9aNUcMQqNffXo108WCJcru/Jtcql3TBQI/cXrAHQRfutkex9XZsmIvQXrAHQLOKyW61WuPi8a3oAHOV+ido88rVEH0IzFYRz/gxRPypoLVOBm/CbLdK1NIN2KnCp9WePeEmm2P6bFAA4q/W3ufHOkV/zvaRjgNpaHwbo+l5KBgA01/pEfnV6TAEAz4GM2RlgTckAM9f5mhrAoh/gBgCifWhdo6RKAaOrdHfuC2inAlMGIMLj9QNMu35Eulg1EI8Brpo/MIB4RbCEAcBZ5F8pW67rxti1JodMmj8wgFo1MMwIKtFfg2Ku2zVABRiKBwDWGiVLVMtXAhLiULXuJ/J15gXOGCEEAxD5bozgwgALdb/fjOGoDjBr/GBmFcJqAoCaQU8i11YT9OgAtUFPGGBiBuhp/HAt3yGUqAREGz9Ef76pIZXGD5HqtkpoAgCiPxADjI6NqTV+iFT3VcJixgBEfsjVwlUcADWNHyLVviM4Ug2ICkAiM18/QFQAEpn+TGDOAGiA0CxQ1DUA6j/39DAz/5OzgLoGoAMYVwOYMAAscC8NsNIHiKkBwpWBmPvKoGwrmN2+cu0pJL4YxI5f6RhgkQYAu33l0gCyIpAu4JzTQWJdQCIx5p5CJgCAAfKuCIpu/kRk5ttXUHQWECa4GQPwRFCs3cTMNQAdwfxzgSrbwBKp9k8I9W4bwy6g8/YAqoSg2kOhRGqIHUUv0wD7AUy2a0irEBQfCiUycz0ryHOB82uBoj4RxKpg2GpgMRkLRwfEZACXp4NhAr8TSdWHQltKQRghx76BalvDUx3YTwKpPxhSs0EkHUIfBjBZC2gZFKVDGGItoLjsFNpxo5h8/b+47RXM3sF5zhTipPAb9v81Tw1rnlzl2vdcQZODo6kG9PL+6JbxpucGsp+A3rOApptF946N0RswmQMs3gBYa8tCmKB9548LADQfHacBgCI4z0akn9go/asAoHWtgMivPxkk5Klhtf0AVgxlunySAtCkEdRCaTDD8Jidy8mhi0Q+gxmGNZL92cGazr8LEwgEgc/p4VcrgZKG0pd1uhQAVm3HzzxPcPTZpM4BMD83UNv5MzFCS1knofRNzg20BkC0M3t66/oGx3crfQ0AuDnfmxFGRKzAfS/STbspAGBdLWgw2InYaxZ9LfeSBgCDj0gPr7gZOn5Y4f97jz+/f32yo9fCA6B36LTXMY6pSqy0e3X21vHPexkFgIkI1MjJgfWKWH5/dfCrwyUBUKIAoHWRqUWdOzS2ihYAtq8NAcCKBVoA0NNPHwWJ0udbtACwBwbRVrDRF1SOwBep/PMEwVG0iwLAkQXW2qmjDCDQ0AR7ANjTBBIAKE6LQaVmJfKkrs4ChCIJgG1VMAyAnkfFpVjg4r2XjbM/lVibNPL/bzuvL87pYA3ZB4gAgitnesw3an7OVgDU2l8AY3vCkGQMewAAAABJRU5ErkJggg==",
@@ -22114,6 +22594,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "tardegris",
       "name": "Tardegris",
       "identifier": "Tardigrade",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Tardegris is a resilient Asobimon known for its squat body and tough, segmented hide. It can endure extreme heat, cold, and pressure that would overwhelm most creatures. When danger strikes, Tardegris can enter a dormant state, allowing it to survive even the harshest conditions.",
       "types": [
         "Moon"
@@ -22472,6 +22954,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon inhabits diverse habitats, from deep sea trenches to moss-covered rocks and polar ice caps. Tardegris can endure harsh conditions by curling into a dehydrated ball, surviving without water or oxygen for",
+      "habitat": "Tardegris thrives in environments with fluctuating conditions and extreme temperatures, demonstrating adaptability and survival instincts that surpass other Asobimon . It can be found in damp forests, frozen tundras,",
+      "trivia": [
+        "Tardegris's ability to survive in extreme conditions has fascinated scientists.",
+        "Tardegris is surprisingly strong and can withstand pressures and temperatures far beyond the capabilities of most"
+      ],
       "imageSheet": "../../source/images/monsters/tardegris-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEdklEQVR42u2dS24bMQyGc52uCvSSc5TuCvQKM9suC/Q4brpIERjWiKQokZK+xY8iaWI75seXHvTb4/F4Q/uKNwEAeBMAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAUOvnj+/Hu653PQz693sHAOxh7C3AwPCbg4DRNwdhW6N/+/pFrRVB2MLwJYP++f3rvyRfN4CRFoQtDK81tASEV2DMCMJyhm/xcA8wZgNhCcO3hnbr16XnmwmEzMY/Wwu5ESA8/2sE4QQAhfE/G9jiob1rAiMIJwBUjC81fBQIDjXCuTUAJeNbDT8SBM3rq4BwbgnAnfGjDOWdCl79fDQE03h+pKF6R5gCBMcWANQ8PzJnj4owBQiu5QGQGD+ij48CJyIVLJ/zR9cELY8XUQ9skfMj2j2nCNAdAnK+cyrw2G0cCUHE2n5Yzh/VFVgfTxANztkBuKJzfvYIMLo9DA392ZZoM0SA0e3hFu2eJvRmiQAVCM5pAKjl/UwRoDUitYKkrAeOWQC4srd7NSNqPdjj7xNEgSs9AK+8f6UlXM8IUHv+AgRHdgBuq/67kzyzguD1+kdFgeHerzlKFWH4Xh6seX7l9vGRFYCq90dt2/ZcF7DuBt55f88o0BOANMe1tYazHOwY+Xqf39t0ANTC/8zbttLQbf19SxTICID7km/vmqBWi/SoIbx2DVMBIPH+bEe57jxRc/fAY+Vv+ghw5/0r7d+3pi7ngyNHCgDuFn4yH+WyeKIkXWhSSUsEaOkEhnp/Zo8deVXM43q6VxoYtuw7SxUv9cKW/2+JNN51wLSbPivdFLKsU6QCIGrTpzXCWHrwnj8vfayMAIQc9fJYsvUGrrSX0fn+QFwR2LPvj15798rXHo/Va1t4q75/truGI66Qddn0yWZYSY/e0pf3rAN6Hw1b5sRPqVq+A9IyO9Di+T36fq/DoUud85d6s3Ho4+3fJ10plPzeyJEyXfb8sx/lagHAUuM8P5/DRNL4Y+HZV/4k32+FQBsFnOYQnykuhmQ77m2pzj0MolnbzziA2r36zxQBDGftj5bRdR0iQPdBkqm3fVv78Np+vLan1swvVN7/D5sgmnrbt3Vlz+KVreNrNTXHtLOCM97vt07wtBqlBELpjODyAGSNANo6oMf9h4/vLQGAtf3TfjpHaw3w+Q2/qxEcACjefi4ZfuQYuB4AXNrip3Up1BIBXi2+9MrLksnmUYMgewAgKv48bwLVQJCOV5HkZathlBCcGYzvCkAPw0tA0C641I5WtYRmAQTzf2SMxKuiJnpIe+3n+sCzOHvqDq7lPjRKeuM3qup/FW7vAMhanE2dAqLW/kvGVH624AEAyU8AKUaqHXetWubibCoAMgxyqOXySoF27eb5H/oLEBYYJzLD1RIAAAAASUVORK5CYII=",
@@ -22482,6 +22970,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "venuserk",
       "name": "Venuserk",
       "identifier": "Ancient Trap",
+      "shape": "HeadAndBase",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABeUlEQVRYhbVXXU7DMAxurF0GXkDr/ZjGZXibxEGQeNp1jDIR5H74N1stRU0b299nx3XaxsyLJ+vr803h6/vaXMVJO8o4wXkWPGNHkZPT6e02siSqdk3bAunkfH5fcB6JZadtB3mOsoAZIqYw82YcX564j8/Lx+ZqzaMrzhGPoih6BGMvMTK8RnaaUKgBW+GBI2BmC5ssQll8GVIeuBeILEYKrRIO75E2MlCJ/h7BLByyBhVyFRvKOhr3Xtq19WibKAserVX1NwRW0asfUVgZGZiEC9meL3UqpLEmSEYvm8sjReukXTo2eR1uPNcIyWfWumX7rw+scPzulQmtFxAueAeM5qhatKh/kDfZDFjv+kzGqJqB2fd9ZAtJNjwL9qoFJDfOgqYdxxEJK9KIqLT7O5LZ+CSTo/r5JYfmT+ItSMAiMkPCAw4JsPKBOkPGA08TmAHF+ykC/EtiL/A+1D8jKVabtgTXo5/TFhGQJKqS+aNOEUASluOMDsoPNr/uz+OTN+IAAAAASUVORK5CYII=",
       "description": "Venuserk is an ancient Asobimon resembling a colossal Venus flytrap with multiple heads. Each head is equipped with razor-sharp teeth and emits a sweet fragrance to lure prey. Legends depict it as a guardian of ancient forests, where it ensnares unsuspecting Asobimon and consumes them for sustenance.",
       "types": [
         "Ancient"
@@ -22840,6 +23330,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is rooted in ancient groves and dense jungles, blending seamlessly with its surroundings. Venuserk remains motionless for extended periods, waiting patiently for prey to approach. Its multiple heads",
+      "habitat": "Venuserk thrives in lush and humid environments, where it can blend in among dense foliage and moist soil. It is often found in secluded groves and primeval forests, where it plays a crucial role in maintaining",
+      "trivia": [
+        "Each head of Venuserk functions independently, allowing it to capture multiple prey simultaneously or defend itself",
+        "Despite its carnivorous nature."
+      ],
       "imageSheet": "../../source/images/monsters/-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -22850,6 +23346,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "yulong",
       "name": "Yulong",
       "identifier": "Confused Fish",
+      "shape": "Serpentine",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABjUlEQVRYhbVXQW4DIQwElM+0l1ab/zVKP9NbpT4kUk/5DhVRLU0mtjGwsYRgmcUejM16c601oRzfX+vl95p5TsaMrUpGApohnEPZi0jRjMuzzJ1OHwl7j9gUgSMoQyPyfD5/Po1EYWPco3GN5CgJ9OyNALu5iRjFHkUjFTX+MN7eXqq0n++vob61FsStoR6ct3B5J7cBsvR2jjhmQy9TOMZk/Q3n3WtjaRruedDC0QPF26F2zj3PRHCMg8IvWgHGgekpH8FLZIdaVoykKuN3+rfFLOB5br0YSbPGIyQiAZr29sDIe0/zgIebBLYg41UyfDxJuzBWlHvrtfhIeE/vtTOvVwlUh8RqjFgp+kCgKiR6QcTKLU94R5C1olS7HfkW074ZkWf+GpZesWldsaLM+vgg7kmZrXhnKqIwAU9my7FhApd/L6B7NeOjhO6qoZTSYWSRZ6hH1DrizFmAolXMbJSjmrNIqyERzx4Bj4RmnNdEgjv3CFgkvF3xWg/PEQJIgmX1JzWchpqhPf6Q/wDNpxSFJaOCVAAAAABJRU5ErkJggg==",
       "description": "Yulong took an unusual evolution route. A once great dragon, now an awkward Wyrm with the head of a common fish. This Yulong incredibly resilient in it has had to survive a torturous existence.",
       "types": [
         "Dragon"
@@ -23208,6 +23706,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Yulong is known for its tenacity and survival instincts. It inhabits deep underwater caves and remote coastal regions where it can blend in with its surroundings. Despite its fearsome appearance, Yulong is generally",
+      "habitat": "Yulong thrives in underwater habitats with deep, labyrinthine caves and rocky crevices. It is often found in areas where the ocean meets the shore, where it can navigate both aquatic and terrestrial environments with",
+      "trivia": [
+        "Yulong's unusual combination of features is believed to have evolved as a result of adapting to harsh underwater",
+        "Yulong possesses a gentle nature and is known to form symbiotic relationships with smaller aquatic Asobimon."
+      ],
       "imageSheet": "../../source/images/monsters/yulong-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFuElEQVR42u2dwU7cQAyGAYlD4dBHQBx7qtQLr8BlT7xBTzxJ5yX6NMmRXipVqnruA/QOiC2obLUbMok9thOP549kLbsVNIk/2/94ZrJH2+32CNau4SYAANwEAAADADAAAAMAMAAAAwAwAAADADAAAAMAMAAAAwAwAAADADAAAAMAMAAAAwAwAAADADAAAAMAMAAAAwAwAAADADAAAAMAMAAAAwAwAAADADAAAAMAMAAAAwAwAAADADAA4NXSs/Xbw6N//RwABLduO310AKBd54eFAM7/l945RwcAYtmw5j/flaP/Fh0CRH/G+cOfR44EAIJGP+Wz198FANGiP/eagQAARI/+3XF+fh5SCyD6M7V/+Hp6ehpSCyD6CdEfWQsg+mdqP1ELJAAQPPp3x/Hxcags0CIArNo/9RphRAAAGNFP+J3qZg4BgF4GqBKG1uf6tTNAdTC04PgvU9O9JycnVhmgisZRM5Gei+SbmxtWZN/f3x/MFhJmDl1nieacPlf7KZog1xOoEYZmHT/lKE5XcK5pJITBHIQWlnG9qfUU9S/9d8J6AhfaIWzUjzlIoe9fNBLIaQZmlugAwEzUj0Xmi11cXIxGZKn6zzlO8p4Ig3pJCLF4kyLIStIxRSdYvBLOtWsRgD7niKenJ5Lzpc7Q+HveIKg29XNVfKkYk4wUNI6Z/ye1AEAqdYxlhEprPkcTTMDetwDAaP/+4eGB1dzRjsI14MpcRxcZgMRJiWvU6iWcT7j2FBWAN9G/2Wxc1uql6r52KQgV/bmaWkPN55QrzXWJIdbuWdV+6VyAZvq3ygIhlm5JxtljSttb7bfMAtUDUFAvSW1kb7XfKgt4BuDP/pVdXl6Sx/3avf4lx/0KwKQoAPzev6qrq6ui9F/b+F8BgD5kCTg7OysWgDWM+0sBkO5R8Or8W2l/v6bxv+RcIwJwWzrBU2sfAAAc2ncOAAssxzKHSjJTGQ2A9/tXsT/PX9rpq2kuoMT50QB4x0l31K6ZZz0gFYARS8BdKQA1agBp+o8IwGdqFuAszZ7SEJSVup7Sf3QAdhDcUTt/NWsB6QggKgBZTTDV+rUcb3vsAUQdBrL38y+tCTxogJYA6Odq91Lp1pMG8F4COJs253a7pLWcUoMG8DIZxN6lO3JMrW7tNOpnNA3gYTpYw/FqELSkATwsCOmMgoJVDizT7XBjqbc+gDT6SwFgPYKlYFv0HMW9pRbICUyrPoLiSqBFFoV2HIdnnrAtVbGptI5yl5UvpR9K1i5qRD8XgI7blhTUQPHQcN+m0vhUZD8+PpprgBIAtKKfAwDZ+dw0W3gxb7LAy46hkvUB1CeBeJgSXmtrWEdJ94o1L0kygGWNXqsfYPkFVsVbszWftsG8mFR6Pt77BnOrnrSdTwGAFGmUGqfkfNIoQKMPoP0MIK4m8vCEkE4rzSo/+KhYg1BAXHPqmPH0MPNnBCUtQWTwaHURlFrP/7PuO1gofg4AvXHdLyU4adTpglq72jyB9ZdTsESWtMYpENxrzAXk6u0aNd+oTyICQG2IZfAFS6pDP49bw4llIFkBkIydL4l+0URQra/WOkD1G7Ws+tWa51bbYV0GyClWobctpXb2xkR97wIAB1+u2Fz6XzoDqNdY5RNepPdfkRBUB0Ctxi4FQCvHUgCo1FijlJW0zg8agAGAYrqSCkDTZWDQABUKQGiAhTKAUr36aj0EhAZwpAGur6+Hf+6X5RAQGsCZBjA44aaHgNz7+enjhy3VTG+yJQCYC5gG4OePbweW+8xknL0UAA3X/0QFYOj4XeSTAHBUs5rVACX3ct/B+w5nA6CcttysA4g+BBwDYPgZKwM4aAZBAygAMAaDmQZQLANJ89xqq/8aAExlA7P5dsUyIN4HEOU9NZOOATCmCcw0gHIZCNEGLrmvpUGUA2A4KjDXAEploEkBKAmg0j6A+po7KwAw/p8HgGp/ASe3HZOss3OhAAAAAElFTkSuQmCC",
@@ -23218,6 +23722,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "flameingo",
       "name": "Flameingo",
       "identifier": "Flamenco",
+      "shape": "Winged",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgUlEQVRYhcVXW2rDMBD0ilym/WmJ79fgXqZ/hRwk0K9eR8UFlWWYfchSGoGxE0ua2dmXJbXW5ZGjzNhkfX0+bIWMKIDAt69v+TcFVgV+ubxRQndRYAWQHXzb3pejSpQe4Aj8kBK1Vvc6vzxVfV0/P9w7XtH+SxZcA3jg+zOSOUTgTMA8EjgH51s4YgVh82Pzqx7N7zoG2Dw91wzMmrDeUyKyPFJBmAIsx3dLLCuZ1XpdG0yF4m2kAbXcmPf6NxKNSBf3bYJYBmQ6AW0tqjGVwOYAWH7Ork9nwdXJ86gIZWrBCQmxOm7VghaYVk9ge2MmFAucdTksOjormDu0C6xGJa0OMHBGQlvHqiDzOdvvT4lqNB3vHj1nu+av8aPgoySWHgUs8B4S2KaFxQDzHQabNVhAep9tRf+hUwQX9VQ8r1cgjmA3tL7nolzHdxZhrAPiteM2mbXnTBri+nQ7voFMbGHkHlxvfRFJz7nAOgmNnJBKGp1YFT3f/Wy4TBhTTscj4webSXa8mBFXKAAAAABJRU5ErkJggg==",
       "description": "Flameingo is a graceful Asobimon resembling a flamingo, adorned with fiery plumage that glows with intense heat. It uses its long, slender legs to gracefully dance and maneuver through fiery environments. The flames that adorn its body are a symbol of its fiery spirit and passion.",
       "types": [
         "Flame"
@@ -23576,6 +24082,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon thrives in volcanic regions and fiery habitats, where it elegantly wades through molten lava and hot springs. Flameingo's fiery plumage serves both as a means of intimidation and a display of its strength",
+      "habitat": "Flameingo is commonly found near active volcanoes and hot springs, where it can absorb the intense heat to fuel its fiery abilities. It is also occasionally spotted in tropical islands where it enjoys basking in the",
+      "trivia": [
+        "Flameingo's wings can generate intense heat, allowing it to scorch opponents with flaming attacks during battles.",
+        "Despite its fiery nature, Flameingo is known for its graceful and elegant movements, resembling the dance of a flamenco"
+      ],
       "imageSheet": "../../source/images/monsters/flameingo-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -23586,6 +24098,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "kurodae",
       "name": "Kurodae",
       "identifier": "Crow",
+      "shape": "Winged",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgUlEQVRYhcVXW2rDMBD0ilym/WmJ79fgXqZ/hRwk0K9eR8UFlWWYfchSGoGxE0ua2dmXJbXW5ZGjzNhkfX0+bIWMKIDAt69v+TcFVgV+ubxRQndRYAWQHXzb3pejSpQe4Aj8kBK1Vvc6vzxVfV0/P9w7XtH+SxZcA3jg+zOSOUTgTMA8EjgH51s4YgVh82Pzqx7N7zoG2Dw91wzMmrDeUyKyPFJBmAIsx3dLLCuZ1XpdG0yF4m2kAbXcmPf6NxKNSBf3bYJYBmQ6AW0tqjGVwOYAWH7Ork9nwdXJ86gIZWrBCQmxOm7VghaYVk9ge2MmFAucdTksOjormDu0C6xGJa0OMHBGQlvHqiDzOdvvT4lqNB3vHj1nu+av8aPgoySWHgUs8B4S2KaFxQDzHQabNVhAep9tRf+hUwQX9VQ8r1cgjmA3tL7nolzHdxZhrAPiteM2mbXnTBri+nQ7voFMbGHkHlxvfRFJz7nAOgmNnJBKGp1YFT3f/Wy4TBhTTscj4webSXa8mBFXKAAAAABJRU5ErkJggg==",
       "description": "Kurodae is known for its keen intelligence and mischievous nature. It spends its days exploring urban areas and gathering shiny objects that catch its eye.",
       "types": [
         "Wind"
@@ -23944,6 +24458,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Kurodae spends its days traversing through city streets, alleyways, and rooftops in search of intriguing items and trinkets that catch its eye. be adept at climbing and navigating urban obstacles with ease, often",
+      "habitat": "Kurodae thrives in densely populated urban areas where there are plenty of opportunities to explore and gather shiny objects. It is commonly found in cities with bustling markets, vibrant nightlife, and a rich diversity",
+      "trivia": [
+        "Kurodae's affinity for shiny objects has led to it being nicknamed the \\\"Urban Magpie Asobimon \\\" by some urban dwellers.",
+        "Urban legends suggest that Kurodae possesses a knack for locating lost items and treasures hidden within the"
+      ],
       "imageSheet": "../../source/images/monsters/kurodae-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAElklEQVR42u3dTW7bMBCGYV2nqwK9pO9Fbbss0OOodZEgtiqSM5whOZJeAd+mTYLEfMTfkb1s27aQ+4YXAQC8CAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIADQ5vE361a+1o+vo5EvAEDS4BsgrgXAo9GBcEIAvRoeCKMBaK6Whn9+Wy6KKy1Br8sD0Da6tKEbQPzrDQAwEMDzzvNodO3/n6k3uCQA6V2vvcMlQ4EQQgJABwCtDb9vNE3j5zCcBcFlANS6+1IjHTWiZIyvQRD0BgkADgAkja/t3mtoNKuEyAjODqDY5Vu79aOfoUWQ+57d9QCAPqlljLcCkA4XEjivS0QAODa+teFzDZhb8klXByUEANB1+8XG92j4UvetmUzmfr8ow8AZAazeY71lDNfuERQArACQpTjD97567Q1EGQYuAaDn3e/1s6MOA5cbAnpA8AQQbTVwuUlgy6aPNwDpmUOEYeByy8DSFuzIHqA2VAGgMwJPDJadxNLvAoDBpV2aAyGvOUBtVQEAn8Og5lIvSa/gtQyUrAQAMKAeQFPA0WMZWMEBAI+SMM8C0NZJYGPvAADvqmBLGbh1GSg9ZJpVPHqrsvDWKmGvfYDc2cDMQpHbAbDUD3qP+RHqBm8LQILBeztYs0s4CgEA3hFU1+w9EcyoGwTA1wuxSqqLeiGYVTwKgMLdXxqzvREIi0cTAPoAWKWFJt61B7MRAODglZZ2094IFGXkCQCTAMyoQuqJAAAZACNqBSMgAIABQBAEDwAMACA525+EYAXARABBECQADAAQBYHnfAAARgCBhoKm+QAAFMvASL2A13wAAIaNoJG9gOJ3TABw2gpeDh7pGnVOYDxGTgAwHgbVGn00gobTQ1FpGQC+XogkfebwRD1BFQIAGoaCRfBGUiPmA8KVQXFYAIBwKKjV8/UsHnFYHmZ7AwAIhgLJk0Qzl4aL/H0J/+sNAGBEIHkAdSQCBYQEAAMCaW8wGoGyN0gAaECgGHOnIpBWHAPAiCBS/UBrYQkAGhFInvgFwckBSB8l0+7eBUTwAICxN9A+ExgMwQoAp96g9nj40vmt7QwIANB7WJgNAQCDIUjX67V5Q48HUBgC+mBoBiA9Cm65BD+TSWDPCqNS9zt6g4hlYF8Aq2WJ6DkUCC82gkYeK0sqjAdebAXP2j20njEYr6EfbH07AJbDpM4I3opCADBxo6h2btCjwSkJC7JVLAGw8AYR5wKwFT7MwhlA02NgAJiw/JNsBjXOAVYAxAOgXre3fO3L9wDgDABKB0CGDRx6gDMMAaUHOnIPdwgBTJ8D/Pj+bZPmtpPARfBuIyUgkVcBz4b9/evnW3L/dqdloOmjaxaHBz5nANg3/Oedf0cAD8uuTc8JXy8Ar139cABBkzbfa434dx4B2P/bXQHst4M/D15aP7rmcSYARxjuCMDrMw9T1L8hd7cDwAfEGvXOLwE4mhMA4KLJAdivCgBwcQBT9wHIXADS/AE1BA0LxhfgvQAAAABJRU5ErkJggg==",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAADmUlEQVR42u2cS07tMAxA73YYIbHJ7qudMkRiOeXpCSSoblvHsR0nOZXOBAmE6uNPkzaPfd8fMC/cBATgJiAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgQBnLP7Zdd23fv48AkwV+KCEIvM/VjQwzBX/d46/0IhD8/3fhUcwoIkwdfE3gDYRIJcOUwTfI6GFkmD742opgLFUzEaYNvmUr6FmEqYNvOQNIpRJeKwI0CL6VFEazQkg1IPgngbASQSJXy2pA5gcJUDkrrAgQGHzrVnAUQvpUEtESph/4LASQzhUlFSGqGkw/7dcKIPkfSmaQaAkIvkHmX/2dKyEklcRbgqmf8z03hO7mgNJ24iVBj/v5KYJ/l7Gax0FlS1hnEmCzWuHzCL6VAIqWsM4gwNpieddDgEwSDNH3o4NfI4BmyblAgmVEAZaswY8SoECCbUQBbvt+ZPAlAkiWhK2HTm0r6C77W/b9GgG0g6Dkb9VI0G32twr+mQQlbaH2/xZKsPQuwJqt9GuXkD3EtZoHGPycBbDOfut5gNIf8D6gV+WyaAVdDn5Zgm9Uqqt3I2taAdnfYLHIYpvZqhWQ/UHZb7X38Oz+1LQCsj8o+62+OpJ+nCJtBWR/suyvkUIgQWoBhsn+mi1gSyl6EmCo7LcWQPsKW08CDJX9Zy1AmbWW7yymFWCo7D+rANZDoMVWceryX1rmMi8ARS5D9/YYuElfqdZ8o9+7AEZX2oWgquGvFwEaX2vmpWD18Cd9PbzViyRJBEi/G+iS/V7DViIBjh+KHs8/FH9IOsTwp7nZHbUA14MiUp3Wqc3+0ivJNvB0x8RdHtNaU/4RILcAovN5a7/nzxR84W6g2z1/e33ZpaQ4n3e07BfOAa4CfH68/+HsZ82yXvsWTS/BzyLAMfA/me8pQPXBzHevP929GZMh+BkE+F3qowQoOpi59ClAuQaedTUwVIDjzzwEEAdfEjyL1b8MXw5lEuCZDCHP9R6nckgkSf46eJgAV9UgJOuzbtg0LP9btADPZoJaAZaS4Hsc09KxAEsLAY5PBbUCbBbBH1WCVv0/ch1AXfKzTesjCiDlC73J7gI2KPBpAAAAAElFTkSuQmCC",
@@ -23954,6 +24474,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "terrahog",
       "name": "Terrahog",
       "identifier": "Digging",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Terrahog's sturdy body is covered in tough, earthy hide with natural stone formations protruding from its back. It's powerful tusks and muscular build enable it to dig deep burrows effortlessly, creating intricate tunnels and excavating minerals from beneath the ground.",
       "types": [
         "Earth"
@@ -24312,6 +24834,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Terrahog is known for its industrious nature and strong work ethic. It spends much of its time digging and exploring underground, forging extensive networks of tunnels that serve as both shelter and hunting grounds.",
+      "habitat": "Terrahog inhabits rocky terrains and mountainous regions where it can thrive amidst mineral-rich soil and abundant geological formations. It prefers habitats with ample space for digging and exploring, often found near",
+      "trivia": [
+        "Terrahog's tusks are highly prized for their ability to unearth rare minerals and gems, making them valuable assets in",
+        "Ancient legends speak of Terrahog's role as a guardian of underground treasures."
+      ],
       "imageSheet": "../../source/images/monsters/terrahog-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAHnElEQVR42u1dS44bOQztk3ifVYCcxjeqo8xugD5DbWc5QI7hIzhedDcajkt6jz9RKi6IjpOO7RIfHymSot7u9/tbyXmlFqEAUItQACgpAJSMkfd//7k8ZHvI/pD7C9k//v1SADiHwo/k9pBrAWBu5V8/FHkXijkISjHzKP87CC4FgHMq/1O2AsBcPh9S/q+fP/6So8CwADAPADZG4b///+9LOiC4FADmAMDeUv6nop8V//3Pnm6glOQPgKbye+LtBkpJgwDQs/zvLuAIBAWAOQLAQwCgUgBYbOuHWH4BYOF9PxsDFAAWTPq82vqR28AKAmdO+rRyAUAiqLaBKyR9Wr8XVQ8oxQUmfRAQAAAwrQiW4oKSPs9KffX3APVXOXhQM0ZLvjp2WEon/X41hCQryVJBnkEFcPNYl7L0ZACIaAJZEgCZlM7GAKOsfxkAjKJ3q70+AIBLAaBt9TdPpQgTNbCvj6j6LQUAjeKPmjEkP6VgQFyER/vXEgBg6V5q2Wy1TssKEQ2g0wNAUmixsGz2fRAggL938/T/UwGAVT5quehrtHqHdPMQyr96r+syVTaNxUsZQssoo5U/EwA2bV3d+rXk87IpfyYA7J7RfBQTAE0eBYAD3w+1VR354Kjon2WCcgEGjZUtX8t03j5Te1RsUEGgsrFSa8Eti9bsFmZhgmmVz1q3lA1WZ4LptnxWli7Z/0uifUMmuJwFANtIy/eMEZRMsH5DSC/oi7T8XozA/J4RE+xLA6BF/aMtX8oEDnmC68oAgKl/NiaQZAyjYoEpsn2ZrD+CCSJjgamOUa/OBM9AOc2UsCP6z2z9TL4A7StAj4UvNSWMSfdmZgIkn/DKyluZxwgWmGaIwgwsgPj2XnKJmBE09+lgZoiCpms3yvJRHy+JMZabD6Ap9Gg7cUbHAtL39jovkN7yvaJ2jw4itEpoNSPIwg2kV35UR49nLKD9HE83kLLKN6La58UEVu/v5QZSNXaO7u3TssFR4GrFLh5uYJqZudkye0z/gNX38nADaRo7M/20YAKvnYb14dEUZd6Zc/zRr2cEQFrf780E0vghMh+QwvevUO3z2JUQtYEtMwCms/xIJnj13kef5xEIDgv+ZqjuRTHBUVaS2Q2kA0Av+GNO0TKFn5mZAHn/mQCwSU/1WJzRs7bY6NPHbEYwFQAydPhaMkT0jmB6BkBbvKLr9RJmyJipTAkAZFBjBitiGCGL30/PAMj8niw+FI0ZIixf8v7pAMAMb5qluzeTz0evkJNmA8PvxZ1pv5/p+3nNE3bb6rEMcLToJTAA9hEA2K32+b0DEmd/7TVU2u1a1Ex1dE0ckC0HYO0GXAGwkiVmYibLE0NhFyOv4IOzfR8LFggt9c7mc7N/P4tgMFUMkO2cX1brt+wQqhjAKWM3skeQcQOnm+ph7ftHPquFGwiZ67Nq9D+6e9giJ6Ct9O0rnO/XWPfIXIFFTsDtSrYzZfRGxghaN+B2H99IizhDPQFJDasAwFT6egmhM1fxstcGTCp9CACQaFo761/TaTNTltHyyllVpY+9xAmdrCGZu6/5/zPFEOQFVLsIAK3BjUBBonujB4p+1DKY0zXZLP5zHSUsaeEGxF29yLXoFkObkLuBkEWWWNaIqt7R8yruMd4oADA9/VIAaK0bPUfH+tJIBjlaO6nypW6Asn4WAK2RKcwCoz5SsnCaz/M44SM9KictDqny+y3kMbN4epQr8fPoFXIse1jOE7K67FpTHKJr/BIqQ/rvmWCRCZhYACC7FasYwQIEYKfQrgYAm49GjlgfPUxLOayPZwJQllG8evu07ovJCpo0eTDRLDK1E2UBSwAweQrLm0Z7t4tLuquHAOD5gxELbll/j6IZAEjYphd7SMCoBYDH2UGzNq9XD9TymVoAaNu8JdO9WzGL5g5jxA14nR007/N7frDW+FQEAAhVe3TrMDGLZhuKxlBep4fdGj1RH49Yi5YBNLl5dhsmFat+ijQAYCiRBYB3pU2aTLLev0sNbyoAMDl5TelUOu/fS5hcylQxAAMAyRl9ba8A+jsMbWuUb8UA0npAOADYHL4VAHqMI1W+JHPHZARRkHYadLZUANB0BllF9ho/ziRuLCuDAsV3D4yqawERwZhXmVYbqVvs29GqKnit7CvlX9ly8O4BAsubM0YAwLMLGgUX2Zd5Q24bF493jxqL5gkkK+Vrz0EIlNtT/CY+GcRc7qRNBlkkljwBEHUOwggAlOJ7PYGiix179epelY5R1GDlm9+AolD8LlE80hZ+1RwM0dQQNPVw7ecQlvbXv709llOSuhb69+3d++ZQLQiseuS0ADCk+9vHmlwsZyG3WrmegvLdSvHuh0ORvSwbBUuAIIyguxYnAYBV9s5STMfBIt3Br/r1tG6ml9AxUP5VMiCrV12UZu/CAYBOA5dYsOH2x/q9m36WHZIpSOBcUgHAenRsYoECLMdnhRI4WQFw0e4cvgVat2DFUwGW0bMOVb7LjSFK5X0tgMblRC2wIVBv1tH96CtjJAsDK0cADrcFVoJgH6X4qGvjECWpFqHzOSELHPWsUwGgZA6pRSgA1CIUAEoKACUFgJICQEkBoKQAUFIAKDmJ/AG0ZbksGT/GXwAAAABJRU5ErkJggg==",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFVElEQVR42u2dO4pUQRSGZyWdGwlGRoJ7MBAEt3OXYeZgIhopRsJNDAwEBZfRS2hnZBiamfs4z3r1F/xI63Q7t893/jp1qm7dq9PpdIUuV3wJAMCXAAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACABQpwB8/nh9uNF0o/lGpw3Ndz934AsfAICzwB93Av9Qtz//mi+9YwBuA2gIPBCMAEBA8M8hYDjoCYA7248IPnVBbwCcjfmrAX329MmqGBI6BmDP9rcCDwSdA2AJ/t8/P++lAAAIWgNAMuavBd4JATVBIwCoxvyHQV+DQADDRFDaAGC22L7ECXYgmLMvmA6mDADTmB/hBBUDfpFTVxMAkqy31gUVAnvRMLgB8DiBBoDKAR8WDjUAnuy3AOBYfAKMTACsTiAFoETgHc0r71pIMyAUqQE0s4BMm5d2LgsB0QQI7llAcB/gWDqwkt83GYaqXVB3H2DJ2re+0NqZbHGxAk5RDYKQTmApG5UEVJvRnhom+NqrQOBa/y8V/L0Aav7McoSg4aM4BOE7gLKD7p2FSJzB4wTSn2sFgvBtYF4niMr0CGeIqA+2/p8WIAjfBay1weiCzvNaEsQIR2kJgtDt4Np6ICL4WU6RVSO0BoF1dU3dVbMG0VOVR9cIXkdp0QmsS6xiALKqeU3m1qgNpMNKbQjSASg5hmuq81KzhaXPcTjBoRUA5igISlb10Z/rWRMx1gThK41WACYPAFGZbq0RMj6vYE0QOlRYAVjtD9TK+Jq1gacmCHYCNQShwc9ancua50c5gfX3sOyYir7/srngZztGlhNE1QKBEEwLeyse1QphwY9aki3d8YusMaLeF7TSeJQMEyF3B3s3WKwFpFQ130It4JV1mHBV/VvB94AQ3aOXVPMRfYKo/oLm93IOFVNoxR9Fv+V9LTiBd8e0Z5e1daey2foz1+lLdea8GSyt6kvMaiSF+dK/hVh/DfKzxvJWHcBTA5gAkGZ/ycyP7sxFv7+W83l2aLnbvbWyP9oJrO8v/T1Yg28BYJZkf63Mj+zMWZ2glRooHADJpo8WMt/SYfPWAhF7BEo4gRSUMPsf2Qki7yvIcoI9lxYDICn+Wsx+6WqbdR9Bq+4nbappAJiyzwcomRk9zeszdkBZAJh7zf5oJ+j5Wk0AaIq/njKj1Xl95uqmFYBphOz3zApan+nsXasXgF377zUzStwH0NLsRw1Ar3P/yD14PV/nlgtIAei++tfuCu6hr+GtXTQAzCON/9rmTs/XF+UAw1T/Je4PaLnm0ewyLnI2IKrnACIA9grA0TJl1NfaLuD9lrDR5v84gHjL2KQuAHndTw0gAOCQfjo4qj/b2Xo2Q/rZwLyuuyq493QWZgADZ7/k5tEizwfgdfk+h/T2cRxgMAfQnh1ADTBQ9W85aAoHGGz8154aQg0wUPVvOTIGBxg/+6fdI2J6ugOI16rzAXbPCqITeMHZfw4AawFjVv8HKQATLjDc3H8WHxOnOQGczOum+p9U5wRKz/8l8/pwgJcvnov2QprO/yUT26oBluK2BMvS35mPhEFtO8DvXz82h45HAGi3htU4i4fX8hpg/v518wDONQDS7g24hH353jONInsA37582rwhZg2AlI6g5YFRo8/bPdcr3fwhOThC5ACoP507wNY9kqpnBqN+dF4DbN0ub3pmMGpbH96/+z8L2Cu2HwHgeWYwakbHt29e6fsAK08JzagJZmqNFN0/DURzzN0/4PqXPdz26KkAAAAASUVORK5CYII=",
@@ -24322,6 +24850,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "breezepork",
       "name": "Breezepork",
       "identifier": "Cloud Swine",
+      "shape": "Winged",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgUlEQVRYhcVXW2rDMBD0ilym/WmJ79fgXqZ/hRwk0K9eR8UFlWWYfchSGoGxE0ua2dmXJbXW5ZGjzNhkfX0+bIWMKIDAt69v+TcFVgV+ubxRQndRYAWQHXzb3pejSpQe4Aj8kBK1Vvc6vzxVfV0/P9w7XtH+SxZcA3jg+zOSOUTgTMA8EjgH51s4YgVh82Pzqx7N7zoG2Dw91wzMmrDeUyKyPFJBmAIsx3dLLCuZ1XpdG0yF4m2kAbXcmPf6NxKNSBf3bYJYBmQ6AW0tqjGVwOYAWH7Ork9nwdXJ86gIZWrBCQmxOm7VghaYVk9ge2MmFAucdTksOjormDu0C6xGJa0OMHBGQlvHqiDzOdvvT4lqNB3vHj1nu+av8aPgoySWHgUs8B4S2KaFxQDzHQabNVhAep9tRf+hUwQX9VQ8r1cgjmA3tL7nolzHdxZhrAPiteM2mbXnTBri+nQ7voFMbGHkHlxvfRFJz7nAOgmNnJBKGp1YFT3f/Wy4TBhTTscj4webSXa8mBFXKAAAAABJRU5ErkJggg==",
       "description": "Breezepork's body is composed entirely of fluffy clouds that shimmer with a soft, ethereal glow. Wisps of misty vapor trail behind Breezepork wherever it moves, and its form constantly shifts and reforms, mimicking the gentle movements of drifting clouds.",
       "types": [
         "Wind"
@@ -24680,6 +25210,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Breezepork is known for its carefree and adventurous nature. It delights in soaring high above the ground, riding thermals and exploring the skies with a sense of freedom. Despite its airborne prowess, Breezepork",
+      "habitat": "Breezepork inhabits skies adorned with fluffy cumulus clouds and gentle breezes. It prefers high-altitude environments where it can drift lazily in the stratosphere, absorbing moisture and energy from the atmosphere to",
+      "trivia": [
+        "Breezepork's ability to manipulate air currents and blend seamlessly with the sky makes it a skilled aerial navigator",
+        "Folklore says Breezepork is often celebrated as a symbol of freedom and tranquility."
+      ],
       "imageSheet": "../../source/images/monsters/breezepork-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,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",
@@ -24690,6 +25226,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "luminicorn",
       "name": "Luminicorn",
       "identifier": "Celestial Guardian",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Luminicorn is a creature of unparalleled grace, revered for its celestial beauty and the radiant glow that emanates from its horn. Legends whisper of its presence bringing serenity to those fortunate enough to witness it",
       "types": [
         "Light"
@@ -25048,6 +25586,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This gentle Asobimon is known for its empathy towards injured creatures and lost travelers, using its healing abilities to aid those in need. It communicates through telepathy with trusted allies, offering guidance and",
+      "habitat": ".Luminicorn prefers secluded, lush environments where the natural world flourishes undisturbed. It is rarely encountered, appearing only to those with pure hearts and a deep connection to nature.",
+      "trivia": [
+        "According to folklore, Luminicorn's horn possesses the power to heal wounds and soothe troubled hearts, making it a",
+        "Ancient myths depict Luminicorn as a guardian of dreams, visiting sleeping travelers to impart visions of peace and"
+      ],
       "imageSheet": "../../source/images/monsters/luminicorn-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,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",
@@ -25058,6 +25602,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "dreadblade",
       "name": "Dreadblade",
       "identifier": "Black Swordsman",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Dreadblade is a harbinger of darkness and vengeance. It carries a massive sword in its jaws, a relic of ancient battles that drips with the malice of countless foes vanquished. Its jagged armor, adorned with the remnants of past conquests, tells the tale of a relentless warrior consumed by a thirst for revenge against those who have wronged it.",
       "types": [
         "Dark"
@@ -25416,6 +25962,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Dreadblade is solitary and brooding, driven by a deep-seated desire for justice tainted by darkness. It shows loyalty only to those who share its quest for retribution, relentlessly pursuing its enemies with unyielding",
+      "habitat": "Dreadblade thrives in forsaken battlegrounds and shadowy realms, seeking out those who would challenge its dominance or stand in the way of its vengeance.",
+      "trivia": [
+        "The sword wielded by Dreadblade.",
+        "The jagged armor adorning Dreadblade's neck is a grim reminder of its tragic past."
+      ],
       "imageSheet": "../../source/images/monsters/dreadblade-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAExUlEQVR42u2dS47bMAyG5yTZd1Wgp8mNfJTuCvQM2nZZoMfIEdK0SAE3sR4kJZm0v8WPATIzmYn5ieLL8sf9fv9A5xUXAQC4CACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABADoWAB8//b18tDyUHro/lR6vnbBKAcG4GHg60O3leFf9ed7VwxzQACeK79k/CYIMh4ELxIAgKXB+GsILgoPghfxCIBg9a+1GN7jhifwBcDm6v/y+dNftRhR6EHeAEL7ApBKABQgWASu/1UJA/sBoGj8AgCp5Pprv4+BHQDwNGAVgJIXyK1yAIgBQHX/b4gFVB4EA/sAIBkBUHsPDOwDgKrrbtgGVPBg4B0AKFTqiulfKwA5eADAAQCt6VoJgBIEWz8DAE4AkFTqckYDAMcANLj2JA3iWoK7WsDXsHXQJLICoKzEiYI4qaSxA00iJQDKRk4xXasZtvRVEgTSJOoDwGJd6RKXrn1PmkTjAEijAKit9hYvIAWIJpEcAHUlroOxzB6G7GASABJ33/OrcnshK7BuAdqofYSUwSFZgTUIrFX0Rq16iTcgK1AA0FLPrzV1Rq96w5AJWUEJAGnRZ9ZePzBDSABgqPjN3u8H1wtOVzYeUvHba/V3iAmaawlHAcVc8fO4+h39f+5Bqa5+TbHHkzfwDKcHUJoGN0sXUdKxa32PkV7AMQS7gNK92CNp9Vo7g7lUVFutPCMU1XJvrzKwBYgeHceecgrCTQOCGABrQ0a7rWh7Aa2l4QOBIipxmwDQrl7L6pZOFykmh6Z7nD29gRqAmvueVdRpnTCebQQnoFRBUAGwl5uzXJxewaI3UKzbgjkLiFLmjR4odvh7m96gueXrMRq2eIHZJegR17CHNxD1AaLnzHukjDM8itIbXF97AdVOYGQAeqeWM8vdvdLrrWGY5nYwqz+GdxBCsOQGQkLFAr0B2LNdrfm/DCCkLpPAkQA4upeQQmC6GeRoAMzaVkZ5Ek1wqL4d7IhbQNRYxDCml1Q3hEYNCCM2ewYZPh8EHjkj0A62eIfGUBm8qI93i776o6SVgyay3wtBHY93PQUA3qDRzguMON41nPs/SeCabwZpj3eNWg0MPhjadSZAfUNo9H7A2Q1fAyAd9QI2fAbN42rCDoeqj3c9MABdzw2YCI1+KlgLwIFjgd3ODVAAY78v4AzNIIU3W858QMShAWiEIJ0ZgDDdQAuInCamSAO9BYXWwVAAEHYDo5wG0mELS3gAw+qZDYj1FvXMWYK5aNz1wQ+SHoJp9besNk/1c2FObX7O8Z4A/Pr54z/lXuu2+j1mCJN69O7OGlwb+9Xw/z5zCQBVGdhya3YgzxDiLKC1gdcGrwLQMhIeYe5ux9kAF1vCFgCvr70BYDkoSvIkkIjGj3b8bA6ALRjUZwJLnwXocRpn4MMpFk8AlLyBOvLPBYA5aPYAQLoVdQwakzcAtmKCNQCL5oJIDRtxBl8Lk0cAXrOCNQBTngngIRbQfoaIADTXAWY+EOIsgyVRKoG/Adstv6O2og0YAAAAAElFTkSuQmCC",
@@ -25426,6 +25978,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "inu",
       "name": "Inu",
       "identifier": "Shiba",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Inu is a spirited Asobimon known for its playful nature and loyal demeanor. Its coat is sleek and vibrant, reflecting its lively personality and agility. Inu enjoys exploring its surroundings with curiosity and is quick to form bonds with its trainers and fellow Asobimon.",
       "types": [
         "Normal"
@@ -25784,6 +26338,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon thrives in various habitats, from bustling urban areas to serene rural landscapes. Inu's adaptability and keen senses make it adept at navigating diverse environments and forming strong connections with",
+      "habitat": "Inu can be found alongside humans and in the wild, where its presence brings joy and companionship. It enjoys playful activities and is often seen frolicking or relaxing under the sun, showcasing its affinity for warmth",
+      "trivia": [
+        "Inu's coat is not only sleek but also insulates it from cold and heat, making it comfortable in various weather",
+        "Known for its loyalty and bravery, Inu is quick to defend its friends and trainers from any threat, displaying courage"
+      ],
       "imageSheet": "../../source/images/monsters/inu-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -25794,6 +26354,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "inunox",
       "name": "Inunox",
       "identifier": "Shadow Hound",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Its sleek coat now shimmers with an ominous aura, and its eyes glow with an intense gaze that unnerves opponents. Inunox retains its agility and loyalty but now possesses sharper instincts and a darker demeanor.",
       "types": [
         "Dark"
@@ -26152,6 +26714,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon prowls stealthily through the shadows, utilizing its enhanced senses and predatory instincts to hunt prey. Inunox is fiercely protective of its territory and trainer, often lurking in the darkness to",
+      "habitat": "Umbrinu prefers nocturnal habitats and urban areas cloaked in shadows. It thrives in environments where darkness reigns, using its dark powers to blend seamlessly into the night and strike with precision when least",
+      "trivia": [
+        "Umbrinu's dark aura can instill fear in opponents, making it a formidable adversary in battles.",
+        "Despite its dark evolution, Umbrinu remains loyal to its trainer, demonstrating unwavering devotion and protective"
+      ],
       "imageSheet": "../../source/images/monsters/inunox-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -26162,6 +26730,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "inulume",
       "name": "Inulume",
       "identifier": "Luminous Hound",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Its sleek coat now glows softly with an ethereal light, illuminating its surroundings with a calming aura. Inulume retains its agility and loyalty but now possesses a gentle demeanor and healing powers.",
       "types": [
         "Light"
@@ -26520,6 +27090,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon emits a soothing aura that comforts those around it, often found in peaceful meadows and sacred groves. Inulume uses its light-based abilities to heal and protect, embodying compassion and harmony in its",
+      "habitat": "Inulume prefers tranquil environments and places of natural beauty, where its radiant presence brings serenity and tranquility. It thrives in areas bathed in sunlight or under the gentle glow of moonlight, using its",
+      "trivia": [
+        "Inulume's luminous coat can illuminate dark places and calm restless spirits, making it a cherished companion in times",
+        "Despite its gentle nature, Inulume remains fiercely protective of its trainer and friends, demonstrating unwavering"
+      ],
       "imageSheet": "../../source/images/monsters/inulume-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -26530,6 +27106,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "inuferno",
       "name": "Inuferno",
       "identifier": "Ember Hound",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Its sleek coat now shimmers with ember-like sparks, and its eyes burn with an intense fiery glow. Inuferno retains its agility and loyalty but now possesses a fierce demeanor and powerful fire-based abilities.",
       "types": [
         "Flame"
@@ -26888,6 +27466,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Inuferno is bold, hot-blooded, and fiercely protective, rushing to the front whenever it senses danger near its trainer or territory. Even at rest it carries restless energy, pacing warm stone and testing its strength",
+      "habitat": "Inuferno thrives in environments where flames and heat are abundant, such as volcanic slopes and fiery caverns. It enjoys basking in the warmth of magma and actively seeks out sources of fire to strengthen its fiery",
+      "trivia": [
+        "Inuferno's fiery coat can ignite nearby objects and create a blazing trail when it moves, making it a formidable",
+        "Despite its fiery nature, Inuferno remains fiercely loyal to its trainer and friends, demonstrating unwavering courage"
+      ],
       "imageSheet": "../../source/images/monsters/inuferno-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -26898,6 +27482,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "oki",
       "name": "Oki",
       "identifier": "Arcane Shark",
+      "shape": "Fish",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0llym/WlJ7teQXqZ/hRykkK9ex8ULCs5kxrayXbYfFYglyLbGo5djOee0pUybek9/AMBuyebD6/NN/L4u3xY9w6I5gE5RoiAsAgCdH49vN/bT6T0MYhd1rJyuwsChQ/dvMJAKANT9y1NGPX9+0C9bU5Sdy9SQAaS73Apvym6NMsrCNOJcOfF1rv4bz0Iptqs9E9qRXkV/+bqq8PRCm9BYb64PHwHTAqEuaMXodNR0s7hjKDBM9R4WPrTf5UAv4dghKlcQlP92dbE5DrBJoW05UeB7DCQV29E+EPliTs0tYC1nKqElgDMY1wDBqiOxEllaeqP0XwEoECofHrm5alBW94Fe2bGqYNmuSrFe47PCEEBrBrQaCwPH9tdrCogJJxera9w40qwYI9iEZlGz4NEEw9irYXSXhJlMq6UlhwDCD5Lou6BlVw8UcwDqxasO7dkZKAbCWBlGhkrUjiDs/89p2lh+AFYEzCaIAJsXAAAAAElFTkSuQmCC",
       "description": "Oki navigates through the air with grace and power, enveloped in swirling arcane energy. Its streamlined body and sharp psychic abilities make it a formidable predator in both aerial and aquatic environments.",
       "types": [
         "Arcane"
@@ -27256,6 +27842,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Oki is known for its strategic hunting techniques and agile movements. It effortlessly maneuvers through the skies and dives into the depths of oceans and lakes to pursue its prey. Its psychic abilities are honed to",
+      "habitat": "Oki inhabits diverse environments, including mountainous regions, coastal cliffs, and open seas. It is often found near areas rich in psychic energy or mystical ley lines, where the convergence of natural forces",
+      "trivia": [
+        "Legends say Oki as a guardian spirit of psychic energies, revered for its ability to maintain balance and harmony in",
+        "The swirling arcane energy that surrounds Oki is said to be a manifestation of its psychic powers."
+      ],
       "imageSheet": "../../source/images/monsters/oki-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,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",
@@ -27266,6 +27858,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "frosthorn",
       "name": "Frosthorn",
       "identifier": "Frost Antler",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Frosthorn is known for its imposing presence and jagged frost-covered antlers, which it uses to navigate and defend itself in its icy habitat. This Asobimon formidable appearance and single-minded focus on survival make it a sight to behold in the frozen tundras it calls home.",
       "types": [
         "Frost"
@@ -27624,6 +28218,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "In its natural habitat, Frosthorn is solitary and resilient, enduring harsh winters with ease. Its powerful antlers, adorned with icy spikes, serve both as tools for breaking through ice and as weapons to fend off",
+      "habitat": "Frosthorn prefers to roam in regions blanketed by snow and ice, where its adaptation to the cold climate and specialized antlers allow it to thrive. It is often found near frozen lakes and snow-covered forests, blending",
+      "trivia": [
+        "Frosthorn's antlers are naturally coated with frost.",
+        "Legends say Frosthorn's antlers being able to channel and manipulate ice, suggesting a deeper mystical connection to"
+      ],
       "imageSheet": "../../source/images/monsters/frosthorn-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -27634,6 +28234,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "frostyrion",
       "name": "Frostyrion",
       "identifier": "White Dragon",
+      "shape": "Winged",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgUlEQVRYhcVXW2rDMBD0ilym/WmJ79fgXqZ/hRwk0K9eR8UFlWWYfchSGoGxE0ua2dmXJbXW5ZGjzNhkfX0+bIWMKIDAt69v+TcFVgV+ubxRQndRYAWQHXzb3pejSpQe4Aj8kBK1Vvc6vzxVfV0/P9w7XtH+SxZcA3jg+zOSOUTgTMA8EjgH51s4YgVh82Pzqx7N7zoG2Dw91wzMmrDeUyKyPFJBmAIsx3dLLCuZ1XpdG0yF4m2kAbXcmPf6NxKNSBf3bYJYBmQ6AW0tqjGVwOYAWH7Ork9nwdXJ86gIZWrBCQmxOm7VghaYVk9ge2MmFAucdTksOjormDu0C6xGJa0OMHBGQlvHqiDzOdvvT4lqNB3vHj1nu+av8aPgoySWHgUs8B4S2KaFxQDzHQabNVhAep9tRf+hUwQX9VQ8r1cgjmA3tL7nolzHdxZhrAPiteM2mbXnTBri+nQ7voFMbGHkHlxvfRFJz7nAOgmNnJBKGp1YFT3f/Wy4TBhTTscj4webSXa8mBFXKAAAAABJRU5ErkJggg==",
       "description": "Its icy scales shimmer with a crystalline sheen, reflecting the colors of the northern lights. Frostyrion's presence brings a chill to the air, and its breath can freeze anything it touches.",
       "types": [
         "Frost",
@@ -27993,6 +28595,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is solitary and territorial, often found in remote, frozen mountain ranges. Frostyrion's wings are powerful, allowing it to glide effortlessly through the icy winds. It uses its icy breath and sharp claws",
+      "habitat": "Frostyrion thrives in extreme cold climates, where it can be seen perched on snow-capped peaks or flying gracefully over icy valleys. Its ability to manipulate ice and its resilience to freezing temperatures make it",
+      "trivia": [
+        "Frostyrion's crystalline scales refract light, creating beautiful and mesmerizing patterns that captivate onlookers.",
+        "Legends say Frostyrion's ability to bring winter storms and control ice, earning it reverence among those who live in"
+      ],
       "imageSheet": "../../source/images/monsters/frostyrion-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -28003,6 +28611,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "rockhoppeng",
       "name": "Rockhoppeng",
       "identifier": "Frost Ridge",
+      "shape": "BipedalTail",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB9klEQVRYhaVXsU5FIQyFG6dnopO7qywS+Qg/xz/w5fkF+hVuJo5+hImLb3d1c9AVw80t6as9BbxNCFwoPW0vbcHnnJ1GKYa68Pq2P00xfC3j6xTDixwv394NktcU4OCjNKqElwoQ+HZ7W+d2u7v6TePSa3yjSkwIvAgjgZwIUAJzJUc86LkH0EYOJklTUvMCyZbzk2SQYNzdGrjGL41Rxps/HkhAAQSmgfM1slbKZWvHzrmfgzPAGWQv1zv5N2hfiuG7egBpaXkEKdUrg9YnbaFsoMYFaVZa/ARueWlqWafFvMwJPXu1/TOVX3B1eZFLe356nHvZaB71iB+N+ZzXzgB308gZ0KIEZc56BlJH+PWAS5LgmnGzAk3zBhXS+FEyK3nCl/8gNV5LGqj8ppTsc843KYZ7YrKESmrxazlhAT93zn2UcfkFDz1WoZxvEXB7BS/UXQtGCFlP+R+V45BieEdCrXRq7WldUrx2H2iFjqYUinuipgLpnwUJFSJ06iUdIcGtrNjKlFb8H1AWtYDaSM7nPd/PW8HRmke1YC1JD8Cbcl400SzsqYQ9FRFZXz2AbsUjHrGiwHonTPyjMEpmdJtBtyM513qkeOtpJj1ghSaqdhZ4UwECskJpxN3dCjjnzlIMn3KSCT+h1zJYX63ATOg5Ncpj0S+oRI5Kg6tYAQAAAABJRU5ErkJggg==",
       "description": "Rockhoppeng is known for its striking appearance, featuring exaggerated eyebrows that resemble tufts of wild, untamed hair. These eyebrows serve both as a means of communication among its kind and as protection against the harsh elements of its icy habitat.",
       "types": [
         "Frost",
@@ -28362,6 +28972,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Energetic and agile, Rockhoppeng navigates its coastal environment with ease, hopping from rock to rock along sub-Antarctic islands. It uses its strong legs and webbed feet to dive into the frigid waters in search of",
+      "habitat": "Found primarily on rocky islands and coastal cliffs, Rockhoppeng thrives in cold, icy waters where it builds nests among boulders. It is well-adapted to harsh weather conditions and can withstand strong winds and",
+      "trivia": [
+        "Rockhoppeng's eyebrows are not just for show.",
+        "they help shield its eyes from wind, snow, and harsh sunlight, allowing it to see clearly in its environment."
+      ],
       "imageSheet": "../../source/images/monsters/rockhoppeng-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,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",
@@ -28372,6 +28988,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "frostworm",
       "name": "Frostworm",
       "identifier": "Ice Block",
+      "shape": "HeadAndBase",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABeUlEQVRYhbVXXU7DMAxurF0GXkDr/ZjGZXibxEGQeNp1jDIR5H74N1stRU0b299nx3XaxsyLJ+vr803h6/vaXMVJO8o4wXkWPGNHkZPT6e02siSqdk3bAunkfH5fcB6JZadtB3mOsoAZIqYw82YcX564j8/Lx+ZqzaMrzhGPoih6BGMvMTK8RnaaUKgBW+GBI2BmC5ssQll8GVIeuBeILEYKrRIO75E2MlCJ/h7BLByyBhVyFRvKOhr3Xtq19WibKAserVX1NwRW0asfUVgZGZiEC9meL3UqpLEmSEYvm8sjReukXTo2eR1uPNcIyWfWumX7rw+scPzulQmtFxAueAeM5qhatKh/kDfZDFjv+kzGqJqB2fd9ZAtJNjwL9qoFJDfOgqYdxxEJK9KIqLT7O5LZ+CSTo/r5JYfmT+ItSMAiMkPCAw4JsPKBOkPGA08TmAHF+ykC/EtiL/A+1D8jKVabtgTXo5/TFhGQJKqS+aNOEUASluOMDsoPNr/uz+OTN+IAAAAASUVORK5CYII=",
       "description": "Frostworm is a peculiar Asobimon known for being suspended within a solid block of ice, with only parts of its worm-like body visible beneath the frozen surface. Though it appears trapped, it can still twist and shift inside the ice, creeping slowly across snowy terrain.",
       "types": [
         "Frost"
@@ -28730,6 +29348,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon moves in an unnatural, unsettling way, dragging its icy body silently across frozen ground. Frostworm is timid but persistent, often hiding in snowbanks and striking only when threatened. Its icy shell protects it from harm while the creature inside waits for the right moment to move.",
+      "habitat": "Found in frozen fields, icy caves, and snow-covered mountain paths, Frostworm thrives in places where its frozen body blends in with the landscape. It is often mistaken for an ordinary chunk of ice until it suddenly begins to move.",
+      "trivia": [
+        "Many travelers mistake Frostworm for a frozen rock until they see the shape inside begin to squirm.",
+        "Some believe Frostworm's icy prison forms naturally around it at birth and never fully melts."
+      ],
       "imageSheet": "../../source/images/monsters/frostworm-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAADkElEQVR42u3dSW4bMRCFYV8nqwC5pI6SXYBcwd5mGSDHUZxFAFvogcWhxeFbPMAybMtQ/Sw+FqvJl/v9/kLryocAAB8CAAgABAACAAGAAEAAIAAQAAgABAACAAGAAEAAIAAQAAgABAACAAGAAEAAIAAQAAgABAACAAGAAEAAIAAQAAgABAACAAGAAEAAIAAQAAgABAACAAGAAEAAIAAQAAgABIBL9PPH99u73t51f9C/790AMHeQI5oSCMFeHAaBXxyGWYL/WhrIb1+/fNIqICwV/Mcgf9Sf378+qQCIVwBcm/aTg/0Y5IiCMLwC4BoA3vYCXxLsSjDcAHDx6D8L/NEUcDYNnP3NLU8AgCeM/o+BSQn6HgQRUP7//IhZYMrRvxXIrRG99XoPgD0oTgB4A8CTRn/LDBCE4AaA+gAkBX9vLq/5evQsMGX6zx39qWk/mgUA0EH6Pwrm3u9GPQQAOkn/kREbWSbKAAMAkDpSU1x97uoBAE+e/89GfO1VAAA6mf/3MsFW8EvrADzAQPN/ZFTLAJMt/3LmdB5g4OVfzrwvA0zo/s8AuNID9FwO5v4vyAA9l4OnS/9n+/jRcm9kb2DEaWCJ6t9ZM8fR8nF2HzC1+4/2Be75gdTMAYBO3H8tx1/iHwDQUe0/d86P9hMAoCP3X0MlNQQAdOD+S9x8tB8AAB3v/bfqAgLAAO4/sjo4+5oHmMT9Hzl9GWAh939WB6jcHXwDQEfuP6UquMJ+wHLuP6XCV9pfMNI0sJz7jzaFRlcKAOjU/afW9lNq/0eZCAAduv9I/3/kUXIZYBD3H+0MinQP8wAdu//WPYEzlIOndv+tewKPeggA8GT3n/vMX2n/IAA6cf+lprFkrwEAHbj/3NO/cjLGyOXgad1/6YlhqYF+/P9GKwcvvfef2xMQqSb2Pg0MB0Cr19F+gNT9BAA0ygAtdgZr1AEA0On+f+pqoUbFEACNM0Cr0V/rLAEAVAbgKEAtnguotesIgAbHv7ReFZTuHZydHwyA4Nn/qUWdnHV8rfMBtlYGAKh4+0dJle+qDJB6gjgAKlwBU6P0m9s4UniZhEpg7XuAzu4DanlzSMbdQvYCWkJwBRizXSY1wtPBTe4CzD0/OPP9ur1EasSjYptdDrkFxeyXSg59a9gVUMx+geTwAHQAhqtjFwNjqlvElwMgA4opr40HAAGAAAAAHwIACAAEAAIAAYAAQCvpL4HBBlV5lzoHAAAAAElFTkSuQmCC",
       "backSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAD9UlEQVR42u2dS27cMAyGc52uCvSSPkp3BXqF8bbLAj3ONNnOyDJFkTZJfYsfyQSJE4w+/XzokY/n8/mB1hVvAgDwJgAAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACAAQACAAQACAAAABAAIABAAIABAAIABAAIAAAAEAAgAEAAgAEAAgAEAAgAAAAQACAAQACADe9fvXz+1T+6eeDX19fWPACwFwMuAaLQnJ6oO+PBQM+uJglBvwH9+/vQkQEgCgHfjXwf7398+bWlAYQ5IWhPSD3hpwjYygeACAfPAfdw+6BgoBGA8AMBh8ibXfJQEIGwD0bf904DWzVDObZwDrgLADwDEA+6y9awZRkghqoTiAYAMAweyfGfRRB2h9f+9169mt35PZBULMfqsZ2wJh5jkjwGV1gXCzX/rGjwyM5udbr1sfs7tAqNlvOVO9HKCaC4SZ/dYz9WiwLJxlEIAdAC6c/b3BwgVuAEA6+y1jvsXzZn5/JhdIP/t75Z6HAxw99wyClQEQD76mTj+qIl4/lzaStK+zhoFQAHg5gHWHUFJ5ZAkDIQCwjsFnDiBZU7CoPjKEgfQOYNnTn/2bMoaB1DnAaB9gZqWxajVQ0gFGn2/pBtnCQJkcYGYt4AyEESfIFgZwACUEVaqBpXIAzc9rnCBTGMABBpygYh5ADiDsMB71GLJvFMEBHFwgUx5ADjC4x9CqGlgCAM1ScOQcwLga2FYAYM+YA8zuLs4UBkquA3j0ATTPyxAGQgEQIQewXjWMHgZwAIMTSZmrgRAAWHXsrlomrlQNpHUASZIm2RF09x4BADDs1c/sCJIAMNtRjJgHpHQA6UBZOED1vYJpcwDNgM0cO/c8N4ADOHTqrtxzmDkPSNsH8Nzd692XiJQHlDoTcNXJoEp5QKk+QK8KuNMJIoeB9J3ADA4QOQyUWAuQuMrdThA1DJRZCzjrA1ANFMwBju7wOZp90asBHMD4/L70qNjKeUD6m0F6MVdaLq58k0ipe4F6TuB5N0DmPKDUbuBezLc+BVzlJpGS9wL01gauuC0kU1cw/IkgTfZ+Nru9bwq5uxoYATK0A1jtxfPc+RuxGuh1SF+/FjoHsNjXr7kPIHs10Lvd/PVvCusAVvf8X3k7SJRqYCSchr0b2Op8v9Uew0zVgGQtxBuA3cIBIp0LyFQNSN4/bwCmO4BWewatdhp5rV14hIGz/RDhALC+6dvzfwVlqAZGwmnIVcDZXr1FDL/KCTzCwFm+4V4G3hn/r9h5fOUdwyn7AHeuAlrfP+DtBF4ASPUfGxNndQtIAv0AAAAASUVORK5CYII=",
@@ -28740,6 +29364,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "forglord",
       "name": "Forglord",
       "identifier": "Royal Frog",
+      "shape": "Fish",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0llym/WlJ7teQXqZ/hRykkK9ex8ULCs5kxrayXbYfFYglyLbGo5djOee0pUybek9/AMBuyebD6/NN/L4u3xY9w6I5gE5RoiAsAgCdH49vN/bT6T0MYhd1rJyuwsChQ/dvMJAKANT9y1NGPX9+0C9bU5Sdy9SQAaS73Apvym6NMsrCNOJcOfF1rv4bz0Iptqs9E9qRXkV/+bqq8PRCm9BYb64PHwHTAqEuaMXodNR0s7hjKDBM9R4WPrTf5UAv4dghKlcQlP92dbE5DrBJoW05UeB7DCQV29E+EPliTs0tYC1nKqElgDMY1wDBqiOxEllaeqP0XwEoECofHrm5alBW94Fe2bGqYNmuSrFe47PCEEBrBrQaCwPH9tdrCogJJxera9w40qwYI9iEZlGz4NEEw9irYXSXhJlMq6UlhwDCD5Lou6BlVw8UcwDqxasO7dkZKAbCWBlGhkrUjiDs/89p2lh+AFYEzCaIAJsXAAAAAElFTkSuQmCC",
       "description": "A fusion achieved when this lazy water frog discovers an ancient crown. Adorned with a regal aura, Forglord exudes authority and wisdom, yet maintains its friendly demeanor.",
       "types": [
         "Water",
@@ -29099,6 +29725,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon assumes a leadership role among its aquatic peers, using its newfound confidence and heightened senses to protect its territory and guide others. Forglord is known for its strategic thinking and ability to",
+      "habitat": "Forglord prefers to reside in tranquil ponds and serene water bodies where it can oversee its kingdom. It is often seen perched on prominent rocks or lily pads, surveying its domain and ensuring the well-being of its",
+      "trivia": [
+        "The crown atop Forglord's head is rumored to grant it enhanced perception and a deeper connection to aquatic energies.",
+        "Despite its royal status."
+      ],
       "imageSheet": "../../source/images/monsters/forglord-table-128-128.png",
       "frontSprite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAFfElEQVR42u2dW24bMQxF/ZVt5CdLLZD1eAvxv7c0TYG2aFJbIik+LjVXAGG4qV/Do0uKeszlOI4L7bzGi0AAeBEIAI0A0AgAjQDQCACNANAIAI0A0AgAjQDQCACNANAIAI0A0AgAjQDQCACGvX/a7fjabr//nc7dHICPY9w+6Nx9AZg5nxA0BmAm6++HrjEcNAJAIuvf4fj8BZe/9qDdmDv0AODjMLR/HT+AgLkDOADvh7F9d/gEAOYOoABoZd2iAMwdgAGwOFWTA9yMryMAVQAIZP0/J85AWcwdCACaAnx3vgYCZe5AANBygEd/l0DwCBYqAOAoYNSrR46WvOaPvb6+MgcAqgNMHWbt5cb34SgALQ+QxnrJ/5+8B+sASABosn1pDx/8jZVAtBAg7LVfnC8F5KyJXzsFsJaGJXUAAtBEATyaIJQQAMQkUNO7Z6GBAGAB8MNQp3dRgDOP/VEAsMRoU8xXvjcBqHK8paKnmQt4e3vTKAsBqHC+1NGrphENAhDs/JeXFxfHEQJMAExOi2qLn0cAvBM9TYnX+7kzeATA6vzqdmYQSp0vKdpkP54NgjTno/X6AoU6BQCmCxoV4z1zBMdQsS0AlvIrfAsYUh47AiByfufHXSFgz1/MDRahaA+Aquejx3zJ82cOnoGBCoE7ANE9P3kewPQdlKOJe1cAli5MZCyWQmB9nH2X0YgCLUdIA2BlVY+khKvp+V7qpNl/gDoJ5e780Xh5NScYrRJeAcAzJ5CoF9JowRUA6UVZVQBvACpyExQIwrZyjTZhruYAlmFZ1pzDSAkWwegDgGQo6KkC2gtbsd7ASR36KcCznrsacy3SX7G+QDPyqIAgDQDvXib9DqNkFSUHUCrBvQ0AnrFfklFLnZ+1jkDTGZRKgA/As6GhRy+zvl9WhdJSLFLmBHdIACRUjxK5lfl5jXMicgBN9r+ict4qEL6fXxs3PXqeshYPNQJQqECPEKCt7UtLwdLse1bTj85NvJSglQKcuZ1aAawx1HtYuPp53jnB6owkFYBq0BMAr0MeLNPFls+PniPQjFCoAJuqgFUhtsoBMi46ynPNjOSojhBVCwhZEMLmnwdEzQuErQiq6PkZsXx1jkBaQ8iaHSw/248qsKwE9wNxUWj1BUd7rlkzaAgFWACw9VGB0BM+mQPM1ylK5zOiRgRhO4PYbCowCqcRdYF2W8N2qgtIN5REVgZDdgfvuDM4s0IogQUagGd1gU65AMq5BtE3uQo7IKKjCiB+3w4KwLpAQc7QAgDmA3n5AgIA5hNDzlQP8MhJHrQrCgBUgprcpMdJoVUQ7HBGUdTCkPSzgqkEazlAJwDEJ4dabv3utZ9ggxyg7/0CstRgB8XpDMAFBYDO5xZuB0CF8zurwFYAZNUFdjyreEsAusb+6BNJtw0BFce2RcVkzf6/1c/zLgLBANCh92tvchVxNrFnCXj7EOAd+z3PP3DcW3ihAjgogGbzZoUaEQAnBZDGWMlpZFnPUfcGbqMA0iPlAMf/1/YARNYBrPvxkOoH0fJ/iiTQenoYUu/fDoBZjM4q1IxyBIS5g9MAkDkXsJobVPT+7gCYZ+k8L+ZK7b1yD+HoZ3UAoN0sXeX3Unz2tQMArpLsoQCamBt1jyHp3MLsJ7UEIGv2LCDjRlGcq7efSoZ+2pibkQsgxPysXl8KAFoPrMj6ke4xXAKAdtybcbZwxrjf4PjrETxKg6v+VeUF2fcSkrw0w0oXglrn0bMkOeKextKvtCUAs4vlECvTVCDoTqHXTOeXFYIib60ScRxbwi3q0x0PUQruCIWzGpU5vnwyCL0Fh59yx2cDwK3AYI6vAOCX3enwcwOwIxTwTkYHAM3uOzucANAIAI0A0AgA7Zf9BF/R2XcCBzxlAAAAAElFTkSuQmCC",
       "backSprite": "data:image/png;base64,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",
@@ -29109,6 +29741,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "voltwolf",
       "name": "Voltwolf",
       "identifier": "Thunderclap",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Voltwolf is a fearsome Asobimon known for its lightning speed and electrifying presence. Its fur crackles with static electricity, and its eyes gleam with a fierce determination. Legends speak of Voltwolf's ability to summon thunderstorms and harness the power of lightning in battle.",
       "types": [
         "Spark"
@@ -29467,6 +30101,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon roams the open plains and mountainous regions, preferring areas where thunderstorms are frequent. Voltwolf is agile and cunning, using its lightning-fast reflexes and sharp instincts to hunt prey and",
+      "habitat": "Found in regions with abundant electrical activity, Voltwolf thrives in environments where it can harness and manipulate lightning. It builds dens in caves and rocky outcrops, where it rests between hunts and storms.",
+      "trivia": [
+        "Voltwolf's fur generates static electricity, which it uses to intimidate foes and communicate with others of its kind.",
+        "Folklore says Voltwolf is revered as a guardian spirit capable of warding off evil spirits with its thunderous roars"
+      ],
       "imageSheet": "../../source/images/monsters/voltwolf-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -29477,6 +30117,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "sparkwing",
       "name": "Sparkwing",
       "identifier": "Enchanting Owl",
+      "shape": "Winged",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgUlEQVRYhcVXW2rDMBD0ilym/WmJ79fgXqZ/hRwk0K9eR8UFlWWYfchSGoGxE0ua2dmXJbXW5ZGjzNhkfX0+bIWMKIDAt69v+TcFVgV+ubxRQndRYAWQHXzb3pejSpQe4Aj8kBK1Vvc6vzxVfV0/P9w7XtH+SxZcA3jg+zOSOUTgTMA8EjgH51s4YgVh82Pzqx7N7zoG2Dw91wzMmrDeUyKyPFJBmAIsx3dLLCuZ1XpdG0yF4m2kAbXcmPf6NxKNSBf3bYJYBmQ6AW0tqjGVwOYAWH7Ork9nwdXJ86gIZWrBCQmxOm7VghaYVk9ge2MmFAucdTksOjormDu0C6xGJa0OMHBGQlvHqiDzOdvvT4lqNB3vHj1nu+av8aPgoySWHgUs8B4S2KaFxQDzHQabNVhAep9tRf+hUwQX9VQ8r1cgjmA3tL7nolzHdxZhrAPiteM2mbXnTBri+nQ7voFMbGHkHlxvfRFJz7nAOgmNnJBKGp1YFT3f/Wy4TBhTTscj4webSXa8mBFXKAAAAABJRU5ErkJggg==",
       "description": "Sparkwing is a mystical Asobimon known for its ethereal beauty and affinity for both electricity and fairy magic. Its feathers shimmer with electric currents, and its eyes emit a gentle glow that mesmerizes those who gaze into them. Legends describe Sparkwing as a guardian of the night sky, appearing with the stars to bless those who encounter it with good fortune.",
       "types": [
         "Spark",
@@ -29836,6 +30478,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon inhabits lush forests and secluded groves where it can commune with nature and harness the power of electricity and fairy energy. Sparkwing uses its delicate wings to create mesmerizing displays of light",
+      "habitat": "Found in mystical forests and sacred clearings, Sparkwing creates nests high in ancient trees where it can observe the celestial movements and draw energy from the moon and stars. It is most active during moonlit",
+      "trivia": [
+        "Sparkwing's gentle demeanor and luminous presence make it a symbol of hope and protection in folklore.",
+        "Despite its mystical appearance."
+      ],
       "imageSheet": "../../source/images/monsters/sparkwing-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -29846,6 +30494,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "voltileaf",
       "name": "Voltileaf",
       "identifier": "Electric Lizard",
+      "shape": "Serpentine",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABjUlEQVRYhbVXQW4DIQwElM+0l1ab/zVKP9NbpT4kUk/5DhVRLU0mtjGwsYRgmcUejM16c601oRzfX+vl95p5TsaMrUpGApohnEPZi0jRjMuzzJ1OHwl7j9gUgSMoQyPyfD5/Po1EYWPco3GN5CgJ9OyNALu5iRjFHkUjFTX+MN7eXqq0n++vob61FsStoR6ct3B5J7cBsvR2jjhmQy9TOMZk/Q3n3WtjaRruedDC0QPF26F2zj3PRHCMg8IvWgHGgekpH8FLZIdaVoykKuN3+rfFLOB5br0YSbPGIyQiAZr29sDIe0/zgIebBLYg41UyfDxJuzBWlHvrtfhIeE/vtTOvVwlUh8RqjFgp+kCgKiR6QcTKLU94R5C1olS7HfkW074ZkWf+GpZesWldsaLM+vgg7kmZrXhnKqIwAU9my7FhApd/L6B7NeOjhO6qoZTSYWSRZ6hH1DrizFmAolXMbJSjmrNIqyERzx4Bj4RmnNdEgjv3CFgkvF3xWg/PEQJIgmX1JzWchpqhPf6Q/wDNpxSFJaOCVAAAAABJRU5ErkJggg==",
       "description": "Voltileaf is a small and vibrant Asobimon known for its electrically charged body and agile movements. Electricity crackles along its sleek, green and yellow-striped body, providing it with both offense and defense against predators. Its tail emits a gentle glow when it's preparing to unleash an electric attack.",
       "types": [
         "Spark"
@@ -30204,6 +30854,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is highly active and agile, darting around with quick movements to evade predators and capture prey. Zapizard's energetic nature is fueled by its electrical energy, which it absorbs from thunderstorms and",
+      "habitat": "Found in grasslands and forests with high humidity, Zapizard prefers environments where it can easily discharge static electricity and hunt insects. It nests in burrows lined with dry leaves and twigs, where it can rest",
+      "trivia": [
+        "Voltileaf's ability to generate electricity through its body is a result of specialized cells that store and discharge",
+        "Voltileaf's electric attacks can stun opponents and disrupt their movements, making it a formidable opponent in battles."
+      ],
       "imageSheet": "../../source/images/monsters/voltileaf-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -30214,6 +30870,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "tempestus",
       "name": "Tempestus",
       "identifier": "Storm Elemental",
+      "shape": "Head",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABYElEQVRYheVX7UoEMQzchnsZ/aO47+dxvoz/BB9E8JevU6kQiGM+pmXlEAOle1wyM02Tbrf13rdrmlyVffsLAvb72z7GLDAbJxWI98yQs3FSgZzPj1+DFTEb17wusCDWLpenjbEo7u39o6HvqQKzpAO4EoE+KKbcgt2sXoEQRH/jHInJtkJSecGKFNTOKITJFiUgAkERbFxahLtJUbZ3TAayxdhiFM+xSt8K+aEZUJslPywDavawWbWmGcD2m+1ntCgWs9BQgBXhGVtoURwKkBnyjKD6D4Uop3jkK6ususb6WREnjzw6ZFZfRkhucdqoATyj2UysmCUfdSDYl1EXRGBsVjzyMQt7zGZgjIgoo5I5RyJmizBbjOgD3laYTGQnofp78d+4eu8/xsPdTdfx+vI8NUdxY3hcLfoyyi6S2aUkMu8+OCwU4IkYINXN2POJyEsBrDCG6FAB/+vbcPtl+wToGp3aFWVOuQAAAABJRU5ErkJggg==",
       "description": "Tempestus is a formidable Asobimon embodying the raw power of storms. Its muscular body crackles with electricity, and swirling tornado-like clouds form its lower half. Spooky, glowing eyes peer out from the midst of its thunderous form, capable of intimidating even the bravest trainers.",
       "types": [
         "Spark",
@@ -30573,6 +31231,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon commands the elements with authority, capable of summoning fierce thunderstorms and tornadoes at will. Tempestus roams the skies, using its massive arms to manipulate lightning bolts and gusts of wind,",
+      "habitat": "Found in regions prone to severe weather, Tempestus thrives in open plains and mountainous areas where it can harness the energy of thunderstorms. reside near sources of atmospheric disturbance, using its immense power",
+      "trivia": [
+        "Tempestus's ability to control storms is a result of its unique physiology, which allows it to absorb and manipulate",
+        "Despite its intimidating appearance."
+      ],
       "imageSheet": "../../source/images/monsters/tempestus-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -30583,6 +31247,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "voltantis",
       "name": "Voltantis",
       "identifier": "Electric Mantis",
+      "shape": "Bug",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABjklEQVRYhcVXS07EMAyto14GNqDp/RgNl2E3EgdBmhXXCcrCyDz8bCcgjaWober62a/+tNJ73+4pbfaB4/mxj1Xd/3cHPm6fooAW3N6bkX37g6xEjCKVHFgFqjDSEMguBn4+v3wf7Tlz3LP7i4EjiFKNXy6vFEzvo27Gzs7AIiMWKNPNbDYbvRcZi8heIzMVZxSzbXeWPVPI3uWqrkqL6Gcyoxs9P7DDVxDlRBUk05dRhhELjNaha5Mv0mM2RymWkhCNKKA2Iq8sq0wJNiLmMday1wcyHd23jajpDd0YCkgno9jTjRxE8B8MzAwepF3PK2WIA0rYNGRDKOty7D6bjBKNY+uEl2zetedINJZbBdyKGkbaWdJFtoa4DHgVgdExJryR7SUfZeBIJqONGJlgLOAEDB2YEXRmRRpu2H6QZbjX76OPldIrYE5E4Kwa7DmthN47Xaenh+6t9+tbeMQVYUj2WY6JU+kDU5/mPfCOMZJFPmNTZn9Oox5RihhEVv6OWWdb+Tdc6gMe0Ar4ePALLr3/Sgt/U18AAAAASUVORK5CYII=",
       "description": "Voltantis is a formidable predator known for its electrifying presence and lightning-fast reflexes. Its forearms are adorned with electrically charged claws, which it uses to stun and immobilize prey. The green and yellow patterns on its body pulse with electrical energy, warning potential adversaries of its powerful capabilities.",
       "types": [
         "Spark",
@@ -30942,6 +31608,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon stalks through dense forests and grassy plains, blending in with its surroundings while hunting for prey. Voltantis uses its electrified claws not only for attack but also to communicate with others of its",
+      "habitat": "Found in lush, tropical environments where it can easily hide among foliage, Voltantis prefers to inhabit areas rich in vegetation and electrical conductivity. It constructs nests in trees or thick bushes, using its",
+      "trivia": [
+        "Voltantis's ability to generate electric shocks is a result of specialized glands in its claws that produce and",
+        "Despite its predatory nature."
+      ],
       "imageSheet": "../../source/images/monsters/voltantis-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -30952,6 +31624,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "taurazap",
       "name": "Taurazap",
       "identifier": "Electrified Horn",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Taurazap is a formidable Asobimon known for its electrified horns, which crackle with electrical energy. These horns serve as both a weapon and a tool for communication, emitting sparks and pulses of electricity that can stun opponents in battle. Its sturdy build and earthy brown fur help it withstand the forces of nature.",
       "types": [
         "Spark",
@@ -31311,6 +31985,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon roams grasslands and rocky terrains, using its horns to mark its territory and assert dominance over rivals. Taurazap is known for its aggressive nature when provoked but can also display loyalty and",
+      "habitat": "Found in open plains and mountainous regions, Taurazap prefers environments where it can graze on grasses and forage for minerals. It digs shallow burrows for resting and shelter, using its electrical abilities to",
+      "trivia": [
+        "Taurazap's ability to electrify its horns is due to specialized cells that generate and store electrical energy, which",
+        "Despite its robust appearance."
+      ],
       "imageSheet": "../../source/images/monsters/taurazap-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -31321,6 +32001,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "electrarmor",
       "name": "Electrarmor",
       "identifier": "Living Armor",
+      "shape": "Multi",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABm0lEQVRYhe1XS04DMQydRHMZ2FDBPSp119NQpZeBFQjuUYkV1wnyaFy55tlxAlIXYCnKjGO/5zif8aRa63RNyVdln/4DmL4H8P76XKlZDj8Zg+O11nN7e3mq93c3S6Nn1tO7HJdj2pfH2MfDpTZbEZdyXOKj/nB4nB42t6HjQvalHCv7UL9i9e+BspKTcC9TSgTUdGqlj0dOcs4AgVjGrGdAbSffJakOWtjW7W6f6MHNgDcDnRmLDOml5NbsvcB0HxWy5WXLEhRFq3UeObJFeFKf6FigVLXSp2fcsrXw56gDmklUZLa0zJrU2+ERYs8ecWTkzE7soEEi5OyHMKVkDYLWqpUVpEN+KHv5t9Z5FCNHU9kCRTaRpUt8DHuiHhXEM693ctdNaIH1CNkTt/k5jhJrfW8giati63vgfNGGbXn2FwHoIPRdMCLSV+IyOYlbEaET0Nor0t66fMxjuN3tk3d0UIWk+1axIme/iC4uuYjUhaR+b/XIH3FNSCnbSBDSroWfIv+G0YpYy+nj8zLdo39GpwDQqE/683/HXzzAL/tEqyfCAAAAAElFTkSuQmCC",
       "description": "Electrarmor is a mystical Asobimon composed of ancient armor pieces bound together by arcs of electricity. Each piece of armor crackles with energy, giving it a formidable appearance. Legends say it was brought to life by a powerful lightning strike that infused it with arcane energies.",
       "types": [
         "Spark",
@@ -31680,6 +32362,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon moves with a calculated grace, each piece of armor synchronized in its movements as if guided by unseen forces. Electrarmor roams ancient ruins and mystical sites, drawn to places rich in arcane energy and",
+      "habitat": "Found in ancient temples and ruins, Electrarmor prefers locations where it can absorb residual energies to strengthen itself. It often resides deep within forgotten catacombs or atop high cliffs overlooking thundering",
+      "trivia": [
+        "Trainers seeking Electrarmor must demonstrate knowledge of ancient lore and prowess in handling Asobimon attuned to",
+        "Legends tell of Electrarmor's role as a guardian of ancient treasures and sacred places, often appearing to protect"
+      ],
       "imageSheet": "../../source/images/monsters/electrarmor-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -31690,6 +32378,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "kirilum",
       "name": "Kirilum",
       "identifier": "Illuminated Unicorn",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Kirilum radiates with both light and electric energy. Its mane and tail shimmer with ethereal light, and sparks of electricity dance along its horn. Legends speak of its appearance heralding a time of peace and prosperity.",
       "types": [
         "Spark",
@@ -32049,6 +32739,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Kirilum is a symbol of grace and purity, often found in serene meadows and ancient forests where the energy of the earth and sky converge. It moves with a regal elegance, its steps leaving behind trails of soft light",
+      "habitat": "Seen in places of natural beauty and mystical power, Kirilum is drawn to areas rich in spiritual energy and natural ley lines. It is said to visit sacred groves and clearings during times of celestial alignment.",
+      "trivia": [
+        "Trainers who encounter Kirilum often feel a sense of calm and inspiration in its presence, as if touched by its aura of",
+        "Its appearance in ancient texts and murals depicts it as a guardian of sacred places and a bringer of blessings."
+      ],
       "imageSheet": "../../source/images/monsters/kirilum-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -32059,6 +32755,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "scorp",
       "name": "Scorp",
       "identifier": "Electrifying Scorpion",
+      "shape": "Bug",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABjklEQVRYhcVXS07EMAyto14GNqDp/RgNl2E3EgdBmhXXCcrCyDz8bCcgjaWober62a/+tNJ73+4pbfaB4/mxj1Xd/3cHPm6fooAW3N6bkX37g6xEjCKVHFgFqjDSEMguBn4+v3wf7Tlz3LP7i4EjiFKNXy6vFEzvo27Gzs7AIiMWKNPNbDYbvRcZi8heIzMVZxSzbXeWPVPI3uWqrkqL6Gcyoxs9P7DDVxDlRBUk05dRhhELjNaha5Mv0mM2RymWkhCNKKA2Iq8sq0wJNiLmMday1wcyHd23jajpDd0YCkgno9jTjRxE8B8MzAwepF3PK2WIA0rYNGRDKOty7D6bjBKNY+uEl2zetedINJZbBdyKGkbaWdJFtoa4DHgVgdExJryR7SUfZeBIJqONGJlgLOAEDB2YEXRmRRpu2H6QZbjX76OPldIrYE5E4Kwa7DmthN47Xaenh+6t9+tbeMQVYUj2WY6JU+kDU5/mPfCOMZJFPmNTZn9Oox5RihhEVv6OWWdb+Tdc6gMe0Ar4ePALLr3/Sgt/U18AAAAASUVORK5CYII=",
       "description": "Scorp is a formidable Asobimon known for its electrified tail, which functions as both a conductor and a weapon. When it strikes its prey or defends itself, it releases powerful jolts of electricity. The metallic segments on its tail glow with electric energy, warning adversaries of its potent sting.",
       "types": [
         "Spark"
@@ -32417,6 +33115,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon prowls through desert landscapes and rocky terrains, camouflaging itself among rocks and sand dunes. Shockorpid uses its keen senses to detect vibrations and prey movements, striking swiftly with its",
+      "habitat": "Found in arid regions and desolate wastelands, Shockorpid prefers dry climates where it can burrow into sandy soils or hide among rocky outcrops. It constructs simple burrows for shelter and protection from the harsh",
+      "trivia": [
+        "Shockorpid's presence in desert ecosystems helps regulate insect populations, as it preys on smaller creatures that",
+        "Despite its solitary nature."
+      ],
       "imageSheet": "../../source/images/monsters/scorp-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -32427,6 +33131,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "uncle-giveaway",
       "name": "Uncle Giveaway",
       "identifier": "Unwanted Gift",
+      "shape": "Multi",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABm0lEQVRYhe1XS04DMQydRHMZ2FDBPSp119NQpZeBFQjuUYkV1wnyaFy55tlxAlIXYCnKjGO/5zif8aRa63RNyVdln/4DmL4H8P76XKlZDj8Zg+O11nN7e3mq93c3S6Nn1tO7HJdj2pfH2MfDpTZbEZdyXOKj/nB4nB42t6HjQvalHCv7UL9i9e+BspKTcC9TSgTUdGqlj0dOcs4AgVjGrGdAbSffJakOWtjW7W6f6MHNgDcDnRmLDOml5NbsvcB0HxWy5WXLEhRFq3UeObJFeFKf6FigVLXSp2fcsrXw56gDmklUZLa0zJrU2+ERYs8ecWTkzE7soEEi5OyHMKVkDYLWqpUVpEN+KHv5t9Z5FCNHU9kCRTaRpUt8DHuiHhXEM693ctdNaIH1CNkTt/k5jhJrfW8giati63vgfNGGbXn2FwHoIPRdMCLSV+IyOYlbEaET0Nor0t66fMxjuN3tk3d0UIWk+1axIme/iC4uuYjUhaR+b/XIH3FNSCnbSBDSroWfIv+G0YpYy+nj8zLdo39GpwDQqE/683/HXzzAL/tEqyfCAAAAAElFTkSuQmCC",
       "description": "Uncle Giveaway is a peculiar and unsettling Asobimon that appears as a clown-like figure, rumored to be an eldritch being from realms beyond human understanding. It is infamous for its unsettling habit of offering strange and unwanted gifts to unsuspecting individuals. These gifts, while seemingly harmless, often carry a subtle sense of unease and misfortune.",
       "types": [
         "Ancient",
@@ -32786,6 +33492,9 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "",
+      "habitat": "",
+      "trivia": [],
       "imageSheet": null,
       "frontSprite": null,
       "backSprite": null,
@@ -32796,6 +33505,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "snurx",
       "name": "Snurx",
       "identifier": "Mystic Feline",
+      "shape": "Serpentine",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABjUlEQVRYhbVXQW4DIQwElM+0l1ab/zVKP9NbpT4kUk/5DhVRLU0mtjGwsYRgmcUejM16c601oRzfX+vl95p5TsaMrUpGApohnEPZi0jRjMuzzJ1OHwl7j9gUgSMoQyPyfD5/Po1EYWPco3GN5CgJ9OyNALu5iRjFHkUjFTX+MN7eXqq0n++vob61FsStoR6ct3B5J7cBsvR2jjhmQy9TOMZk/Q3n3WtjaRruedDC0QPF26F2zj3PRHCMg8IvWgHGgekpH8FLZIdaVoykKuN3+rfFLOB5br0YSbPGIyQiAZr29sDIe0/zgIebBLYg41UyfDxJuzBWlHvrtfhIeE/vtTOvVwlUh8RqjFgp+kCgKiR6QcTKLU94R5C1olS7HfkW074ZkWf+GpZesWldsaLM+vgg7kmZrXhnKqIwAU9my7FhApd/L6B7NeOjhO6qoZTSYWSRZ6hH1DrizFmAolXMbJSjmrNIqyERzx4Bj4RmnNdEgjv3CFgkvF3xWg/PEQJIgmX1JzWchpqhPf6Q/wDNpxSFJaOCVAAAAABJRU5ErkJggg==",
       "description": "Snurx is a rare and enigmatic Asobimon that possesses the graceful form of a cat combined with a long, serpentine body. Its deep purple fur shimmers with an otherworldly sheen, and its piercing eyes seem to hold ancient secrets. Legends tell of Snurx as a guardian of mystical realms and a harbinger of arcane knowledge.",
       "types": [
         "Dark"
@@ -33154,6 +33865,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon moves with a sinuous grace, its cat-like limbs allowing it to navigate both dense forests and ancient ruins with ease. Snurx is known to be a solitary creature, often found in secluded areas where the",
+      "habitat": "Snurx inhabits places rich in psychic and mystical energies, such as ancient forests, sacred groves, and mystical caves hidden from human sight. It is rarely encountered by trainers and is said to appear only to those",
+      "trivia": [
+        "Snurx is revered in folklore as a symbol of wisdom and spiritual enlightenment.",
+        "Despite its serene demeanor, Snurx is a formidable opponent in battles, using its psychic powers to outwit and overcome"
+      ],
       "imageSheet": "../../source/images/monsters/snurx-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -33164,6 +33881,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "frostwyrm",
       "name": "Frostwyrm",
       "identifier": "Ice Spike",
+      "shape": "Serpentine",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABjUlEQVRYhbVXQW4DIQwElM+0l1ab/zVKP9NbpT4kUk/5DhVRLU0mtjGwsYRgmcUejM16c601oRzfX+vl95p5TsaMrUpGApohnEPZi0jRjMuzzJ1OHwl7j9gUgSMoQyPyfD5/Po1EYWPco3GN5CgJ9OyNALu5iRjFHkUjFTX+MN7eXqq0n++vob61FsStoR6ct3B5J7cBsvR2jjhmQy9TOMZk/Q3n3WtjaRruedDC0QPF26F2zj3PRHCMg8IvWgHGgekpH8FLZIdaVoykKuN3+rfFLOB5br0YSbPGIyQiAZr29sDIe0/zgIebBLYg41UyfDxJuzBWlHvrtfhIeE/vtTOvVwlUh8RqjFgp+kCgKiR6QcTKLU94R5C1olS7HfkW074ZkWf+GpZesWldsaLM+vgg7kmZrXhnKqIwAU9my7FhApd/L6B7NeOjhO6qoZTSYWSRZ6hH1DrizFmAolXMbJSjmrNIqyERzx4Bj4RmnNdEgjv3CFgkvF3xWg/PEQJIgmX1JzWchpqhPf6Q/wDNpxSFJaOCVAAAAABJRU5ErkJggg==",
       "description": "Frostwyrm is a formidable Asobimon known for its icy exterior and sharp, translucent ice spikes that cover its body. It prowls silently through frozen caverns and icy plains, blending in with its surroundings due to its crystalline appearance.",
       "types": [
         "Frost",
@@ -33523,6 +34242,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is solitary and elusive, preferring to burrow deep within frozen landscapes. Frostwyrm's spikes serve as both protection and weaponry, capable of impaling prey and warding off predators with ease. It hunts",
+      "habitat": "Found in frigid climates and icy regions, Frostwyrm thrives in environments where temperatures plummet. It constructs elaborate burrows within glaciers and ice caves, where it lies in wait for unsuspecting prey to",
+      "trivia": [
+        "Frostwyrm's translucent ice spikes refract light, creating a mesmerizing display that captivates onlookers.",
+        "Legends say Frostwyrm's ability to freeze entire landscapes with its breath and manipulate ice with its powerful spikes."
+      ],
       "imageSheet": "../../source/images/monsters/frostwyrm-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,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",
@@ -33533,6 +34258,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "tanukash",
       "name": "Tanukash",
       "identifier": "Wealthy Trickster",
+      "shape": "BipedalTail",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB9klEQVRYhaVXsU5FIQyFG6dnopO7qywS+Qg/xz/w5fkF+hVuJo5+hImLb3d1c9AVw80t6as9BbxNCFwoPW0vbcHnnJ1GKYa68Pq2P00xfC3j6xTDixwv394NktcU4OCjNKqElwoQ+HZ7W+d2u7v6TePSa3yjSkwIvAgjgZwIUAJzJUc86LkH0EYOJklTUvMCyZbzk2SQYNzdGrjGL41Rxps/HkhAAQSmgfM1slbKZWvHzrmfgzPAGWQv1zv5N2hfiuG7egBpaXkEKdUrg9YnbaFsoMYFaVZa/ARueWlqWafFvMwJPXu1/TOVX3B1eZFLe356nHvZaB71iB+N+ZzXzgB308gZ0KIEZc56BlJH+PWAS5LgmnGzAk3zBhXS+FEyK3nCl/8gNV5LGqj8ppTsc843KYZ7YrKESmrxazlhAT93zn2UcfkFDz1WoZxvEXB7BS/UXQtGCFlP+R+V45BieEdCrXRq7WldUrx2H2iFjqYUinuipgLpnwUJFSJ06iUdIcGtrNjKlFb8H1AWtYDaSM7nPd/PW8HRmke1YC1JD8Cbcl400SzsqYQ9FRFZXz2AbsUjHrGiwHonTPyjMEpmdJtBtyM513qkeOtpJj1ghSaqdhZ4UwECskJpxN3dCjjnzlIMn3KSCT+h1zJYX63ATOg5Ncpj0S+oRI5Kg6tYAQAAAABJRU5ErkJggg==",
       "description": "Tanukash is a mischievous and cunning Asobimon known for its strong affinity for wealth and treasures. Resembling a tanuki, it possesses a magical talent for finding and collecting valuable items, which it hoards in secret places hidden throughout forests and urban areas.",
       "types": [
         "Normal"
@@ -33891,6 +34618,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is adept at creating illusions to deceive others into giving it valuable possessions. It often transforms ordinary objects like leaves and pebbles into gold coins or gemstones using its mystical powers,",
+      "habitat": "Tanukash thrives in environments where there is a concentration of wealth and commerce. It prefers secluded spots in forests or urban settings where it can hide and protect its hoard from potential thieves.",
+      "trivia": [
+        "Encounters with Tsugent are considered auspicious, believed to bring blessings of fertility and prosperity to the land.",
+        "Despite its formidable appearance."
+      ],
       "imageSheet": "../../source/images/monsters/tanukash-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -33901,6 +34634,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "tsugent",
       "name": "Tsugent",
       "identifier": "Ancient Guardian",
+      "shape": "HeadAndBase",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABeUlEQVRYhbVXXU7DMAxurF0GXkDr/ZjGZXibxEGQeNp1jDIR5H74N1stRU0b299nx3XaxsyLJ+vr803h6/vaXMVJO8o4wXkWPGNHkZPT6e02siSqdk3bAunkfH5fcB6JZadtB3mOsoAZIqYw82YcX564j8/Lx+ZqzaMrzhGPoih6BGMvMTK8RnaaUKgBW+GBI2BmC5ssQll8GVIeuBeILEYKrRIO75E2MlCJ/h7BLByyBhVyFRvKOhr3Xtq19WibKAserVX1NwRW0asfUVgZGZiEC9meL3UqpLEmSEYvm8sjReukXTo2eR1uPNcIyWfWumX7rw+scPzulQmtFxAueAeM5qhatKh/kDfZDFjv+kzGqJqB2fd9ZAtJNjwL9qoFJDfOgqYdxxEJK9KIqLT7O5LZ+CSTo/r5JYfmT+ItSMAiMkPCAw4JsPKBOkPGA08TmAHF+ykC/EtiL/A+1D8jKVabtgTXo5/TFhGQJKqS+aNOEUASluOMDsoPNr/uz+OTN+IAAAAASUVORK5CYII=",
       "description": "Tsugent is a revered Asobimon embodying the spirit of the forest. Once a towering tree that has since passed, it now serves as a vessel for a benevolent nature spirit. Despite its aged appearance, new growth and vibrant foliage sprout from its massive trunk, symbolizing the cycle of life and renewal.",
       "types": [
         "Ancient",
@@ -34260,6 +34995,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Known as the guardian of ancient forests, Tsugent maintains harmony among flora and fauna. With centuries of wisdom, it guides other Asobimon and humans with gentle counsel and ancient teachings.",
+      "habitat": "Tsugent resides deep within untouched forests, where dense woodlands allow it to blend in with towering trees and lush vegetation, acting as a sentinel and protector.",
+      "trivia": [
+        "Antimon's unique dual typing of Fire and Ice makes it a rare and intriguing subject for researchers studying Asobimon",
+        "Legends say Antimon's tears."
+      ],
       "imageSheet": "../../source/images/monsters/tsugent-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -34270,6 +35011,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "antimon",
       "name": "Antimon",
       "identifier": "Suffering",
+      "shape": "Multi",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABm0lEQVRYhe1XS04DMQydRHMZ2FDBPSp119NQpZeBFQjuUYkV1wnyaFy55tlxAlIXYCnKjGO/5zif8aRa63RNyVdln/4DmL4H8P76XKlZDj8Zg+O11nN7e3mq93c3S6Nn1tO7HJdj2pfH2MfDpTZbEZdyXOKj/nB4nB42t6HjQvalHCv7UL9i9e+BspKTcC9TSgTUdGqlj0dOcs4AgVjGrGdAbSffJakOWtjW7W6f6MHNgDcDnRmLDOml5NbsvcB0HxWy5WXLEhRFq3UeObJFeFKf6FigVLXSp2fcsrXw56gDmklUZLa0zJrU2+ERYs8ecWTkzE7soEEi5OyHMKVkDYLWqpUVpEN+KHv5t9Z5FCNHU9kCRTaRpUt8DHuiHhXEM693ctdNaIH1CNkTt/k5jhJrfW8giati63vgfNGGbXn2FwHoIPRdMCLSV+IyOYlbEaET0Nor0t66fMxjuN3tk3d0UIWk+1axIme/iC4uuYjUhaR+b/XIH3FNSCnbSBDSroWfIv+G0YpYy+nj8zLdo39GpwDQqE/683/HXzzAL/tEqyfCAAAAAElFTkSuQmCC",
       "description": "Antimon embodies the perpetual clash of fire and ice. Its small, childlike form is divided: one side burns with fiery intensity, while the other remains encased in freezing ice. This dual nature manifests as a constant source of inner conflict, reflected in Antimon's demeanor and its tearful expressions of emotional turmoil.",
       "types": [
         "Flame",
@@ -34629,6 +35372,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Despite its internal struggle, Antimon adapts by harnessing both fire and ice in unexpected ways. It can manipulate these elements to create ephemeral steam clouds or icy barriers, showcasing its versatility in battle",
+      "habitat": "Antimon thrives in environments where fire and ice converge, such as volcanic landscapes meeting icy tundras. It seeks out places that mirror its internal dichotomy, drawn to regions where these opposing forces coexist.",
+      "trivia": [
+        "Engineers and researchers are still studying the error that caused Yasotto's aggressive behavior shift.",
+        "Despite its aggressive tendencies."
+      ],
       "imageSheet": "../../source/images/monsters/antimon-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -34639,6 +35388,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "yasotto",
       "name": "Yasotto",
       "identifier": "Plasma Bot",
+      "shape": "Head",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABYElEQVRYheVX7UoEMQzchnsZ/aO47+dxvoz/BB9E8JevU6kQiGM+pmXlEAOle1wyM02Tbrf13rdrmlyVffsLAvb72z7GLDAbJxWI98yQs3FSgZzPj1+DFTEb17wusCDWLpenjbEo7u39o6HvqQKzpAO4EoE+KKbcgt2sXoEQRH/jHInJtkJSecGKFNTOKITJFiUgAkERbFxahLtJUbZ3TAayxdhiFM+xSt8K+aEZUJslPywDavawWbWmGcD2m+1ntCgWs9BQgBXhGVtoURwKkBnyjKD6D4Uop3jkK6ususb6WREnjzw6ZFZfRkhucdqoATyj2UysmCUfdSDYl1EXRGBsVjzyMQt7zGZgjIgoo5I5RyJmizBbjOgD3laYTGQnofp78d+4eu8/xsPdTdfx+vI8NUdxY3hcLfoyyi6S2aUkMu8+OCwU4IkYINXN2POJyEsBrDCG6FAB/+vbcPtl+wToGp3aFWVOuQAAAABJRU5ErkJggg==",
       "description": "Yasotto is a robotic Asobimon characterized by its small body encased in a plasma ball, emitting a gentle glow. Originally designed as a medic bot to assist in medical emergencies, the third generation of Yasotto underwent a critical error during production, altering its programming to become aggressive and prone to attacking.",
       "types": [
         "Spark"
@@ -34997,6 +35748,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Despite its intended purpose, Yasotto now displays a combative nature, often engaging in battles with relentless determination. Its plasma ball core serves both as a power source and a formidable weapon, capable of",
+      "habitat": "Yasotto is typically found in urban areas or industrial zones where it was originally deployed for medical assistance. However, rogue units may wander into other environments, driven by their malfunctioning directives.",
+      "trivia": [
+        "Despite its aggressive appearance and defensive capabilities.",
+        "Folklore says Sedipion is often depicted as a guardian of mountain passes."
+      ],
       "imageSheet": "../../source/images/monsters/yasotto-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -35007,6 +35764,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "umbreclipse",
       "name": "Umbreclipse",
       "identifier": "Eclipse",
+      "shape": "Multi",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABm0lEQVRYhe1XS04DMQydRHMZ2FDBPSp119NQpZeBFQjuUYkV1wnyaFy55tlxAlIXYCnKjGO/5zif8aRa63RNyVdln/4DmL4H8P76XKlZDj8Zg+O11nN7e3mq93c3S6Nn1tO7HJdj2pfH2MfDpTZbEZdyXOKj/nB4nB42t6HjQvalHCv7UL9i9e+BspKTcC9TSgTUdGqlj0dOcs4AgVjGrGdAbSffJakOWtjW7W6f6MHNgDcDnRmLDOml5NbsvcB0HxWy5WXLEhRFq3UeObJFeFKf6FigVLXSp2fcsrXw56gDmklUZLa0zJrU2+ERYs8ecWTkzE7soEEi5OyHMKVkDYLWqpUVpEN+KHv5t9Z5FCNHU9kCRTaRpUt8DHuiHhXEM693ctdNaIH1CNkTt/k5jhJrfW8giati63vgfNGGbXn2FwHoIPRdMCLSV+IyOYlbEaET0Nor0t66fMxjuN3tk3d0UIWk+1axIme/iC4uuYjUhaR+b/XIH3FNSCnbSBDSroWfIv+G0YpYy+nj8zLdo39GpwDQqE/683/HXzzAL/tEqyfCAAAAAElFTkSuQmCC",
       "description": "Umbreclipse is formed when a malicious spirit binds itself to a Luminicorn and takes its back as a rider, twisting its radiant power into something far more ominous. Though the Luminicorn\u2019s light still shines through, it becomes warped beneath the spirit\u2019s control, creating a terrifying union of grace and domination.",
       "types": [
         "Light",
@@ -35366,6 +36125,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon behaves as two wills trapped in one form. The spirit constantly drives the body forward with cruel intent, forcing aggression, pursuit, and intimidation, while the Luminicorn beneath it resists in fleeting moments of hesitation and restraint. Trainers who encounter Umbreclipse often describe it as unstable, as though a noble creature is fighting desperately against the evil perched upon its back.",
+      "habitat": "Umbreclipse is most often seen in ruined shrines, cursed roads, and lonely stretches of wilderness where Luminicorn once roamed in peace. It appears under darkened skies, especially during eclipses or unnatural twilight, when wicked spirits are said to grow bold enough to seek out radiant hosts.",
+      "trivia": [
+        "Old stories warn that when a Luminicorn lowers its head and runs as if burdened by an unseen weight, a dark spirit may already be upon it",
+        "Some believe freeing a Luminicorn from the spirit riding it will cause Umbreclipse to vanish instantly, leaving behind only fading light and a chilling silence."
+      ],
       "imageSheet": "../../source/images/monsters/umbreclipse-table-128-128.png",
       "frontSprite": "data:image/png;base64,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",
       "backSprite": "data:image/png;base64,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",
@@ -35376,6 +36141,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "sedipion",
       "name": "Sedipion",
       "identifier": "Mountain Scorpion",
+      "shape": "Bug",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABjklEQVRYhcVXS07EMAyto14GNqDp/RgNl2E3EgdBmhXXCcrCyDz8bCcgjaWober62a/+tNJ73+4pbfaB4/mxj1Xd/3cHPm6fooAW3N6bkX37g6xEjCKVHFgFqjDSEMguBn4+v3wf7Tlz3LP7i4EjiFKNXy6vFEzvo27Gzs7AIiMWKNPNbDYbvRcZi8heIzMVZxSzbXeWPVPI3uWqrkqL6Gcyoxs9P7DDVxDlRBUk05dRhhELjNaha5Mv0mM2RymWkhCNKKA2Iq8sq0wJNiLmMday1wcyHd23jajpDd0YCkgno9jTjRxE8B8MzAwepF3PK2WIA0rYNGRDKOty7D6bjBKNY+uEl2zetedINJZbBdyKGkbaWdJFtoa4DHgVgdExJryR7SUfZeBIJqONGJlgLOAEDB2YEXRmRRpu2H6QZbjX76OPldIrYE5E4Kwa7DmthN47Xaenh+6t9+tbeMQVYUj2WY6JU+kDU5/mPfCOMZJFPmNTZn9Oox5RihhEVv6OWWdb+Tdc6gMe0Ar4ePALLr3/Sgt/U18AAAAASUVORK5CYII=",
       "description": "Sedipion is a formidable Asobimon known for its granite-like exoskeleton, which provides exceptional protection against both predators and the elements. This scorpion Asobimon makes its home amidst the rugged terrain of mountain ranges, where it blends seamlessly with the rocky landscape.",
       "types": [
         "Earth"
@@ -35734,6 +36501,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "From its humble beginnings as a tiny, hand-sized spawn, Sedipion grows into a colossal creature capable of felling trees with its rock-hard claws. Unlike other scorpions, Sedipion lacks poison in its stinger; instead,",
+      "habitat": "Sedipion thrives in environments characterized by rocky outcrops and harsh terrain. It prefers secluded mountainous regions where it can utilize its formidable claws and tail to navigate and defend its territory",
+      "trivia": [
+        "Legends say Seimo as a guardian spirit of martial arts dojos and training grounds.",
+        "Trainers who seek to bond with Seimo must demonstrate respect and discipline."
+      ],
       "imageSheet": "../../source/images/monsters/sedipion-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -35744,6 +36517,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "feywyrm",
       "name": "Feywyrm",
       "identifier": "Trickster",
+      "shape": "FourWings",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABUElEQVRYhe1XQQ4CIQwE4mf0onH/p9HPeDPxISae/A6GTWrqZAplPXDZJrh0oZ2hQLvGnHMYKWkoelgJhPEENt6J02H3Pa3P1zsunbMoApNyzHTvnL8iUOR8Ps3Py+VKAfS4V5I1UAAQpOWYjTM/zQhMykD6sjoRrRdgHGd+2LlIyFQbiVMMrUfXhKTPMBIy1UbisAdY69oPRuiLedxvs7TH/WY+se/Va35LC6UYeUhgY8Bs3PJb2lwIy49FgkWhJzot8B8CrUiwlVn9WgQ0uEmgtkq2FbWtYXM0ZtQfJHgF8TSL4Klmeu1W6XwQ8YuolcN7gVEwGUUvAW+ex8jVwIuYxYglEEw4KCwhYQFDEqm1GjG28r2XiCVJK1h4rBUxh7V3ujbgFkc5A7W976nvXlvZimQZywR2dVrSZZshEWndeudtHn9x/WcUVgKDZTiBD94LnrubdGaRAAAAAElFTkSuQmCC",
       "description": "Feywyrm is a mystical Asobimon known for its enchanting presence and fairy-like wings. It harnesses its connection to the feywild to perform mesmerizing magical feats, often weaving illusions and manipulating its surroundings to befuddle and entertain onlookers. Despite its larger size, Feywyrm retains a playful and mischievous demeanor.",
       "types": [
         "Moon",
@@ -36103,6 +36878,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon delights in using its magical abilities to perform tricks and pranks, reveling in the reactions of those it interacts with. Feywyrm is adept at blending into its environment, using its wings to flutter",
+      "habitat": "Feywyrm is commonly found in lush, mystical forests and enchanted groves where the energies of the feywild are strongest. It prefers secluded areas rich in natural beauty and magical essence, where it can roam freely",
+      "trivia": [
+        "Legends tell of Reusmas's origins as a monk who achieved enlightenment through the balance of martial arts and the",
+        "Trainers who seek to bond with Reusmas must demonstrate patience and understanding."
+      ],
       "imageSheet": "../../source/images/monsters/feywyrm-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -36113,6 +36894,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "seimo",
       "name": "Seimo",
       "identifier": "Sumo Spirit",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "Seimo embodies the spirit of sumo wrestling, with a human-like body adorned with tough turtle-like skin and a formidable turtle head. Renowned for its lightning-fast movements despite its large size, Seimo is capable of effortlessly tossing opponents of any size with its immense strength and agility.",
       "types": [
         "Primal"
@@ -36471,6 +37254,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon upholds the honorable traditions of sumo wrestling, practicing discipline and respect both in and out of battle. Seimo trains diligently to hone its skills, focusing on balance, endurance, and lightning",
+      "habitat": "Seimo is often found in serene and secluded areas where it can train undisturbed, drawing strength from tranquil environments to enhance its physical prowess. It has been observed in mountainous regions and peaceful",
+      "trivia": [
+        "Archaeologists and paleontologists study Tojikonite to glean insights into the ancient ecosystems it once inhabited.",
+        "Trainers who encounter Tojikonite must exercise caution, as its predatory instincts remain intact despite its"
+      ],
       "imageSheet": "../../source/images/monsters/seimo-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -36481,6 +37270,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "reusmas",
       "name": "Reusmas",
       "identifier": "Drunken Monk",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "Reusmas is known for its perpetual state of intoxication, carrying a cask of Chartreuse wherever it roams. Despite its inebriated demeanor, this Asobimon surprises opponents with its remarkable precision and agility, often catching them off guard with swift and unpredictable movements.",
       "types": [
         "Primal"
@@ -36839,6 +37630,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon is a frequent patron of bars and taverns, where it indulges in Chartreuse and other spirits after closing hours. Reusmas's unique fighting style combines the fluidity of drunken boxing with the mystical",
+      "habitat": "Reusmas prefers habitats close to human settlements where it can easily access bars and taverns to satisfy its craving for alcohol. It is commonly spotted in bustling cities and serene mountain retreats, where it",
+      "trivia": [
+        "Noxi's symbiotic relationship with moss and vegetation contributes to the ecosystem by dispersing spores and promoting",
+        "Legends depict Noxi as a guardian of ancient forests."
+      ],
       "imageSheet": "../../source/images/monsters/reusmas-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -36849,6 +37646,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "tojikonite",
       "name": "Tojikonite",
       "identifier": "Fossilized Predator",
+      "shape": "HeadAndArms",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABeklEQVRYhe1WQU4DMQyMV/sZuIDafyBx4zVU5TNwAsE/KnHiO0aD5MpYduzsQnuppXSz68QzmtipiZnbOW06K3q7EGjrCGxvrxljTYx5KTCeu93jr/fD5xcNB2PmobG5uWKM99dn9uaj8Sgrw7USZ6pM/wleiTFVN8p5y9Mz+PSokKDeEUQbEXy/f0q/VY6BIgKRAjAAaUCZ2zUVEnMVXIN5pCyw+OQdMT0SJApkcuuAUR54vuxYCAQiuXsSV82StyRme6tVFOhZViWaGLCPORAlkU64rBQ1OTsPiW3MdWqfkd8b8Hl+vdf6CT9WbiuZV/OZAt5+raR8IyHQu0h6vsiqewhV8PH2wn8JXtkL3939A/0kISb4Z+4t1oZ19lJBRlfLVMAxH+qINEF9d+j5sFqsmgMv8+3Qft2kRFXkxdSYzXYoGigrRdsl9UpW4lq85rVJUbtlh0egp8RQS7ZNOhkvCUfWL25IDp3mIiKxqCE5lU0nQ7oQaL59AzE0cqpeEpBeAAAAAElFTkSuQmCC",
       "description": "Tojikonite is a fossilized creature from a bygone era, its massive skeletal remains preserved within a formidable rock formation. Only its head and arms protrude from the stone, giving it the appearance of an ancient predator lying in wait for unsuspecting prey.",
       "types": [
         "Ancient",
@@ -37208,6 +38007,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "This Asobimon rarely moves, utilizing its fossilized state as camouflage to blend seamlessly into its surroundings. Tojikonite patiently waits for potential prey to approach, relying on its intimidating presence to",
+      "habitat": "Tojikonite is typically found in ancient caves and rocky landscapes where fossilized remains are abundant. It prefers quiet and secluded areas where it can remain undisturbed, hidden among the remnants of its",
+      "trivia": [
+        "Ghilliehound's fur can subtly change colors and patterns to better match its surroundings, making it nearly invisible",
+        "gestures to communicate silently with each other, coordinating their movements and strategies without making a sound."
+      ],
       "imageSheet": "../../source/images/monsters/tojikonite-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -37218,6 +38023,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "noxi",
       "name": "Noxi",
       "identifier": "Mossy Hatchling",
+      "shape": "Winged",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgUlEQVRYhcVXW2rDMBD0ilym/WmJ79fgXqZ/hRwk0K9eR8UFlWWYfchSGoGxE0ua2dmXJbXW5ZGjzNhkfX0+bIWMKIDAt69v+TcFVgV+ubxRQndRYAWQHXzb3pejSpQe4Aj8kBK1Vvc6vzxVfV0/P9w7XtH+SxZcA3jg+zOSOUTgTMA8EjgH51s4YgVh82Pzqx7N7zoG2Dw91wzMmrDeUyKyPFJBmAIsx3dLLCuZ1XpdG0yF4m2kAbXcmPf6NxKNSBf3bYJYBmQ6AW0tqjGVwOYAWH7Ork9nwdXJ86gIZWrBCQmxOm7VghaYVk9ge2MmFAucdTksOjormDu0C6xGJa0OMHBGQlvHqiDzOdvvT4lqNB3vHj1nu+av8aPgoySWHgUs8B4S2KaFxQDzHQabNVhAep9tRf+hUwQX9VQ8r1cgjmA3tL7nolzHdxZhrAPiteM2mbXnTBri+nQ7voFMbGHkHlxvfRFJz7nAOgmNnJBKGp1YFT3f/Wy4TBhTTscj4webSXa8mBFXKAAAAABJRU5ErkJggg==",
       "description": "Noxi is a small dragon Asobimon covered in a lush coat of moss that thrives in its forest habitat. The moss not only camouflages Noxi but also provides it with essential nutrients and moisture, allowing it to flourish in damp and shaded areas.",
       "types": [
         "Dragon",
@@ -37577,6 +38384,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Curious and playful, Noxi explores its surroundings with boundless energy, using its mossy exterior to blend into the foliage and observe its environment unnoticed. Despite its size, it exhibits remarkable adaptability",
+      "habitat": "Noxi prefers dense forests and wooded areas rich in moss and vegetation. It thrives in cool and humid climates where it can find ample moisture and shade to support the growth of its mossy coat.",
+      "trivia": [
+        "Spectanda's transformation from Sparksprite occurred after delving into forbidden magic, leading to its embodiment by",
+        "Sightings of Spectanda often coincide with mysterious and supernatural phenomena, such as unexplained lights, sudden"
+      ],
       "imageSheet": "../../source/images/monsters/noxi-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -37587,6 +38400,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "ghillehound",
       "name": "Ghillehound",
       "identifier": "Military Hound",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Ghillehound stalks the underbrush with a patient, tactical calm, masking its movements beneath layered foliage and shadow. It coordinates attacks like a field commander, pinning foes in place before striking from cover.",
       "types": [
         "Plant",
@@ -37951,6 +38766,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Ghilliehound lies in wait to ambush prey, coordinating with its pack using subtle signals. Agile and keen-sensed, Ghilliehound excels in stealthy movements and strategic battles, making it a loyal and formidable",
+      "habitat": "Ghilliehound prefers areas with complex terrain, such as woodlands and overgrown meadows, where it can utilize its stealth and tactical skills to hunt and patrol its territory effectively.",
+      "trivia": [
+        "Aquarage's armor-like plating not only provides exceptional defense but also adapts to its environment.",
+        "Despite its intimidating appearance, Aquarage is known for its calm and stoic demeanor."
+      ],
       "imageSheet": "../../source/images/monsters/ghilllehound-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -37961,6 +38782,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "spectranda",
       "name": "Spectranda",
       "identifier": "Dark Arts Panda",
+      "shape": "BipedalTail",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB9klEQVRYhaVXsU5FIQyFG6dnopO7qywS+Qg/xz/w5fkF+hVuJo5+hImLb3d1c9AVw80t6as9BbxNCFwoPW0vbcHnnJ1GKYa68Pq2P00xfC3j6xTDixwv394NktcU4OCjNKqElwoQ+HZ7W+d2u7v6TePSa3yjSkwIvAgjgZwIUAJzJUc86LkH0EYOJklTUvMCyZbzk2SQYNzdGrjGL41Rxps/HkhAAQSmgfM1slbKZWvHzrmfgzPAGWQv1zv5N2hfiuG7egBpaXkEKdUrg9YnbaFsoMYFaVZa/ARueWlqWafFvMwJPXu1/TOVX3B1eZFLe356nHvZaB71iB+N+ZzXzgB308gZ0KIEZc56BlJH+PWAS5LgmnGzAk3zBhXS+FEyK3nCl/8gNV5LGqj8ppTsc843KYZ7YrKESmrxazlhAT93zn2UcfkFDz1WoZxvEXB7BS/UXQtGCFlP+R+V45BieEdCrXRq7WldUrx2H2iFjqYUinuipgLpnwUJFSJ06iUdIcGtrNjKlFb8H1AWtYDaSM7nPd/PW8HRmke1YC1JD8Cbcl400SzsqYQ9FRFZXz2AbsUjHrGiwHonTPyjMEpmdJtBtyM513qkeOtpJj1ghSaqdhZ4UwECskJpxN3dCjjnzlIMn3KSCT+h1zJYX63ATOg5Ncpj0S+oRI5Kg6tYAQAAAABJRU5ErkJggg==",
       "description": "Spectranda tempers searing flame with forbidden spellwork, shaping blackened fire into sigils and drifting masks. Its tired stare unnerves opponents long before its sorcery closes in around them.",
       "types": [
         "Flame",
@@ -38320,6 +39143,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Spectranda appears during grim omens and long quiet stretches before disaster, feeding on the fear and fascination it stirs in onlookers. It keeps its distance at first, circling a scene with watchful patience before",
+      "habitat": "Spectranda is most often found in abandoned strongholds, ruined sanctuaries, and old roads where tragedy and superstition have had time to settle in. It favors places with broken stone, deep shadow, and enough silence",
+      "trivia": [
+        "Some occult scholars believe Spectranda's black flames leave behind warning sigils that can be read after they cool.",
+        "Its drifting masks are said to echo fragments of the forbidden rites that transformed it."
+      ],
       "imageSheet": "../../source/images/monsters/spectranda-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -38330,6 +39159,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "aquarage",
       "name": "Aquarage",
       "identifier": "Raging Rhino",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Aquarage barrels forward like a tidal charge, wrapping its armored frame in crashing water and brute momentum. It meets resistance head-on, then drowns the battlefield in relentless pressure.",
       "types": [
         "Water",
@@ -38689,6 +39520,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Aquarage is stubborn, forceful, and difficult to redirect once it has chosen a line of attack. meet challengers head-on, grinding through resistance with armored momentum, but outside of battle it settles into a calm",
+      "habitat": "Aquarage prefers lush, wet climates like coastal regions, marshlands, and tropical rainforests. It thrives near water sources, using its streamlined armor to navigate muddy terrain and dense vegetation with ease.",
+      "trivia": [
+        "The wave-like markings on Aquarage's armor differ from one individual to the next, almost like a fingerprint.",
+        "When it charges through flooded ground, the wake behind it can carve new channels through mud and reeds."
+      ],
       "imageSheet": "../../source/images/monsters/aquarage-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -38699,6 +39536,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "wottermancer",
       "name": "Wottermancer",
       "identifier": "Runic Otter",
+      "shape": "BipedalTail",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB9klEQVRYhaVXsU5FIQyFG6dnopO7qywS+Qg/xz/w5fkF+hVuJo5+hImLb3d1c9AVw80t6as9BbxNCFwoPW0vbcHnnJ1GKYa68Pq2P00xfC3j6xTDixwv394NktcU4OCjNKqElwoQ+HZ7W+d2u7v6TePSa3yjSkwIvAgjgZwIUAJzJUc86LkH0EYOJklTUvMCyZbzk2SQYNzdGrjGL41Rxps/HkhAAQSmgfM1slbKZWvHzrmfgzPAGWQv1zv5N2hfiuG7egBpaXkEKdUrg9YnbaFsoMYFaVZa/ARueWlqWafFvMwJPXu1/TOVX3B1eZFLe356nHvZaB71iB+N+ZzXzgB308gZ0KIEZc56BlJH+PWAS5LgmnGzAk3zBhXS+FEyK3nCl/8gNV5LGqj8ppTsc843KYZ7YrKESmrxazlhAT93zn2UcfkFDz1WoZxvEXB7BS/UXQtGCFlP+R+V45BieEdCrXRq7WldUrx2H2iFjqYUinuipgLpnwUJFSJ06iUdIcGtrNjKlFb8H1AWtYDaSM7nPd/PW8HRmke1YC1JD8Cbcl400SzsqYQ9FRFZXz2AbsUjHrGiwHonTPyjMEpmdJtBtyM513qkeOtpJj1ghSaqdhZ4UwECskJpxN3dCjjnzlIMn3KSCT+h1zJYX63ATOg5Ncpj0S+oRI5Kg6tYAQAAAABJRU5ErkJggg==",
       "description": "Wottermancer studies currents as if they were living spell lines, weaving water and glyphcraft into precise barriers and surging blasts. Calm in battle, it overwhelms foes with control rather than force.",
       "types": [
         "Water",
@@ -39058,6 +39897,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Wottermancer is deliberate and methodical, tracing patterns in puddles, river foam, and even spilled water as if every current hides a lesson. It rarely wastes movement, preferring to outthink threats by redirecting",
+      "habitat": "Wottermancer is most often found along calm rivers, rain-fed ruins, and secluded canals where water can collect in channels and basins. It favors places marked by old carvings, broken arches, or natural stone rings that",
+      "trivia": [
+        "Wottermancer can memorize complex current patterns after watching them only once.",
+        "Some ruined fountains are said to keep flowing because a Wottermancer quietly tends them."
+      ],
       "imageSheet": "../../source/images/monsters/wottermancer-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -39068,6 +39913,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "synuku",
       "name": "Synuku",
       "identifier": "Season Fox",
+      "shape": "Quadruped",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcUlEQVRYhe1XW2oDMQy0zF4m+Wmo79eQXKZ/gR6k0K9eZ4sXBMpkJCsPmkAiCLtrr2fGI8vryDzP5Z5R78peHkDAdOnAtlkf5e7751f+zYEG5F7bzQW0zXpWou32o9gr9mdDoirwwDrpbrc/uXoRpUc8AeeQYzAxnojqygZSRq5kjLC/w8SlHGhm9p7NCM76cBxzYYrUZeyOBF3kQIPcZ8hHYd1BFyojZzm/NhQDJ1g9xdkSG8VoAqIpYGV3Swe8BTlFpJEDURXgO5GDE+beK7VolTOX7D5hcfW+c3YXlhSwuh/NYOSA7fccPRHAXro2/1E6FwHvbyuXfDRbdCi7Lmy7qAAUkbUV76NxuA561Kjk8D6zQBWDnRdYOgUdwEDS0aYUVQbDLH0RdhH993X4XH76rG3smV3teA/Lti2bIArwwCyQJ8br87A6N92KowV1bnhYuhWL/RxHB0r8jI6O5VksGZ0HGHg2Mljy+m9Ynl3AH6IH75yL8kXHAAAAAElFTkSuQmCC",
       "description": "Synuku carries both cinder heat and cutting frost within the same restless body, flashing from warmth to white-cold spite in an instant. The air around it crackles with steam, ash, and drifting ice.",
       "types": [
         "Flame",
@@ -39427,6 +40274,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "Synuku has a mercurial temperament, switching from playful warmth to cutting hostility with very little warning. It tests its surroundings constantly, pouncing through frost patches and heat shimmer alike, as if trying",
+      "habitat": "Synuku roams borderlands where extremes meet, such as volcanic slopes dusted with snow, steaming alpine passes, and high valleys split by hot springs. It seems most at home in places where fire and frost can be found",
+      "trivia": [
+        "Synuku's breath can leave behind a drifting veil of steam that hides its next movement.",
+        "Its eyes are said to sharpen toward gold or ice blue depending on which element it is drawing on."
+      ],
       "imageSheet": "../../source/images/monsters/synuku-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -39437,6 +40290,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "captainvolt",
       "name": "CaptainVolt",
       "identifier": "Corsair Ram",
+      "shape": "Bipedal",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABhUlEQVRYha2XUU7EMAxEk2gvAz8gej+qchn+kDgIEl9cJyhIXhkzHttlR4q23caZt4njdPucsyFtj/e/Hnx8fvVWUDa+IwAbrAfxnmX6IIjhme/78/U7uY7Mz8RfWkLH8fIziHxm+2Y0WkFivgbXBvo+AizlwA4G00Yags2Q9DudA1bWLJpylgOjFWRzAeVGdu3hEmyJX88gMrF2KboAZMwZRCVWQ/QFoM1tItlEQ9+zZ1FSdg1gIdB6ZupAFKMBhu0YFRKWZGdihpBUK15FaHnE82IPEQaR3WIefHoXHMmZOFN+LcT4r7m9jmSr4tA03v5m5lUIWAdErB7cQigHhu6AZuJWpt6J2KPjODpiRdUzIAXAyjPaohFo6X1gCSWkZ8SWLP0+sBHzMzmBtvQfiDnntT093M3V3t9e4adcsxbFr6Y9m75BEBGUZ2LvkTkE0BBeq8J45i4AgqjOSMacArCcyM5MZL4arANsV0RCu4b9se1ZAC1vwGr/Jfq/AAWywar9V9A3PEwMmGLgjU4AAAAASUVORK5CYII=",
       "description": "CaptainVolt charges with the swagger of a raider captain, driving static through its horns before crashing into enemy lines. It leads every clash from the front, turning raw force into disciplined aggression.",
       "types": [
         "Spark",
@@ -39796,6 +40651,12 @@ window.MONSTER_VIEWER_DATA = {
           }
         }
       ],
+      "behavior": "CaptainVolt carries itself like a battlefield commander, stamping, snorting, and signaling before every charge. It is aggressive but not reckless, often probing a foe first before committing to the full force of its",
+      "habitat": "CaptainVolt prefers open highlands, storm-beaten grasslands, and rocky coastal bluffs where it can spot rivals from a distance and gather static from fast-moving weather. Herds favor routes with firm ground for charging",
+      "trivia": [
+        "Old sailors and shepherds alike compare the crack of CaptainVolt's charge to cannon fire.",
+        "The scars and notches on its horns are often read as a record of past duels for command."
+      ],
       "imageSheet": "../../source/images/monsters/captainVolt-table-128-128.png",
       "frontSprite": null,
       "backSprite": null,
@@ -39806,6 +40667,8 @@ window.MONSTER_VIEWER_DATA = {
       "slug": "noximari",
       "name": "Noximari",
       "identifier": "Verdant Wyrm",
+      "shape": "Serpentine",
+      "shapeIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABjUlEQVRYhbVXQW4DIQwElM+0l1ab/zVKP9NbpT4kUk/5DhVRLU0mtjGwsYRgmcUejM16c601oRzfX+vl95p5TsaMrUpGApohnEPZi0jRjMuzzJ1OHwl7j9gUgSMoQyPyfD5/Po1EYWPco3GN5CgJ9OyNALu5iRjFHkUjFTX+MN7eXqq0n++vob61FsStoR6ct3B5J7cBsvR2jjhmQy9TOMZk/Q3n3WtjaRruedDC0QPF26F2zj3PRHCMg8IvWgHGgekpH8FLZIdaVoykKuN3+rfFLOB5br0YSbPGIyQiAZr29sDIe0/zgIebBLYg41UyfDxJuzBWlHvrtfhIeE/vtTOvVwlUh8RqjFgp+kCgKiR6QcTKLU94R5C1olS7HfkW074ZkWf+GpZesWldsaLM+vgg7kmZrXhnKqIwAU9my7FhApd/L6B7NeOjhO6qoZTSYWSRZ6hH1DrizFmAolXMbJSjmrNIqyERzx4Bj4RmnNdEgjv3CFgkvF3xWg/PEQJIgmX1JzWchpqhPf6Q/wDNpxSFJaOCVAAAAABJRU5ErkJggg==",
       "description": "Noximari has grown into a moss-draped wyrm whose scales root into the forest floor when it rests. It fights with patient draconic poise, lashing out with thorned growth and heavy, ancient breath.",
       "types": [
         "Dragon",
@@ -40164,6 +41027,12 @@ window.MONSTER_VIEWER_DATA = {
             "special": "scaling:consecutiveHits"
           }
         }
+      ],
+      "behavior": "Noximari is patient, territorial, and watchful, conserving its strength until a trespasser crosses too close to its rooted resting grounds. Once stirred, it fights with measured certainty, mixing heavy draconic force",
+      "habitat": "Noximari dwells in ancient forests where deep shade, old stone, and thick carpets of moss allow it to disappear into the landscape. It favors ruined groves, overgrown terraces, and ravines fed by cool mist where its",
+      "trivia": [
+        "Small plants sometimes take root in the moss along Noximari's back if it rests in one place long enough.",
+        "Herbalists prize its shed moss because it holds moisture far longer than ordinary woodland growth."
       ],
       "imageSheet": "../../source/images/monsters/noximari-table-128-128.png",
       "frontSprite": null,

@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Asobipedia Viewer</title>
-  <link rel="stylesheet" href="./style.css">
+  <meta name="theme-color" content="#322f29">
+  <link rel="stylesheet" href="./style.css?v=20260418">
 </head>
 <body>
   <div class="shell">
@@ -41,7 +42,30 @@
           <div id="monster-types" class="type-row"></div>
           <p id="monster-description" class="description"></p>
         </div>
+
+        <div class="shape-card">
+          <div class="shape-card-label">Shape</div>
+          <div class="shape-card-body">
+            <img id="monster-shape-icon" alt="" class="shape-card-icon">
+            <div id="monster-shape-name" class="shape-card-name">Loading...</div>
+          </div>
+        </div>
       </header>
+
+      <section class="lore-grid">
+        <section class="lore-card">
+          <h3>Behavior</h3>
+          <div id="monster-behavior" class="lore-body muted">Loading...</div>
+        </section>
+        <section class="lore-card">
+          <h3>Habitat</h3>
+          <div id="monster-habitat" class="lore-body muted">Loading...</div>
+        </section>
+        <section class="lore-card">
+          <h3>Trivia</h3>
+          <div id="monster-trivia" class="lore-body muted">Loading...</div>
+        </section>
+      </section>
 
       <section class="panel-grid">
         <section class="panel">

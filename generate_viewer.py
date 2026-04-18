@@ -14,9 +14,12 @@ MONSTERS_CSV = ROOT / "tools" / "CSVs" / "monsters.csv"
 MOVES_CSV = ROOT / "tools" / "CSVs" / "moves.csv"
 MONSTER_FILES_DIR = ROOT / "source" / "monsters"
 ABILITIES_LUA = ROOT / "source" / "scripts" / "abilities.lua"
+SHAPE_ICON_DIR = ROOT / "source" / "images" / "icons" / "menuIcons"
 OUTPUT_JS = VIEWER_DIR / "data.js"
 
 IMAGE_PATH_PATTERN = re.compile(r'imagePath\s*=\s*"([^"]+)"')
+REGISTER_MONSTER_NAME_PATTERN = re.compile(r'REGISTER_MONSTER\("([^"]+)"')
+TRIVIA_BLOCK_PATTERN = re.compile(r'trivia\s*=\s*\{(.*?)\}', re.DOTALL)
 PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
 TILE_SIZE = 128
 FRONT_TILE = (0, 1)
@@ -196,12 +199,68 @@ def load_image_paths():
     image_paths = {}
     for monster_file in MONSTER_FILES_DIR.glob("*.lua"):
         content = monster_file.read_text(encoding="utf-8")
-        name_match = re.search(r'REGISTER_MONSTER\("([^"]+)"', content)
+        name_match = REGISTER_MONSTER_NAME_PATTERN.search(content)
         path_match = IMAGE_PATH_PATTERN.search(content)
         if not name_match or not path_match:
             continue
         image_paths[name_match.group(1)] = path_match.group(1)
     return image_paths
+
+
+def load_shape_icons():
+    shape_icons = {}
+    for icon_file in SHAPE_ICON_DIR.glob("*MenuIcon.png"):
+        stem = icon_file.stem
+        if not stem.endswith("MenuIcon"):
+            continue
+        shape_name = stem[: -len("MenuIcon")]
+        if not shape_name:
+            continue
+        key = shape_name[0].lower() + shape_name[1:]
+        shape_icons[key] = "data:image/png;base64," + base64.b64encode(icon_file.read_bytes()).decode("ascii")
+    return shape_icons
+
+
+def normalize_lore_text(value):
+    if value is None:
+        return ""
+
+    normalized = re.sub(r"\s+", " ", str(value)).strip()
+    return normalized
+
+
+def parse_monster_lore(content):
+    behavior_match = re.search(r'behavior\s*=\s*"((?:[^"\\]|\\.)*)"', content, re.DOTALL)
+    habitat_match = re.search(r'habitat\s*=\s*"((?:[^"\\]|\\.)*)"', content, re.DOTALL)
+    trivia_match = TRIVIA_BLOCK_PATTERN.search(content)
+
+    behavior = normalize_lore_text(behavior_match.group(1)) if behavior_match else ""
+    habitat = normalize_lore_text(habitat_match.group(1)) if habitat_match else ""
+
+    trivia = []
+    if trivia_match:
+        trivia = []
+        for entry in re.findall(r'"((?:[^"\\]|\\.)*)"', trivia_match.group(1), re.DOTALL):
+            normalized_entry = normalize_lore_text(entry)
+            if normalized_entry:
+                trivia.append(normalized_entry)
+
+    return {
+        "behavior": behavior,
+        "habitat": habitat,
+        "trivia": trivia,
+    }
+
+
+def load_monster_lore():
+    lore = {}
+    for monster_file in MONSTER_FILES_DIR.glob("*.lua"):
+        content = monster_file.read_text(encoding="utf-8")
+        name_match = REGISTER_MONSTER_NAME_PATTERN.search(content)
+        if not name_match:
+            continue
+        lore[name_match.group(1)] = parse_monster_lore(content)
+    return lore
 
 
 def load_moves():
@@ -243,7 +302,7 @@ def load_ability_descriptions():
     return descriptions
 
 
-def build_monsters(move_lookup, image_lookup, ability_descriptions):
+def build_monsters(move_lookup, image_lookup, ability_descriptions, monster_lore, shape_icons):
     monsters = []
     with MONSTERS_CSV.open(newline="", encoding="utf-8-sig") as handle:
         reader = csv.DictReader(handle)
@@ -299,11 +358,15 @@ def build_monsters(move_lookup, image_lookup, ability_descriptions):
             for ability in abilities:
                 ability["description"] = ability_descriptions.get(ability["name"], "")
 
+            lore = monster_lore.get(name, {})
+
             monsters.append({
                 "id": to_int(row.get("Card Number")),
                 "slug": slugify(name),
                 "name": name,
                 "identifier": (row.get("Identifier") or "").strip(),
+                "shape": (row.get("Shape") or "").strip(),
+                "shapeIcon": shape_icons.get(((row.get("Shape") or "").strip()[:1].lower() + (row.get("Shape") or "").strip()[1:]), ""),
                 "description": (row.get("Description") or "").strip(),
                 "types": types,
                 "height": (row.get("Height") or "").strip(),
@@ -319,6 +382,9 @@ def build_monsters(move_lookup, image_lookup, ability_descriptions):
                 "baseStats": base_stats,
                 "bst": bst,
                 "learnset": learnset,
+                "behavior": lore.get("behavior", ""),
+                "habitat": lore.get("habitat", ""),
+                "trivia": lore.get("trivia", []),
                 "imageSheet": image_sheet,
                 "frontSprite": front_sprite,
                 "backSprite": back_sprite,
@@ -332,8 +398,10 @@ def build_monsters(move_lookup, image_lookup, ability_descriptions):
 def main():
     move_lookup = load_moves()
     image_lookup = load_image_paths()
+    shape_icons = load_shape_icons()
     ability_descriptions = load_ability_descriptions()
-    monsters = build_monsters(move_lookup, image_lookup, ability_descriptions)
+    monster_lore = load_monster_lore()
+    monsters = build_monsters(move_lookup, image_lookup, ability_descriptions, monster_lore, shape_icons)
     payload = {
         "generatedAt": __import__("datetime").datetime.now().isoformat(timespec="seconds"),
         "monsterCount": len(monsters),

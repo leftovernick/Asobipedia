@@ -13,7 +13,12 @@
     identifier: document.getElementById("monster-identifier"),
     types: document.getElementById("monster-types"),
     description: document.getElementById("monster-description"),
+    shapeIcon: document.getElementById("monster-shape-icon"),
+    shapeName: document.getElementById("monster-shape-name"),
     overview: document.getElementById("overview-grid"),
+    behavior: document.getElementById("monster-behavior"),
+    habitat: document.getElementById("monster-habitat"),
+    trivia: document.getElementById("monster-trivia"),
     abilities: document.getElementById("abilities-list"),
     abilityDetail: document.getElementById("ability-detail"),
     abilityDetailName: document.getElementById("ability-detail-name"),
@@ -41,8 +46,57 @@
     return `${rate}% roll`;
   }
 
+  function normalizeLoreValue(value, fallback) {
+    if (Array.isArray(value)) {
+      const entries = value
+        .map((entry) => String(entry || "").trim())
+        .filter(Boolean);
+      return entries.length > 0 ? entries.join("\n\n") : fallback;
+    }
+
+    const text = String(value || "").trim();
+    return text ? text : fallback;
+  }
+
   function typeIconPath(typeName) {
     return `${TYPE_ICON_PREFIX}${typeName.toLowerCase()}${TYPE_ICON_SUFFIX}`;
+  }
+
+  function normalizeShapeName(shapeName) {
+    if (!shapeName) {
+      return "";
+    }
+
+    const trimmed = String(shapeName).trim();
+    return trimmed.charAt(0).toLowerCase() + trimmed.slice(1);
+  }
+
+  function formatShapeLabel(shapeName) {
+    if (!shapeName) {
+      return "Unknown";
+    }
+
+    return String(shapeName)
+      .replace(/([a-z])([A-Z])/g, "$1 $2")
+      .replace(/_/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function renderShape(monster) {
+    const rawShape = monster.shape || "";
+    const label = formatShapeLabel(rawShape);
+
+    elements.shapeName.textContent = label || "Unknown";
+    elements.shapeIcon.alt = `${label || "Unknown"} shape icon`;
+
+    if (monster.shapeIcon) {
+      elements.shapeIcon.src = monster.shapeIcon;
+      elements.shapeIcon.style.display = "block";
+    } else {
+      elements.shapeIcon.removeAttribute("src");
+      elements.shapeIcon.style.display = "none";
+    }
   }
 
   function createTypePill(typeName) {
@@ -111,6 +165,12 @@
       card.innerHTML = `<div class="label">${label}</div><div class="value">${value}</div>`;
       elements.overview.appendChild(card);
     });
+  }
+
+  function renderLore(monster) {
+    elements.behavior.textContent = normalizeLoreValue(monster.behavior, "No behavior entry recorded yet.");
+    elements.habitat.textContent = normalizeLoreValue(monster.habitat, "No habitat entry recorded yet.");
+    elements.trivia.textContent = normalizeLoreValue(monster.trivia, "No trivia entry recorded yet.");
   }
 
   function renderAbilities(monster) {
@@ -223,6 +283,8 @@
     elements.description.textContent = monster.description;
     elements.types.innerHTML = "";
     monster.types.forEach((type) => elements.types.appendChild(createTypePill(type)));
+    renderShape(monster);
+    renderLore(monster);
     renderOverview(monster);
     renderAbilities(monster);
     renderStats(monster);
